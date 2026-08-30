@@ -8,14 +8,14 @@ Total Run Encoding Size: 36 bytes
 --- STDOUT ---
 
 --- STDERR ---
-Repair Compression time: 0.003854 s
+Repair Compression time: 0.001883 s
 RePair succeeded
 
    Original chars: 7
    Number of rules: 1
    Final sequence length: 5
    Compression ratio: 37.50%
-Repair Decompression time: 0.002222 s
+Repair Decompression time: 0.001234 s
 DesPair succeeded
 
    Original chars: 7
