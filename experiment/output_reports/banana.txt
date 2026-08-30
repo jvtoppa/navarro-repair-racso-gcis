@@ -1,0 +1,25 @@
+=== Output Report for banana ===
+
+--- ENCODING SIZES ---
+  - banana.C: 20 bytes
+  - banana.R: 16 bytes
+Total Run Encoding Size: 36 bytes
+
+--- STDOUT ---
+
+--- STDERR ---
+Repair Compression time: 0.003854 s
+RePair succeeded
+
+   Original chars: 7
+   Number of rules: 1
+   Final sequence length: 5
+   Compression ratio: 37.50%
+Repair Decompression time: 0.002222 s
+DesPair succeeded
+
+   Original chars: 7
+   Number of rules: 1
+   Compressed sequence length: 5
+   Maximum rule depth: 1
+   Compression ratio: 0.00%
