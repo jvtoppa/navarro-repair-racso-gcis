@@ -111,7 +111,7 @@ def main():
                 if source_dataset_path != local_target_path and os.path.exists(local_target_path):
                     os.remove(local_target_path)
 
-    print(f"Total Encoding size across all datasets: {total_bytes:,} bytes")
+    print(f"Total Encoding: {total_bytes:,} bytes")
 
 
 if __name__ == "__main__":
