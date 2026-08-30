@@ -31,6 +31,7 @@ Chile. Blanco Encalada 2120, Santiago, Chile. gnavarro@dcc.uchile.cl
 #include <sys/stat.h>
 #include <unistd.h>
 #include "basics.h"
+#include <time.h>
 
 int u; // |text| and later current |C| with gaps
 
@@ -119,6 +120,8 @@ void main (int argc, char **argv)
 	  exit(1);
 	}
      u = 0; f = Tf; ff = argv[1];
+      struct timespec t0, t1;
+     clock_gettime(CLOCK_MONOTONIC, &t0);
      for (;len>0;len--)
 	{ if (fread(&i,sizeof(int),1,Cf) != 1)
 	     { fprintf (stderr,"Error: cannot read file %s\n",fname);
@@ -131,6 +134,9 @@ void main (int argc, char **argv)
 	{ fprintf (stderr,"Error: cannot close file %s\n",argv[1]);
 	  exit(1);
 	}
+  clock_gettime(CLOCK_MONOTONIC, &t1);
+    double elapsed = (t1.tv_sec - t0.tv_sec) + (t1.tv_nsec - t0.tv_nsec) / 1e9;
+    fprintf(stderr, "iRepair Decompression time: %.6f s\n", elapsed);
      fprintf (stderr,"DesPair succeeded\n\n");
      fprintf (stderr,"   Original ints: %i\n",u);
      fprintf (stderr,"   Number of rules: %i\n",n-alph);

@@ -329,7 +329,7 @@ void main (int argc, char **argv)
 	}
 	clock_gettime(CLOCK_MONOTONIC, &t1);
     double elapsed = (t1.tv_sec - t0.tv_sec) + (t1.tv_nsec - t0.tv_nsec) / 1e9;
-    fprintf(stderr, "Compression time: %.6f s\n", elapsed);
+    fprintf(stderr, "iRepair Compression time: %.6f s\n", elapsed);
      strcpy(fname,argv[1]);
      strcat(fname,".C");
      Cf = fopen (fname,"w");

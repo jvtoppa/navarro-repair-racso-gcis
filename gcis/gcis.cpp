@@ -353,7 +353,6 @@ int main(int argc, char* argv[])
     saveGrammar("grammar.gcis_g", c);
     chrono::duration<double, milli> time = end - start;
     cout << "Compression time: "<< time.count() << "ms\n";
-    /*
     
     auto start2 = chrono::high_resolution_clock::now();
     auto decompressed = GCIS<uint32_t>::decompress(c, cfg_tokens);
@@ -363,6 +362,7 @@ int main(int argc, char* argv[])
     chrono::duration<double, milli> time2 = end2 - start2;
     
     cout << "Decompression time: "<< time2.count() << "ms\n";
+    /*
     bool fail = false;
     
     for (size_t i = 0; i < T.size(); i++)
