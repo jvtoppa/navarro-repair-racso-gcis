@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/gcis.dir/gcis/gcis.cpp.o CMakeFiles/gcis.dir/include/bitvector.cpp.o "CMakeFiles/gcis.dir/include/malloc_count-0.7.1/malloc_count.c.o" -o gcis  /usr/lib/x86_64-linux-gnu/libdl.a 
