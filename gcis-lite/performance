@@ -1,0 +1,55 @@
+CERE
+
+sais-lite:
+
+Tiempo real: 1:18.04
+Tiempo CPU: 70.00 user 4.32 sys
+Memoria promedio: 0 KB
+Peak memory (Max RSS): 2253568 KB
+
+Elias-Fano:
+    gcis:
+
+    input:  461286644 bytes
+    output: 17837402 bytes
+    time: 68 seconds
+
+    Tiempo real: 1:14.33
+    Tiempo CPU: 64.96 user 4.12 sys
+    Memoria promedio: 0 KB
+    Peak memory (Max RSS): 2379496 KB
+
+    gcis_lite:
+
+    Input:  461286644 bytes
+    Output: 19676632 bytes
+    Time: 41 seconds
+
+    Tiempo real: 0:46.59
+    Tiempo CPU: 37.88 user 4.80 sys
+    Memoria promedio: 0 KB
+    Peak memory (Max RSS): 2300640 KB
+
+Simple8b:
+
+    gcis:
+
+    input:  461286644 bytes
+    output: 16593145 bytes
+    time: 75 seconds
+
+    Tiempo real: 1:27.54
+    Tiempo CPU: 68.67 user 9.09 sys
+    Memoria promedio: 0 KB
+    Peak memory (Max RSS): 2366532 KB
+
+    gcis_lite:
+
+    Input:  461286644 bytes
+    Output: 19252887 bytes
+    Time: 42 seconds
+
+    Tiempo real: 0:51.25
+    Tiempo CPU: 37.72 user 6.64 sys
+    Memoria promedio: 0 KB
+    Peak memory (Max RSS): 2291120 KB
