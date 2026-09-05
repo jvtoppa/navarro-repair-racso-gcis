@@ -32,6 +32,7 @@ Chile. Blanco Encalada 2120, Santiago, Chile. gnavarro@dcc.uchile.cl
 #include <unistd.h>
 #include "basics.h"
 #include <time.h>
+#include "malloc_count.h"
 
 int u; // |text| and later current |C| with gaps
 
@@ -94,6 +95,7 @@ void main (int argc, char **argv)
 	{ fprintf (stderr,"Error: cannot read file %s\n",fname);
 	  exit(1);
 	}
+       	//malloc_count_reset_peak();
      n = (len-sizeof(int))/sizeof(Tpair);
      R = (void*)malloc(n*sizeof(Tpair));
      if (fread(R,sizeof(Tpair),n,Rf) != n)
@@ -122,6 +124,7 @@ void main (int argc, char **argv)
      u = 0; f = Tf; ff = argv[1];
       struct timespec t0, t1;
      clock_gettime(CLOCK_MONOTONIC, &t0);
+
      for (;len>0;len--)
 	{ if (fread(&i,sizeof(int),1,Cf) != 1)
 	     { fprintf (stderr,"Error: cannot read file %s\n",fname);
@@ -135,15 +138,11 @@ void main (int argc, char **argv)
 	  exit(1);
 	}
   clock_gettime(CLOCK_MONOTONIC, &t1);
+  size_t peak_decompression_memory = malloc_count_peak();
+    printf("iRepair Peak Memory (Decompression): %zu bytes\n", peak_decompression_memory);
+	
     double elapsed = (t1.tv_sec - t0.tv_sec) + (t1.tv_nsec - t0.tv_nsec) / 1e9;
     fprintf(stderr, "iRepair Decompression time: %.6f s\n", elapsed);
-     fprintf (stderr,"DesPair succeeded\n\n");
-     fprintf (stderr,"   Original ints: %i\n",u);
-     fprintf (stderr,"   Number of rules: %i\n",n-alph);
-     fprintf (stderr,"   Compressed sequence length: %i\n",c);
-     fprintf (stderr,"   Maximum rule depth: %i\n",maxdepth);
-     fprintf (stderr,"   Compression ratio: %0.2f%%\n",
-                        (2.0*(n-alph)+c)*(float)blog(n-1)/(u*blog(alph-1))*100.0);
      exit(0);
    }
 

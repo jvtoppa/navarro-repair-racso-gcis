@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/mnt/c/Users/devacc/Documents/navarro-hybrid/include -I/mnt/c/Users/devacc/Documents/navarro-hybrid/include/malloc_count-0.7.1
+C_INCLUDES = -I/mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/include -I/mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/include/malloc_count-0.7.1
 
 C_FLAGS = -O3 -DNDEBUG -O3
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/Users/devacc/Documents/navarro-hybrid/include -I/mnt/c/Users/devacc/Documents/navarro-hybrid/include/malloc_count-0.7.1
+CXX_INCLUDES = -I/mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/include -I/mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/include/malloc_count-0.7.1
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17 -O3
 

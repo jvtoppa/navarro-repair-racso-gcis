@@ -9,6 +9,9 @@
 #include <fstream>
 #include "../../include/bitvector.h"
 #include <chrono>
+#include "../../include/malloc_count-0.7.1/malloc_count.h"
+
+
 using namespace std;
 
 template <typename T>
@@ -314,57 +317,69 @@ template class GCIS<uint16_t>;
 
 int main(int argc, char* argv[])
 {
+    string T;
+    if (argc >= 2) {
+        ifstream file(argv[1], ios::binary | ios::ate);
+        streamsize size = file.tellg();
+        file.seekg(0, ios::beg);
+        
+        if (argc >= 3) size = min<streamsize>(size, stoul(argv[2]));
+        T.resize(size);
+        file.read(&T[0], size);
     
-	string T;
-	
-	if (argc < 2)
-	{
-		ostringstream buffer;
-		buffer << cin.rdbuf();
-		T = buffer.str();
-		cout << "Read " << T.size() << " charaters. (" << T.size()  / 1e+6 << " mb)\n";
-	}
-    else
-	{
-		unsigned long max_chars = stoul(argv[1]);
-			
-		T.resize(max_chars);
-	
-		cin.read(&T[0], max_chars);
-		
-		T.resize(cin.gcount());
-
-	}
-    vector<uint64_t> c;
+    } else {
+        T.assign((istreambuf_iterator<char>(cin)), istreambuf_iterator<char>());
+    }
+    cout <<"Read " << T.size() << " characters (" << (T.size() / 1e6) << " MB)\n";
+    size_t lvl = 1;
+    while(true)
+    {    
+        vector<uint64_t> c;    
         GCIS<uint32_t> compressor(T);
         int current_level = 0;
-        size_t lvl = 2;
         auto gcis_stop = [&current_level, &lvl]() mutable
-        { 
-            if (current_level >= lvl) return false;
-            current_level++;
-            return true;
-        };
-        cout << "\n\n --- \n\n";
-    auto start = chrono::high_resolution_clock::now();    
-    vector<uint32_t> cfg_tokens = compressor.compress(gcis_stop, c);
-    auto end = chrono::high_resolution_clock::now();
-    saveCFG("compressed.gcis_c", cfg_tokens);
-    saveGrammar("grammar.gcis_g", c);
-    chrono::duration<double, milli> time = end - start;
-    cout << "Compression time: "<< time.count() << "ms\n";
-    
-    auto start2 = chrono::high_resolution_clock::now();
-    auto decompressed = GCIS<uint32_t>::decompress(c, cfg_tokens);
-    auto end2 = chrono::high_resolution_clock::now();
-    
-    
-    chrono::duration<double, milli> time2 = end2 - start2;
-    
-    cout << "Decompression time: "<< time2.count() << "ms\n";
-    /*
-    bool fail = false;
-    
+            { 
+                if (current_level >= lvl) return false;
+                current_level++;
+                return true;
+            };
+        cout << "\nGCIS Level = " << lvl << "\n";
+        
+        // COMPRESSION BLOCK
+        malloc_count_reset_peak();
+  //     size_t start_compression_memory = malloc_count_current();
+        auto start = chrono::high_resolution_clock::now();    
+        vector<uint32_t> cfg_tokens = compressor.compress(gcis_stop, c);
+        auto end = chrono::high_resolution_clock::now();
+  //      size_t end_compression_memory = malloc_count_current();
+        size_t peak_compression_memory  = malloc_count_peak();
+        chrono::duration<double, milli> time = end - start;
+        
+        // SAVE TO DISK FOR REPAIR
+        saveCFG("compressed.gcis_c", cfg_tokens);
+        saveGrammar("grammar.gcis_g", c);
+        
+        // PRINT MEASUREMENTS
+        cout << "GCIS Compression time: "<< time.count() << "ms\n";
+  //      cout << "GCIS Compression memory usage: " << (end_compression_memory - start_compression_memory) << " bytes\n";
+        cout << "GCIS Compression peak memory: " << peak_compression_memory << " bytes\n";
+
+        // DECOMPRESSION BLOCK
+        malloc_count_reset_peak();
+  //      size_t start_decompression_memory = malloc_count_current();
+        auto start2 = chrono::high_resolution_clock::now();
+        auto decompressed = GCIS<uint32_t>::decompress(c, cfg_tokens);
+        auto end2 = chrono::high_resolution_clock::now();
+  //      size_t end_decompression_memory = malloc_count_current();
+        size_t peak_decompression_memory  = malloc_count_peak();
+        chrono::duration<double, milli> time2 = end2 - start2;
+        
+        // PRINT MEASUREMENTS
+        cout << "GCIS Decompression time: "<< time2.count() << "ms\n";
+  //      cout << "GCIS Decompression memory usage: " << (end_decompression_memory - start_decompression_memory) << " bytes\n";
+        cout << "GCIS Decompression peak memory: " << peak_decompression_memory << " bytes\n";
+
+    bool fail = false;    
     for (size_t i = 0; i < T.size(); i++)
     {
         unsigned char orig_byte = static_cast<unsigned char>(T[i]);
@@ -372,6 +387,7 @@ int main(int argc, char* argv[])
         {fail = true; cout << i << ", T[i] = " << static_cast<int>(orig_byte) << " decompressed[i] = " << decompressed[i] << "\n"; break;}
         
     }
+    
     if(fail)
     {
         cout << "Failed to decompress... Output: ";
@@ -382,6 +398,12 @@ int main(int argc, char* argv[])
     else
     cout << "[CONSOLE] Decompression worked!\n";
     
-    cout << "Final size of compression: " <<c.size()*8 / 1e+6 << "mb\n";
-    */
+    lvl++;
+    if(compressor.getCFG().size() == (compressor.getAlphabet_size() - 1))
+    {
+        break;
+    }
+    
+    
+    }
 }

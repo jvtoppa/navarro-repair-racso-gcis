@@ -340,12 +340,12 @@ public:
     long getLevel() const { return level; }
     size_t getAlphabet_size() const { return alphabet_size; }
 
-    static vector<uint64_t> decompress(const vector<uint64_t>& compressed, const vector<T>& cfg_input)
+    static vector<T> decompress(const vector<uint64_t>& compressed, const vector<T>& cfg_input)
     {
         GCISCodec<T> decoder(compressed);
         GrammarData<T> grammar = decoder.decode();
 
-        vector<uint64_t> rules;
+        vector<T> rules;
         vector<uint64_t> rule_start_positions;
         vector<uint64_t> level_start_positions;
         size_t global_rule_idx = 0;        
@@ -381,7 +381,8 @@ public:
                 for (size_t k = 0; k < suff_size; k++)
                 {
                     if (cumulative_suffix_idx < grammar.suffixes.size()) {
-                        rules.push_back(grammar.suffixes[cumulative_suffix_idx++]);
+                        // Cast explicitly to T
+                        rules.push_back(static_cast<T>(grammar.suffixes[cumulative_suffix_idx++]));
                     }
                 }
                 
@@ -389,8 +390,8 @@ public:
             }
         }
 
-        vector<uint64_t> current_string(cfg_input.begin(), cfg_input.end());
-        vector<uint64_t> next_string;
+        vector<T> current_string(cfg_input.begin(), cfg_input.end()); // Changed to T
+        vector<T> next_string;                                        // Changed to T
 
         for (long long r = static_cast<long long>(level_start_positions.size()) - 1; r >= 0; r--)
         {
@@ -402,11 +403,11 @@ public:
             next_string.clear();
             next_string.reserve(current_string.size() * 2);
 
-            for (uint64_t token : current_string)
+            for (T token : current_string)
             {
-                if (token < total_rules_this_level)
+                if (static_cast<size_t>(token) < total_rules_this_level)
                 {
-                    size_t local_rule_id = token; 
+                    size_t local_rule_id = static_cast<size_t>(token); 
                     size_t global_rule_id = level_start_rule + local_rule_id;
                     
                     size_t start_pos = rule_start_positions[global_rule_id];
@@ -420,7 +421,7 @@ public:
                 }
                 else
                 {
-                    next_string.push_back(token - total_rules_this_level);
+                    next_string.push_back(static_cast<T>(token - total_rules_this_level));
                 }
             }
             

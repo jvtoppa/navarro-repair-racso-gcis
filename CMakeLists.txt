@@ -6,7 +6,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_compile_options(-O3)
 
-find_library(DL_LIBRARY dl)
+# 1. Use modern CMake target for libdl
+find_package(Threads REQUIRED)
 
 include_directories(
     include
@@ -18,6 +19,10 @@ set(COMMON_SOURCES
     include/malloc_count-0.7.1/malloc_count.c
 )
 
-
 add_executable(gcis gcis/gcis.cpp ${COMMON_SOURCES})
-target_link_libraries(gcis PRIVATE ${DL_LIBRARY})
+
+# 2. Add -rdynamic to export symbols so malloc_count interposing works correctly
+target_link_options(gcis PRIVATE -rdynamic)
+
+# 3. Link dynamic linking library and threads
+target_link_libraries(gcis PRIVATE ${CMAKE_DL_LIBS} Threads::Threads)

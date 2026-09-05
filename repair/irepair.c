@@ -40,6 +40,7 @@ int PRNL = 0;  // print progress on text scan
 #include "hash.h"
 #include "heap.h"
 #include <time.h>
+#include "malloc_count.h"
 
 float factor = 0.50; // 1/extra space overhead; set closer to 1 for smaller and
 		     // slower execution
@@ -310,7 +311,7 @@ void main (int argc, char **argv)
 
 	struct timespec t0, t1;
      clock_gettime(CLOCK_MONOTONIC, &t0);
-
+	malloc_count_reset_peak();
      prepare (len);
      strcpy(fname,argv[1]);
      strcat(fname,".R");
@@ -327,6 +328,8 @@ void main (int argc, char **argv)
 	{ fprintf (stderr,"Error: cannot close file %s\n",fname);
 	  exit(1);
 	}
+	size_t peak_compression_memory = malloc_count_peak();
+    printf("iRepair Peak Memory (Compression): %zu bytes\n", peak_compression_memory);
 	clock_gettime(CLOCK_MONOTONIC, &t1);
     double elapsed = (t1.tv_sec - t0.tv_sec) + (t1.tv_nsec - t0.tv_nsec) / 1e9;
     fprintf(stderr, "iRepair Compression time: %.6f s\n", elapsed);
@@ -349,12 +352,6 @@ void main (int argc, char **argv)
 	{ fprintf (stderr,"Error: cannot close file %s\n",fname);
 	  exit(1);
 	}
-     fprintf (stderr,"RePair succeeded\n\n");
-     fprintf (stderr,"   Original ints: %i\n",len);
-     fprintf (stderr,"   Number of rules: %i\n",n-alph);
-     fprintf (stderr,"   Final sequence length: %i\n",c);
-     fprintf (stderr,"   Compression ratio: %0.2f%%\n",
-	    (2.0*(n-alph)+c)*(float)blog(n-1)/(float)(len*blog(alph-1))*100.0);
      exit(0);
    }
 
