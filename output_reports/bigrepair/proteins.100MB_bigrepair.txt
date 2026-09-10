@@ -1,0 +1,734 @@
+=== BIGREPAIR Report for proteins.100MB ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.100MB.r): 3,079,122 bytes
+  - .c.R (../datasets/texts/protein/proteins.100MB.c.R): 165,438,204 bytes
+  - .c.C (../datasets/texts/protein/proteins.100MB.c.C): 7,665,324 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	104857600 bytes
+Output (.c):	271957171 bytes
+GCIS Compression Time: 5817ms
+GCIS Compression Peak Memory: 796672898 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/protein/proteins.100MB.c -w 10 -p 100 -c
+Parsing time: 21.6302
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/protein/proteins.100MB.c.dicz
+Preprocess time: 3.2994
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.dicz.int 489834
+repair(dict) time: 393.1818
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.parse 489834
+repair(parse) time: 1.1217
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/protein/proteins.100MB.c
+Postprocess time: 0.7222
+Elapsed time: 419.9595
+==== Done
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/protein/proteins.100MB.c
+Elapsed time: 6.6180
+==== Done
+GCIS Decompression time: 2131 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 845,240,224, peak: 796,676,214, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/protein/proteins.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/protein/proteins.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 685,230,880, peak: 665,434,690, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.100MB.r): 47,537,756 bytes
+  - .c.R (../datasets/texts/protein/proteins.100MB.c.R): 103,880,964 bytes
+  - .c.C (../datasets/texts/protein/proteins.100MB.c.C): 2,961,468 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	104857600 bytes
+Output (.c):	135580629 bytes
+GCIS Compression Time: 9533ms
+GCIS Compression Peak Memory: 773147122 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/protein/proteins.100MB.c -w 10 -p 100 -c
+Parsing time: 6.4758
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/protein/proteins.100MB.c.dicz
+Preprocess time: 1.3318
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.dicz.int 489834
+repair(dict) time: 74.4650
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.parse 489834
+repair(parse) time: 0.3179
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/protein/proteins.100MB.c
+Postprocess time: 1.1923
+Elapsed time: 83.7856
+==== Done
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/protein/proteins.100MB.c
+Elapsed time: 2.4788
+==== Done
+GCIS Decompression time: 3575 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 955,328,952, peak: 773,147,122, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/protein/proteins.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/protein/proteins.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 647,607,016, peak: 410,760,826, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.100MB.r): 72,127,998 bytes
+  - .c.R (../datasets/texts/protein/proteins.100MB.c.R): 37,794,700 bytes
+  - .c.C (../datasets/texts/protein/proteins.100MB.c.C): 1,066,560 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	104857600 bytes
+Output (.c):	101195239 bytes
+GCIS Compression Time: 10666ms
+GCIS Compression Peak Memory: 773147122 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/protein/proteins.100MB.c -w 10 -p 100 -c
+Parsing time: 2.0577
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/protein/proteins.100MB.c.dicz
+Preprocess time: 0.5753
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.dicz.int 489834
+repair(dict) time: 13.2971
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.parse 489834
+repair(parse) time: 0.0644
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/protein/proteins.100MB.c
+Postprocess time: 0.4081
+Elapsed time: 16.4044
+==== Done
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/protein/proteins.100MB.c
+Elapsed time: 0.7969
+==== Done
+GCIS Decompression time: 4101 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,032,884,064, peak: 773,147,122, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/protein/proteins.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/protein/proteins.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 656,045,032, peak: 320,071,506, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.100MB.r): 80,643,336 bytes
+  - .c.R (../datasets/texts/protein/proteins.100MB.c.R): 13,763,132 bytes
+  - .c.C (../datasets/texts/protein/proteins.100MB.c.C): 367,808 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	104857600 bytes
+Output (.c):	90406609 bytes
+GCIS Compression Time: 11114ms
+GCIS Compression Peak Memory: 773147122 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/protein/proteins.100MB.c -w 10 -p 100 -c
+Parsing time: 0.5657
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/protein/proteins.100MB.c.dicz
+Preprocess time: 0.1345
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.dicz.int 489834
+repair(dict) time: 3.9519
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.parse 489834
+repair(parse) time: 0.0184
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/protein/proteins.100MB.c
+Postprocess time: 0.1201
+Elapsed time: 4.7932
+==== Done
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/protein/proteins.100MB.c
+Elapsed time: 0.2762
+==== Done
+GCIS Decompression time: 4254 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,061,656,888, peak: 773,147,122, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/protein/proteins.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/protein/proteins.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 660,416,944, peak: 309,282,954, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.100MB.r): 83,449,330 bytes
+  - .c.R (../datasets/texts/protein/proteins.100MB.c.R): 4,880,436 bytes
+  - .c.C (../datasets/texts/protein/proteins.100MB.c.C): 126,692 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	104857600 bytes
+Output (.c):	87011419 bytes
+GCIS Compression Time: 11199ms
+GCIS Compression Peak Memory: 773147122 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/protein/proteins.100MB.c -w 10 -p 100 -c
+Parsing time: 0.2178
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/protein/proteins.100MB.c.dicz
+Preprocess time: 0.0673
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.dicz.int 489834
+repair(dict) time: 2.0582
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.parse 489834
+repair(parse) time: 0.0069
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/protein/proteins.100MB.c
+Postprocess time: 0.0232
+Elapsed time: 2.3756
+==== Done
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/protein/proteins.100MB.c
+Elapsed time: 0.0875
+==== Done
+GCIS Decompression time: 4357 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,073,392,304, peak: 773,147,122, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/protein/proteins.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/protein/proteins.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 662,035,728, peak: 305,887,842, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.100MB.r): 84,413,948 bytes
+  - .c.R (../datasets/texts/protein/proteins.100MB.c.R): 1,681,060 bytes
+  - .c.C (../datasets/texts/protein/proteins.100MB.c.C): 46,340 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	104857600 bytes
+Output (.c):	85934117 bytes
+GCIS Compression Time: 16235ms
+GCIS Compression Peak Memory: 773147122 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/protein/proteins.100MB.c -w 10 -p 100 -c
+Parsing time: 0.0746
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/protein/proteins.100MB.c.dicz
+Preprocess time: 0.0241
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.dicz.int 489834
+repair(dict) time: 0.5618
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.parse 489834
+repair(parse) time: 0.0034
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/protein/proteins.100MB.c
+Postprocess time: 0.0194
+Elapsed time: 0.6853
+==== Done
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/protein/proteins.100MB.c
+Elapsed time: 0.0318
+==== Done
+GCIS Decompression time: 6194 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,077,403,288, peak: 773,147,122, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/protein/proteins.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/protein/proteins.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 662,624,872, peak: 304,810,618, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.100MB.r): 84,710,094 bytes
+  - .c.R (../datasets/texts/protein/proteins.100MB.c.R): 554,292 bytes
+  - .c.C (../datasets/texts/protein/proteins.100MB.c.C): 15,260 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	104857600 bytes
+Output (.c):	85586663 bytes
+GCIS Compression Time: 16216ms
+GCIS Compression Peak Memory: 773147122 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/protein/proteins.100MB.c -w 10 -p 100 -c
+Parsing time: 0.0239
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/protein/proteins.100MB.c.dicz
+Preprocess time: 0.0102
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.dicz.int 489834
+repair(dict) time: 0.0969
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.parse 489834
+repair(parse) time: 0.0027
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/protein/proteins.100MB.c
+Postprocess time: 0.0055
+Elapsed time: 0.1416
+==== Done
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/protein/proteins.100MB.c
+Elapsed time: 0.0108
+==== Done
+GCIS Decompression time: 6018 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,078,745,072, peak: 773,147,122, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/protein/proteins.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/protein/proteins.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 662,732,016, peak: 304,463,242, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.100MB.r): 84,800,976 bytes
+  - .c.R (../datasets/texts/protein/proteins.100MB.c.R): 182,212 bytes
+  - .c.C (../datasets/texts/protein/proteins.100MB.c.C): 4,912 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	104857600 bytes
+Output (.c):	85525121 bytes
+GCIS Compression Time: 15862ms
+GCIS Compression Peak Memory: 773147122 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/protein/proteins.100MB.c -w 10 -p 100 -c
+Parsing time: 0.0099
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/protein/proteins.100MB.c.dicz
+Preprocess time: 0.0042
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.dicz.int 489834
+repair(dict) time: 0.0234
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.parse 489834
+repair(parse) time: 0.0018
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/protein/proteins.100MB.c
+Postprocess time: 0.0027
+Elapsed time: 0.0437
+==== Done
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/protein/proteins.100MB.c
+Elapsed time: 0.0037
+==== Done
+GCIS Decompression time: 5982 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,079,178,216, peak: 773,147,122, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/protein/proteins.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/protein/proteins.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 662,804,536, peak: 304,401,778, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.100MB.r): 84,826,938 bytes
+  - .c.R (../datasets/texts/protein/proteins.100MB.c.R): 60,660 bytes
+  - .c.C (../datasets/texts/protein/proteins.100MB.c.C): 1,628 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	104857600 bytes
+Output (.c):	85554179 bytes
+GCIS Compression Time: 16413ms
+GCIS Compression Peak Memory: 773147122 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/protein/proteins.100MB.c -w 10 -p 100 -c
+Parsing time: 0.0055
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/protein/proteins.100MB.c.dicz
+Preprocess time: 0.0023
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.dicz.int 489834
+repair(dict) time: 0.0101
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.parse 489834
+repair(parse) time: 0.0016
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/protein/proteins.100MB.c
+Postprocess time: 0.0019
+Elapsed time: 0.0227
+==== Done
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/protein/proteins.100MB.c
+Elapsed time: 0.0022
+==== Done
+GCIS Decompression time: 6208 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,080,548,264, peak: 773,147,122, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/protein/proteins.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/protein/proteins.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 662,867,328, peak: 304,430,914, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.100MB.r): 84,834,892 bytes
+  - .c.R (../datasets/texts/protein/proteins.100MB.c.R): 20,124 bytes
+  - .c.C (../datasets/texts/protein/proteins.100MB.c.C): 540 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	104857600 bytes
+Output (.c):	85614917 bytes
+GCIS Compression Time: 16460ms
+GCIS Compression Peak Memory: 773147122 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/protein/proteins.100MB.c -w 10 -p 100 -c
+Parsing time: 0.0059
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/protein/proteins.100MB.c.dicz
+Preprocess time: 0.0023
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.dicz.int 489834
+repair(dict) time: 0.0042
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.parse 489834
+repair(parse) time: 0.0015
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/protein/proteins.100MB.c
+Postprocess time: 0.0016
+Elapsed time: 0.0174
+==== Done
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/protein/proteins.100MB.c
+Elapsed time: 0.0019
+==== Done
+GCIS Decompression time: 6292 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,080,595,248, peak: 773,147,122, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/protein/proteins.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/protein/proteins.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 662,937,360, peak: 304,491,730, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.100MB.r): 84,837,150 bytes
+  - .c.R (../datasets/texts/protein/proteins.100MB.c.R): 6,796 bytes
+  - .c.C (../datasets/texts/protein/proteins.100MB.c.C): 172 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	104857600 bytes
+Output (.c):	85686103 bytes
+GCIS Compression Time: 16458ms
+GCIS Compression Peak Memory: 773147122 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/protein/proteins.100MB.c -w 10 -p 100 -c
+Parsing time: 0.0046
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/protein/proteins.100MB.c.dicz
+Preprocess time: 0.0015
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.dicz.int 489834
+repair(dict) time: 0.0021
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.parse 489834
+repair(parse) time: 0.0024
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/protein/proteins.100MB.c
+Postprocess time: 0.0028
+Elapsed time: 0.0156
+==== Done
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/protein/proteins.100MB.c
+Elapsed time: 0.0017
+==== Done
+GCIS Decompression time: 6160 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,080,611,600, peak: 773,147,122, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/protein/proteins.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/protein/proteins.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 663,010,320, peak: 304,562,994, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.100MB.r): 84,837,800 bytes
+  - .c.R (../datasets/texts/protein/proteins.100MB.c.R): 2,300 bytes
+  - .c.C (../datasets/texts/protein/proteins.100MB.c.C): 88 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	104857600 bytes
+Output (.c):	85761113 bytes
+GCIS Compression Time: 16477ms
+GCIS Compression Peak Memory: 773147122 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/protein/proteins.100MB.c -w 10 -p 100 -c
+Parsing time: 0.0033
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/protein/proteins.100MB.c.dicz
+Preprocess time: 0.0009
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.dicz.int 489834
+repair(dict) time: 0.0014
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.parse 489834
+repair(parse) time: 0.0028
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/protein/proteins.100MB.c
+Postprocess time: 0.0014
+Elapsed time: 0.0123
+==== Done
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/protein/proteins.100MB.c
+Elapsed time: 0.0015
+==== Done
+GCIS Decompression time: 6286 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,080,618,616, peak: 773,147,122, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/protein/proteins.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/protein/proteins.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 663,085,624, peak: 304,638,082, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.100MB.r): 84,838,042 bytes
+  - .c.R (../datasets/texts/protein/proteins.100MB.c.R): 732 bytes
+  - .c.C (../datasets/texts/protein/proteins.100MB.c.C): 40 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	104857600 bytes
+Output (.c):	85837411 bytes
+GCIS Compression Time: 16422ms
+GCIS Compression Peak Memory: 773147122 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/protein/proteins.100MB.c -w 10 -p 100 -c
+Parsing time: 0.0035
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/protein/proteins.100MB.c.dicz
+Preprocess time: 0.0019
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.dicz.int 489834
+repair(dict) time: 0.0013
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.parse 489834
+repair(parse) time: 0.0012
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/protein/proteins.100MB.c
+Postprocess time: 0.0013
+Elapsed time: 0.0111
+==== Done
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/protein/proteins.100MB.c
+Elapsed time: 0.0023
+==== Done
+GCIS Decompression time: 6248 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,080,623,392, peak: 773,147,122, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/protein/proteins.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/protein/proteins.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 663,162,016, peak: 304,714,458, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.100MB.r): 84,838,156 bytes
+  - .c.R (../datasets/texts/protein/proteins.100MB.c.R): 268 bytes
+  - .c.C (../datasets/texts/protein/proteins.100MB.c.C): 28 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	104857600 bytes
+Output (.c):	85914133 bytes
+GCIS Compression Time: 16417ms
+GCIS Compression Peak Memory: 773147122 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/protein/proteins.100MB.c -w 10 -p 100 -c
+Parsing time: 0.0039
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/protein/proteins.100MB.c.dicz
+Preprocess time: 0.0009
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.dicz.int 489834
+repair(dict) time: 0.0013
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.parse 489834
+repair(parse) time: 0.0024
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/protein/proteins.100MB.c
+Postprocess time: 0.0014
+Elapsed time: 0.0123
+==== Done
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/protein/proteins.100MB.c
+Elapsed time: 0.0016
+==== Done
+GCIS Decompression time: 6263 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,080,626,892, peak: 773,147,122, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/protein/proteins.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/protein/proteins.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 663,238,816, peak: 304,791,258, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.100MB.r): 84,838,246 bytes
+  - .c.R (../datasets/texts/protein/proteins.100MB.c.R): 100 bytes
+  - .c.C (../datasets/texts/protein/proteins.100MB.c.C): 8 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	104857600 bytes
+Output (.c):	85990991 bytes
+GCIS Compression Time: 16438ms
+GCIS Compression Peak Memory: 773147122 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/protein/proteins.100MB.c -w 10 -p 100 -c
+Parsing time: 0.0049
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/protein/proteins.100MB.c.dicz
+Preprocess time: 0.0021
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.dicz.int 489834
+repair(dict) time: 0.0017
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/protein/proteins.100MB.c.parse 489834
+repair(parse) time: 0.0025
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/protein/proteins.100MB.c
+Postprocess time: 0.0013
+Elapsed time: 0.0143
+==== Done
+Sending logging messages to file: ../datasets/texts/protein/proteins.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/protein/proteins.100MB.c
+Elapsed time: 0.0018
+==== Done
+GCIS Decompression time: 5148 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,080,630,008, peak: 773,147,122, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/protein/proteins.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/protein/proteins.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 663,315,752, peak: 304,868,194, current: 4,096
+
+========================================
+
+=== LEVEL 15 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/texts/protein/proteins.100MB ../datasets/texts/protein/proteins.100MB -s8b 15' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

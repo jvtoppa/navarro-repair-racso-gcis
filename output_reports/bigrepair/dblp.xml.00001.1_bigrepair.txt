@@ -1,0 +1,782 @@
+=== BIGREPAIR Report for dblp.xml.00001.1 ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.r): 40,666 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.R): 877,100 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.C): 21,612 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	104857600 bytes
+Output (.c):	238539851 bytes
+GCIS Compression Time: 3395ms
+GCIS Compression Peak Memory: 762854886 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c -w 10 -p 100 -c
+Parsing time: 6.7271
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz
+Preprocess time: 0.0376
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz.int 489834
+repair(dict) time: 0.6231
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.parse 489834
+repair(parse) time: 0.4445
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Postprocess time: 0.0080
+Elapsed time: 7.8436
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Elapsed time: 3.5867
+==== Done
+GCIS Decompression time: 915 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 763,463,888, peak: 762,858,202, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Decompression.
+malloc_count ### exiting, total: 582,207,288, peak: 582,024,802, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.r): 169,972 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.R): 741,028 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.C): 21,416 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	104857600 bytes
+Output (.c):	90435381 bytes
+GCIS Compression Time: 4137ms
+GCIS Compression Peak Memory: 614760142 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c -w 10 -p 100 -c
+Parsing time: 2.9085
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz
+Preprocess time: 0.0254
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz.int 489834
+repair(dict) time: 0.2111
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.parse 489834
+repair(parse) time: 0.3327
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Postprocess time: 0.0063
+Elapsed time: 3.4867
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Elapsed time: 1.3756
+==== Done
+GCIS Decompression time: 853 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 616,508,624, peak: 614,762,434, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Decompression.
+malloc_count ### exiting, total: 342,392,792, peak: 251,378,306, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.r): 283,374 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.R): 441,716 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.C): 18,728 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	104857600 bytes
+Output (.c):	32627535 bytes
+GCIS Compression Time: 4477ms
+GCIS Compression Peak Memory: 557037742 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c -w 10 -p 100 -c
+Parsing time: 0.9414
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz
+Preprocess time: 0.0139
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz.int 489834
+repair(dict) time: 0.1027
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.parse 489834
+repair(parse) time: 0.1001
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Postprocess time: 0.0050
+Elapsed time: 1.1648
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Elapsed time: 0.5014
+==== Done
+GCIS Decompression time: 907 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 559,774,552, peak: 557,040,034, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Decompression.
+malloc_count ### exiting, total: 249,620,248, peak: 193,570,538, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.r): 353,680 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.R): 251,908 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.C): 16,352 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	104857600 bytes
+Output (.c):	12717737 bytes
+GCIS Compression Time: 4570ms
+GCIS Compression Peak Memory: 537054006 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c -w 10 -p 100 -c
+Parsing time: 0.4579
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz
+Preprocess time: 0.0077
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz.int 489834
+repair(dict) time: 0.0554
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.parse 489834
+repair(parse) time: 0.0369
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Postprocess time: 0.0033
+Elapsed time: 0.5626
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Elapsed time: 0.1920
+==== Done
+GCIS Decompression time: 936 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 540,324,328, peak: 537,056,298, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Decompression.
+malloc_count ### exiting, total: 217,472,032, peak: 173,660,818, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.r): 389,858 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.R): 87,628 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.C): 11,408 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	104857600 bytes
+Output (.c):	3470971 bytes
+GCIS Compression Time: 4585ms
+GCIS Compression Peak Memory: 528038630 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c -w 10 -p 100 -c
+Parsing time: 0.0842
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz
+Preprocess time: 0.0038
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz.int 489834
+repair(dict) time: 0.0402
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.parse 489834
+repair(parse) time: 0.0082
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Postprocess time: 0.0019
+Elapsed time: 0.1408
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Elapsed time: 0.0591
+==== Done
+GCIS Decompression time: 946 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 531,847,392, peak: 528,040,922, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Decompression.
+malloc_count ### exiting, total: 201,616,008, peak: 164,414,130, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.r): 402,036 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.R): 52,836 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.C): 8,560 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	104857600 bytes
+Output (.c):	1730405 bytes
+GCIS Compression Time: 4593ms
+GCIS Compression Peak Memory: 526222294 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c -w 10 -p 100 -c
+Parsing time: 0.0390
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz
+Preprocess time: 0.0044
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz.int 489834
+repair(dict) time: 0.0289
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.parse 489834
+repair(parse) time: 0.0032
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Postprocess time: 0.0014
+Elapsed time: 0.0784
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Elapsed time: 0.0206
+==== Done
+GCIS Decompression time: 1177 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 530,126,624, peak: 526,224,586, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Decompression.
+malloc_count ### exiting, total: 198,640,824, peak: 162,673,642, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.r): 409,238 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.R): 38,612 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.C): 5,708 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	104857600 bytes
+Output (.c):	1226359 bytes
+GCIS Compression Time: 4682ms
+GCIS Compression Peak Memory: 525835662 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c -w 10 -p 100 -c
+Parsing time: 0.0152
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz
+Preprocess time: 0.0034
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz.int 489834
+repair(dict) time: 0.0232
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.parse 489834
+repair(parse) time: 0.0016
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Postprocess time: 0.0013
+Elapsed time: 0.0457
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Elapsed time: 0.0072
+==== Done
+GCIS Decompression time: 952 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 529,610,920, peak: 525,835,662, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Decompression.
+malloc_count ### exiting, total: 197,743,704, peak: 162,169,674, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.r): 414,840 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.R): 30,988 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.C): 2,568 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	104857600 bytes
+Output (.c):	1120033 bytes
+GCIS Compression Time: 4599ms
+GCIS Compression Peak Memory: 525835662 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c -w 10 -p 100 -c
+Parsing time: 0.0075
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz
+Preprocess time: 0.0034
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz.int 489834
+repair(dict) time: 0.0170
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.parse 489834
+repair(parse) time: 0.0013
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Postprocess time: 0.0013
+Elapsed time: 0.0327
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Elapsed time: 0.0043
+==== Done
+GCIS Decompression time: 949 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 529,484,024, peak: 525,835,662, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Decompression.
+malloc_count ### exiting, total: 197,523,568, peak: 162,063,426, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.r): 419,514 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.R): 21,460 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.C): 1,724 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	104857600 bytes
+Output (.c):	1140691 bytes
+GCIS Compression Time: 4613ms
+GCIS Compression Peak Memory: 526642182 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c -w 10 -p 100 -c
+Parsing time: 0.0049
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz
+Preprocess time: 0.0026
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz.int 489834
+repair(dict) time: 0.0061
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.parse 489834
+repair(parse) time: 0.0012
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Postprocess time: 0.0027
+Elapsed time: 0.0195
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Elapsed time: 0.0026
+==== Done
+GCIS Decompression time: 948 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 530,705,816, peak: 526,642,182, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Decompression.
+malloc_count ### exiting, total: 197,521,024, peak: 162,084,162, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.r): 422,836 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.R): 12,996 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.C): 332 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	104857600 bytes
+Output (.c):	1200877 bytes
+GCIS Compression Time: 4597ms
+GCIS Compression Peak Memory: 526642182 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c -w 10 -p 100 -c
+Parsing time: 0.0040
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz
+Preprocess time: 0.0017
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz.int 489834
+repair(dict) time: 0.0039
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Postprocess time: 0.0011
+Elapsed time: 0.0142
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Elapsed time: 0.0017
+==== Done
+GCIS Decompression time: 950 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 530,722,480, peak: 526,642,182, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Decompression.
+malloc_count ### exiting, total: 197,580,784, peak: 162,144,426, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.r): 424,478 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.R): 5,900 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.C): 172 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	104857600 bytes
+Output (.c):	1272975 bytes
+GCIS Compression Time: 4605ms
+GCIS Compression Peak Memory: 526642182 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c -w 10 -p 100 -c
+Parsing time: 0.0029
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz
+Preprocess time: 0.0019
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz.int 489834
+repair(dict) time: 0.0034
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.parse 489834
+repair(parse) time: 0.0027
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Postprocess time: 0.0011
+Elapsed time: 0.0129
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Elapsed time: 0.0021
+==== Done
+GCIS Decompression time: 1129 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 530,736,024, peak: 526,642,182, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Decompression.
+malloc_count ### exiting, total: 197,654,208, peak: 162,216,602, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.r): 425,056 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.R): 3,036 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.C): 100 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	104857600 bytes
+Output (.c):	1348753 bytes
+GCIS Compression Time: 4599ms
+GCIS Compression Peak Memory: 526642182 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c -w 10 -p 100 -c
+Parsing time: 0.0021
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz
+Preprocess time: 0.0019
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz.int 489834
+repair(dict) time: 0.0029
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.parse 489834
+repair(parse) time: 0.0010
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Postprocess time: 0.0011
+Elapsed time: 0.0099
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Elapsed time: 0.0022
+==== Done
+GCIS Decompression time: 1109 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 530,744,120, peak: 526,642,182, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Decompression.
+malloc_count ### exiting, total: 197,731,312, peak: 162,292,458, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.r): 425,346 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.R): 1,460 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.C): 72 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	104857600 bytes
+Output (.c):	1425091 bytes
+GCIS Compression Time: 4797ms
+GCIS Compression Peak Memory: 526642182 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c -w 10 -p 100 -c
+Parsing time: 0.0040
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz
+Preprocess time: 0.0007
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz.int 489834
+repair(dict) time: 0.0019
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.parse 489834
+repair(parse) time: 0.0010
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Postprocess time: 0.0023
+Elapsed time: 0.0119
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Elapsed time: 0.0016
+==== Done
+GCIS Decompression time: 950 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 530,750,256, peak: 526,642,182, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Decompression.
+malloc_count ### exiting, total: 197,808,256, peak: 162,368,874, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.r): 425,516 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.R): 500 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.C): 40 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	104857600 bytes
+Output (.c):	1501613 bytes
+GCIS Compression Time: 4666ms
+GCIS Compression Peak Memory: 526642182 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c -w 10 -p 100 -c
+Parsing time: 0.0043
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz
+Preprocess time: 0.0018
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.parse 489834
+repair(parse) time: 0.0016
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Postprocess time: 0.0011
+Elapsed time: 0.0113
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Elapsed time: 0.0015
+==== Done
+GCIS Decompression time: 954 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 530,754,368, peak: 526,642,182, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Decompression.
+malloc_count ### exiting, total: 197,884,856, peak: 162,445,474, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.r): 425,614 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.R): 164 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.C): 28 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	104857600 bytes
+Output (.c):	1578391 bytes
+GCIS Compression Time: 4682ms
+GCIS Compression Peak Memory: 526642182 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c -w 10 -p 100 -c
+Parsing time: 0.0026
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz
+Preprocess time: 0.0007
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz.int 489834
+repair(dict) time: 0.0024
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.parse 489834
+repair(parse) time: 0.0026
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Postprocess time: 0.0011
+Elapsed time: 0.0118
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Elapsed time: 0.0016
+==== Done
+GCIS Decompression time: 1090 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 530,757,648, peak: 526,642,182, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Decompression.
+malloc_count ### exiting, total: 197,961,688, peak: 162,522,330, current: 4,096
+
+========================================
+
+=== LEVEL 15 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.r): 425,704 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.R): 84 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.C): 4 bytes
+
+--- STDOUT ---
+Max Level = 15
+Input:	104857600 bytes
+Output (.c):	1655289 bytes
+GCIS Compression Time: 4664ms
+GCIS Compression Peak Memory: 526642182 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c -w 10 -p 100 -c
+Parsing time: 0.0026
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz
+Preprocess time: 0.0018
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.dicz.int 489834
+repair(dict) time: 0.0014
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Postprocess time: 0.0011
+Elapsed time: 0.0088
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c
+Elapsed time: 0.0021
+==== Done
+GCIS Decompression time: 1105 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 530,760,708, peak: 526,642,182, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1.c 
+Decompression.
+malloc_count ### exiting, total: 198,038,696, peak: 162,599,306, current: 4,096
+
+========================================
+
+=== LEVEL 16 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1 ../datasets/repcorpus/pseudo-real/dblp.xml.00001.1 -s8b 16' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

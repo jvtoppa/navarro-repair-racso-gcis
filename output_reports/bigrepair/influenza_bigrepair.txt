@@ -1,0 +1,734 @@
+=== BIGREPAIR Report for influenza ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 16,938 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 8,341,364 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 2,482,780 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	154808555 bytes
+Output (.c):	350441467 bytes
+GCIS Compression Time: 4727ms
+GCIS Compression Peak Memory: 1124504633 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/influenza.c -w 10 -p 100 -c
+Parsing time: 13.0850
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/influenza.c.dicz
+Preprocess time: 0.6210
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.dicz.int 489834
+repair(dict) time: 9.5797
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.parse 489834
+repair(parse) time: 2.2841
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/influenza.c
+Postprocess time: 0.0795
+Elapsed time: 25.6562
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/influenza.c
+Elapsed time: 5.4910
+==== Done
+GCIS Decompression time: 1077 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,124,740,319, peak: 1,124,507,949, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/influenza.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/influenza.c 
+Decompression.
+malloc_count ### exiting, total: 855,799,811, peak: 855,710,021, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 752,140 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 12,121,852 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 1,589,616 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	154808555 bytes
+Output (.c):	111856573 bytes
+GCIS Compression Time: 6225ms
+GCIS Compression Peak Memory: 885969489 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/influenza.c -w 10 -p 100 -c
+Parsing time: 4.6509
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/influenza.c.dicz
+Preprocess time: 0.5907
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.dicz.int 489834
+repair(dict) time: 23.2771
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.parse 489834
+repair(parse) time: 0.5346
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/influenza.c
+Postprocess time: 0.1346
+Elapsed time: 29.1934
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/influenza.c
+Elapsed time: 2.1280
+==== Done
+GCIS Decompression time: 1549 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 893,758,527, peak: 885,971,781, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/influenza.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/influenza.c 
+Decompression.
+malloc_count ### exiting, total: 454,700,835, peak: 337,941,893, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 2,787,078 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 10,804,548 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 932,864 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	154808555 bytes
+Output (.c):	39111455 bytes
+GCIS Compression Time: 6749ms
+GCIS Compression Peak Memory: 813520289 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/influenza.c -w 10 -p 100 -c
+Parsing time: 1.7189
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/influenza.c.dicz
+Preprocess time: 0.4644
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.dicz.int 489834
+repair(dict) time: 9.0195
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.parse 489834
+repair(parse) time: 0.1342
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/influenza.c
+Postprocess time: 0.1026
+Elapsed time: 11.4412
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/influenza.c
+Elapsed time: 0.8496
+==== Done
+GCIS Decompression time: 1652 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 834,612,743, peak: 813,522,581, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/influenza.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/influenza.c 
+Decompression.
+malloc_count ### exiting, total: 350,160,235, peak: 265,196,853, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 4,904,624 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 7,483,324 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 416,288 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	154808555 bytes
+Output (.c):	16753001 bytes
+GCIS Compression Time: 6984ms
+GCIS Compression Peak Memory: 791208713 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/influenza.c -w 10 -p 100 -c
+Parsing time: 0.7163
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/influenza.c.dicz
+Preprocess time: 0.1479
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.dicz.int 489834
+repair(dict) time: 6.0914
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.parse 489834
+repair(parse) time: 0.0274
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/influenza.c
+Postprocess time: 0.0435
+Elapsed time: 7.0296
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/influenza.c
+Elapsed time: 0.3031
+==== Done
+GCIS Decompression time: 1737 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 825,108,215, peak: 791,211,005, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/influenza.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/influenza.c 
+Decompression.
+malloc_count ### exiting, total: 323,112,739, peak: 242,838,477, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 6,452,026 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 4,307,252 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 148,840 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	154808555 bytes
+Output (.c):	10656619 bytes
+GCIS Compression Time: 7079ms
+GCIS Compression Peak Memory: 790360625 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/influenza.c -w 10 -p 100 -c
+Parsing time: 0.2499
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/influenza.c.dicz
+Preprocess time: 0.0770
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.dicz.int 489834
+repair(dict) time: 2.5300
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.parse 489834
+repair(parse) time: 0.0060
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/influenza.c
+Postprocess time: 0.0278
+Elapsed time: 2.8928
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/influenza.c
+Elapsed time: 0.1008
+==== Done
+GCIS Decompression time: 1764 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 828,697,191, peak: 790,360,625, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/influenza.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/influenza.c 
+Decompression.
+malloc_count ### exiting, total: 318,718,371, peak: 236,742,173, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 7,295,396 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 1,898,348 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 55,356 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	154808555 bytes
+Output (.c):	9021957 bytes
+GCIS Compression Time: 7100ms
+GCIS Compression Peak Memory: 790360625 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/influenza.c -w 10 -p 100 -c
+Parsing time: 0.0799
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/influenza.c.dicz
+Preprocess time: 0.0267
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.dicz.int 489834
+repair(dict) time: 0.7686
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.parse 489834
+repair(parse) time: 0.0054
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/influenza.c
+Postprocess time: 0.0127
+Elapsed time: 0.8960
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/influenza.c
+Elapsed time: 0.0303
+==== Done
+GCIS Decompression time: 1770 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 831,976,911, peak: 790,360,625, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/influenza.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/influenza.c 
+Decompression.
+malloc_count ### exiting, total: 318,522,627, peak: 235,107,589, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 7,654,814 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 696,148 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 18,468 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	154808555 bytes
+Output (.c):	8614615 bytes
+GCIS Compression Time: 7167ms
+GCIS Compression Peak Memory: 790360625 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/influenza.c -w 10 -p 100 -c
+Parsing time: 0.0269
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/influenza.c.dicz
+Preprocess time: 0.0107
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.dicz.int 489834
+repair(dict) time: 0.0958
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.parse 489834
+repair(parse) time: 0.0021
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/influenza.c
+Postprocess time: 0.0060
+Elapsed time: 0.1433
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/influenza.c
+Elapsed time: 0.0109
+==== Done
+GCIS Decompression time: 1771 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 833,556,911, peak: 790,360,625, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/influenza.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/influenza.c 
+Decompression.
+malloc_count ### exiting, total: 318,740,963, peak: 234,700,333, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 7,768,200 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 232,164 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 6,120 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	154808555 bytes
+Output (.c):	8520849 bytes
+GCIS Compression Time: 7065ms
+GCIS Compression Peak Memory: 790360625 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/influenza.c -w 10 -p 100 -c
+Parsing time: 0.0114
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/influenza.c.dicz
+Preprocess time: 0.0049
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.dicz.int 489834
+repair(dict) time: 0.0278
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.parse 489834
+repair(parse) time: 0.0014
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/influenza.c
+Postprocess time: 0.0025
+Elapsed time: 0.0496
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/influenza.c
+Elapsed time: 0.0043
+==== Done
+GCIS Decompression time: 1771 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 834,095,055, peak: 790,360,625, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/influenza.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/influenza.c 
+Decompression.
+malloc_count ### exiting, total: 318,817,299, peak: 234,606,645, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 7,803,226 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 79,756 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 2,124 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	154808555 bytes
+Output (.c):	8541387 bytes
+GCIS Compression Time: 7069ms
+GCIS Compression Peak Memory: 790360625 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/influenza.c -w 10 -p 100 -c
+Parsing time: 0.0062
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/influenza.c.dicz
+Preprocess time: 0.0018
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.dicz.int 489834
+repair(dict) time: 0.0098
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.parse 489834
+repair(parse) time: 0.0012
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/influenza.c
+Postprocess time: 0.0031
+Elapsed time: 0.0240
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/influenza.c
+Elapsed time: 0.0024
+==== Done
+GCIS Decompression time: 1979 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 835,510,319, peak: 790,360,625, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/influenza.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/influenza.c 
+Decompression.
+malloc_count ### exiting, total: 318,890,075, peak: 234,627,261, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 7,813,572 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 24,772 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 700 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	154808555 bytes
+Output (.c):	8596485 bytes
+GCIS Compression Time: 7033ms
+GCIS Compression Peak Memory: 790360625 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/influenza.c -w 10 -p 100 -c
+Parsing time: 0.0054
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/influenza.c.dicz
+Preprocess time: 0.0011
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.dicz.int 489834
+repair(dict) time: 0.0054
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.parse 489834
+repair(parse) time: 0.0018
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/influenza.c
+Postprocess time: 0.0013
+Elapsed time: 0.0170
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/influenza.c
+Elapsed time: 0.0016
+==== Done
+GCIS Decompression time: 1874 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 835,568,191, peak: 790,360,625, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/influenza.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/influenza.c 
+Decompression.
+malloc_count ### exiting, total: 318,955,987, peak: 234,682,437, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 7,816,382 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 8,156 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 204 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	154808555 bytes
+Output (.c):	8666271 bytes
+GCIS Compression Time: 7132ms
+GCIS Compression Peak Memory: 790360625 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/influenza.c -w 10 -p 100 -c
+Parsing time: 0.0042
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/influenza.c.dicz
+Preprocess time: 0.0019
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.dicz.int 489834
+repair(dict) time: 0.0022
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.parse 489834
+repair(parse) time: 0.0010
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/influenza.c
+Postprocess time: 0.0012
+Elapsed time: 0.0115
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/influenza.c
+Elapsed time: 0.0014
+==== Done
+GCIS Decompression time: 1801 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 835,587,887, peak: 790,360,625, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/influenza.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/influenza.c 
+Decompression.
+malloc_count ### exiting, total: 319,028,019, peak: 234,752,301, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 7,817,248 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 3,068 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 84 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	154808555 bytes
+Output (.c):	8740953 bytes
+GCIS Compression Time: 7133ms
+GCIS Compression Peak Memory: 790360625 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/influenza.c -w 10 -p 100 -c
+Parsing time: 0.0028
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/influenza.c.dicz
+Preprocess time: 0.0007
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.dicz.int 489834
+repair(dict) time: 0.0012
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.parse 489834
+repair(parse) time: 0.0027
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/influenza.c
+Postprocess time: 0.0010
+Elapsed time: 0.0104
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/influenza.c
+Elapsed time: 0.0010
+==== Done
+GCIS Decompression time: 1794 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 835,596,399, peak: 790,360,625, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/influenza.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/influenza.c 
+Decompression.
+malloc_count ### exiting, total: 319,103,451, peak: 234,827,061, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 7,817,546 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 1,004 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 48 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	154808555 bytes
+Output (.c):	8817051 bytes
+GCIS Compression Time: 7051ms
+GCIS Compression Peak Memory: 790360625 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/influenza.c -w 10 -p 100 -c
+Parsing time: 0.0031
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/influenza.c.dicz
+Preprocess time: 0.0014
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.parse 489834
+repair(parse) time: 0.0010
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/influenza.c
+Postprocess time: 0.0019
+Elapsed time: 0.0097
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/influenza.c
+Elapsed time: 0.0021
+==== Done
+GCIS Decompression time: 1775 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 835,601,819, peak: 790,360,625, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/influenza.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/influenza.c 
+Decompression.
+malloc_count ### exiting, total: 319,179,667, peak: 234,903,237, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 7,817,676 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 332 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 32 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	154808555 bytes
+Output (.c):	8893693 bytes
+GCIS Compression Time: 7047ms
+GCIS Compression Peak Memory: 790360625 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/influenza.c -w 10 -p 100 -c
+Parsing time: 0.0028
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/influenza.c.dicz
+Preprocess time: 0.0007
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.dicz.int 489834
+repair(dict) time: 0.0020
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.parse 489834
+repair(parse) time: 0.0026
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/influenza.c
+Postprocess time: 0.0011
+Elapsed time: 0.0116
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/influenza.c
+Elapsed time: 0.0020
+==== Done
+GCIS Decompression time: 1922 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 835,605,523, peak: 790,360,625, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/influenza.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/influenza.c 
+Decompression.
+malloc_count ### exiting, total: 319,256,371, peak: 234,979,957, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 7,817,774 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 140 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 24 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	154808555 bytes
+Output (.c):	8970535 bytes
+GCIS Compression Time: 7054ms
+GCIS Compression Peak Memory: 790360625 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/influenza.c -w 10 -p 100 -c
+Parsing time: 0.0043
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/influenza.c.dicz
+Preprocess time: 0.0018
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/influenza.c.parse 489834
+repair(parse) time: 0.0025
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/influenza.c
+Postprocess time: 0.0022
+Elapsed time: 0.0140
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/influenza.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/influenza.c
+Elapsed time: 0.0011
+==== Done
+GCIS Decompression time: 1892 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 835,608,715, peak: 790,360,625, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/influenza.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/influenza.c 
+Decompression.
+malloc_count ### exiting, total: 319,333,307, peak: 235,056,877, current: 4,096
+
+========================================
+
+=== LEVEL 15 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/real/influenza ../datasets/repcorpus/real/influenza -s8b 15' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

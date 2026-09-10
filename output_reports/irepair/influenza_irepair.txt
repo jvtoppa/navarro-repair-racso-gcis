@@ -1,0 +1,449 @@
+=== IREPAIR Report for influenza ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 16,938 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 5,341,508 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 3,604,208 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	154808555 bytes
+Output (.c):	350441467 bytes
+GCIS Compression Time: 4737ms
+GCIS Compression Peak Memory: 1124504633 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1061605912 bytes
+iRepair Peak Memory (Decompression): 5350640 bytes
+GCIS Decompression time: 1068 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,124,740,319, peak: 1,124,507,949, current: 4,096
+iRepair Compression time: 26.328022 s
+malloc_count ### exiting, total: 45,447,285,840, peak: 1,061,605,912, current: 25,337,848
+iRepair Decompression time: 3.628840 s
+malloc_count ### exiting, total: 5,359,304, peak: 5,350,640, current: 5,345,600
+Decompression.
+malloc_count ### exiting, total: 855,799,811, peak: 855,710,021, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 752,140 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 5,405,820 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 3,742,576 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	154808555 bytes
+Output (.c):	111856573 bytes
+GCIS Compression Time: 6196ms
+GCIS Compression Peak Memory: 885969489 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 376168496 bytes
+iRepair Peak Memory (Decompression): 5414952 bytes
+GCIS Decompression time: 1437 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 893,758,527, peak: 885,971,781, current: 4,096
+iRepair Compression time: 9.613761 s
+malloc_count ### exiting, total: 7,376,627,324, peak: 376,168,496, current: 29,490,064
+iRepair Decompression time: 1.550813 s
+malloc_count ### exiting, total: 5,423,616, peak: 5,414,952, current: 5,409,912
+Decompression.
+malloc_count ### exiting, total: 454,700,835, peak: 337,941,893, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 2,787,078 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 3,959,852 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 3,472,388 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	154808555 bytes
+Output (.c):	39111455 bytes
+GCIS Compression Time: 6754ms
+GCIS Compression Peak Memory: 813520289 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 150612944 bytes
+iRepair Peak Memory (Decompression): 3968984 bytes
+GCIS Decompression time: 1657 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 834,612,743, peak: 813,522,581, current: 4,096
+iRepair Compression time: 3.737830 s
+malloc_count ### exiting, total: 2,208,933,716, peak: 150,612,944, current: 22,096,064
+iRepair Decompression time: 0.455354 s
+malloc_count ### exiting, total: 3,977,648, peak: 3,968,984, current: 3,963,944
+Decompression.
+malloc_count ### exiting, total: 350,160,235, peak: 265,196,853, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 4,904,624 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 2,114,684 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 2,754,128 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	154808555 bytes
+Output (.c):	16753001 bytes
+GCIS Compression Time: 6972ms
+GCIS Compression Peak Memory: 791208713 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 76011944 bytes
+iRepair Peak Memory (Decompression): 2123816 bytes
+GCIS Decompression time: 1729 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 825,108,215, peak: 791,211,005, current: 4,096
+iRepair Compression time: 1.366828 s
+malloc_count ### exiting, total: 867,347,756, peak: 76,011,944, current: 17,143,544
+iRepair Decompression time: 0.086666 s
+malloc_count ### exiting, total: 2,132,480, peak: 2,123,816, current: 2,118,776
+Decompression.
+malloc_count ### exiting, total: 323,112,739, peak: 242,838,477, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 6,452,026 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 765,188 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 1,882,508 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	154808555 bytes
+Output (.c):	10656619 bytes
+GCIS Compression Time: 7367ms
+GCIS Compression Peak Memory: 790360625 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 31859656 bytes
+iRepair Peak Memory (Decompression): 774320 bytes
+GCIS Decompression time: 1753 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 828,697,191, peak: 790,360,625, current: 4,096
+iRepair Compression time: 0.456146 s
+malloc_count ### exiting, total: 241,194,532, peak: 31,859,656, current: 9,983,684
+iRepair Decompression time: 0.032496 s
+malloc_count ### exiting, total: 782,984, peak: 774,320, current: 769,280
+Decompression.
+malloc_count ### exiting, total: 318,718,371, peak: 236,742,173, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 7,295,396 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 140,356 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 1,018,076 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	154808555 bytes
+Output (.c):	9021957 bytes
+GCIS Compression Time: 7028ms
+GCIS Compression Peak Memory: 790360625 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 23904512 bytes
+iRepair Peak Memory (Decompression): 149488 bytes
+GCIS Decompression time: 1769 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 831,976,911, peak: 790,360,625, current: 4,096
+iRepair Compression time: 0.137396 s
+malloc_count ### exiting, total: 74,785,416, peak: 23,904,512, current: 8,026,368
+iRepair Decompression time: 0.010394 s
+malloc_count ### exiting, total: 158,152, peak: 149,488, current: 144,448
+Decompression.
+malloc_count ### exiting, total: 318,522,627, peak: 235,107,589, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 7,654,814 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 9,508 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 409,584 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	154808555 bytes
+Output (.c):	8614615 bytes
+GCIS Compression Time: 7053ms
+GCIS Compression Peak Memory: 790360625 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 6278888 bytes
+iRepair Peak Memory (Decompression): 18640 bytes
+GCIS Decompression time: 1860 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 833,556,911, peak: 790,360,625, current: 4,096
+iRepair Compression time: 0.023767 s
+malloc_count ### exiting, total: 14,608,496, peak: 6,278,888, current: 2,336,488
+iRepair Decompression time: 0.003867 s
+malloc_count ### exiting, total: 27,304, peak: 18,640, current: 13,600
+Decompression.
+malloc_count ### exiting, total: 318,740,963, peak: 234,700,333, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 7,768,200 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 220 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 137,644 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	154808555 bytes
+Output (.c):	8520849 bytes
+GCIS Compression Time: 7180ms
+GCIS Compression Peak Memory: 790360625 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 2785376 bytes
+iRepair Peak Memory (Decompression): 9352 bytes
+GCIS Decompression time: 1921 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 834,095,055, peak: 790,360,625, current: 4,096
+iRepair Compression time: 0.004277 s
+malloc_count ### exiting, total: 6,183,400, peak: 2,785,376, current: 952,416
+iRepair Decompression time: 0.002465 s
+malloc_count ### exiting, total: 18,016, peak: 9,352, current: 4,312
+Decompression.
+malloc_count ### exiting, total: 318,817,299, peak: 234,606,645, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 7,803,226 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 20 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 46,524 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	154808555 bytes
+Output (.c):	8541387 bytes
+GCIS Compression Time: 7106ms
+GCIS Compression Peak Memory: 790360625 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1129720 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 1860 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 835,510,319, peak: 790,360,625, current: 4,096
+iRepair Compression time: 0.001517 s
+malloc_count ### exiting, total: 1,945,216, peak: 1,129,720, current: 674,040
+iRepair Decompression time: 0.000742 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 318,890,075, peak: 234,627,261, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 7,813,572 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 20 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 14,428 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	154808555 bytes
+Output (.c):	8596485 bytes
+GCIS Compression Time: 7045ms
+GCIS Compression Peak Memory: 790360625 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 686736 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 1877 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 835,568,191, peak: 790,360,625, current: 4,096
+iRepair Compression time: 0.001654 s
+malloc_count ### exiting, total: 863,256, peak: 686,736, current: 575,120
+iRepair Decompression time: 0.000254 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 318,955,987, peak: 234,682,437, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 7,816,382 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 4,564 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	154808555 bytes
+Output (.c):	8666271 bytes
+GCIS Compression Time: 7055ms
+GCIS Compression Peak Memory: 790360625 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 598264 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1786 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 835,587,887, peak: 790,360,625, current: 4,096
+iRepair Compression time: 0.000511 s
+malloc_count ### exiting, total: 667,264, peak: 598,264, current: 543,992
+iRepair Decompression time: 0.000173 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 319,028,019, peak: 234,752,301, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 7,817,248 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 1,532 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	154808555 bytes
+Output (.c):	8740953 bytes
+GCIS Compression Time: 7084ms
+GCIS Compression Peak Memory: 790360625 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 547896 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1797 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 835,596,399, peak: 790,360,625, current: 4,096
+iRepair Compression time: 0.000438 s
+malloc_count ### exiting, total: 571,368, peak: 547,896, current: 534,112
+iRepair Decompression time: 0.000077 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 319,103,451, peak: 234,827,061, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 7,817,546 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 20 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 476 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	154808555 bytes
+Output (.c):	8817051 bytes
+GCIS Compression Time: 7080ms
+GCIS Compression Peak Memory: 790360625 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 539184 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 1776 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 835,601,819, peak: 790,360,625, current: 4,096
+iRepair Compression time: 0.000427 s
+malloc_count ### exiting, total: 554,464, peak: 539,184, current: 530,520
+iRepair Decompression time: 0.000062 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 319,179,667, peak: 234,903,237, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 7,817,676 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 148 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	154808555 bytes
+Output (.c):	8893693 bytes
+GCIS Compression Time: 7315ms
+GCIS Compression Peak Memory: 790360625 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536872 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1775 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 835,605,523, peak: 790,360,625, current: 4,096
+iRepair Compression time: 0.000425 s
+malloc_count ### exiting, total: 552,152, peak: 536,872, current: 529,232
+iRepair Decompression time: 0.000198 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 319,256,371, peak: 234,979,957, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/influenza.r): 7,817,774 bytes
+  - .c.R (../datasets/repcorpus/real/influenza.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/real/influenza.c.C): 44 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	154808555 bytes
+Output (.c):	8970535 bytes
+GCIS Compression Time: 7056ms
+GCIS Compression Peak Memory: 790360625 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536392 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1892 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 835,608,715, peak: 790,360,625, current: 4,096
+iRepair Compression time: 0.000557 s
+malloc_count ### exiting, total: 551,672, peak: 536,392, current: 528,752
+iRepair Decompression time: 0.000222 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 319,333,307, peak: 235,056,877, current: 4,096
+
+========================================
+
+=== LEVEL 15 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/real/influenza ../datasets/repcorpus/real/influenza -s8b 15' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

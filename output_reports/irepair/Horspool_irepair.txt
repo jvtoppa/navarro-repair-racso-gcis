@@ -1,0 +1,506 @@
+=== IREPAIR Report for Horspool ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 258 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 159,188 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 706,228 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	571839680 bytes
+Output (.c):	1309816715 bytes
+GCIS Compression Time: 12495ms
+GCIS Compression Peak Memory: 4169034224 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 3930783136 bytes
+iRepair Peak Memory (Decompression): 168320 bytes
+GCIS Decompression time: 3074 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 4,169,056,724, peak: 4,169,037,540, current: 4,096
+iRepair Compression time: 36.663040 s
+malloc_count ### exiting, total: 17,612,626,764, peak: 3,930,783,136, current: 5,336,724
+iRepair Decompression time: 17.558204 s
+malloc_count ### exiting, total: 176,984, peak: 168,320, current: 163,280
+Decompression.
+malloc_count ### exiting, total: 3,191,427,868, peak: 3,191,423,200, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 428 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 160,556 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 707,592 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	571839680 bytes
+Output (.c):	546237733 bytes
+GCIS Compression Time: 15761ms
+GCIS Compression Peak Memory: 3405456360 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1639451000 bytes
+iRepair Peak Memory (Decompression): 169688 bytes
+GCIS Decompression time: 2947 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 3,405,560,376, peak: 3,405,458,652, current: 4,096
+iRepair Compression time: 10.201349 s
+malloc_count ### exiting, total: 7,449,293,084, peak: 1,639,451,000, current: 3,447,492
+iRepair Decompression time: 6.792576 s
+malloc_count ### exiting, total: 178,352, peak: 169,688, current: 164,648
+Decompression.
+malloc_count ### exiting, total: 1,786,981,628, peak: 1,240,892,776, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 574 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 157,260 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 707,344 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	571839680 bytes
+Output (.c):	76596775 bytes
+GCIS Compression Time: 16038ms
+GCIS Compression Peak Memory: 2935892464 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 229883880 bytes
+iRepair Peak Memory (Decompression): 166392 bytes
+GCIS Decompression time: 2762 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,936,154,468, peak: 2,935,894,756, current: 4,096
+iRepair Compression time: 1.641810 s
+malloc_count ### exiting, total: 3,610,187,968, peak: 229,883,880, current: 3,069,196
+iRepair Decompression time: 1.453184 s
+malloc_count ### exiting, total: 175,056, peak: 166,392, current: 161,352
+Decompression.
+malloc_count ### exiting, total: 898,818,460, peak: 771,251,896, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 672 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 160,796 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 706,736 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	571839680 bytes
+Output (.c):	38490873 bytes
+GCIS Compression Time: 16067ms
+GCIS Compression Peak Memory: 2897709656 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 115262632 bytes
+iRepair Peak Memory (Decompression): 169928 bytes
+GCIS Decompression time: 2802 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,897,975,060, peak: 2,897,711,948, current: 4,096
+iRepair Compression time: 0.935269 s
+malloc_count ### exiting, total: 1,596,643,624, peak: 115,262,632, current: 3,237,840
+iRepair Decompression time: 0.329865 s
+malloc_count ### exiting, total: 178,592, peak: 169,928, current: 164,888
+Decompression.
+malloc_count ### exiting, total: 828,496,036, peak: 733,146,072, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 778 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 161,372 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 705,288 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	571839680 bytes
+Output (.c):	16595275 bytes
+GCIS Compression Time: 16063ms
+GCIS Compression Peak Memory: 2876045096 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 49303152 bytes
+iRepair Peak Memory (Decompression): 170504 bytes
+GCIS Decompression time: 2798 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,876,622,004, peak: 2,876,047,388, current: 4,096
+iRepair Compression time: 0.575754 s
+malloc_count ### exiting, total: 1,209,587,216, peak: 49,303,152, current: 3,451,184
+iRepair Decompression time: 0.102554 s
+malloc_count ### exiting, total: 179,168, peak: 170,504, current: 165,464
+Decompression.
+malloc_count ### exiting, total: 787,014,700, peak: 711,250,552, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 7,548 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 166,532 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 726,400 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	571839680 bytes
+Output (.c):	3474237 bytes
+GCIS Compression Time: 16595ms
+GCIS Compression Peak Memory: 2862847912 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 10894712 bytes
+iRepair Peak Memory (Decompression): 175664 bytes
+GCIS Decompression time: 2804 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,863,525,940, peak: 2,862,850,204, current: 4,096
+iRepair Compression time: 0.210925 s
+malloc_count ### exiting, total: 328,116,124, peak: 10,894,712, current: 2,830,620
+iRepair Decompression time: 0.022837 s
+malloc_count ### exiting, total: 184,328, peak: 175,664, current: 170,624
+Decompression.
+malloc_count ### exiting, total: 762,035,668, peak: 698,129,592, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 259,574 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 99,956 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 808,588 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	571839680 bytes
+Output (.c):	1772119 bytes
+GCIS Compression Time: 16326ms
+GCIS Compression Peak Memory: 2862616040 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 12986712 bytes
+iRepair Peak Memory (Decompression): 109088 bytes
+GCIS Decompression time: 2806 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,864,520,276, peak: 2,862,616,040, current: 4,096
+iRepair Compression time: 0.069657 s
+malloc_count ### exiting, total: 41,407,200, peak: 12,986,712, current: 5,052,760
+iRepair Decompression time: 0.008477 s
+malloc_count ### exiting, total: 117,752, peak: 109,088, current: 104,048
+Decompression.
+malloc_count ### exiting, total: 760,709,436, peak: 696,427,552, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 531,848 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 1,196 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 316,180 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	571839680 bytes
+Output (.c):	1464033 bytes
+GCIS Compression Time: 16134ms
+GCIS Compression Peak Memory: 2862616040 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 5950800 bytes
+iRepair Peak Memory (Decompression): 10328 bytes
+GCIS Decompression time: 2955 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,865,742,092, peak: 2,862,616,040, current: 4,096
+iRepair Compression time: 0.012991 s
+malloc_count ### exiting, total: 13,146,840, peak: 5,950,800, current: 2,020,688
+iRepair Decompression time: 0.003215 s
+malloc_count ### exiting, total: 18,992, peak: 10,328, current: 5,288
+Decompression.
+malloc_count ### exiting, total: 760,836,724, peak: 696,119,544, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 617,074 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 108 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 102,932 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	571839680 bytes
+Output (.c):	1411731 bytes
+GCIS Compression Time: 16091ms
+GCIS Compression Peak Memory: 2862616040 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1760928 bytes
+iRepair Peak Memory (Decompression): 9240 bytes
+GCIS Decompression time: 2931 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,867,383,084, peak: 2,862,616,040, current: 4,096
+iRepair Compression time: 0.002968 s
+malloc_count ### exiting, total: 3,440,680, peak: 1,760,928, current: 846,496
+iRepair Decompression time: 0.001001 s
+malloc_count ### exiting, total: 17,904, peak: 9,240, current: 4,200
+Decompression.
+malloc_count ### exiting, total: 760,911,116, peak: 696,067,328, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 641,548 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 33,204 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	571839680 bytes
+Output (.c):	1443229 bytes
+GCIS Compression Time: 16061ms
+GCIS Compression Peak Memory: 2862616040 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1088840 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2803 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,867,512,724, peak: 2,862,616,040, current: 4,096
+iRepair Compression time: 0.000800 s
+malloc_count ### exiting, total: 1,903,312, peak: 1,088,840, current: 633,160
+iRepair Decompression time: 0.000252 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 760,973,716, peak: 696,098,904, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 648,958 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 10,812 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	571839680 bytes
+Output (.c):	1505095 bytes
+GCIS Compression Time: 16152ms
+GCIS Compression Peak Memory: 2862616040 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 675360 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2912 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,867,557,020, peak: 2,862,616,040, current: 4,096
+iRepair Compression time: 0.000994 s
+malloc_count ### exiting, total: 850,856, peak: 675,360, current: 563,744
+iRepair Decompression time: 0.000110 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 761,044,324, peak: 696,160,848, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 651,088 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 3,484 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	571839680 bytes
+Output (.c):	1576745 bytes
+GCIS Compression Time: 16147ms
+GCIS Compression Peak Memory: 2862616040 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 566600 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2850 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,867,572,812, peak: 2,862,616,040, current: 4,096
+iRepair Compression time: 0.000434 s
+malloc_count ### exiting, total: 606,456, peak: 566,600, current: 540,528
+iRepair Decompression time: 0.000125 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 761,117,828, peak: 696,232,576, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 651,714 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 20 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 1,116 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	571839680 bytes
+Output (.c):	1651859 bytes
+GCIS Compression Time: 16224ms
+GCIS Compression Peak Memory: 2862616040 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 547528 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 3399 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,867,579,756, peak: 2,862,616,040, current: 4,096
+iRepair Compression time: 0.000326 s
+malloc_count ### exiting, total: 571,000, peak: 547,528, current: 532,720
+iRepair Decompression time: 0.000067 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 761,193,300, peak: 696,307,768, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 651,948 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 348 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	571839680 bytes
+Output (.c):	1728165 bytes
+GCIS Compression Time: 16149ms
+GCIS Compression Peak Memory: 2862616040 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 537640 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2906 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,867,584,524, peak: 2,862,616,040, current: 4,096
+iRepair Compression time: 0.000332 s
+malloc_count ### exiting, total: 552,920, peak: 537,640, current: 530,000
+iRepair Decompression time: 0.000072 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 761,269,724, peak: 696,384,160, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 652,062 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 108 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	571839680 bytes
+Output (.c):	1804887 bytes
+GCIS Compression Time: 16582ms
+GCIS Compression Peak Memory: 2862616040 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536696 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2808 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,867,588,016, peak: 2,862,616,040, current: 4,096
+iRepair Compression time: 0.000313 s
+malloc_count ### exiting, total: 551,976, peak: 536,696, current: 529,056
+iRepair Decompression time: 0.000065 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 761,346,524, peak: 696,460,960, current: 4,096
+
+========================================
+
+=== LEVEL 15 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 652,152 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 28 bytes
+
+--- STDOUT ---
+Max Level = 15
+Input:	571839680 bytes
+Output (.c):	1881745 bytes
+GCIS Compression Time: 16525ms
+GCIS Compression Peak Memory: 2862616040 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536288 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2930 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,867,591,132, peak: 2,862,616,040, current: 4,096
+iRepair Compression time: 0.000311 s
+malloc_count ### exiting, total: 551,568, peak: 536,288, current: 528,648
+iRepair Decompression time: 0.000064 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 761,423,460, peak: 696,537,896, current: 4,096
+
+========================================
+
+=== LEVEL 16 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 652,242 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 4 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 16 bytes
+
+--- STDOUT ---
+Max Level = 16
+Input:	571839680 bytes
+Output (.c):	1958667 bytes
+GCIS Compression Time: 15986ms
+GCIS Compression Peak Memory: 2863602428 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 531616 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 2803 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,870,057,688, peak: 2,863,602,428, current: 4,096
+iRepair Compression time: 0.000310 s
+malloc_count ### exiting, total: 549,416, peak: 533,112, current: 528,544
+iRepair Decompression time: 0.000066 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 761,500,532, peak: 696,614,896, current: 4,096
+
+========================================
+
+=== LEVEL 17 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -c ../datasets/repcorpus/logs/Horspool ../datasets/repcorpus/logs/Horspool -s8b 17' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+GCIS Compression.
+double free or corruption (out)
+Aborted
+
+
+========================================
+

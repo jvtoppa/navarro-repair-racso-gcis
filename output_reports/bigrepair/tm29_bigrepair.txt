@@ -1,0 +1,829 @@
+=== BIGREPAIR Report for tm29 ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 98 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 788 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 92 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	268435456 bytes
+Output (.c):	715904819 bytes
+GCIS Compression Time: 3958ms
+GCIS Compression Peak Memory: 2058101204 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/tm29.c -w 10 -p 100 -c
+Parsing time: 39.9604
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/tm29.c.dicz
+Preprocess time: 0.0015
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.dicz.int 489834
+repair(dict) time: 0.0020
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.parse 489834
+repair(parse) time: 14.4730
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/tm29.c
+Postprocess time: 0.0028
+Elapsed time: 54.6960
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/tm29.c
+Elapsed time: 10.1086
+==== Done
+GCIS Decompression time: 1575 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,058,121,708, peak: 2,058,104,520, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/tm29.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/tm29.c 
+Decompression.
+malloc_count ### exiting, total: 1,700,199,220, peak: 1,700,194,948, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 188 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 724 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 88 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	268435456 bytes
+Output (.c):	268589333 bytes
+GCIS Compression Time: 4924ms
+GCIS Compression Peak Memory: 1610786820 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/tm29.c -w 10 -p 100 -c
+Parsing time: 8.1586
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/tm29.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.dicz.int 489834
+repair(dict) time: 0.0028
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.parse 489834
+repair(parse) time: 1.1356
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/tm29.c
+Postprocess time: 0.0030
+Elapsed time: 9.3210
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/tm29.c
+Elapsed time: 3.7864
+==== Done
+GCIS Decompression time: 1530 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,610,887,464, peak: 1,610,789,112, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/tm29.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/tm29.c 
+Decompression.
+malloc_count ### exiting, total: 839,045,916, peak: 570,606,092, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 278 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 700 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 88 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	268435456 bytes
+Output (.c):	89709303 bytes
+GCIS Compression Time: 5234ms
+GCIS Compression Peak Memory: 1431983860 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/tm29.c -w 10 -p 100 -c
+Parsing time: 3.0306
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/tm29.c.dicz
+Preprocess time: 0.0018
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.parse 489834
+repair(parse) time: 0.6342
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/tm29.c
+Postprocess time: 0.0032
+Elapsed time: 3.6788
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/tm29.c
+Elapsed time: 1.2409
+==== Done
+GCIS Decompression time: 1496 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,432,241,584, peak: 1,431,986,152, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/tm29.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/tm29.c 
+Decompression.
+malloc_count ### exiting, total: 493,791,996, peak: 391,726,140, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 368 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 668 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 72 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	268435456 bytes
+Output (.c):	33862185 bytes
+GCIS Compression Time: 5332ms
+GCIS Compression Peak Memory: 1376059836 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/tm29.c -w 10 -p 100 -c
+Parsing time: 2.2140
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/tm29.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.parse 489834
+repair(parse) time: 0.9197
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/tm29.c
+Postprocess time: 0.0019
+Elapsed time: 3.1553
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/tm29.c
+Elapsed time: 0.6134
+==== Done
+GCIS Decompression time: 1397 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,376,320,716, peak: 1,376,062,128, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/tm29.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/tm29.c 
+Decompression.
+malloc_count ### exiting, total: 386,215,300, peak: 335,879,100, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 458 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 620 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 84 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	268435456 bytes
+Output (.c):	11569507 bytes
+GCIS Compression Time: 5371ms
+GCIS Compression Peak Memory: 1353998196 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/tm29.c -w 10 -p 100 -c
+Parsing time: 0.3747
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/tm29.c.dicz
+Preprocess time: 0.0017
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.dicz.int 489834
+repair(dict) time: 0.0028
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.parse 489834
+repair(parse) time: 0.0574
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/tm29.c
+Postprocess time: 0.0015
+Elapsed time: 0.4401
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/tm29.c
+Elapsed time: 0.1586
+==== Done
+GCIS Decompression time: 1390 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,354,570,124, peak: 1,354,000,488, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/tm29.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/tm29.c 
+Decompression.
+malloc_count ### exiting, total: 343,126,036, peak: 313,586,500, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 548 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 580 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 76 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	268435456 bytes
+Output (.c):	4655933 bytes
+GCIS Compression Time: 5493ms
+GCIS Compression Peak Memory: 1347007716 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/tm29.c -w 10 -p 100 -c
+Parsing time: 0.1802
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/tm29.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.dicz.int 489834
+repair(dict) time: 0.0024
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.parse 489834
+repair(parse) time: 0.0217
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/tm29.c
+Postprocess time: 0.0013
+Elapsed time: 0.2080
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/tm29.c
+Elapsed time: 0.0852
+==== Done
+GCIS Decompression time: 1393 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,347,582,800, peak: 1,347,010,008, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/tm29.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/tm29.c 
+Decompression.
+malloc_count ### exiting, total: 329,746,412, peak: 306,673,004, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 638 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 548 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 76 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	268435456 bytes
+Output (.c):	1936671 bytes
+GCIS Compression Time: 5411ms
+GCIS Compression Peak Memory: 1344211556 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/tm29.c -w 10 -p 100 -c
+Parsing time: 0.0674
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/tm29.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.parse 489834
+repair(parse) time: 0.0120
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/tm29.c
+Postprocess time: 0.0011
+Elapsed time: 0.0846
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/tm29.c
+Elapsed time: 0.0287
+==== Done
+GCIS Decompression time: 1394 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,789,752, peak: 1,344,213,848, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/tm29.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/tm29.c 
+Decompression.
+malloc_count ### exiting, total: 324,427,724, peak: 303,953,820, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 728 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 516 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 60 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	268435456 bytes
+Output (.c):	1139793 bytes
+GCIS Compression Time: 5406ms
+GCIS Compression Peak Memory: 1343337772 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/tm29.c -w 10 -p 100 -c
+Parsing time: 0.0488
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/tm29.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.dicz.int 489834
+repair(dict) time: 0.0028
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.parse 489834
+repair(parse) time: 0.0190
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/tm29.c
+Postprocess time: 0.0012
+Elapsed time: 0.0754
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/tm29.c
+Elapsed time: 0.0117
+==== Done
+GCIS Decompression time: 1405 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,343,919,124, peak: 1,343,340,064, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/tm29.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/tm29.c 
+Decompression.
+malloc_count ### exiting, total: 322,822,740, peak: 303,157,020, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 818 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 468 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 72 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	268435456 bytes
+Output (.c):	867211 bytes
+GCIS Compression Time: 5469ms
+GCIS Compression Peak Memory: 1344044564 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/tm29.c -w 10 -p 100 -c
+Parsing time: 0.0122
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/tm29.c.dicz
+Preprocess time: 0.0018
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.parse 489834
+repair(parse) time: 0.0040
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/tm29.c
+Postprocess time: 0.0011
+Elapsed time: 0.0222
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/tm29.c
+Elapsed time: 0.0043
+==== Done
+GCIS Decompression time: 1390 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,804,500, peak: 1,344,044,564, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/tm29.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/tm29.c 
+Decompression.
+malloc_count ### exiting, total: 322,225,380, peak: 302,884,516, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 908 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 428 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 64 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	268435456 bytes
+Output (.c):	834917 bytes
+GCIS Compression Time: 5460ms
+GCIS Compression Peak Memory: 1344044564 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/tm29.c -w 10 -p 100 -c
+Parsing time: 0.0054
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/tm29.c.dicz
+Preprocess time: 0.0007
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.dicz.int 489834
+repair(dict) time: 0.0028
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.parse 489834
+repair(parse) time: 0.0015
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/tm29.c
+Postprocess time: 0.0011
+Elapsed time: 0.0140
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/tm29.c
+Elapsed time: 0.0048
+==== Done
+GCIS Decompression time: 1494 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,698,456, peak: 1,344,044,564, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/tm29.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/tm29.c 
+Decompression.
+malloc_count ### exiting, total: 322,092,220, peak: 302,852,300, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 998 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 404 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 64 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	268435456 bytes
+Output (.c):	868167 bytes
+GCIS Compression Time: 5400ms
+GCIS Compression Peak Memory: 1344044564 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/tm29.c -w 10 -p 100 -c
+Parsing time: 0.0051
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/tm29.c.dicz
+Preprocess time: 0.0019
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.parse 489834
+repair(parse) time: 0.0013
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/tm29.c
+Postprocess time: 0.0022
+Elapsed time: 0.0135
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/tm29.c
+Elapsed time: 0.0033
+==== Done
+GCIS Decompression time: 1564 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,657,920, peak: 1,344,044,564, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/tm29.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/tm29.c 
+Decompression.
+malloc_count ### exiting, total: 322,085,020, peak: 302,885,628, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 1,088 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 364 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 48 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	268435456 bytes
+Output (.c):	931449 bytes
+GCIS Compression Time: 5389ms
+GCIS Compression Peak Memory: 1344044564 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/tm29.c -w 10 -p 100 -c
+Parsing time: 0.0045
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/tm29.c.dicz
+Preprocess time: 0.0016
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.parse 489834
+repair(parse) time: 0.0032
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/tm29.c
+Postprocess time: 0.0011
+Elapsed time: 0.0132
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/tm29.c
+Elapsed time: 0.0011
+==== Done
+GCIS Decompression time: 1391 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,647,452, peak: 1,344,044,564, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/tm29.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/tm29.c 
+Decompression.
+malloc_count ### exiting, total: 322,135,844, peak: 302,948,988, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 1,178 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 316 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 60 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	268435456 bytes
+Output (.c):	1002931 bytes
+GCIS Compression Time: 5401ms
+GCIS Compression Peak Memory: 1344044564 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/tm29.c -w 10 -p 100 -c
+Parsing time: 0.0029
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/tm29.c.dicz
+Preprocess time: 0.0014
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.dicz.int 489834
+repair(dict) time: 0.0028
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/tm29.c
+Postprocess time: 0.0011
+Elapsed time: 0.0114
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/tm29.c
+Elapsed time: 0.0010
+==== Done
+GCIS Decompression time: 1591 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,645,148, peak: 1,344,044,564, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/tm29.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/tm29.c 
+Decompression.
+malloc_count ### exiting, total: 322,202,420, peak: 303,020,548, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 1,268 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 276 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 52 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	268435456 bytes
+Output (.c):	1078157 bytes
+GCIS Compression Time: 5394ms
+GCIS Compression Peak Memory: 1344044564 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/tm29.c -w 10 -p 100 -c
+Parsing time: 0.0029
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/tm29.c.dicz
+Preprocess time: 0.0018
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.dicz.int 489834
+repair(dict) time: 0.0020
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.parse 489834
+repair(parse) time: 0.0019
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/tm29.c
+Postprocess time: 0.0011
+Elapsed time: 0.0107
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/tm29.c
+Elapsed time: 0.0011
+==== Done
+GCIS Decompression time: 1391 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,646,624, peak: 1,344,044,564, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/tm29.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/tm29.c 
+Decompression.
+malloc_count ### exiting, total: 322,276,236, peak: 303,095,852, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 1,358 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 236 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 60 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	268435456 bytes
+Output (.c):	1154415 bytes
+GCIS Compression Time: 5398ms
+GCIS Compression Peak Memory: 1344044564 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/tm29.c -w 10 -p 100 -c
+Parsing time: 0.0030
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/tm29.c.dicz
+Preprocess time: 0.0018
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.dicz.int 489834
+repair(dict) time: 0.0019
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/tm29.c
+Postprocess time: 0.0023
+Elapsed time: 0.0110
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/tm29.c
+Elapsed time: 0.0012
+==== Done
+GCIS Decompression time: 1386 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,649,096, peak: 1,344,044,564, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/tm29.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/tm29.c 
+Decompression.
+malloc_count ### exiting, total: 322,352,028, peak: 303,172,188, current: 4,096
+
+========================================
+
+=== LEVEL 15 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 1,448 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 196 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 44 bytes
+
+--- STDOUT ---
+Max Level = 15
+Input:	268435456 bytes
+Output (.c):	1231137 bytes
+GCIS Compression Time: 5403ms
+GCIS Compression Peak Memory: 1344044564 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/tm29.c -w 10 -p 100 -c
+Parsing time: 0.0026
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/tm29.c.dicz
+Preprocess time: 0.0007
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.dicz.int 489834
+repair(dict) time: 0.0012
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/tm29.c
+Postprocess time: 0.0010
+Elapsed time: 0.0086
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/tm29.c
+Elapsed time: 0.0012
+==== Done
+GCIS Decompression time: 1583 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,652,068, peak: 1,344,044,564, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/tm29.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/tm29.c 
+Decompression.
+malloc_count ### exiting, total: 322,428,724, peak: 303,248,988, current: 4,096
+
+========================================
+
+=== LEVEL 16 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 1,538 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 140 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 28 bytes
+
+--- STDOUT ---
+Max Level = 16
+Input:	268435456 bytes
+Output (.c):	1307995 bytes
+GCIS Compression Time: 5410ms
+GCIS Compression Peak Memory: 1345892644 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/tm29.c -w 10 -p 100 -c
+Parsing time: 0.0040
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/tm29.c.dicz
+Preprocess time: 0.0018
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.dicz.int 489834
+repair(dict) time: 0.0027
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/tm29.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/tm29.c
+Postprocess time: 0.0011
+Elapsed time: 0.0131
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/tm29.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/tm29.c
+Elapsed time: 0.0013
+==== Done
+GCIS Decompression time: 1386 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,347,118,628, peak: 1,345,892,644, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/tm29.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/tm29.c 
+Decompression.
+malloc_count ### exiting, total: 322,505,676, peak: 303,325,924, current: 4,096
+
+========================================
+
+=== LEVEL 17 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -c ../datasets/repcorpus/artificial/tm29 ../datasets/repcorpus/artificial/tm29 -s8b 17' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+GCIS Compression.
+malloc(): unsorted double linked list corrupted
+Aborted
+
+
+========================================
+

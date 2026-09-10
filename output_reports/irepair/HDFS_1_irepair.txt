@@ -1,0 +1,217 @@
+=== IREPAIR Report for HDFS_1 ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/HDFS_1.r): 131,034 bytes
+  - .c.R (../datasets/repcorpus/logs/HDFS_1.c.R): 6,015,124 bytes
+  - .c.C (../datasets/repcorpus/logs/HDFS_1.c.C): 11,078,556 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	104857600 bytes
+Output (.c):	247080699 bytes
+GCIS Compression Time: 3192ms
+GCIS Compression Peak Memory: 771419796 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 753069432 bytes
+iRepair Peak Memory (Decompression): 6024256 bytes
+GCIS Decompression time: 657 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 773,438,900, peak: 771,423,112, current: 4,096
+iRepair Compression time: 20.901969 s
+malloc_count ### exiting, total: 23,988,411,404, peak: 753,069,432, current: 54,960,156
+iRepair Decompression time: 3.709133 s
+malloc_count ### exiting, total: 6,032,920, peak: 6,024,256, current: 6,019,216
+Decompression.
+malloc_count ### exiting, total: 600,357,908, peak: 599,595,776, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/HDFS_1.r): 2,351,028 bytes
+  - .c.R (../datasets/repcorpus/logs/HDFS_1.c.R): 5,791,604 bytes
+  - .c.C (../datasets/repcorpus/logs/HDFS_1.c.C): 11,640,484 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	104857600 bytes
+Output (.c):	91964381 bytes
+GCIS Compression Time: 4225ms
+GCIS Compression Peak Memory: 616322916 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 350773792 bytes
+iRepair Peak Memory (Decompression): 5800736 bytes
+GCIS Decompression time: 919 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 638,044,284, peak: 616,325,208, current: 4,096
+iRepair Compression time: 9.871000 s
+malloc_count ### exiting, total: 7,219,458,564, peak: 350,773,792, current: 84,084,204
+iRepair Decompression time: 1.501538 s
+malloc_count ### exiting, total: 5,809,400, peak: 5,800,736, current: 5,795,696
+Decompression.
+malloc_count ### exiting, total: 370,938,940, peak: 263,182,304, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/HDFS_1.r): 9,435,958 bytes
+  - .c.R (../datasets/repcorpus/logs/HDFS_1.c.R): 4,885,764 bytes
+  - .c.C (../datasets/repcorpus/logs/HDFS_1.c.C): 11,770,192 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	104857600 bytes
+Output (.c):	37963079 bytes
+GCIS Compression Time: 4738ms
+GCIS Compression Peak Memory: 571482524 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 249551480 bytes
+iRepair Peak Memory (Decompression): 4894896 bytes
+GCIS Decompression time: 1140 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 628,397,996, peak: 571,482,524, current: 4,096
+iRepair Compression time: 4.630230 s
+malloc_count ### exiting, total: 1,727,039,540, peak: 249,551,480, current: 76,152,340
+iRepair Decompression time: 0.324670 s
+malloc_count ### exiting, total: 4,903,560, peak: 4,894,896, current: 4,889,856
+Decompression.
+malloc_count ### exiting, total: 321,385,756, peak: 209,181,080, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/HDFS_1.r): 17,794,040 bytes
+  - .c.R (../datasets/repcorpus/logs/HDFS_1.c.R): 205,868 bytes
+  - .c.C (../datasets/repcorpus/logs/HDFS_1.c.C): 8,895,016 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	104857600 bytes
+Output (.c):	27238721 bytes
+GCIS Compression Time: 5073ms
+GCIS Compression Peak Memory: 576818708 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 187058288 bytes
+iRepair Peak Memory (Decompression): 215000 bytes
+GCIS Decompression time: 1336 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 660,157,628, peak: 576,818,708, current: 4,096
+iRepair Compression time: 1.363739 s
+malloc_count ### exiting, total: 456,476,152, peak: 187,058,288, current: 61,055,088
+iRepair Decompression time: 0.075442 s
+malloc_count ### exiting, total: 223,664, peak: 215,000, current: 209,960
+Decompression.
+malloc_count ### exiting, total: 328,162,292, peak: 198,456,800, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/HDFS_1.r): 20,953,186 bytes
+  - .c.R (../datasets/repcorpus/logs/HDFS_1.c.R): 28 bytes
+  - .c.C (../datasets/repcorpus/logs/HDFS_1.c.C): 3,194,144 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	104857600 bytes
+Output (.c):	24531587 bytes
+GCIS Compression Time: 5027ms
+GCIS Compression Peak Memory: 576818708 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 49478456 bytes
+iRepair Peak Memory (Decompression): 9160 bytes
+GCIS Decompression time: 1234 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 673,846,324, peak: 576,818,708, current: 4,096
+iRepair Compression time: 0.371132 s
+malloc_count ### exiting, total: 109,737,152, peak: 49,478,456, current: 18,025,272
+iRepair Decompression time: 0.024947 s
+malloc_count ### exiting, total: 17,824, peak: 9,160, current: 4,120
+Decompression.
+malloc_count ### exiting, total: 331,700,756, peak: 195,749,744, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/HDFS_1.r): 21,907,468 bytes
+  - .c.R (../datasets/repcorpus/logs/HDFS_1.c.R): 4 bytes
+  - .c.C (../datasets/repcorpus/logs/HDFS_1.c.C): 48,184 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	104857600 bytes
+Output (.c):	22416733 bytes
+GCIS Compression Time: 5041ms
+GCIS Compression Peak Memory: 576818708 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1133752 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 1322 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 674,958,756, peak: 576,818,708, current: 4,096
+iRepair Compression time: 0.001505 s
+malloc_count ### exiting, total: 1,947,200, peak: 1,133,752, current: 679,096
+iRepair Decompression time: 0.000553 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 329,332,284, peak: 193,634,968, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/HDFS_1.r): 21,917,238 bytes
+  - .c.R (../datasets/repcorpus/logs/HDFS_1.c.R): 4 bytes
+  - .c.C (../datasets/repcorpus/logs/HDFS_1.c.C): 1,880 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	104857600 bytes
+Output (.c):	22457047 bytes
+GCIS Compression Time: 5029ms
+GCIS Compression Peak Memory: 576818708 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 545496 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 1233 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 674,977,380, peak: 576,818,708, current: 4,096
+iRepair Compression time: 0.000569 s
+malloc_count ### exiting, total: 570,464, peak: 545,496, current: 535,256
+iRepair Decompression time: 0.000237 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 329,356,004, peak: 193,675,360, current: 4,096
+
+========================================
+
+=== LEVEL 7 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/logs/HDFS_1 ../datasets/repcorpus/logs/HDFS_1 -s8b 7' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

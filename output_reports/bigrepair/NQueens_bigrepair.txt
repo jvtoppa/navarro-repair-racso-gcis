@@ -1,0 +1,782 @@
+=== BIGREPAIR Report for NQueens ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 226 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 167,804 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 320,740 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	302590158 bytes
+Output (.c):	634626891 bytes
+GCIS Compression Time: 5754ms
+GCIS Compression Peak Memory: 2147596796 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/NQueens.c -w 10 -p 100 -c
+Parsing time: 18.4019
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/NQueens.c.dicz
+Preprocess time: 0.0021
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.dicz.int 489834
+repair(dict) time: 0.0028
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.parse 489834
+repair(parse) time: 2.1757
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/NQueens.c
+Postprocess time: 0.0071
+Elapsed time: 20.6193
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/NQueens.c
+Elapsed time: 8.5382
+==== Done
+GCIS Decompression time: 1503 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,147,618,862, peak: 2,147,600,112, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/NQueens.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/NQueens.c 
+Decompression.
+malloc_count ### exiting, total: 1,571,798,550, peak: 1,571,793,972, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 364 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 167,596 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 320,516 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	302590158 bytes
+Output (.c):	235906901 bytes
+GCIS Compression Time: 6998ms
+GCIS Compression Peak Memory: 1748877908 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/NQueens.c -w 10 -p 100 -c
+Parsing time: 7.6831
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/NQueens.c.dicz
+Preprocess time: 0.0023
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.dicz.int 489834
+repair(dict) time: 0.0022
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.parse 489834
+repair(parse) time: 1.5619
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/NQueens.c
+Postprocess time: 0.0044
+Elapsed time: 9.2705
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/NQueens.c
+Elapsed time: 3.3284
+==== Done
+GCIS Decompression time: 1518 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,748,981,082, peak: 1,748,880,200, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/NQueens.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/NQueens.c 
+Decompression.
+malloc_count ### exiting, total: 833,771,150, peak: 598,013,284, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 486 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 172,916 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 314,484 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	302590158 bytes
+Output (.c):	40332527 bytes
+GCIS Compression Time: 7247ms
+GCIS Compression Peak Memory: 1553380596 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/NQueens.c -w 10 -p 100 -c
+Parsing time: 1.3421
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/NQueens.c.dicz
+Preprocess time: 0.0113
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.dicz.int 489834
+repair(dict) time: 0.0869
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.parse 489834
+repair(parse) time: 0.2668
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/NQueens.c
+Postprocess time: 0.0047
+Elapsed time: 1.7176
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/NQueens.c
+Elapsed time: 0.6704
+==== Done
+GCIS Decompression time: 1385 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,553,641,550, peak: 1,553,382,888, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/NQueens.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/NQueens.c 
+Decompression.
+malloc_count ### exiting, total: 464,647,670, peak: 402,438,988, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 616 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 303,516 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 308,760 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	302590158 bytes
+Output (.c):	18649041 bytes
+GCIS Compression Time: 7303ms
+GCIS Compression Peak Memory: 1531620204 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/NQueens.c -w 10 -p 100 -c
+Parsing time: 0.7048
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/NQueens.c.dicz
+Preprocess time: 0.0653
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.dicz.int 489834
+repair(dict) time: 0.4437
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.parse 489834
+repair(parse) time: 0.0617
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/NQueens.c
+Postprocess time: 0.0065
+Elapsed time: 1.2843
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/NQueens.c
+Elapsed time: 0.3592
+==== Done
+GCIS Decompression time: 1403 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,531,884,954, peak: 1,531,622,496, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/NQueens.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/NQueens.c 
+Decompression.
+malloc_count ### exiting, total: 424,337,054, peak: 380,755,580, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 2,938 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 740,836 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 115,564 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	302590158 bytes
+Output (.c):	2761643 bytes
+GCIS Compression Time: 7442ms
+GCIS Compression Peak Memory: 1515964740 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/NQueens.c -w 10 -p 100 -c
+Parsing time: 0.1545
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/NQueens.c.dicz
+Preprocess time: 0.0461
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.dicz.int 489834
+repair(dict) time: 0.3971
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.parse 489834
+repair(parse) time: 0.0076
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/NQueens.c
+Postprocess time: 0.0069
+Elapsed time: 0.6135
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/NQueens.c
+Elapsed time: 0.0436
+==== Done
+GCIS Decompression time: 1785 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,516,573,138, peak: 1,515,967,032, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/NQueens.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/NQueens.c 
+Decompression.
+malloc_count ### exiting, total: 393,939,606, peak: 364,868,260, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 118,316 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 948,292 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 30,476 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	302590158 bytes
+Output (.c):	1257589 bytes
+GCIS Compression Time: 7356ms
+GCIS Compression Peak Memory: 1514917928 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/NQueens.c -w 10 -p 100 -c
+Parsing time: 0.0426
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/NQueens.c.dicz
+Preprocess time: 0.0178
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.dicz.int 489834
+repair(dict) time: 0.1569
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.parse 489834
+repair(parse) time: 0.0046
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/NQueens.c
+Postprocess time: 0.0072
+Elapsed time: 0.2311
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/NQueens.c
+Elapsed time: 0.0166
+==== Done
+GCIS Decompression time: 1409 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,516,353,994, peak: 1,514,917,928, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/NQueens.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/NQueens.c 
+Decompression.
+malloc_count ### exiting, total: 391,946,006, peak: 363,364,284, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 279,918 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 380,916 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 10,352 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	302590158 bytes
+Output (.c):	1050007 bytes
+GCIS Compression Time: 7454ms
+GCIS Compression Peak Memory: 1514917928 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/NQueens.c -w 10 -p 100 -c
+Parsing time: 0.0162
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/NQueens.c.dicz
+Preprocess time: 0.0056
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.dicz.int 489834
+repair(dict) time: 0.0499
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.parse 489834
+repair(parse) time: 0.0021
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/NQueens.c
+Postprocess time: 0.0036
+Elapsed time: 0.0785
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/NQueens.c
+Elapsed time: 0.0067
+==== Done
+GCIS Decompression time: 1603 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,517,128,146, peak: 1,514,917,928, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/NQueens.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/NQueens.c 
+Decompression.
+malloc_count ### exiting, total: 392,022,710, peak: 363,156,780, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 339,032 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 124,140 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 3,224 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	302590158 bytes
+Output (.c):	1027865 bytes
+GCIS Compression Time: 7359ms
+GCIS Compression Peak Memory: 1514917928 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/NQueens.c -w 10 -p 100 -c
+Parsing time: 0.0066
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/NQueens.c.dicz
+Preprocess time: 0.0032
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.dicz.int 489834
+repair(dict) time: 0.0147
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.parse 489834
+repair(parse) time: 0.0012
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/NQueens.c
+Postprocess time: 0.0030
+Elapsed time: 0.0309
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/NQueens.c
+Elapsed time: 0.0029
+==== Done
+GCIS Decompression time: 1409 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,517,418,042, peak: 1,514,917,928, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/NQueens.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/NQueens.c 
+Decompression.
+malloc_count ### exiting, total: 392,079,750, peak: 363,134,716, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 356,634 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 39,812 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 1,080 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	302590158 bytes
+Output (.c):	1071499 bytes
+GCIS Compression Time: 7358ms
+GCIS Compression Peak Memory: 1515315512 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/NQueens.c -w 10 -p 100 -c
+Parsing time: 0.0039
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/NQueens.c.dicz
+Preprocess time: 0.0021
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.dicz.int 489834
+repair(dict) time: 0.0051
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/NQueens.c
+Postprocess time: 0.0013
+Elapsed time: 0.0156
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/NQueens.c
+Elapsed time: 0.0024
+==== Done
+GCIS Decompression time: 1447 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,518,742,946, peak: 1,515,315,512, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/NQueens.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/NQueens.c 
+Decompression.
+malloc_count ### exiting, total: 392,144,510, peak: 363,178,428, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 361,476 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 12,748 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 320 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	302590158 bytes
+Output (.c):	1137245 bytes
+GCIS Compression Time: 7384ms
+GCIS Compression Peak Memory: 1515315512 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/NQueens.c -w 10 -p 100 -c
+Parsing time: 0.0046
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/NQueens.c.dicz
+Preprocess time: 0.0022
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.dicz.int 489834
+repair(dict) time: 0.0023
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/NQueens.c
+Postprocess time: 0.0012
+Elapsed time: 0.0134
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/NQueens.c
+Elapsed time: 0.0015
+==== Done
+GCIS Decompression time: 1546 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,518,773,202, peak: 1,515,315,512, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/NQueens.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/NQueens.c 
+Decompression.
+malloc_count ### exiting, total: 392,214,790, peak: 363,244,252, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 362,830 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 4,620 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 156 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	302590158 bytes
+Output (.c):	1210519 bytes
+GCIS Compression Time: 7377ms
+GCIS Compression Peak Memory: 1515315512 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/NQueens.c -w 10 -p 100 -c
+Parsing time: 0.0108
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/NQueens.c.dicz
+Preprocess time: 0.0019
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.dicz.int 489834
+repair(dict) time: 0.0014
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.parse 489834
+repair(parse) time: 0.0010
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/NQueens.c
+Postprocess time: 0.0010
+Elapsed time: 0.0179
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/NQueens.c
+Elapsed time: 0.0021
+==== Done
+GCIS Decompression time: 1411 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,518,784,666, peak: 1,515,315,512, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/NQueens.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/NQueens.c 
+Decompression.
+malloc_count ### exiting, total: 392,289,038, peak: 363,317,604, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 363,280 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 1,508 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 64 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	302590158 bytes
+Output (.c):	1286193 bytes
+GCIS Compression Time: 7370ms
+GCIS Compression Peak Memory: 1515315512 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/NQueens.c -w 10 -p 100 -c
+Parsing time: 0.0035
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/NQueens.c.dicz
+Preprocess time: 0.0017
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.dicz.int 489834
+repair(dict) time: 0.0021
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/NQueens.c
+Postprocess time: 0.0010
+Elapsed time: 0.0113
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/NQueens.c
+Elapsed time: 0.0017
+==== Done
+GCIS Decompression time: 1594 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,518,790,306, peak: 1,515,315,512, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/NQueens.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/NQueens.c 
+Decompression.
+malloc_count ### exiting, total: 392,364,942, peak: 363,393,356, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 363,450 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 548 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 40 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	302590158 bytes
+Output (.c):	1362723 bytes
+GCIS Compression Time: 7489ms
+GCIS Compression Peak Memory: 1515315512 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/NQueens.c -w 10 -p 100 -c
+Parsing time: 0.0039
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/NQueens.c.dicz
+Preprocess time: 0.0019
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.dicz.int 489834
+repair(dict) time: 0.0025
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/NQueens.c
+Postprocess time: 0.0011
+Elapsed time: 0.0115
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/NQueens.c
+Elapsed time: 0.0013
+==== Done
+GCIS Decompression time: 1490 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,518,794,490, peak: 1,515,315,512, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/NQueens.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/NQueens.c 
+Decompression.
+malloc_count ### exiting, total: 392,441,590, peak: 363,469,964, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 363,556 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 252 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 32 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	302590158 bytes
+Output (.c):	1439525 bytes
+GCIS Compression Time: 7361ms
+GCIS Compression Peak Memory: 1515315512 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/NQueens.c -w 10 -p 100 -c
+Parsing time: 0.0031
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/NQueens.c.dicz
+Preprocess time: 0.0015
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.dicz.int 489834
+repair(dict) time: 0.0027
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/NQueens.c
+Postprocess time: 0.0023
+Elapsed time: 0.0131
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/NQueens.c
+Elapsed time: 0.0013
+==== Done
+GCIS Decompression time: 1406 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,518,797,910, peak: 1,515,315,512, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/NQueens.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/NQueens.c 
+Decompression.
+malloc_count ### exiting, total: 392,518,518, peak: 363,546,844, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 363,646 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 116 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 24 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	302590158 bytes
+Output (.c):	1516399 bytes
+GCIS Compression Time: 7380ms
+GCIS Compression Peak Memory: 1515315512 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/NQueens.c -w 10 -p 100 -c
+Parsing time: 0.0028
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/NQueens.c.dicz
+Preprocess time: 0.0007
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.parse 489834
+repair(parse) time: 0.0013
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/NQueens.c
+Postprocess time: 0.0010
+Elapsed time: 0.0090
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/NQueens.c
+Elapsed time: 0.0010
+==== Done
+GCIS Decompression time: 1415 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,518,801,038, peak: 1,515,315,512, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/NQueens.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/NQueens.c 
+Decompression.
+malloc_count ### exiting, total: 392,595,494, peak: 363,623,796, current: 4,096
+
+========================================
+
+=== LEVEL 15 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 363,736 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 68 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 4 bytes
+
+--- STDOUT ---
+Max Level = 15
+Input:	302590158 bytes
+Output (.c):	1593313 bytes
+GCIS Compression Time: 7386ms
+GCIS Compression Peak Memory: 1515315512 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/NQueens.c -w 10 -p 100 -c
+Parsing time: 0.0037
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/NQueens.c.dicz
+Preprocess time: 0.0007
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/NQueens.c.parse 489834
+repair(parse) time: 0.0016
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/NQueens.c
+Postprocess time: 0.0010
+Elapsed time: 0.0094
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/NQueens.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/NQueens.c
+Elapsed time: 0.0013
+==== Done
+GCIS Decompression time: 1415 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,518,804,134, peak: 1,515,315,512, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/NQueens.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/NQueens.c 
+Decompression.
+malloc_count ### exiting, total: 392,672,558, peak: 363,700,788, current: 4,096
+
+========================================
+
+=== LEVEL 16 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/logs/NQueens ../datasets/repcorpus/logs/NQueens -s8b 16' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

@@ -1,0 +1,974 @@
+=== BIGREPAIR Report for fib41 ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 98 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 468 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 84 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	267914296 bytes
+Output (.c):	818750179 bytes
+GCIS Compression Time: 4046ms
+GCIS Compression Peak Memory: 2158340766 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/fib41.c -w 10 -p 100 -c
+Parsing time: 76.4043
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/fib41.c.dicz
+Preprocess time: 0.0020
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.dicz.int 489834
+repair(dict) time: 0.0028
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.parse 489834
+repair(parse) time: 37.5425
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/fib41.c
+Postprocess time: 0.0017
+Elapsed time: 114.4420
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/fib41.c
+Elapsed time: 11.1490
+==== Done
+GCIS Decompression time: 1681 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,158,361,216, peak: 2,158,344,082, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/fib41.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/fib41.c 
+Decompression.
+malloc_count ### exiting, total: 1,905,368,752, peak: 1,905,364,494, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 188 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 444 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 80 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	267914296 bytes
+Output (.c):	312859229 bytes
+GCIS Compression Time: 4959ms
+GCIS Compression Peak Memory: 1652450918 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/fib41.c -w 10 -p 100 -c
+Parsing time: 27.9023
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/fib41.c.dicz
+Preprocess time: 0.0014
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.dicz.int 489834
+repair(dict) time: 0.0016
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.parse 489834
+repair(parse) time: 14.4665
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/fib41.c
+Postprocess time: 0.0032
+Elapsed time: 42.6207
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/fib41.c
+Elapsed time: 4.4254
+==== Done
+GCIS Decompression time: 1706 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,652,551,428, peak: 1,652,453,210, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/fib41.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/fib41.c 
+Decompression.
+malloc_count ### exiting, total: 919,093,608, peak: 651,174,974, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 278 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 428 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 76 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	267914296 bytes
+Output (.c):	119673631 bytes
+GCIS Compression Time: 5264ms
+GCIS Compression Peak Memory: 1459342382 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/fib41.c -w 10 -p 100 -c
+Parsing time: 10.6786
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/fib41.c.dicz
+Preprocess time: 0.0028
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.dicz.int 489834
+repair(dict) time: 0.0012
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.parse 489834
+repair(parse) time: 5.5832
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/fib41.c
+Postprocess time: 0.0025
+Elapsed time: 16.3413
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/fib41.c
+Elapsed time: 1.6120
+==== Done
+GCIS Decompression time: 1803 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,459,599,936, peak: 1,459,344,674, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/fib41.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/fib41.c 
+Decompression.
+malloc_count ### exiting, total: 542,417,672, peak: 413,198,406, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 368 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 412 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 72 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	267914296 bytes
+Output (.c):	45930849 bytes
+GCIS Compression Time: 5417ms
+GCIS Compression Peak Memory: 1385522694 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/fib41.c -w 10 -p 100 -c
+Parsing time: 4.1438
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/fib41.c.dicz
+Preprocess time: 0.0017
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.dicz.int 489834
+repair(dict) time: 0.0018
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.parse 489834
+repair(parse) time: 2.3329
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/fib41.c
+Postprocess time: 0.0027
+Elapsed time: 6.5079
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/fib41.c
+Elapsed time: 0.6192
+==== Done
+GCIS Decompression time: 1900 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,385,783,324, peak: 1,385,524,986, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/fib41.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/fib41.c 
+Decompression.
+malloc_count ### exiting, total: 398,587,912, peak: 339,455,702, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 458 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 396 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 68 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	267914296 bytes
+Output (.c):	17811163 bytes
+GCIS Compression Time: 5461ms
+GCIS Compression Peak Memory: 1357634038 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/fib41.c -w 10 -p 100 -c
+Parsing time: 1.7041
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/fib41.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.dicz.int 489834
+repair(dict) time: 0.0010
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.parse 489834
+repair(parse) time: 0.8150
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/fib41.c
+Postprocess time: 0.0030
+Elapsed time: 2.5403
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/fib41.c
+Elapsed time: 0.2439
+==== Done
+GCIS Decompression time: 1627 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,358,205,680, peak: 1,357,636,330, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/fib41.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/fib41.c 
+Decompression.
+malloc_count ### exiting, total: 343,697,480, peak: 311,336,094, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 548 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 380 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 64 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	267914296 bytes
+Output (.c):	7117949 bytes
+GCIS Compression Time: 5552ms
+GCIS Compression Peak Memory: 1346863918 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/fib41.c -w 10 -p 100 -c
+Parsing time: 0.7414
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/fib41.c.dicz
+Preprocess time: 0.0007
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.dicz.int 489834
+repair(dict) time: 0.0010
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.parse 489834
+repair(parse) time: 0.3186
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/fib41.c
+Postprocess time: 0.0016
+Elapsed time: 1.0711
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/fib41.c
+Elapsed time: 0.0988
+==== Done
+GCIS Decompression time: 1632 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,347,438,636, peak: 1,346,866,210, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/fib41.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/fib41.c 
+Decompression.
+malloc_count ### exiting, total: 322,778,848, peak: 300,642,958, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 638 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 364 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 60 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	267914296 bytes
+Output (.c):	3081055 bytes
+GCIS Compression Time: 5474ms
+GCIS Compression Peak Memory: 1342750118 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/fib41.c -w 10 -p 100 -c
+Parsing time: 0.3210
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/fib41.c.dicz
+Preprocess time: 0.0010
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.dicz.int 489834
+repair(dict) time: 0.0012
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.parse 489834
+repair(parse) time: 0.1661
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/fib41.c
+Postprocess time: 0.0021
+Elapsed time: 0.4969
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/fib41.c
+Elapsed time: 0.0511
+==== Done
+GCIS Decompression time: 1631 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,343,327,912, peak: 1,342,752,410, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/fib41.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/fib41.c 
+Decompression.
+malloc_count ### exiting, total: 314,836,288, peak: 296,606,142, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 728 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 340 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 56 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	267914296 bytes
+Output (.c):	1586649 bytes
+GCIS Compression Time: 5481ms
+GCIS Compression Peak Memory: 1341178806 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/fib41.c -w 10 -p 100 -c
+Parsing time: 0.1253
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/fib41.c.dicz
+Preprocess time: 0.0016
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.dicz.int 489834
+repair(dict) time: 0.0010
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.parse 489834
+repair(parse) time: 0.0633
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/fib41.c
+Postprocess time: 0.0021
+Elapsed time: 0.1956
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/fib41.c
+Elapsed time: 0.0207
+==== Done
+GCIS Decompression time: 1752 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,341,759,676, peak: 1,341,181,098, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/fib41.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/fib41.c 
+Decompression.
+malloc_count ### exiting, total: 311,850,144, peak: 295,111,814, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 818 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 324 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 52 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	267914296 bytes
+Output (.c):	1063387 bytes
+GCIS Compression Time: 5590ms
+GCIS Compression Peak Memory: 1341438614 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/fib41.c -w 10 -p 100 -c
+Parsing time: 0.0511
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/fib41.c.dicz
+Preprocess time: 0.0019
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.parse 489834
+repair(parse) time: 0.0259
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/fib41.c
+Postprocess time: 0.0013
+Elapsed time: 0.0835
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/fib41.c
+Elapsed time: 0.0099
+==== Done
+GCIS Decompression time: 1644 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,342,394,328, peak: 1,341,438,614, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/fib41.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/fib41.c 
+Decompression.
+malloc_count ### exiting, total: 310,757,184, peak: 294,588,630, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 908 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 308 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 48 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	267914296 bytes
+Output (.c):	911069 bytes
+GCIS Compression Time: 5497ms
+GCIS Compression Peak Memory: 1341438614 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/fib41.c -w 10 -p 100 -c
+Parsing time: 0.0210
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/fib41.c.dicz
+Preprocess time: 0.0018
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.parse 489834
+repair(parse) time: 0.0108
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/fib41.c
+Postprocess time: 0.0012
+Elapsed time: 0.0385
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/fib41.c
+Elapsed time: 0.0044
+==== Done
+GCIS Decompression time: 1630 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,342,168,180, peak: 1,341,438,614, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/fib41.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/fib41.c 
+Decompression.
+malloc_count ### exiting, total: 310,387,352, peak: 294,436,390, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 998 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 292 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 44 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	267914296 bytes
+Output (.c):	900439 bytes
+GCIS Compression Time: 5500ms
+GCIS Compression Peak Memory: 1341438614 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/fib41.c -w 10 -p 100 -c
+Parsing time: 0.0110
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/fib41.c.dicz
+Preprocess time: 0.0018
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.parse 489834
+repair(parse) time: 0.0051
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/fib41.c
+Postprocess time: 0.0011
+Elapsed time: 0.0224
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/fib41.c
+Elapsed time: 0.0033
+==== Done
+GCIS Decompression time: 1738 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,342,083,720, peak: 1,341,438,614, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/fib41.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/fib41.c 
+Decompression.
+malloc_count ### exiting, total: 310,293,736, peak: 294,425,838, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 1,088 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 276 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 40 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	267914296 bytes
+Output (.c):	943929 bytes
+GCIS Compression Time: 5478ms
+GCIS Compression Peak Memory: 1341438614 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/fib41.c -w 10 -p 100 -c
+Parsing time: 0.0068
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/fib41.c.dicz
+Preprocess time: 0.0020
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.parse 489834
+repair(parse) time: 0.0036
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/fib41.c
+Postprocess time: 0.0011
+Elapsed time: 0.0166
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/fib41.c
+Elapsed time: 0.0015
+==== Done
+GCIS Decompression time: 1628 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,342,053,380, peak: 1,341,438,614, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/fib41.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/fib41.c 
+Decompression.
+malloc_count ### exiting, total: 310,305,624, peak: 294,469,406, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 1,178 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 252 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 36 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	267914296 bytes
+Output (.c):	1008091 bytes
+GCIS Compression Time: 5478ms
+GCIS Compression Peak Memory: 1341438614 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/fib41.c -w 10 -p 100 -c
+Parsing time: 0.0041
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/fib41.c.dicz
+Preprocess time: 0.0007
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.dicz.int 489834
+repair(dict) time: 0.0016
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.parse 489834
+repair(parse) time: 0.0017
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/fib41.c
+Postprocess time: 0.0011
+Elapsed time: 0.0117
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/fib41.c
+Elapsed time: 0.0025
+==== Done
+GCIS Decompression time: 1804 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,342,043,712, peak: 1,341,438,614, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/fib41.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/fib41.c 
+Decompression.
+malloc_count ### exiting, total: 310,357,808, peak: 294,533,646, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 1,268 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 236 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 32 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	267914296 bytes
+Output (.c):	1080149 bytes
+GCIS Compression Time: 5475ms
+GCIS Compression Peak Memory: 1341438614 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/fib41.c -w 10 -p 100 -c
+Parsing time: 0.0036
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/fib41.c.dicz
+Preprocess time: 0.0017
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.parse 489834
+repair(parse) time: 0.0014
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/fib41.c
+Postprocess time: 0.0016
+Elapsed time: 0.0116
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/fib41.c
+Elapsed time: 0.0010
+==== Done
+GCIS Decompression time: 1659 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,342,041,940, peak: 1,341,438,614, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/fib41.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/fib41.c 
+Decompression.
+malloc_count ### exiting, total: 310,425,384, peak: 294,605,782, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 1,358 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 220 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 28 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	267914296 bytes
+Output (.c):	1155223 bytes
+GCIS Compression Time: 5478ms
+GCIS Compression Peak Memory: 1341438614 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/fib41.c -w 10 -p 100 -c
+Parsing time: 0.0031
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/fib41.c.dicz
+Preprocess time: 0.0014
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.dicz.int 489834
+repair(dict) time: 0.0028
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.parse 489834
+repair(parse) time: 0.0013
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/fib41.c
+Postprocess time: 0.0023
+Elapsed time: 0.0134
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/fib41.c
+Elapsed time: 0.0012
+==== Done
+GCIS Decompression time: 1771 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,342,043,184, peak: 1,341,438,614, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/fib41.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/fib41.c 
+Decompression.
+malloc_count ### exiting, total: 310,498,840, peak: 294,680,934, current: 4,096
+
+========================================
+
+=== LEVEL 15 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 1,448 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 204 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 24 bytes
+
+--- STDOUT ---
+Max Level = 15
+Input:	267914296 bytes
+Output (.c):	1231449 bytes
+GCIS Compression Time: 5638ms
+GCIS Compression Peak Memory: 1341438614 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/fib41.c -w 10 -p 100 -c
+Parsing time: 0.0032
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/fib41.c.dicz
+Preprocess time: 0.0016
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.dicz.int 489834
+repair(dict) time: 0.0015
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/fib41.c
+Postprocess time: 0.0018
+Elapsed time: 0.0101
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/fib41.c
+Elapsed time: 0.0014
+==== Done
+GCIS Decompression time: 1919 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,342,045,580, peak: 1,341,438,614, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/fib41.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/fib41.c 
+Decompression.
+malloc_count ### exiting, total: 310,574,544, peak: 294,757,238, current: 4,096
+
+========================================
+
+=== LEVEL 16 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 1,538 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 188 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 20 bytes
+
+--- STDOUT ---
+Max Level = 16
+Input:	267914296 bytes
+Output (.c):	1308115 bytes
+GCIS Compression Time: 5494ms
+GCIS Compression Peak Memory: 1343286582 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/fib41.c -w 10 -p 100 -c
+Parsing time: 0.0030
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/fib41.c.dicz
+Preprocess time: 0.0018
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.dicz.int 489834
+repair(dict) time: 0.0026
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/fib41.c
+Postprocess time: 0.0012
+Elapsed time: 0.0110
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/fib41.c
+Elapsed time: 0.0012
+==== Done
+GCIS Decompression time: 1827 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,511,904, peak: 1,343,286,582, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/fib41.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/fib41.c 
+Decompression.
+malloc_count ### exiting, total: 310,651,104, peak: 294,833,982, current: 4,096
+
+========================================
+
+=== LEVEL 17 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 1,628 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 156 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 24 bytes
+
+--- STDOUT ---
+Max Level = 17
+Input:	267914296 bytes
+Output (.c):	1384949 bytes
+GCIS Compression Time: 5488ms
+GCIS Compression Peak Memory: 1343286582 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/fib41.c -w 10 -p 100 -c
+Parsing time: 0.0190
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/fib41.c.dicz
+Preprocess time: 0.0021
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.dicz.int 489834
+repair(dict) time: 0.0018
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.parse 489834
+repair(parse) time: 0.0010
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/fib41.c
+Postprocess time: 0.0010
+Elapsed time: 0.0259
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/fib41.c
+Elapsed time: 0.0016
+==== Done
+GCIS Decompression time: 1631 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,514,908, peak: 1,343,286,582, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/fib41.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/fib41.c 
+Decompression.
+malloc_count ### exiting, total: 310,727,992, peak: 294,910,894, current: 4,096
+
+========================================
+
+=== LEVEL 18 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 1,718 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 84 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 4 bytes
+
+--- STDOUT ---
+Max Level = 18
+Input:	267914296 bytes
+Output (.c):	1461847 bytes
+GCIS Compression Time: 5490ms
+GCIS Compression Peak Memory: 1343286582 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/fib41.c -w 10 -p 100 -c
+Parsing time: 0.0025
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/fib41.c.dicz
+Preprocess time: 0.0007
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.parse 489834
+repair(parse) time: 0.0021
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/fib41.c
+Postprocess time: 0.0010
+Elapsed time: 0.0092
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/fib41.c
+Elapsed time: 0.0014
+==== Done
+GCIS Decompression time: 1628 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,517,952, peak: 1,343,286,582, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/fib41.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/fib41.c 
+Decompression.
+malloc_count ### exiting, total: 310,805,000, peak: 294,987,870, current: 4,096
+
+========================================
+
+=== LEVEL 19 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 1,718 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 36 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 4 bytes
+
+--- STDOUT ---
+Max Level = 19
+Input:	267914296 bytes
+Output (.c):	1461831 bytes
+GCIS Compression Time: 5493ms
+GCIS Compression Peak Memory: 1343286582 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/artificial/fib41.c -w 10 -p 100 -c
+Parsing time: 0.0026
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/artificial/fib41.c.dicz
+Preprocess time: 0.0014
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.dicz.int 489834
+repair(dict) time: 0.0017
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/artificial/fib41.c.parse 489834
+repair(parse) time: 0.0010
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/artificial/fib41.c
+Postprocess time: 0.0010
+Elapsed time: 0.0100
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/artificial/fib41.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/artificial/fib41.c
+Elapsed time: 0.0013
+==== Done
+GCIS Decompression time: 1630 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,517,936, peak: 1,343,286,582, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/artificial/fib41.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/artificial/fib41.c 
+Decompression.
+malloc_count ### exiting, total: 310,804,960, peak: 294,987,854, current: 4,096
+
+========================================
+
+=== LEVEL 20 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/artificial/fib41 ../datasets/repcorpus/artificial/fib41 -s8b 20' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

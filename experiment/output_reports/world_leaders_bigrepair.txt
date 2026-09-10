@@ -1,0 +1,40 @@
+=== Output Report for world_leaders ===
+
+--- ENCODING SIZES ---
+  - world_leaders.C: 199,688 bytes
+  - world_leaders.R: 2,364,516 bytes
+Total Run Encoding Size: 2,564,204 bytes
+
+--- STDOUT ---
+Sending logging messages to file: /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/datasets/world_leaders.log
+==== Parsing.
+Command: /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/datasets/world_leaders -w 10 -p 100 -c
+Parsing time: 5.3623
+==== Preprocessing the dictionary.
+Command: /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/bigrepair/procdic /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/datasets/world_leaders.dicz
+Preprocess time: 2.1031
+==== Repair dictionary.
+Command: /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/datasets/world_leaders.dicz.int 3578
+repair(dict) time: 2.3867
+==== Repair parse.
+Command: /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/datasets/world_leaders.parse 3578
+repair(parse) time: 0.1176
+==== Postprocessing the dictionary.
+Command: /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/bigrepair/postproc /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/datasets/world_leaders
+Postprocess time: 0.2241
+Elapsed time: 10.2036
+==== Done
+Sending logging messages to file: /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/datasets/world_leaders.log
+==== Decompressing C+R files.
+Command: /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/bigrepair/repair/despair /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/datasets/world_leaders
+Elapsed time: 3.2328
+==== Done
+
+--- STDERR ---
+Command line: /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/bigrepair/bigrepair /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/datasets/world_leaders 
+malloc_count ### exiting, peak: 13354.31, current: 4.00 (KBs)
+malloc_count ### exiting, total: 13704, peak: 13704, current: 4568
+malloc_count ### exiting, total: 6674936256, peak: 251854884, current: 6701472
+malloc_count ### exiting, total: 86308912, peak: 9597296, current: 2000784
+malloc_count ### exiting, total: 981192, peak: 963392, current: 4096
+Command line: /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/bigrepair/bigrepair -d /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/datasets/world_leaders 

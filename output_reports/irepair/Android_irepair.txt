@@ -1,0 +1,390 @@
+=== IREPAIR Report for Android ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Android.r): 265,778 bytes
+  - .c.R (../datasets/repcorpus/logs/Android.c.R): 4,333,052 bytes
+  - .c.C (../datasets/repcorpus/logs/Android.c.C): 8,522,872 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	104857600 bytes
+Output (.c):	263753555 bytes
+GCIS Compression Time: 3382ms
+GCIS Compression Peak Memory: 788078830 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 813754896 bytes
+iRepair Peak Memory (Decompression): 4342184 bytes
+GCIS Decompression time: 738 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 791,791,768, peak: 788,082,146, current: 4,096
+iRepair Compression time: 20.894298 s
+malloc_count ### exiting, total: 43,651,475,316, peak: 813,754,896, current: 58,225,296
+iRepair Decompression time: 2.481864 s
+malloc_count ### exiting, total: 4,350,848, peak: 4,342,184, current: 4,337,144
+Decompression.
+malloc_count ### exiting, total: 634,570,888, peak: 633,307,750, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Android.r): 2,436,956 bytes
+  - .c.R (../datasets/repcorpus/logs/Android.c.R): 3,184,516 bytes
+  - .c.C (../datasets/repcorpus/logs/Android.c.C): 8,335,516 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	104857600 bytes
+Output (.c):	93182005 bytes
+GCIS Compression Time: 4453ms
+GCIS Compression Peak Memory: 617595086 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 355468936 bytes
+iRepair Peak Memory (Decompression): 3193648 bytes
+GCIS Decompression time: 1063 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 638,405,936, peak: 617,597,378, current: 4,096
+iRepair Compression time: 8.010936 s
+malloc_count ### exiting, total: 13,955,585,256, peak: 355,468,936, current: 51,018,508
+iRepair Decompression time: 1.262391 s
+malloc_count ### exiting, total: 3,202,312, peak: 3,193,648, current: 3,188,608
+Decompression.
+malloc_count ### exiting, total: 380,795,448, peak: 273,409,670, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Android.r): 5,629,766 bytes
+  - .c.R (../datasets/repcorpus/logs/Android.c.R): 2,360,452 bytes
+  - .c.C (../datasets/repcorpus/logs/Android.c.C): 7,936,572 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	104857600 bytes
+Output (.c):	37163855 bytes
+GCIS Compression Time: 4813ms
+GCIS Compression Peak Memory: 561924638 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 176427664 bytes
+iRepair Peak Memory (Decompression): 2369584 bytes
+GCIS Decompression time: 1222 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 605,747,584, peak: 561,926,930, current: 4,096
+iRepair Compression time: 3.666764 s
+malloc_count ### exiting, total: 3,338,664,576, peak: 176,427,664, current: 63,893,112
+iRepair Decompression time: 0.335322 s
+malloc_count ### exiting, total: 2,378,248, peak: 2,369,584, current: 2,364,544
+Decompression.
+malloc_count ### exiting, total: 312,656,608, peak: 217,391,598, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Android.r): 12,510,856 bytes
+  - .c.R (../datasets/repcorpus/logs/Android.c.R): 660,844 bytes
+  - .c.C (../datasets/repcorpus/logs/Android.c.C): 8,002,972 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	104857600 bytes
+Output (.c):	22669425 bytes
+GCIS Compression Time: 5002ms
+GCIS Compression Peak Memory: 568398710 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 109676288 bytes
+iRepair Peak Memory (Decompression): 669976 bytes
+GCIS Decompression time: 1291 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 629,079,952, peak: 568,398,710, current: 4,096
+iRepair Compression time: 1.352813 s
+malloc_count ### exiting, total: 498,140,296, peak: 109,676,288, current: 46,422,784
+iRepair Decompression time: 0.063261 s
+malloc_count ### exiting, total: 678,640, peak: 669,976, current: 664,936
+Decompression.
+malloc_count ### exiting, total: 311,733,080, peak: 202,897,246, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Android.r): 15,547,914 bytes
+  - .c.R (../datasets/repcorpus/logs/Android.c.R): 9,108 bytes
+  - .c.C (../datasets/repcorpus/logs/Android.c.C): 2,707,360 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	104857600 bytes
+Output (.c):	18660027 bytes
+GCIS Compression Time: 5077ms
+GCIS Compression Peak Memory: 568398710 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 48101384 bytes
+iRepair Peak Memory (Decompression): 18240 bytes
+GCIS Decompression time: 1314 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 640,552,384, peak: 568,398,710, current: 4,096
+iRepair Compression time: 0.322586 s
+malloc_count ### exiting, total: 111,621,520, peak: 48,101,384, current: 16,622,600
+iRepair Decompression time: 0.021863 s
+malloc_count ### exiting, total: 26,904, peak: 18,240, current: 13,200
+Decompression.
+malloc_count ### exiting, total: 312,517,304, peak: 198,887,926, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Android.r): 16,393,676 bytes
+  - .c.R (../datasets/repcorpus/logs/Android.c.R): 292 bytes
+  - .c.C (../datasets/repcorpus/logs/Android.c.C): 473,276 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	104857600 bytes
+Output (.c):	17328685 bytes
+GCIS Compression Time: 5085ms
+GCIS Compression Peak Memory: 568398710 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 6425936 bytes
+iRepair Peak Memory (Decompression): 9424 bytes
+GCIS Decompression time: 1525 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 642,920,616, peak: 568,398,710, current: 4,096
+iRepair Compression time: 0.024860 s
+malloc_count ### exiting, total: 13,563,608, peak: 6,425,936, current: 2,493,776
+iRepair Decompression time: 0.004312 s
+malloc_count ### exiting, total: 18,088, peak: 9,424, current: 4,384
+Decompression.
+malloc_count ### exiting, total: 311,834,336, peak: 197,556,670, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Android.r): 16,516,438 bytes
+  - .c.R (../datasets/repcorpus/logs/Android.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/Android.c.C): 47,500 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	104857600 bytes
+Output (.c):	17101871 bytes
+GCIS Compression Time: 5087ms
+GCIS Compression Peak Memory: 568398710 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1132680 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1328 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 643,193,208, peak: 568,398,710, current: 4,096
+iRepair Compression time: 0.001789 s
+malloc_count ### exiting, total: 1,947,152, peak: 1,132,680, current: 677,000
+iRepair Decompression time: 0.000518 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 311,584,088, peak: 197,329,934, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Android.r): 16,526,856 bytes
+  - .c.R (../datasets/repcorpus/logs/Android.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/Android.c.C): 11,028 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	104857600 bytes
+Output (.c):	17152665 bytes
+GCIS Compression Time: 5049ms
+GCIS Compression Peak Memory: 568398710 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 676064 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1455 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 643,241,048, peak: 568,398,710, current: 4,096
+iRepair Compression time: 0.000640 s
+malloc_count ### exiting, total: 851,560, peak: 676,064, current: 564,448
+iRepair Decompression time: 0.000239 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 311,638,472, peak: 197,380,806, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Android.r): 16,529,002 bytes
+  - .c.R (../datasets/repcorpus/logs/Android.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/Android.c.C): 2,348 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	104857600 bytes
+Output (.c):	17222979 bytes
+GCIS Compression Time: 5101ms
+GCIS Compression Peak Memory: 568398710 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 562912 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1448 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 644,485,216, peak: 568,398,710, current: 4,096
+iRepair Compression time: 0.000587 s
+malloc_count ### exiting, total: 602,768, peak: 562,912, current: 536,840
+iRepair Decompression time: 0.000174 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 311,708,232, peak: 197,451,198, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Android.r): 16,529,460 bytes
+  - .c.R (../datasets/repcorpus/logs/Android.c.R): 20 bytes
+  - .c.C (../datasets/repcorpus/logs/Android.c.C): 732 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	104857600 bytes
+Output (.c):	17298677 bytes
+GCIS Compression Time: 5097ms
+GCIS Compression Peak Memory: 568398710 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 540064 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 1425 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 644,490,848, peak: 568,398,710, current: 4,096
+iRepair Compression time: 0.000998 s
+malloc_count ### exiting, total: 555,344, peak: 540,064, current: 531,400
+iRepair Decompression time: 0.000066 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 311,784,176, peak: 197,526,974, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Android.r): 16,529,630 bytes
+  - .c.R (../datasets/repcorpus/logs/Android.c.R): 20 bytes
+  - .c.C (../datasets/repcorpus/logs/Android.c.C): 228 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	104857600 bytes
+Output (.c):	17375191 bytes
+GCIS Compression Time: 5197ms
+GCIS Compression Peak Memory: 568398710 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 538216 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 1312 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 644,494,992, peak: 568,398,710, current: 4,096
+iRepair Compression time: 0.000920 s
+malloc_count ### exiting, total: 553,496, peak: 538,216, current: 529,552
+iRepair Decompression time: 0.000080 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 311,860,776, peak: 197,603,566, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Android.r): 16,529,728 bytes
+  - .c.R (../datasets/repcorpus/logs/Android.c.R): 20 bytes
+  - .c.C (../datasets/repcorpus/logs/Android.c.C): 68 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	104857600 bytes
+Output (.c):	17451977 bytes
+GCIS Compression Time: 5063ms
+GCIS Compression Peak Memory: 568398710 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 537568 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 1444 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 644,498,324, peak: 568,398,710, current: 4,096
+iRepair Compression time: 0.000945 s
+malloc_count ### exiting, total: 552,848, peak: 537,568, current: 528,904
+iRepair Decompression time: 0.000084 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 311,937,640, peak: 197,680,430, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Android.r): 16,529,818 bytes
+  - .c.R (../datasets/repcorpus/logs/Android.c.R): 4 bytes
+  - .c.C (../datasets/repcorpus/logs/Android.c.C): 24 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	104857600 bytes
+Output (.c):	17528859 bytes
+GCIS Compression Time: 5195ms
+GCIS Compression Peak Memory: 568398710 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 531696 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 1323 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 644,501,392, peak: 568,398,710, current: 4,096
+iRepair Compression time: 0.000982 s
+malloc_count ### exiting, total: 549,496, peak: 533,192, current: 528,624
+iRepair Decompression time: 0.000118 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 312,014,616, peak: 197,757,390, current: 4,096
+
+========================================
+
+=== LEVEL 13 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/logs/Android ../datasets/repcorpus/logs/Android -s8b 13' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+malloc(): invalid size (unsorted)
+Aborted
+
+
+========================================
+

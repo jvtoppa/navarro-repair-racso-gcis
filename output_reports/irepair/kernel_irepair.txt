@@ -1,0 +1,478 @@
+=== IREPAIR Report for kernel ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/kernel.r): 320,266 bytes
+  - .c.R (../datasets/repcorpus/real/kernel.c.R): 9,888,988 bytes
+  - .c.C (../datasets/repcorpus/real/kernel.c.C): 313,156 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	257961616 bytes
+Output (.c):	595561739 bytes
+GCIS Compression Time: 9337ms
+GCIS Compression Peak Memory: 1885453948 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1832930224 bytes
+iRepair Peak Memory (Decompression): 9898120 bytes
+GCIS Decompression time: 2153 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,889,793,380, peak: 1,885,457,264, current: 4,096
+iRepair Compression time: 50.846526 s
+malloc_count ### exiting, total: 53,660,414,096, peak: 1,832,930,224, current: 10,819,308
+iRepair Decompression time: 6.653554 s
+malloc_count ### exiting, total: 9,906,784, peak: 9,898,120, current: 9,893,080
+Decompression.
+malloc_count ### exiting, total: 1,451,719,588, peak: 1,450,215,048, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/kernel.r): 2,529,700 bytes
+  - .c.R (../datasets/repcorpus/real/kernel.c.R): 9,160,508 bytes
+  - .c.C (../datasets/repcorpus/real/kernel.c.C): 329,316 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	257961616 bytes
+Output (.c):	194642645 bytes
+GCIS Compression Time: 12261ms
+GCIS Compression Peak Memory: 1484667316 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 661583368 bytes
+iRepair Peak Memory (Decompression): 9169640 bytes
+GCIS Decompression time: 3242 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,504,896,156, peak: 1,484,669,608, current: 4,096
+iRepair Compression time: 16.756071 s
+malloc_count ### exiting, total: 8,452,374,376, peak: 661,583,368, current: 18,293,968
+iRepair Decompression time: 2.169706 s
+malloc_count ### exiting, total: 9,178,304, peak: 9,169,640, current: 9,164,600
+Decompression.
+malloc_count ### exiting, total: 827,689,676, peak: 621,521,456, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/kernel.r): 4,573,310 bytes
+  - .c.R (../datasets/repcorpus/real/kernel.c.R): 4,617,036 bytes
+  - .c.C (../datasets/repcorpus/real/kernel.c.C): 242,452 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	257961616 bytes
+Output (.c):	69129407 bytes
+GCIS Compression Time: 13141ms
+GCIS Compression Peak Memory: 1359281532 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 235609232 bytes
+iRepair Peak Memory (Decompression): 4626168 bytes
+GCIS Decompression time: 3566 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,390,664,476, peak: 1,359,283,824, current: 4,096
+iRepair Compression time: 4.997407 s
+malloc_count ### exiting, total: 2,694,904,184, peak: 235,609,232, current: 9,371,100
+iRepair Decompression time: 0.592210 s
+malloc_count ### exiting, total: 4,634,832, peak: 4,626,168, current: 4,621,128
+Decompression.
+malloc_count ### exiting, total: 641,577,180, peak: 496,008,296, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/kernel.r): 5,496,176 bytes
+  - .c.R (../datasets/repcorpus/real/kernel.c.R): 1,925,852 bytes
+  - .c.C (../datasets/repcorpus/real/kernel.c.C): 152,620 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	257961616 bytes
+Output (.c):	27591665 bytes
+GCIS Compression Time: 13512ms
+GCIS Compression Peak Memory: 1317703972 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 86693864 bytes
+iRepair Peak Memory (Decompression): 1934984 bytes
+GCIS Decompression time: 3744 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,354,116,884, peak: 1,317,706,264, current: 4,096
+iRepair Compression time: 1.607845 s
+malloc_count ### exiting, total: 1,020,412,312, peak: 86,693,864, current: 4,839,692
+iRepair Decompression time: 0.159419 s
+malloc_count ### exiting, total: 1,943,648, peak: 1,934,984, current: 1,929,944
+Decompression.
+malloc_count ### exiting, total: 579,551,284, peak: 454,470,632, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/kernel.r): 5,890,898 bytes
+  - .c.R (../datasets/repcorpus/real/kernel.c.R): 745,524 bytes
+  - .c.C (../datasets/repcorpus/real/kernel.c.C): 95,504 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	257961616 bytes
+Output (.c):	12788019 bytes
+GCIS Compression Time: 13446ms
+GCIS Compression Peak Memory: 1306383860 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 24854080 bytes
+iRepair Peak Memory (Decompression): 754656 bytes
+GCIS Decompression time: 3691 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,342,058,756, peak: 1,306,383,860, current: 4,096
+iRepair Compression time: 0.490223 s
+malloc_count ### exiting, total: 326,222,844, peak: 24,854,080, current: 1,429,416
+iRepair Decompression time: 0.040699 s
+malloc_count ### exiting, total: 763,320, peak: 754,656, current: 749,616
+Decompression.
+malloc_count ### exiting, total: 556,871,156, peak: 439,667,064, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/kernel.r): 6,044,860 bytes
+  - .c.R (../datasets/repcorpus/real/kernel.c.R): 309,764 bytes
+  - .c.C (../datasets/repcorpus/real/kernel.c.C): 62,632 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	257961616 bytes
+Output (.c):	8480693 bytes
+GCIS Compression Time: 13455ms
+GCIS Compression Peak Memory: 1306383860 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 8413032 bytes
+iRepair Peak Memory (Decompression): 318896 bytes
+GCIS Decompression time: 3747 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,338,654,956, peak: 1,306,383,860, current: 4,096
+iRepair Compression time: 0.107601 s
+malloc_count ### exiting, total: 111,345,124, peak: 8,413,032, current: 937,928
+iRepair Decompression time: 0.015330 s
+malloc_count ### exiting, total: 327,560, peak: 318,896, current: 313,856
+Decompression.
+malloc_count ### exiting, total: 550,187,756, peak: 435,359,824, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/kernel.r): 6,114,134 bytes
+  - .c.R (../datasets/repcorpus/real/kernel.c.R): 136,004 bytes
+  - .c.C (../datasets/repcorpus/real/kernel.c.C): 41,452 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	257961616 bytes
+Output (.c):	7262263 bytes
+GCIS Compression Time: 13476ms
+GCIS Compression Peak Memory: 1306383860 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 3308624 bytes
+iRepair Peak Memory (Decompression): 145136 bytes
+GCIS Decompression time: 3771 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,337,838,788, peak: 1,306,383,860, current: 4,096
+iRepair Compression time: 0.034079 s
+malloc_count ### exiting, total: 41,863,816, peak: 3,308,624, current: 779,084
+iRepair Decompression time: 0.005381 s
+malloc_count ### exiting, total: 153,800, peak: 145,136, current: 140,096
+Decompression.
+malloc_count ### exiting, total: 548,322,748, peak: 434,141,472, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/kernel.r): 6,147,560 bytes
+  - .c.R (../datasets/repcorpus/real/kernel.c.R): 57,012 bytes
+  - .c.C (../datasets/repcorpus/real/kernel.c.C): 27,996 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	257961616 bytes
+Output (.c):	6951241 bytes
+GCIS Compression Time: 13483ms
+GCIS Compression Peak Memory: 1306383860 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1594728 bytes
+iRepair Peak Memory (Decompression): 66144 bytes
+GCIS Decompression time: 3689 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,337,699,796, peak: 1,306,383,860, current: 4,096
+iRepair Compression time: 0.007771 s
+malloc_count ### exiting, total: 15,275,756, peak: 1,594,728, current: 682,240
+iRepair Decompression time: 0.001667 s
+malloc_count ### exiting, total: 74,808, peak: 66,144, current: 61,104
+Decompression.
+malloc_count ### exiting, total: 547,852,324, peak: 433,830,528, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/kernel.r): 6,163,714 bytes
+  - .c.R (../datasets/repcorpus/real/kernel.c.R): 21,556 bytes
+  - .c.C (../datasets/repcorpus/real/kernel.c.C): 17,744 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	257961616 bytes
+Output (.c):	6915555 bytes
+GCIS Compression Time: 13521ms
+GCIS Compression Peak Memory: 1306383860 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 962704 bytes
+iRepair Peak Memory (Decompression): 30688 bytes
+GCIS Decompression time: 3812 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,338,948,964, peak: 1,306,383,860, current: 4,096
+iRepair Compression time: 0.007022 s
+malloc_count ### exiting, total: 5,429,984, peak: 962,704, current: 625,584
+iRepair Decompression time: 0.000578 s
+malloc_count ### exiting, total: 39,352, peak: 30,688, current: 25,648
+Decompression.
+malloc_count ### exiting, total: 547,789,364, peak: 433,794,920, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/kernel.r): 6,171,316 bytes
+  - .c.R (../datasets/repcorpus/real/kernel.c.R): 6,252 bytes
+  - .c.C (../datasets/repcorpus/real/kernel.c.C): 10,772 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	257961616 bytes
+Output (.c):	6959589 bytes
+GCIS Compression Time: 13478ms
+GCIS Compression Peak Memory: 1306383860 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 716688 bytes
+iRepair Peak Memory (Decompression): 15384 bytes
+GCIS Decompression time: 3785 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,338,982,980, peak: 1,306,383,860, current: 4,096
+iRepair Compression time: 0.000879 s
+malloc_count ### exiting, total: 1,834,264, peak: 716,688, current: 591,760
+iRepair Decompression time: 0.000234 s
+malloc_count ### exiting, total: 24,048, peak: 15,384, current: 10,344
+Decompression.
+malloc_count ### exiting, total: 547,833,828, peak: 433,839,032, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/kernel.r): 6,174,534 bytes
+  - .c.R (../datasets/repcorpus/real/kernel.c.R): 1,036 bytes
+  - .c.C (../datasets/repcorpus/real/kernel.c.C): 5,144 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	257961616 bytes
+Output (.c):	7026247 bytes
+GCIS Compression Time: 13477ms
+GCIS Compression Peak Memory: 1306383860 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 608168 bytes
+iRepair Peak Memory (Decompression): 10168 bytes
+GCIS Decompression time: 3771 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,339,003,116, peak: 1,306,383,860, current: 4,096
+iRepair Compression time: 0.000437 s
+malloc_count ### exiting, total: 821,552, peak: 608,168, current: 549,800
+iRepair Decompression time: 0.000117 s
+malloc_count ### exiting, total: 18,832, peak: 10,168, current: 5,128
+Decompression.
+malloc_count ### exiting, total: 547,902,324, peak: 433,905,768, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/kernel.r): 6,175,696 bytes
+  - .c.R (../datasets/repcorpus/real/kernel.c.R): 76 bytes
+  - .c.C (../datasets/repcorpus/real/kernel.c.C): 1,748 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	257961616 bytes
+Output (.c):	7099681 bytes
+GCIS Compression Time: 13489ms
+GCIS Compression Peak Memory: 1306383860 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 549872 bytes
+iRepair Peak Memory (Decompression): 9208 bytes
+GCIS Decompression time: 3801 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,339,012,492, peak: 1,306,383,860, current: 4,096
+iRepair Compression time: 0.003576 s
+malloc_count ### exiting, total: 580,512, peak: 549,872, current: 535,064
+iRepair Decompression time: 0.000075 s
+malloc_count ### exiting, total: 17,872, peak: 9,208, current: 4,168
+Decompression.
+malloc_count ### exiting, total: 547,976,036, peak: 433,979,280, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/kernel.r): 6,176,026 bytes
+  - .c.R (../datasets/repcorpus/real/kernel.c.R): 20 bytes
+  - .c.C (../datasets/repcorpus/real/kernel.c.C): 540 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	257961616 bytes
+Output (.c):	7175595 bytes
+GCIS Compression Time: 13632ms
+GCIS Compression Peak Memory: 1306383860 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 539376 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 3801 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,339,018,268, peak: 1,306,383,860, current: 4,096
+iRepair Compression time: 0.011749 s
+malloc_count ### exiting, total: 554,656, peak: 539,376, current: 530,712
+iRepair Decompression time: 0.000080 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 548,052,020, peak: 434,055,272, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/kernel.r): 6,176,180 bytes
+  - .c.R (../datasets/repcorpus/real/kernel.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/real/kernel.c.C): 268 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	257961616 bytes
+Output (.c):	7252317 bytes
+GCIS Compression Time: 13556ms
+GCIS Compression Peak Memory: 1306383860 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 537344 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 3765 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,339,022,388, peak: 1,306,383,860, current: 4,096
+iRepair Compression time: 0.000430 s
+malloc_count ### exiting, total: 552,624, peak: 537,344, current: 529,704
+iRepair Decompression time: 0.000094 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 548,129,028, peak: 434,132,072, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/kernel.r): 6,176,286 bytes
+  - .c.R (../datasets/repcorpus/real/kernel.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/real/kernel.c.C): 76 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	257961616 bytes
+Output (.c):	7329079 bytes
+GCIS Compression Time: 13514ms
+GCIS Compression Peak Memory: 1306383860 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536544 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 3748 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,339,025,744, peak: 1,306,383,860, current: 4,096
+iRepair Compression time: 0.003331 s
+malloc_count ### exiting, total: 551,824, peak: 536,544, current: 528,904
+iRepair Decompression time: 0.000072 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 548,205,884, peak: 434,208,920, current: 4,096
+
+========================================
+
+=== LEVEL 15 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/kernel.r): 6,176,376 bytes
+  - .c.R (../datasets/repcorpus/real/kernel.c.R): 4 bytes
+  - .c.C (../datasets/repcorpus/real/kernel.c.C): 32 bytes
+
+--- STDOUT ---
+Max Level = 15
+Input:	257961616 bytes
+Output (.c):	7405969 bytes
+GCIS Compression Time: 13463ms
+GCIS Compression Peak Memory: 1306383860 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 531720 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 3801 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,339,028,844, peak: 1,306,383,860, current: 4,096
+iRepair Compression time: 0.005489 s
+malloc_count ### exiting, total: 549,520, peak: 533,216, current: 528,648
+iRepair Decompression time: 0.000117 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 548,282,884, peak: 434,285,888, current: 4,096
+
+========================================
+
+=== LEVEL 16 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/real/kernel ../datasets/repcorpus/real/kernel -s8b 16' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

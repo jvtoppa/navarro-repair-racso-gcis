@@ -1,0 +1,478 @@
+=== IREPAIR Report for cere ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/cere.r): 2,496,890 bytes
+  - .c.R (../datasets/repcorpus/real/cere.c.R): 21,115,732 bytes
+  - .c.C (../datasets/repcorpus/real/cere.c.C): 2,571,984 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	461286644 bytes
+Output (.c):	963914611 bytes
+GCIS Compression Time: 16635ms
+GCIS Compression Peak Memory: 3270391284 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 2911770256 bytes
+iRepair Peak Memory (Decompression): 21124864 bytes
+GCIS Decompression time: 3530 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 3,293,315,200, peak: 3,270,394,600, current: 4,096
+iRepair Compression time: 79.225437 s
+malloc_count ### exiting, total: 96,890,624,228, peak: 2,911,770,256, current: 45,689,068
+iRepair Decompression time: 12.851672 s
+malloc_count ### exiting, total: 21,133,528, peak: 21,124,864, current: 21,119,824
+Decompression.
+malloc_count ### exiting, total: 2,445,151,544, peak: 2,415,858,100, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/cere.r): 6,118,636 bytes
+  - .c.R (../datasets/repcorpus/real/cere.c.R): 21,744,836 bytes
+  - .c.C (../datasets/repcorpus/real/cere.c.C): 2,635,052 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	461286644 bytes
+Output (.c):	311440565 bytes
+GCIS Compression Time: 22616ms
+GCIS Compression Peak Memory: 2618070468 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1082715416 bytes
+iRepair Peak Memory (Decompression): 21753968 bytes
+GCIS Decompression time: 6948 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,674,196,744, peak: 2,618,072,760, current: 4,096
+iRepair Compression time: 32.114583 s
+malloc_count ### exiting, total: 10,441,845,796, peak: 1,082,715,416, current: 48,352,360
+iRepair Decompression time: 5.672074 s
+malloc_count ### exiting, total: 21,762,632, peak: 21,753,968, current: 21,748,928
+Decompression.
+malloc_count ### exiting, total: 1,388,390,144, peak: 1,027,357,524, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/cere.r): 11,373,454 bytes
+  - .c.R (../datasets/repcorpus/real/cere.c.R): 11,396,476 bytes
+  - .c.C (../datasets/repcorpus/real/cere.c.C): 2,361,864 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	461286644 bytes
+Output (.c):	111048887 bytes
+GCIS Compression Time: 24686ms
+GCIS Compression Peak Memory: 2417981916 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 382860488 bytes
+iRepair Peak Memory (Decompression): 11405608 bytes
+GCIS Decompression time: 7979 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,501,210,944, peak: 2,417,984,208, current: 4,096
+iRepair Compression time: 10.374721 s
+malloc_count ### exiting, total: 3,984,630,400, peak: 382,860,488, current: 26,383,468
+iRepair Decompression time: 1.483879 s
+malloc_count ### exiting, total: 11,414,272, peak: 11,405,608, current: 11,400,568
+Decompression.
+malloc_count ### exiting, total: 1,100,804,608, peak: 826,965,924, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/cere.r): 14,326,656 bytes
+  - .c.R (../datasets/repcorpus/real/cere.c.R): 6,069,316 bytes
+  - .c.C (../datasets/repcorpus/real/cere.c.C): 1,966,380 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	461286644 bytes
+Output (.c):	47058937 bytes
+GCIS Compression Time: 25333ms
+GCIS Compression Peak Memory: 2354090924 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 139273792 bytes
+iRepair Peak Memory (Decompression): 6078448 bytes
+GCIS Decompression time: 8270 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,453,556,992, peak: 2,354,093,216, current: 4,096
+iRepair Compression time: 4.069733 s
+malloc_count ### exiting, total: 1,606,383,020, peak: 139,273,792, current: 14,631,836
+iRepair Decompression time: 0.484349 s
+malloc_count ### exiting, total: 6,087,112, peak: 6,078,448, current: 6,073,408
+Decompression.
+malloc_count ### exiting, total: 1,012,032,360, peak: 762,976,052, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/cere.r): 16,199,042 bytes
+  - .c.R (../datasets/repcorpus/real/cere.c.R): 3,068,044 bytes
+  - .c.C (../datasets/repcorpus/real/cere.c.C): 1,543,252 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	461286644 bytes
+Output (.c):	27133419 bytes
+GCIS Compression Time: 25550ms
+GCIS Compression Peak Memory: 2342588972 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 72390136 bytes
+iRepair Peak Memory (Decompression): 3077176 bytes
+GCIS Decompression time: 8332 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,445,029,984, peak: 2,342,588,972, current: 4,096
+iRepair Compression time: 1.405131 s
+malloc_count ### exiting, total: 685,406,500, peak: 72,390,136, current: 16,396,276
+iRepair Decompression time: 0.083885 s
+malloc_count ### exiting, total: 3,085,840, peak: 3,077,176, current: 3,072,136
+Decompression.
+malloc_count ### exiting, total: 987,224,184, peak: 743,050,612, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/cere.r): 17,407,412 bytes
+  - .c.R (../datasets/repcorpus/real/cere.c.R): 1,212,860 bytes
+  - .c.C (../datasets/repcorpus/real/cere.c.C): 1,084,740 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	461286644 bytes
+Output (.c):	21271765 bytes
+GCIS Compression Time: 25823ms
+GCIS Compression Peak Memory: 2342588972 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 30862336 bytes
+iRepair Peak Memory (Decompression): 1221992 bytes
+GCIS Decompression time: 8487 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,446,058,376, peak: 2,342,588,972, current: 4,096
+iRepair Compression time: 0.404581 s
+malloc_count ### exiting, total: 248,168,060, peak: 30,862,336, current: 9,354,972
+iRepair Decompression time: 0.020444 s
+malloc_count ### exiting, total: 1,230,656, peak: 1,221,992, current: 1,216,952
+Decompression.
+malloc_count ### exiting, total: 981,859,264, peak: 737,189,036, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/cere.r): 18,016,446 bytes
+  - .c.R (../datasets/repcorpus/real/cere.c.R): 354,228 bytes
+  - .c.C (../datasets/repcorpus/real/cere.c.C): 616,108 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	461286644 bytes
+Output (.c):	19684951 bytes
+GCIS Compression Time: 26501ms
+GCIS Compression Peak Memory: 2342588972 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 13604176 bytes
+iRepair Peak Memory (Decompression): 363360 bytes
+GCIS Decompression time: 8987 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,448,004,256, peak: 2,342,588,972, current: 4,096
+iRepair Compression time: 0.123280 s
+malloc_count ### exiting, total: 78,042,840, peak: 13,604,176, current: 5,522,768
+iRepair Decompression time: 0.009358 s
+malloc_count ### exiting, total: 372,024, peak: 363,360, current: 358,320
+Decompression.
+malloc_count ### exiting, total: 981,059,072, peak: 735,602,300, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/cere.r): 18,275,832 bytes
+  - .c.R (../datasets/repcorpus/real/cere.c.R): 69,908 bytes
+  - .c.C (../datasets/repcorpus/real/cere.c.C): 279,368 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	461286644 bytes
+Output (.c):	19254897 bytes
+GCIS Compression Time: 25575ms
+GCIS Compression Peak Memory: 2342588972 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 6148880 bytes
+iRepair Peak Memory (Decompression): 79040 bytes
+GCIS Decompression time: 8320 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,449,043,128, peak: 2,342,588,972, current: 4,096
+iRepair Compression time: 0.022199 s
+malloc_count ### exiting, total: 22,490,264, peak: 6,148,880, current: 2,162,448
+iRepair Decompression time: 0.003311 s
+malloc_count ### exiting, total: 87,704, peak: 79,040, current: 74,000
+Decompression.
+malloc_count ### exiting, total: 980,997,536, peak: 735,172,324, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/cere.r): 18,368,034 bytes
+  - .c.R (../datasets/repcorpus/real/cere.c.R): 7,732 bytes
+  - .c.C (../datasets/repcorpus/real/cere.c.C): 111,252 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	461286644 bytes
+Output (.c):	19179579 bytes
+GCIS Compression Time: 25534ms
+GCIS Compression Peak Memory: 2342588972 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1817440 bytes
+iRepair Peak Memory (Decompression): 16864 bytes
+GCIS Decompression time: 8364 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,450,702,792, peak: 2,342,588,972, current: 4,096
+iRepair Compression time: 0.003393 s
+malloc_count ### exiting, total: 4,493,544, peak: 1,817,440, current: 897,888
+iRepair Decompression time: 0.001186 s
+malloc_count ### exiting, total: 25,528, peak: 16,864, current: 11,824
+Decompression.
+malloc_count ### exiting, total: 981,059,688, peak: 735,097,084, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/cere.r): 18,396,716 bytes
+  - .c.R (../datasets/repcorpus/real/cere.c.R): 212 bytes
+  - .c.C (../datasets/repcorpus/real/cere.c.C): 39,100 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	461286644 bytes
+Output (.c):	19204493 bytes
+GCIS Compression Time: 25524ms
+GCIS Compression Peak Memory: 2342588972 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1107576 bytes
+iRepair Peak Memory (Decompression): 9344 bytes
+GCIS Decompression time: 8499 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,450,853,296, peak: 2,342,588,972, current: 4,096
+iRepair Compression time: 0.006444 s
+malloc_count ### exiting, total: 1,947,648, peak: 1,107,576, current: 651,896
+iRepair Decompression time: 0.000439 s
+malloc_count ### exiting, total: 18,008, peak: 9,344, current: 4,304
+Decompression.
+malloc_count ### exiting, total: 981,121,880, peak: 735,122,076, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/cere.r): 18,405,454 bytes
+  - .c.R (../datasets/repcorpus/real/cere.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/real/cere.c.C): 12,220 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	461286644 bytes
+Output (.c):	19262999 bytes
+GCIS Compression Time: 25562ms
+GCIS Compression Peak Memory: 2342588972 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 679808 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 8330 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,450,903,160, peak: 2,342,588,972, current: 4,096
+iRepair Compression time: 0.000713 s
+malloc_count ### exiting, total: 855,304, peak: 679,808, current: 568,192
+iRepair Decompression time: 0.000204 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 981,189,568, peak: 735,180,660, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/cere.r): 18,407,848 bytes
+  - .c.R (../datasets/repcorpus/real/cere.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/real/cere.c.C): 3,964 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	461286644 bytes
+Output (.c):	19333985 bytes
+GCIS Compression Time: 25522ms
+GCIS Compression Peak Memory: 2342588972 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 568152 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 8334 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,450,920,664, peak: 2,342,588,972, current: 4,096
+iRepair Compression time: 0.000435 s
+malloc_count ### exiting, total: 608,008, peak: 568,152, current: 542,080
+iRepair Decompression time: 0.000272 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 981,262,680, peak: 735,251,724, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/cere.r): 18,408,546 bytes
+  - .c.R (../datasets/repcorpus/real/cere.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/real/cere.c.C): 1,236 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	461286644 bytes
+Output (.c):	19408803 bytes
+GCIS Compression Time: 25592ms
+GCIS Compression Peak Memory: 2342588972 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 546896 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 8536 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,450,928,008, peak: 2,342,588,972, current: 4,096
+iRepair Compression time: 0.000324 s
+malloc_count ### exiting, total: 570,368, peak: 546,896, current: 533,112
+iRepair Decompression time: 0.000198 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 981,337,792, peak: 735,326,620, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/cere.r): 18,408,796 bytes
+  - .c.R (../datasets/repcorpus/real/cere.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/real/cere.c.C): 340 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	461286644 bytes
+Output (.c):	19485005 bytes
+GCIS Compression Time: 25760ms
+GCIS Compression Peak Memory: 2342588972 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 537616 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 8442 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,450,932,816, peak: 2,342,588,972, current: 4,096
+iRepair Compression time: 0.000923 s
+malloc_count ### exiting, total: 552,896, peak: 537,616, current: 529,976
+iRepair Decompression time: 0.000073 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 981,414,008, peak: 735,402,900, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/cere.r): 18,408,910 bytes
+  - .c.R (../datasets/repcorpus/real/cere.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/real/cere.c.C): 92 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	461286644 bytes
+Output (.c):	19561719 bytes
+GCIS Compression Time: 25595ms
+GCIS Compression Peak Memory: 2342588972 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536592 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 8452 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,450,936,264, peak: 2,342,588,972, current: 4,096
+iRepair Compression time: 0.000904 s
+malloc_count ### exiting, total: 551,872, peak: 536,592, current: 528,952
+iRepair Decompression time: 0.000073 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 981,490,768, peak: 735,479,692, current: 4,096
+
+========================================
+
+=== LEVEL 15 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/cere.r): 18,409,000 bytes
+  - .c.R (../datasets/repcorpus/real/cere.c.R): 4 bytes
+  - .c.C (../datasets/repcorpus/real/cere.c.C): 32 bytes
+
+--- STDOUT ---
+Max Level = 15
+Input:	461286644 bytes
+Output (.c):	19638593 bytes
+GCIS Compression Time: 25711ms
+GCIS Compression Peak Memory: 2342588972 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 531720 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 8973 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,450,939,372, peak: 2,342,588,972, current: 4,096
+iRepair Compression time: 0.021577 s
+malloc_count ### exiting, total: 549,520, peak: 533,216, current: 528,648
+iRepair Decompression time: 0.000063 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 981,567,736, peak: 735,556,644, current: 4,096
+
+========================================
+
+=== LEVEL 16 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/real/cere ../datasets/repcorpus/real/cere -s8b 16' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

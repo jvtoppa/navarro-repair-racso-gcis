@@ -1,0 +1,420 @@
+=== IREPAIR Report for pitches ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 6,261,058 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 23,068,948 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 29,204,904 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	55832855 bytes
+Output (.c):	134871643 bytes
+GCIS Compression Time: 2847ms
+GCIS Compression Peak Memory: 416059555 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 715263720 bytes
+iRepair Peak Memory (Decompression): 23078080 bytes
+GCIS Decompression time: 1040 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 495,791,063, peak: 416,062,871, current: 4,096
+iRepair Compression time: 21.415039 s
+malloc_count ### exiting, total: 9,242,622,836, peak: 715,263,720, current: 163,830,720
+iRepair Decompression time: 1.978448 s
+malloc_count ### exiting, total: 23,086,744, peak: 23,078,080, current: 23,073,040
+Decompression.
+malloc_count ### exiting, total: 370,355,819, peak: 344,808,291, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 28,605,444 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 9,727,244 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 19,377,716 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	55832855 bytes
+Output (.c):	66954013 bytes
+GCIS Compression Time: 4292ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 437557352 bytes
+iRepair Peak Memory (Decompression): 9736376 bytes
+GCIS Decompression time: 3189 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 537,340,079, peak: 397,127,371, current: 4,096
+iRepair Compression time: 12.623202 s
+malloc_count ### exiting, total: 2,613,132,784, peak: 437,557,352, current: 181,870,696
+iRepair Decompression time: 0.503928 s
+malloc_count ### exiting, total: 9,745,040, peak: 9,736,376, current: 9,731,336
+Decompression.
+malloc_count ### exiting, total: 335,585,747, peak: 192,540,467, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 38,627,614 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 2,570,516 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 7,833,404 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	55832855 bytes
+Output (.c):	50723879 bytes
+GCIS Compression Time: 6789ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 196802664 bytes
+iRepair Peak Memory (Decompression): 2579648 bytes
+GCIS Decompression time: 2667 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 567,340,623, peak: 397,127,371, current: 4,096
+iRepair Compression time: 3.110411 s
+malloc_count ### exiting, total: 797,302,256, peak: 196,802,664, current: 69,252,200
+iRepair Decompression time: 0.110511 s
+malloc_count ### exiting, total: 2,588,312, peak: 2,579,648, current: 2,574,608
+Decompression.
+malloc_count ### exiting, total: 335,317,043, peak: 176,310,411, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 42,131,336 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 589,108 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 2,857,720 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	55832855 bytes
+Output (.c):	46049945 bytes
+GCIS Compression Time: 7722ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 50948880 bytes
+iRepair Peak Memory (Decompression): 598240 bytes
+GCIS Decompression time: 2656 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 579,228,575, peak: 397,127,371, current: 4,096
+iRepair Compression time: 0.687177 s
+malloc_count ### exiting, total: 191,727,768, peak: 50,948,880, current: 19,279,632
+iRepair Decompression time: 0.024747 s
+malloc_count ### exiting, total: 606,904, peak: 598,240, current: 593,200
+Decompression.
+malloc_count ### exiting, total: 336,240,699, peak: 171,636,555, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 43,189,090 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 120,964 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 963,820 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	55832855 bytes
+Output (.c):	44673307 bytes
+GCIS Compression Time: 5892ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 13339976 bytes
+iRepair Peak Memory (Decompression): 130096 bytes
+GCIS Decompression time: 2397 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 583,843,887, peak: 397,127,371, current: 4,096
+iRepair Compression time: 0.091588 s
+malloc_count ### exiting, total: 44,196,560, peak: 13,339,976, current: 5,430,600
+iRepair Decompression time: 0.009754 s
+malloc_count ### exiting, total: 138,760, peak: 130,096, current: 125,056
+Decompression.
+malloc_count ### exiting, total: 336,450,379, peak: 170,259,995, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 43,491,444 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 21,684 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 314,548 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	55832855 bytes
+Output (.c):	44290373 bytes
+GCIS Compression Time: 7747ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 6025936 bytes
+iRepair Peak Memory (Decompression): 30816 bytes
+GCIS Decompression time: 2785 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 585,139,551, peak: 397,127,371, current: 4,096
+iRepair Compression time: 0.022108 s
+malloc_count ### exiting, total: 16,003,160, peak: 6,025,936, current: 2,082,512
+iRepair Decompression time: 0.003662 s
+malloc_count ### exiting, total: 39,480, peak: 30,816, current: 25,776
+Decompression.
+malloc_count ### exiting, total: 336,486,787, peak: 169,877,139, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 43,581,686 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 2,436 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 103,800 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	55832855 bytes
+Output (.c):	44226087 bytes
+GCIS Compression Time: 6375ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1775512 bytes
+iRepair Peak Memory (Decompression): 11568 bytes
+GCIS Decompression time: 2150 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 585,557,695, peak: 397,127,371, current: 4,096
+iRepair Compression time: 0.003628 s
+malloc_count ### exiting, total: 3,783,968, peak: 1,775,512, current: 856,984
+iRepair Decompression time: 0.001145 s
+malloc_count ### exiting, total: 20,232, peak: 11,568, current: 6,528
+Decompression.
+malloc_count ### exiting, total: 336,547,603, peak: 169,812,931, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 43,607,176 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 92 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 33,580 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	55832855 bytes
+Output (.c):	44255617 bytes
+GCIS Compression Time: 7577ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1090208 bytes
+iRepair Peak Memory (Decompression): 9224 bytes
+GCIS Decompression time: 2596 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 585,689,239, peak: 397,127,371, current: 4,096
+iRepair Compression time: 0.002541 s
+malloc_count ### exiting, total: 1,915,944, peak: 1,090,208, current: 634,528
+iRepair Decompression time: 0.001057 s
+malloc_count ### exiting, total: 17,888, peak: 9,224, current: 4,184
+Decompression.
+malloc_count ### exiting, total: 336,607,891, peak: 169,842,539, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 43,614,690 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 12 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 10,828 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	55832855 bytes
+Output (.c):	44317147 bytes
+GCIS Compression Time: 6239ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 675464 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2199 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 586,965,399, peak: 397,127,371, current: 4,096
+iRepair Compression time: 0.008589 s
+malloc_count ### exiting, total: 850,960, peak: 675,464, current: 563,848
+iRepair Decompression time: 0.000228 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 336,678,027, peak: 169,904,147, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 43,616,820 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 12 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 3,564 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	55832855 bytes
+Output (.c):	44388861 bytes
+GCIS Compression Time: 7336ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 566840 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2378 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 586,981,439, peak: 397,127,371, current: 4,096
+iRepair Compression time: 0.012484 s
+malloc_count ### exiting, total: 606,696, peak: 566,840, current: 540,768
+iRepair Decompression time: 0.116376 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 336,751,739, peak: 169,975,939, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 43,617,462 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 20 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 1,148 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	55832855 bytes
+Output (.c):	44463943 bytes
+GCIS Compression Time: 6138ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 547680 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 2155 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 586,988,487, peak: 397,127,371, current: 4,096
+iRepair Compression time: 0.029032 s
+malloc_count ### exiting, total: 571,152, peak: 547,680, current: 532,872
+iRepair Decompression time: 0.044297 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 336,827,187, peak: 170,051,099, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 43,617,704 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 12 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 332 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	55832855 bytes
+Output (.c):	44540209 bytes
+GCIS Compression Time: 5773ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 537592 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1761 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 586,993,223, peak: 397,127,371, current: 4,096
+iRepair Compression time: 0.013341 s
+malloc_count ### exiting, total: 552,872, peak: 537,592, current: 529,952
+iRepair Decompression time: 0.017458 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 336,903,507, peak: 170,127,443, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 43,617,818 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 12 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 92 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	55832855 bytes
+Output (.c):	44616931 bytes
+GCIS Compression Time: 4820ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536592 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1800 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 586,996,667, peak: 397,127,371, current: 4,096
+iRepair Compression time: 0.101771 s
+malloc_count ### exiting, total: 551,872, peak: 536,592, current: 528,952
+iRepair Decompression time: 0.040163 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 336,980,283, peak: 170,204,243, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 43,617,908 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 4 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 32 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	55832855 bytes
+Output (.c):	44693805 bytes
+GCIS Compression Time: 4608ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 531720 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 1678 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 586,999,775, peak: 397,127,371, current: 4,096
+iRepair Compression time: 0.081457 s
+malloc_count ### exiting, total: 549,520, peak: 533,216, current: 528,648
+iRepair Decompression time: 0.087259 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 337,057,251, peak: 170,281,195, current: 4,096
+
+========================================
+
+=== LEVEL 14 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/texts/music/pitches ../datasets/texts/music/pitches -s8b 14' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

@@ -1,0 +1,14 @@
+=== IREPAIR Report for english ===
+
+=== LEVEL 0 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -c ../datasets/texts/nlang/english ../datasets/texts/nlang/english -s8b 0' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+GCIS Compression.
+terminate called after throwing an instance of 'std::bad_array_new_length'
+  what():  std::bad_array_new_length
+Aborted
+
+
+========================================
+

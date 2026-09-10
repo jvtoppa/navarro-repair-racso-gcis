@@ -1,0 +1,829 @@
+=== BIGREPAIR Report for Horspool ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 258 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 157,980 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 707,576 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	571839680 bytes
+Output (.c):	1309816715 bytes
+GCIS Compression Time: 11724ms
+GCIS Compression Peak Memory: 4169034224 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Horspool.c -w 10 -p 100 -c
+Parsing time: 32.5774
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Horspool.c.dicz
+Preprocess time: 0.0012
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.dicz.int 489834
+repair(dict) time: 0.0027
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.parse 489834
+repair(parse) time: 0.8545
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Horspool.c
+Postprocess time: 0.0094
+Elapsed time: 33.8986
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Horspool.c
+Elapsed time: 18.6460
+==== Done
+GCIS Decompression time: 2985 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 4,169,056,724, peak: 4,169,037,540, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Horspool.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Horspool.c 
+Decompression.
+malloc_count ### exiting, total: 3,191,427,868, peak: 3,191,423,200, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 428 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 157,820 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 707,532 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	571839680 bytes
+Output (.c):	546237733 bytes
+GCIS Compression Time: 14903ms
+GCIS Compression Peak Memory: 3405456360 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Horspool.c -w 10 -p 100 -c
+Parsing time: 15.4179
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Horspool.c.dicz
+Preprocess time: 0.0015
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.dicz.int 489834
+repair(dict) time: 0.0016
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.parse 489834
+repair(parse) time: 1.6448
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Horspool.c
+Postprocess time: 0.0110
+Elapsed time: 17.0956
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Horspool.c
+Elapsed time: 7.8105
+==== Done
+GCIS Decompression time: 2962 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 3,405,560,376, peak: 3,405,458,652, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Horspool.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Horspool.c 
+Decompression.
+malloc_count ### exiting, total: 1,786,981,628, peak: 1,240,892,776, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 574 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 160,628 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 705,036 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	571839680 bytes
+Output (.c):	76596775 bytes
+GCIS Compression Time: 15819ms
+GCIS Compression Peak Memory: 2935892464 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Horspool.c -w 10 -p 100 -c
+Parsing time: 2.3027
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Horspool.c.dicz
+Preprocess time: 0.0007
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.dicz.int 489834
+repair(dict) time: 0.0013
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.parse 489834
+repair(parse) time: 0.3456
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Horspool.c
+Postprocess time: 0.0068
+Elapsed time: 2.6616
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Horspool.c
+Elapsed time: 1.0235
+==== Done
+GCIS Decompression time: 2761 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,936,154,468, peak: 2,935,894,756, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Horspool.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Horspool.c 
+Decompression.
+malloc_count ### exiting, total: 898,818,460, peak: 771,251,896, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 672 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 161,532 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 707,488 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	571839680 bytes
+Output (.c):	38490873 bytes
+GCIS Compression Time: 16358ms
+GCIS Compression Peak Memory: 2897709656 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Horspool.c -w 10 -p 100 -c
+Parsing time: 1.3820
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Horspool.c.dicz
+Preprocess time: 0.0007
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.dicz.int 489834
+repair(dict) time: 0.0012
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.parse 489834
+repair(parse) time: 0.5078
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Horspool.c
+Postprocess time: 0.0099
+Elapsed time: 1.9077
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Horspool.c
+Elapsed time: 0.6587
+==== Done
+GCIS Decompression time: 2800 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,897,975,060, peak: 2,897,711,948, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Horspool.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Horspool.c 
+Decompression.
+malloc_count ### exiting, total: 828,496,036, peak: 733,146,072, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 778 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 164,620 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 703,752 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	571839680 bytes
+Output (.c):	16595275 bytes
+GCIS Compression Time: 15927ms
+GCIS Compression Peak Memory: 2876045096 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Horspool.c -w 10 -p 100 -c
+Parsing time: 0.6741
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Horspool.c.dicz
+Preprocess time: 0.0036
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.dicz.int 489834
+repair(dict) time: 0.0099
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.parse 489834
+repair(parse) time: 0.1855
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Horspool.c
+Postprocess time: 0.0094
+Elapsed time: 0.8842
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Horspool.c
+Elapsed time: 0.2342
+==== Done
+GCIS Decompression time: 2827 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,876,622,004, peak: 2,876,047,388, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Horspool.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Horspool.c 
+Decompression.
+malloc_count ### exiting, total: 787,014,700, peak: 711,250,552, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 7,548 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 1,537,060 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 73,304 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	571839680 bytes
+Output (.c):	3474237 bytes
+GCIS Compression Time: 15923ms
+GCIS Compression Peak Memory: 2862847912 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Horspool.c -w 10 -p 100 -c
+Parsing time: 0.1645
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Horspool.c.dicz
+Preprocess time: 0.0610
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.dicz.int 489834
+repair(dict) time: 0.6856
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.parse 489834
+repair(parse) time: 0.0051
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Horspool.c
+Postprocess time: 0.0074
+Elapsed time: 0.9256
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Horspool.c
+Elapsed time: 0.0664
+==== Done
+GCIS Decompression time: 2780 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,863,525,940, peak: 2,862,850,204, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Horspool.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Horspool.c 
+Decompression.
+malloc_count ### exiting, total: 762,035,668, peak: 698,129,592, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 259,574 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 1,556,540 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 43,192 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	571839680 bytes
+Output (.c):	1772119 bytes
+GCIS Compression Time: 15979ms
+GCIS Compression Peak Memory: 2862616040 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Horspool.c -w 10 -p 100 -c
+Parsing time: 0.1316
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Horspool.c.dicz
+Preprocess time: 0.0206
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.dicz.int 489834
+repair(dict) time: 0.3972
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.parse 489834
+repair(parse) time: 0.0034
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Horspool.c
+Postprocess time: 0.0102
+Elapsed time: 0.5645
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Horspool.c
+Elapsed time: 0.0256
+==== Done
+GCIS Decompression time: 2776 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,864,520,276, peak: 2,862,616,040, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Horspool.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Horspool.c 
+Decompression.
+malloc_count ### exiting, total: 760,709,436, peak: 696,427,552, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 531,848 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 521,772 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 13,976 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	571839680 bytes
+Output (.c):	1464033 bytes
+GCIS Compression Time: 15965ms
+GCIS Compression Peak Memory: 2862616040 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Horspool.c -w 10 -p 100 -c
+Parsing time: 0.0203
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Horspool.c.dicz
+Preprocess time: 0.0072
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.dicz.int 489834
+repair(dict) time: 0.0686
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.parse 489834
+repair(parse) time: 0.0023
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Horspool.c
+Postprocess time: 0.0055
+Elapsed time: 0.1056
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Horspool.c
+Elapsed time: 0.0085
+==== Done
+GCIS Decompression time: 2776 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,865,742,092, peak: 2,862,616,040, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Horspool.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Horspool.c 
+Decompression.
+malloc_count ### exiting, total: 760,836,724, peak: 696,119,544, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 617,074 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 171,612 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 4,600 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	571839680 bytes
+Output (.c):	1411731 bytes
+GCIS Compression Time: 16099ms
+GCIS Compression Peak Memory: 2862616040 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Horspool.c -w 10 -p 100 -c
+Parsing time: 0.0085
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Horspool.c.dicz
+Preprocess time: 0.0045
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.dicz.int 489834
+repair(dict) time: 0.0192
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.parse 489834
+repair(parse) time: 0.0014
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Horspool.c
+Postprocess time: 0.0039
+Elapsed time: 0.0389
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Horspool.c
+Elapsed time: 0.0035
+==== Done
+GCIS Decompression time: 3152 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,867,383,084, peak: 2,862,616,040, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Horspool.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Horspool.c 
+Decompression.
+malloc_count ### exiting, total: 760,911,116, peak: 696,067,328, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 641,548 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 56,036 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 1,460 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	571839680 bytes
+Output (.c):	1443229 bytes
+GCIS Compression Time: 15975ms
+GCIS Compression Peak Memory: 2862616040 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Horspool.c -w 10 -p 100 -c
+Parsing time: 0.0046
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Horspool.c.dicz
+Preprocess time: 0.0023
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.dicz.int 489834
+repair(dict) time: 0.0084
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Horspool.c
+Postprocess time: 0.0014
+Elapsed time: 0.0187
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Horspool.c
+Elapsed time: 0.0016
+==== Done
+GCIS Decompression time: 2983 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,867,512,724, peak: 2,862,616,040, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Horspool.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Horspool.c 
+Decompression.
+malloc_count ### exiting, total: 760,973,716, peak: 696,098,904, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 648,958 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 18,532 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 524 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	571839680 bytes
+Output (.c):	1505095 bytes
+GCIS Compression Time: 15941ms
+GCIS Compression Peak Memory: 2862616040 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Horspool.c -w 10 -p 100 -c
+Parsing time: 0.0036
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Horspool.c.dicz
+Preprocess time: 0.0024
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.dicz.int 489834
+repair(dict) time: 0.0031
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Horspool.c
+Postprocess time: 0.0012
+Elapsed time: 0.0128
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Horspool.c
+Elapsed time: 0.0013
+==== Done
+GCIS Decompression time: 2822 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,867,557,020, peak: 2,862,616,040, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Horspool.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Horspool.c 
+Decompression.
+malloc_count ### exiting, total: 761,044,324, peak: 696,160,848, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 651,088 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 6,388 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 176 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	571839680 bytes
+Output (.c):	1576745 bytes
+GCIS Compression Time: 15896ms
+GCIS Compression Peak Memory: 2862616040 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Horspool.c -w 10 -p 100 -c
+Parsing time: 0.0041
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Horspool.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.dicz.int 489834
+repair(dict) time: 0.0016
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.parse 489834
+repair(parse) time: 0.0025
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Horspool.c
+Postprocess time: 0.0015
+Elapsed time: 0.0127
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Horspool.c
+Elapsed time: 0.0014
+==== Done
+GCIS Decompression time: 2836 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,867,572,812, peak: 2,862,616,040, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Horspool.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Horspool.c 
+Decompression.
+malloc_count ### exiting, total: 761,117,828, peak: 696,232,576, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 651,714 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 2,268 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 76 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	571839680 bytes
+Output (.c):	1651859 bytes
+GCIS Compression Time: 15901ms
+GCIS Compression Peak Memory: 2862616040 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Horspool.c -w 10 -p 100 -c
+Parsing time: 0.0029
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Horspool.c.dicz
+Preprocess time: 0.0007
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.dicz.int 489834
+repair(dict) time: 0.0012
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.parse 489834
+repair(parse) time: 0.0026
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Horspool.c
+Postprocess time: 0.0011
+Elapsed time: 0.0100
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Horspool.c
+Elapsed time: 0.0020
+==== Done
+GCIS Decompression time: 2918 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,867,579,756, peak: 2,862,616,040, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Horspool.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Horspool.c 
+Decompression.
+malloc_count ### exiting, total: 761,193,300, peak: 696,307,768, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 651,948 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 740 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 40 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	571839680 bytes
+Output (.c):	1728165 bytes
+GCIS Compression Time: 15881ms
+GCIS Compression Peak Memory: 2862616040 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Horspool.c -w 10 -p 100 -c
+Parsing time: 0.0029
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Horspool.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.dicz.int 489834
+repair(dict) time: 0.0028
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Horspool.c
+Postprocess time: 0.0010
+Elapsed time: 0.0115
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Horspool.c
+Elapsed time: 0.0009
+==== Done
+GCIS Decompression time: 2952 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,867,584,524, peak: 2,862,616,040, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Horspool.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Horspool.c 
+Decompression.
+malloc_count ### exiting, total: 761,269,724, peak: 696,384,160, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 652,062 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 268 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 32 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	571839680 bytes
+Output (.c):	1804887 bytes
+GCIS Compression Time: 15835ms
+GCIS Compression Peak Memory: 2862616040 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Horspool.c -w 10 -p 100 -c
+Parsing time: 0.0024
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Horspool.c.dicz
+Preprocess time: 0.0007
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.dicz.int 489834
+repair(dict) time: 0.0024
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.parse 489834
+repair(parse) time: 0.0027
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Horspool.c
+Postprocess time: 0.0010
+Elapsed time: 0.0110
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Horspool.c
+Elapsed time: 0.0013
+==== Done
+GCIS Decompression time: 2784 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,867,588,016, peak: 2,862,616,040, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Horspool.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Horspool.c 
+Decompression.
+malloc_count ### exiting, total: 761,346,524, peak: 696,460,960, current: 4,096
+
+========================================
+
+=== LEVEL 15 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 652,152 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 84 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 24 bytes
+
+--- STDOUT ---
+Max Level = 15
+Input:	571839680 bytes
+Output (.c):	1881745 bytes
+GCIS Compression Time: 15899ms
+GCIS Compression Peak Memory: 2862616040 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Horspool.c -w 10 -p 100 -c
+Parsing time: 0.0030
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Horspool.c.dicz
+Preprocess time: 0.0007
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.dicz.int 489834
+repair(dict) time: 0.0021
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.parse 489834
+repair(parse) time: 0.0018
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Horspool.c
+Postprocess time: 0.0021
+Elapsed time: 0.0115
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Horspool.c
+Elapsed time: 0.0012
+==== Done
+GCIS Decompression time: 2787 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,867,591,132, peak: 2,862,616,040, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Horspool.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Horspool.c 
+Decompression.
+malloc_count ### exiting, total: 761,423,460, peak: 696,537,896, current: 4,096
+
+========================================
+
+=== LEVEL 16 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Horspool.r): 652,242 bytes
+  - .c.R (../datasets/repcorpus/logs/Horspool.c.R): 68 bytes
+  - .c.C (../datasets/repcorpus/logs/Horspool.c.C): 4 bytes
+
+--- STDOUT ---
+Max Level = 16
+Input:	571839680 bytes
+Output (.c):	1958667 bytes
+GCIS Compression Time: 15842ms
+GCIS Compression Peak Memory: 2863602428 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Horspool.c -w 10 -p 100 -c
+Parsing time: 0.0032
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Horspool.c.dicz
+Preprocess time: 0.0014
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.dicz.int 489834
+repair(dict) time: 0.0020
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Horspool.c.parse 489834
+repair(parse) time: 0.0010
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Horspool.c
+Postprocess time: 0.0010
+Elapsed time: 0.0107
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Horspool.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Horspool.c
+Elapsed time: 0.0012
+==== Done
+GCIS Decompression time: 2790 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,870,057,688, peak: 2,863,602,428, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Horspool.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Horspool.c 
+Decompression.
+malloc_count ### exiting, total: 761,500,532, peak: 696,614,896, current: 4,096
+
+========================================
+
+=== LEVEL 17 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -c ../datasets/repcorpus/logs/Horspool ../datasets/repcorpus/logs/Horspool -s8b 17' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+GCIS Compression.
+double free or corruption (out)
+Aborted
+
+
+========================================
+

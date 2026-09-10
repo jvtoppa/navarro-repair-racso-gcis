@@ -1,0 +1,40 @@
+=== IREPAIR Report for english.200MB ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.200MB.r): 935,146 bytes
+  - .c.R (../datasets/texts/nlang/english.200MB.c.R): 51,937,452 bytes
+  - .c.C (../datasets/texts/nlang/english.200MB.c.C): 55,457,700 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	209715200 bytes
+Output (.c):	526679091 bytes
+GCIS Compression Time: 8137ms
+GCIS Compression Peak Memory: 1575395116 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1744727800 bytes
+iRepair Peak Memory (Decompression): 51946584 bytes
+GCIS Decompression time: 2712 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,588,087,244, peak: 1,575,398,432, current: 4,096
+iRepair Compression time: 65.236737 s
+malloc_count ### exiting, total: 53,544,676,612, peak: 1,744,727,800, current: 264,876,712
+iRepair Decompression time: 9.793106 s
+malloc_count ### exiting, total: 51,955,248, peak: 51,946,584, current: 51,941,544
+Decompression.
+malloc_count ### exiting, total: 1,271,660,364, peak: 1,266,872,140, current: 4,096
+
+========================================
+
+=== LEVEL 1 (ERROR) ===
+Error message: Command '.././repair/irepair ../datasets/texts/nlang/english.200MB.c' returned non-zero exit status 139.
+
+--- STDERR BEFORE FAILURE ---
+Segmentation fault
+
+
+========================================
+

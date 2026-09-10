@@ -1,0 +1,420 @@
+=== IREPAIR Report for dblp.xml.50MB ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.50MB.r): 551,674 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.50MB.c.R): 3,983,020 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.50MB.c.C): 9,379,648 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	52428800 bytes
+Output (.c):	120210003 bytes
+GCIS Compression Time: 1730ms
+GCIS Compression Peak Memory: 382384624 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 401644976 bytes
+iRepair Peak Memory (Decompression): 3992152 bytes
+GCIS Decompression time: 406 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 390,481,708, peak: 382,387,940, current: 4,096
+iRepair Compression time: 11.369488 s
+malloc_count ### exiting, total: 14,594,423,220, peak: 401,644,976, current: 53,505,880
+iRepair Decompression time: 1.900531 s
+malloc_count ### exiting, total: 4,000,816, peak: 3,992,152, current: 3,987,112
+Decompression.
+malloc_count ### exiting, total: 297,897,836, peak: 295,070,324, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.50MB.r): 4,784,148 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.50MB.c.R): 3,306,916 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.50MB.c.C): 10,505,884 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	52428800 bytes
+Output (.c):	50164669 bytes
+GCIS Compression Time: 2471ms
+GCIS Compression Peak Memory: 312615176 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 298498456 bytes
+iRepair Peak Memory (Decompression): 3316048 bytes
+GCIS Decompression time: 659 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 352,349,884, peak: 312,617,468, current: 4,096
+iRepair Compression time: 5.561753 s
+malloc_count ### exiting, total: 5,475,972,856, peak: 298,498,456, current: 67,665,132
+iRepair Decompression time: 0.507790 s
+malloc_count ### exiting, total: 3,324,712, peak: 3,316,048, current: 3,311,008
+Decompression.
+malloc_count ### exiting, total: 217,028,036, peak: 144,933,740, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.50MB.r): 9,962,582 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.50MB.c.R): 1,184,252 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.50MB.c.C): 8,641,412 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	52428800 bytes
+Output (.c):	26614631 bytes
+GCIS Compression Time: 2851ms
+GCIS Compression Peak Memory: 300869592 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 210137856 bytes
+iRepair Peak Memory (Decompression): 1193384 bytes
+GCIS Decompression time: 791 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 362,316,716, peak: 300,869,592, current: 4,096
+iRepair Compression time: 2.285313 s
+malloc_count ### exiting, total: 1,074,808,968, peak: 210,137,856, current: 82,936,576
+iRepair Decompression time: 0.103029 s
+malloc_count ### exiting, total: 1,202,048, peak: 1,193,384, current: 1,188,344
+Decompression.
+malloc_count ### exiting, total: 205,586,804, peak: 117,394,372, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.50MB.r): 14,044,312 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.50MB.c.R): 148,148 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.50MB.c.C): 5,503,256 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	52428800 bytes
+Output (.c):	20567529 bytes
+GCIS Compression Time: 3020ms
+GCIS Compression Peak Memory: 300869592 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 98631312 bytes
+iRepair Peak Memory (Decompression): 157280 bytes
+GCIS Decompression time: 924 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 379,152,268, peak: 300,869,592, current: 4,096
+iRepair Compression time: 0.804133 s
+malloc_count ### exiting, total: 288,512,024, peak: 98,631,312, current: 35,498,640
+iRepair Decompression time: 0.054230 s
+malloc_count ### exiting, total: 165,944, peak: 157,280, current: 152,240
+Decompression.
+malloc_count ### exiting, total: 210,056,764, peak: 111,347,348, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.50MB.r): 15,988,698 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.50MB.c.R): 332 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.50MB.c.C): 1,737,476 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	52428800 bytes
+Output (.c):	18110747 bytes
+GCIS Compression Time: 3060ms
+GCIS Compression Peak Memory: 300869592 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 25174376 bytes
+iRepair Peak Memory (Decompression): 9464 bytes
+GCIS Decompression time: 857 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 386,823,204, peak: 300,869,592, current: 4,096
+iRepair Compression time: 0.152928 s
+malloc_count ### exiting, total: 55,065,328, peak: 25,174,376, current: 9,448,808
+iRepair Decompression time: 0.010460 s
+malloc_count ### exiting, total: 18,128, peak: 9,464, current: 4,424
+Decompression.
+malloc_count ### exiting, total: 210,686,780, peak: 108,890,644, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.50MB.r): 16,511,172 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.50MB.c.R): 44 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.50MB.c.C): 679,836 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	52428800 bytes
+Output (.c):	17652125 bytes
+GCIS Compression Time: 3069ms
+GCIS Compression Peak Memory: 300869592 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 12024216 bytes
+iRepair Peak Memory (Decompression): 9176 bytes
+GCIS Decompression time: 862 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 389,428,116, peak: 300,869,592, current: 4,096
+iRepair Compression time: 0.048154 s
+malloc_count ### exiting, total: 26,672,928, peak: 12,024,216, current: 4,163,992
+iRepair Decompression time: 0.005738 s
+malloc_count ### exiting, total: 17,840, peak: 9,176, current: 4,136
+Decompression.
+malloc_count ### exiting, total: 211,316,420, peak: 108,432,100, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.50MB.r): 16,703,942 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.50MB.c.R): 12 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.50MB.c.C): 210,572 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	52428800 bytes
+Output (.c):	17452447 bytes
+GCIS Compression Time: 3075ms
+GCIS Compression Peak Memory: 300869592 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 3004928 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 960 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 390,278,164, peak: 300,869,592, current: 4,096
+iRepair Compression time: 0.008632 s
+malloc_count ### exiting, total: 6,375,304, peak: 3,004,928, current: 1,172,992
+iRepair Decompression time: 0.001976 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 211,399,900, peak: 108,232,500, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.50MB.r): 16,757,120 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.50MB.c.R): 12 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.50MB.c.C): 67,372 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	52428800 bytes
+Output (.c):	17439273 bytes
+GCIS Compression Time: 3073ms
+GCIS Compression Peak Memory: 300869592 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1652224 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 866 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 390,541,788, peak: 300,869,592, current: 4,096
+iRepair Compression time: 0.001448 s
+malloc_count ### exiting, total: 3,318,664, peak: 1,652,224, current: 737,792
+iRepair Decompression time: 0.000780 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 211,459,060, peak: 108,219,404, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.50MB.r): 16,773,170 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.50MB.c.R): 12 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.50MB.c.C): 21,484 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	52428800 bytes
+Output (.c):	17486283 bytes
+GCIS Compression Time: 3129ms
+GCIS Compression Peak Memory: 300869592 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 823296 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1008 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 391,860,012, peak: 300,869,592, current: 4,096
+iRepair Compression time: 0.000822 s
+malloc_count ### exiting, total: 1,211,784, peak: 823,296, current: 596,992
+iRepair Decompression time: 0.000673 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 211,525,988, peak: 108,266,492, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.50MB.r): 16,777,644 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.50MB.c.R): 12 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.50MB.c.C): 6,716 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	52428800 bytes
+Output (.c):	17552837 bytes
+GCIS Compression Time: 3073ms
+GCIS Compression Peak Memory: 300869592 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 605112 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 973 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 391,888,212, peak: 300,869,592, current: 4,096
+iRepair Compression time: 0.000392 s
+malloc_count ### exiting, total: 674,112, peak: 605,112, current: 550,840
+iRepair Decompression time: 0.000130 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 211,596,676, peak: 108,333,124, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.50MB.r): 16,778,886 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.50MB.c.R): 12 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.50MB.c.C): 2,036 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	52428800 bytes
+Output (.c):	17626247 bytes
+GCIS Compression Time: 3156ms
+GCIS Compression Peak Memory: 300869592 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 549576 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 863 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 391,898,596, peak: 300,869,592, current: 4,096
+iRepair Compression time: 0.000436 s
+malloc_count ### exiting, total: 573,048, peak: 549,576, current: 535,792
+iRepair Decompression time: 0.000165 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 211,670,700, peak: 108,406,612, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.50MB.r): 16,779,256 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.50MB.c.R): 20 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.50MB.c.C): 572 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	52428800 bytes
+Output (.c):	17702009 bytes
+GCIS Compression Time: 3049ms
+GCIS Compression Peak Memory: 300869592 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 539528 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 867 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 391,904,684, peak: 300,869,592, current: 4,096
+iRepair Compression time: 0.000401 s
+malloc_count ### exiting, total: 554,808, peak: 539,528, current: 530,864
+iRepair Decompression time: 0.000092 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 211,746,460, peak: 108,482,452, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.50MB.r): 16,779,410 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.50MB.c.R): 20 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.50MB.c.C): 156 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	52428800 bytes
+Output (.c):	17778595 bytes
+GCIS Compression Time: 3053ms
+GCIS Compression Peak Memory: 300869592 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 537944 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 961 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 391,908,516, peak: 300,869,592, current: 4,096
+iRepair Compression time: 0.000421 s
+malloc_count ### exiting, total: 553,224, peak: 537,944, current: 529,280
+iRepair Decompression time: 0.000123 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 211,823,092, peak: 108,559,116, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.50MB.r): 16,779,508 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.50MB.c.R): 20 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.50MB.c.C): 28 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	52428800 bytes
+Output (.c):	17855413 bytes
+GCIS Compression Time: 3157ms
+GCIS Compression Peak Memory: 300869592 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 537392 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 978 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 391,911,692, peak: 300,869,592, current: 4,096
+iRepair Compression time: 0.000983 s
+malloc_count ### exiting, total: 552,672, peak: 537,392, current: 528,728
+iRepair Decompression time: 0.000132 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 211,899,972, peak: 108,636,012, current: 4,096
+
+========================================
+
+=== LEVEL 14 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/texts/xml/dblp.xml.50MB ../datasets/texts/xml/dblp.xml.50MB -s8b 14' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

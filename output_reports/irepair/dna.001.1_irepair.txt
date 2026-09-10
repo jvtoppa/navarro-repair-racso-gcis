@@ -1,0 +1,477 @@
+=== IREPAIR Report for dna.001.1 ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dna.001.1.r): 13,594 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dna.001.1.c.R): 2,193,124 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dna.001.1.c.C): 2,064,544 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	104857600 bytes
+Output (.c):	232671283 bytes
+GCIS Compression Time: 3713ms
+GCIS Compression Peak Memory: 756979992 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 705162968 bytes
+iRepair Peak Memory (Decompression): 2202256 bytes
+GCIS Decompression time: 820 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 757,176,788, peak: 756,983,308, current: 4,096
+iRepair Compression time: 22.012873 s
+malloc_count ### exiting, total: 73,212,455,336, peak: 705,162,968, current: 13,427,928
+iRepair Decompression time: 3.118947 s
+malloc_count ### exiting, total: 2,210,920, peak: 2,202,256, current: 2,197,216
+Decompression.
+malloc_count ### exiting, total: 570,313,436, peak: 570,222,844, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dna.001.1.r): 680,348 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dna.001.1.c.R): 1,976,308 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dna.001.1.c.C): 2,111,968 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	104857600 bytes
+Output (.c):	73012901 bytes
+GCIS Compression Time: 4822ms
+GCIS Compression Peak Memory: 597413272 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 237688656 bytes
+iRepair Peak Memory (Decompression): 1985440 bytes
+GCIS Decompression time: 1124 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 604,115,972, peak: 597,415,564, current: 4,096
+iRepair Compression time: 7.714006 s
+malloc_count ### exiting, total: 27,950,732,572, peak: 237,688,656, current: 11,202,416
+iRepair Decompression time: 0.953146 s
+malloc_count ### exiting, total: 1,994,104, peak: 1,985,440, current: 1,980,400
+Decompression.
+malloc_count ### exiting, total: 301,987,836, peak: 225,226,676, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dna.001.1.r): 1,683,806 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dna.001.1.c.R): 989,084 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dna.001.1.c.C): 1,708,748 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	104857600 bytes
+Output (.c):	25305799 bytes
+GCIS Compression Time: 5211ms
+GCIS Compression Peak Memory: 549841192 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 90722248 bytes
+iRepair Peak Memory (Decompression): 998216 bytes
+GCIS Decompression time: 1250 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 562,903,396, peak: 549,843,484, current: 4,096
+iRepair Compression time: 2.544334 s
+malloc_count ### exiting, total: 10,081,445,068, peak: 90,722,248, current: 13,104,544
+iRepair Decompression time: 0.259329 s
+malloc_count ### exiting, total: 1,006,880, peak: 998,216, current: 993,176
+Decompression.
+malloc_count ### exiting, total: 229,982,220, peak: 177,519,652, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dna.001.1.r): 2,483,232 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dna.001.1.c.R): 454,980 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dna.001.1.c.C): 1,335,400 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	104857600 bytes
+Output (.c):	10443945 bytes
+GCIS Compression Time: 5320ms
+GCIS Compression Peak Memory: 534924984 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 43123248 bytes
+iRepair Peak Memory (Decompression): 464112 bytes
+GCIS Decompression time: 1296 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 553,016,076, peak: 534,927,276, current: 4,096
+iRepair Compression time: 0.785889 s
+malloc_count ### exiting, total: 2,307,837,324, peak: 43,123,248, current: 10,015,492
+iRepair Decompression time: 0.051197 s
+malloc_count ### exiting, total: 472,776, peak: 464,112, current: 459,072
+Decompression.
+malloc_count ### exiting, total: 209,438,436, peak: 162,657,876, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dna.001.1.r): 3,137,058 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dna.001.1.c.R): 161,684 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dna.001.1.c.C): 985,416 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	104857600 bytes
+Output (.c):	5983179 bytes
+GCIS Compression Time: 5447ms
+GCIS Compression Peak Memory: 532036816 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 17455608 bytes
+iRepair Peak Memory (Decompression): 170816 bytes
+GCIS Decompression time: 1315 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 553,265,116, peak: 532,036,816, current: 4,096
+iRepair Compression time: 0.192068 s
+malloc_count ### exiting, total: 85,526,568, peak: 17,455,608, current: 5,837,920
+iRepair Decompression time: 0.014958 s
+malloc_count ### exiting, total: 179,480, peak: 170,816, current: 165,776
+Decompression.
+malloc_count ### exiting, total: 204,728,884, peak: 158,197,188, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dna.001.1.r): 3,565,436 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dna.001.1.c.R): 29,652 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dna.001.1.c.C): 608,332 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	104857600 bytes
+Output (.c):	4816989 bytes
+GCIS Compression Time: 5653ms
+GCIS Compression Peak Memory: 532036816 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 12405936 bytes
+iRepair Peak Memory (Decompression): 38784 bytes
+GCIS Decompression time: 1464 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 554,767,556, peak: 532,036,816, current: 4,096
+iRepair Compression time: 0.055175 s
+malloc_count ### exiting, total: 31,115,832, peak: 12,405,936, current: 4,497,584
+iRepair Decompression time: 0.007173 s
+malloc_count ### exiting, total: 47,448, peak: 38,784, current: 33,744
+Decompression.
+malloc_count ### exiting, total: 204,202,148, peak: 157,031,076, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dna.001.1.r): 3,769,686 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dna.001.1.c.R): 2,636 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dna.001.1.c.C): 251,816 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	104857600 bytes
+Output (.c):	4564527 bytes
+GCIS Compression Time: 5490ms
+GCIS Compression Peak Memory: 532036816 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 3157568 bytes
+iRepair Peak Memory (Decompression): 11768 bytes
+GCIS Decompression time: 1502 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 555,684,180, peak: 532,036,816, current: 4,096
+iRepair Compression time: 0.010663 s
+malloc_count ### exiting, total: 6,903,752, peak: 3,157,568, current: 1,313,344
+iRepair Decompression time: 0.001825 s
+malloc_count ### exiting, total: 20,432, peak: 11,768, current: 6,728
+Decompression.
+malloc_count ### exiting, total: 204,293,292, peak: 156,778,692, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dna.001.1.r): 3,834,200 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dna.001.1.c.R): 28 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dna.001.1.c.C): 82,756 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	104857600 bytes
+Output (.c):	4531753 bytes
+GCIS Compression Time: 5629ms
+GCIS Compression Peak Memory: 532036816 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1699208 bytes
+iRepair Peak Memory (Decompression): 9160 bytes
+GCIS Decompression time: 1526 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 556,006,220, peak: 532,036,816, current: 4,096
+iRepair Compression time: 0.002464 s
+malloc_count ### exiting, total: 3,368,720, peak: 1,699,208, current: 784,776
+iRepair Decompression time: 0.000904 s
+malloc_count ### exiting, total: 17,824, peak: 9,160, current: 4,120
+Decompression.
+malloc_count ### exiting, total: 204,349,884, peak: 156,745,996, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dna.001.1.r): 3,853,610 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dna.001.1.c.R): 20 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dna.001.1.c.C): 25,820 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	104857600 bytes
+Output (.c):	4571067 bytes
+GCIS Compression Time: 5470ms
+GCIS Compression Peak Memory: 532036816 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 836720 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 1303 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 557,340,844, peak: 532,036,816, current: 4,096
+iRepair Compression time: 0.000684 s
+malloc_count ### exiting, total: 1,226,232, peak: 836,720, current: 610,416
+iRepair Decompression time: 0.000306 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 204,412,508, peak: 156,785,388, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dna.001.1.r): 3,858,940 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dna.001.1.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dna.001.1.c.C): 9,724 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	104857600 bytes
+Output (.c):	4637141 bytes
+GCIS Compression Time: 5270ms
+GCIS Compression Peak Memory: 532036816 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 671984 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1439 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 557,378,948, peak: 532,036,816, current: 4,096
+iRepair Compression time: 0.000609 s
+malloc_count ### exiting, total: 847,480, peak: 671,984, current: 560,368
+iRepair Decompression time: 0.000380 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 204,486,836, peak: 156,851,540, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dna.001.1.r): 3,860,838 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dna.001.1.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dna.001.1.c.C): 3,244 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	104857600 bytes
+Output (.c):	4709407 bytes
+GCIS Compression Time: 5407ms
+GCIS Compression Peak Memory: 532036816 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 565824 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1378 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 557,393,828, peak: 532,036,816, current: 4,096
+iRepair Compression time: 0.001115 s
+malloc_count ### exiting, total: 605,680, peak: 565,824, current: 539,752
+iRepair Decompression time: 0.000086 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 204,560,988, peak: 156,923,884, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dna.001.1.r): 3,861,416 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dna.001.1.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dna.001.1.c.C): 812 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	104857600 bytes
+Output (.c):	4784401 bytes
+GCIS Compression Time: 5344ms
+GCIS Compression Peak Memory: 532036816 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 539312 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1313 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 557,399,804, peak: 532,036,816, current: 4,096
+iRepair Compression time: 0.000319 s
+malloc_count ### exiting, total: 554,592, peak: 539,312, current: 531,672
+iRepair Decompression time: 0.000067 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 204,635,836, peak: 156,998,956, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dna.001.1.r): 3,861,594 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dna.001.1.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dna.001.1.c.C): 268 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	104857600 bytes
+Output (.c):	4860883 bytes
+GCIS Compression Time: 5240ms
+GCIS Compression Peak Memory: 532036816 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 537344 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1489 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 557,404,088, peak: 532,036,816, current: 4,096
+iRepair Compression time: 0.020946 s
+malloc_count ### exiting, total: 552,624, peak: 537,344, current: 529,704
+iRepair Decompression time: 0.000142 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 204,712,420, peak: 157,075,516, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dna.001.1.r): 3,861,700 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dna.001.1.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dna.001.1.c.C): 92 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	104857600 bytes
+Output (.c):	4937661 bytes
+GCIS Compression Time: 5730ms
+GCIS Compression Peak Memory: 532036816 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536592 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1315 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 557,407,492, peak: 532,036,816, current: 4,096
+iRepair Compression time: 0.000990 s
+malloc_count ### exiting, total: 551,872, peak: 536,592, current: 528,952
+iRepair Decompression time: 0.000060 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 204,789,300, peak: 157,152,372, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dna.001.1.r): 3,861,790 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dna.001.1.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dna.001.1.c.C): 28 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	104857600 bytes
+Output (.c):	5014535 bytes
+GCIS Compression Time: 5453ms
+GCIS Compression Peak Memory: 532036816 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536288 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1339 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 557,410,592, peak: 532,036,816, current: 4,096
+iRepair Compression time: 0.000314 s
+malloc_count ### exiting, total: 551,568, peak: 536,288, current: 528,648
+iRepair Decompression time: 0.000054 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 204,866,268, peak: 157,229,324, current: 4,096
+
+========================================
+
+=== LEVEL 15 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dna.001.1.r): 3,861,880 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dna.001.1.c.R): 4 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dna.001.1.c.C): 16 bytes
+
+--- STDOUT ---
+Max Level = 15
+Input:	104857600 bytes
+Output (.c):	5091457 bytes
+GCIS Compression Time: 5413ms
+GCIS Compression Peak Memory: 532036816 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 531616 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 1435 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 557,413,660, peak: 532,036,816, current: 4,096
+iRepair Compression time: 0.000314 s
+malloc_count ### exiting, total: 549,416, peak: 533,112, current: 528,544
+iRepair Decompression time: 0.000092 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 204,943,340, peak: 157,306,324, current: 4,096
+
+========================================
+
+=== LEVEL 16 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -c ../datasets/repcorpus/pseudo-real/dna.001.1 ../datasets/repcorpus/pseudo-real/dna.001.1 -s8b 16' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+GCIS Compression.
+double free or corruption (out)
+Aborted
+
+
+========================================
+

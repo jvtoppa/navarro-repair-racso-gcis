@@ -1,0 +1,273 @@
+=== IREPAIR Report for statistics.pdf ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/statistics.pdf.r): 107,482 bytes
+  - .c.R (../datasets/repcorpus/statistics.pdf.c.R): 10,388 bytes
+  - .c.C (../datasets/repcorpus/statistics.pdf.c.C): 392,708 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	169155 bytes
+Output (.c):	626899 bytes
+GCIS Compression Time: 11ms
+GCIS Compression Peak Memory: 2407593 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 6358856 bytes
+iRepair Peak Memory (Decompression): 19520 bytes
+GCIS Decompression time: 4 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,979,327, peak: 2,407,593, current: 4,096
+iRepair Compression time: 0.022432 s
+malloc_count ### exiting, total: 24,836,304, peak: 6,358,856, current: 2,399,048
+iRepair Decompression time: 0.004529 s
+malloc_count ### exiting, total: 28,184, peak: 19,520, current: 14,480
+Decompression.
+malloc_count ### exiting, total: 1,964,659, peak: 1,791,282, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/statistics.pdf.r): 217,420 bytes
+  - .c.R (../datasets/repcorpus/statistics.pdf.c.R): 2,364 bytes
+  - .c.C (../datasets/repcorpus/statistics.pdf.c.C): 136,484 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	169155 bytes
+Output (.c):	517173 bytes
+GCIS Compression Time: 15ms
+GCIS Compression Peak Memory: 2407593 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 2829744 bytes
+iRepair Peak Memory (Decompression): 11496 bytes
+GCIS Decompression time: 5 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 3,642,735, peak: 2,407,593, current: 4,096
+iRepair Compression time: 0.004384 s
+malloc_count ### exiting, total: 7,876,408, peak: 2,829,744, current: 977,328
+iRepair Decompression time: 0.001399 s
+malloc_count ### exiting, total: 20,160, peak: 11,496, current: 6,456
+Decompression.
+malloc_count ### exiting, total: 2,015,955, peak: 1,349,714, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/statistics.pdf.r): 253,318 bytes
+  - .c.R (../datasets/repcorpus/statistics.pdf.c.R): 588 bytes
+  - .c.C (../datasets/repcorpus/statistics.pdf.c.C): 46,704 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	169155 bytes
+Output (.c):	531615 bytes
+GCIS Compression Time: 18ms
+GCIS Compression Peak Memory: 2407593 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1140672 bytes
+iRepair Peak Memory (Decompression): 9720 bytes
+GCIS Decompression time: 6 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 4,132,647, peak: 2,407,593, current: 4,096
+iRepair Compression time: 0.001394 s
+malloc_count ### exiting, total: 2,092,360, peak: 1,140,672, current: 677,824
+iRepair Decompression time: 0.000486 s
+malloc_count ### exiting, total: 18,384, peak: 9,720, current: 4,680
+Decompression.
+malloc_count ### exiting, total: 2,080,939, peak: 1,364,234, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/statistics.pdf.r): 263,888 bytes
+  - .c.R (../datasets/repcorpus/statistics.pdf.c.R): 60 bytes
+  - .c.C (../datasets/repcorpus/statistics.pdf.c.C): 15,364 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	169155 bytes
+Output (.c):	586729 bytes
+GCIS Compression Time: 18ms
+GCIS Compression Peak Memory: 2407593 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 691944 bytes
+iRepair Peak Memory (Decompression): 9192 bytes
+GCIS Decompression time: 6 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 4,193,215, peak: 2,407,593, current: 4,096
+iRepair Compression time: 0.000630 s
+malloc_count ### exiting, total: 876,656, peak: 691,944, current: 578,280
+iRepair Decompression time: 0.000205 s
+malloc_count ### exiting, total: 17,856, peak: 9,192, current: 4,152
+Decompression.
+malloc_count ### exiting, total: 2,148,307, peak: 1,419,426, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/statistics.pdf.r): 266,890 bytes
+  - .c.R (../datasets/repcorpus/statistics.pdf.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/statistics.pdf.c.C): 5,012 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	169155 bytes
+Output (.c):	656139 bytes
+GCIS Compression Time: 19ms
+GCIS Compression Peak Memory: 2407593 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 599720 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 6 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 4,830,295, peak: 2,407,593, current: 4,096
+iRepair Compression time: 0.001118 s
+malloc_count ### exiting, total: 668,720, peak: 599,720, current: 545,448
+iRepair Decompression time: 0.000121 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 2,220,363, peak: 1,488,914, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/statistics.pdf.r): 267,828 bytes
+  - .c.R (../datasets/repcorpus/statistics.pdf.c.R): 20 bytes
+  - .c.C (../datasets/repcorpus/statistics.pdf.c.C): 1,532 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	169155 bytes
+Output (.c):	730453 bytes
+GCIS Compression Time: 17ms
+GCIS Compression Peak Memory: 2407593 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 548944 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 6 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 4,838,911, peak: 2,407,593, current: 4,096
+iRepair Compression time: 0.000383 s
+malloc_count ### exiting, total: 572,416, peak: 548,944, current: 534,136
+iRepair Decompression time: 0.000078 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 2,295,203, peak: 1,563,306, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/statistics.pdf.r): 268,126 bytes
+  - .c.R (../datasets/repcorpus/statistics.pdf.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/statistics.pdf.c.C): 508 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	169155 bytes
+Output (.c):	806567 bytes
+GCIS Compression Time: 19ms
+GCIS Compression Peak Memory: 2407593 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 538232 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 6 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 4,844,407, peak: 2,407,593, current: 4,096
+iRepair Compression time: 0.000376 s
+malloc_count ### exiting, total: 553,512, peak: 538,232, current: 530,592
+iRepair Decompression time: 0.000066 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 2,371,483, peak: 1,639,498, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/statistics.pdf.r): 268,264 bytes
+  - .c.R (../datasets/repcorpus/statistics.pdf.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/statistics.pdf.c.C): 180 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	169155 bytes
+Output (.c):	883225 bytes
+GCIS Compression Time: 19ms
+GCIS Compression Peak Memory: 2407593 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536968 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 6 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 4,848,235, peak: 2,407,593, current: 4,096
+iRepair Compression time: 0.000309 s
+malloc_count ### exiting, total: 552,248, peak: 536,968, current: 529,328
+iRepair Decompression time: 0.000070 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 2,448,243, peak: 1,716,234, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/statistics.pdf.r): 268,362 bytes
+  - .c.R (../datasets/repcorpus/statistics.pdf.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/statistics.pdf.c.C): 52 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	169155 bytes
+Output (.c):	960043 bytes
+GCIS Compression Time: 19ms
+GCIS Compression Peak Memory: 3003381 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536416 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 6 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 6,083,203, peak: 3,003,381, current: 4,096
+iRepair Compression time: 0.000346 s
+malloc_count ### exiting, total: 551,696, peak: 536,416, current: 528,776
+iRepair Decompression time: 0.000059 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 2,525,139, peak: 1,793,130, current: 4,096
+
+========================================
+
+=== LEVEL 9 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -c ../datasets/repcorpus/statistics.pdf ../datasets/repcorpus/statistics.pdf -s8b 9' returned non-zero exit status 139.
+
+--- STDERR BEFORE FAILURE ---
+GCIS Compression.
+Segmentation fault
+
+
+========================================
+

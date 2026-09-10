@@ -1,0 +1,781 @@
+=== BIGREPAIR Report for para ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/para.r): 1,090,386 bytes
+  - .c.R (../datasets/repcorpus/real/para.c.R): 33,222,724 bytes
+  - .c.C (../datasets/repcorpus/real/para.c.C): 2,559,276 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	429265758 bytes
+Output (.c):	927832963 bytes
+GCIS Compression Time: 15781ms
+GCIS Compression Peak Memory: 3074202518 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/para.c -w 10 -p 100 -c
+Parsing time: 47.6917
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/para.c.dicz
+Preprocess time: 1.6105
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.dicz.int 489834
+repair(dict) time: 361.0878
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.parse 489834
+repair(parse) time: 6.8440
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/para.c
+Postprocess time: 0.1710
+Elapsed time: 417.4170
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/para.c
+Elapsed time: 19.2173
+==== Done
+GCIS Decompression time: 3403 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 3,084,326,930, peak: 3,074,205,834, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/para.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/para.c 
+Decompression.
+malloc_count ### exiting, total: 2,307,920,986, peak: 2,295,853,982, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/para.r): 5,998,476 bytes
+  - .c.R (../datasets/repcorpus/real/para.c.R): 37,286,188 bytes
+  - .c.C (../datasets/repcorpus/real/para.c.C): 1,703,556 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	429265758 bytes
+Output (.c):	300530805 bytes
+GCIS Compression Time: 21735ms
+GCIS Compression Peak Memory: 2447741238 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/para.c -w 10 -p 100 -c
+Parsing time: 14.1322
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/para.c.dicz
+Preprocess time: 0.9238
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.dicz.int 489834
+repair(dict) time: 22.5114
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.parse 489834
+repair(parse) time: 1.5897
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/para.c
+Postprocess time: 0.4473
+Elapsed time: 39.6090
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/para.c
+Elapsed time: 10.3077
+==== Done
+GCIS Decompression time: 6996 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,503,940,186, peak: 2,447,743,530, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/para.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/para.c 
+Decompression.
+malloc_count ### exiting, total: 1,302,539,938, peak: 959,073,454, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/para.r): 13,707,710 bytes
+  - .c.R (../datasets/repcorpus/real/para.c.R): 19,615,372 bytes
+  - .c.C (../datasets/repcorpus/real/para.c.C): 1,125,212 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	429265758 bytes
+Output (.c):	109762111 bytes
+GCIS Compression Time: 23943ms
+GCIS Compression Peak Memory: 2257270318 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/para.c -w 10 -p 100 -c
+Parsing time: 4.5645
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/para.c.dicz
+Preprocess time: 0.4599
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.dicz.int 489834
+repair(dict) time: 12.4728
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.parse 489834
+repair(parse) time: 0.4294
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/para.c
+Postprocess time: 0.1798
+Elapsed time: 18.1103
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/para.c
+Elapsed time: 3.0846
+==== Done
+GCIS Decompression time: 8160 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,353,286,906, peak: 2,257,272,610, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/para.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/para.c 
+Decompression.
+malloc_count ### exiting, total: 1,037,123,226, peak: 768,304,838, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/para.r): 17,897,120 bytes
+  - .c.R (../datasets/repcorpus/real/para.c.R): 10,166,852 bytes
+  - .c.C (../datasets/repcorpus/real/para.c.C): 679,620 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	429265758 bytes
+Output (.c):	49506673 bytes
+GCIS Compression Time: 24650ms
+GCIS Compression Peak Memory: 2197029654 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/para.c -w 10 -p 100 -c
+Parsing time: 1.6579
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/para.c.dicz
+Preprocess time: 0.2593
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.dicz.int 489834
+repair(dict) time: 6.6252
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.parse 489834
+repair(parse) time: 0.1201
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/para.c
+Postprocess time: 0.0771
+Elapsed time: 8.7431
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/para.c
+Elapsed time: 0.8886
+==== Done
+GCIS Decompression time: 8558 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,314,382,970, peak: 2,197,031,946, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/para.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/para.c 
+Decompression.
+malloc_count ### exiting, total: 958,202,938, peak: 708,049,478, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/para.r): 20,025,770 bytes
+  - .c.R (../datasets/repcorpus/real/para.c.R): 5,576,444 bytes
+  - .c.C (../datasets/repcorpus/real/para.c.C): 336,760 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	429265758 bytes
+Output (.c):	30601731 bytes
+GCIS Compression Time: 25191ms
+GCIS Compression Peak Memory: 2194209694 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/para.c -w 10 -p 100 -c
+Parsing time: 0.6272
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/para.c.dicz
+Preprocess time: 0.1733
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.dicz.int 489834
+repair(dict) time: 3.5282
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.parse 489834
+repair(parse) time: 0.0198
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/para.c
+Postprocess time: 0.0389
+Elapsed time: 4.3904
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/para.c
+Elapsed time: 0.2974
+==== Done
+GCIS Decompression time: 8904 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,307,414,770, peak: 2,194,209,694, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/para.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/para.c 
+Decompression.
+malloc_count ### exiting, total: 935,525,090, peak: 689,144,614, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/para.r): 21,190,476 bytes
+  - .c.R (../datasets/repcorpus/real/para.c.R): 3,067,468 bytes
+  - .c.C (../datasets/repcorpus/real/para.c.C): 127,352 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	429265758 bytes
+Output (.c):	24931133 bytes
+GCIS Compression Time: 25853ms
+GCIS Compression Peak Memory: 2194209694 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/para.c -w 10 -p 100 -c
+Parsing time: 0.2105
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/para.c.dicz
+Preprocess time: 0.0694
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.dicz.int 489834
+repair(dict) time: 1.3011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.parse 489834
+repair(parse) time: 0.0069
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/para.c
+Postprocess time: 0.0211
+Elapsed time: 1.6105
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/para.c
+Elapsed time: 0.0895
+==== Done
+GCIS Decompression time: 8636 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,308,355,018, peak: 2,194,209,694, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/para.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/para.c 
+Decompression.
+malloc_count ### exiting, total: 930,300,986, peak: 683,474,094, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/para.r): 21,813,446 bytes
+  - .c.R (../datasets/repcorpus/real/para.c.R): 1,474,820 bytes
+  - .c.C (../datasets/repcorpus/real/para.c.C): 47,084 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	429265758 bytes
+Output (.c):	23428239 bytes
+GCIS Compression Time: 24914ms
+GCIS Compression Peak Memory: 2194209694 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/para.c -w 10 -p 100 -c
+Parsing time: 0.0671
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/para.c.dicz
+Preprocess time: 0.0226
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.dicz.int 489834
+repair(dict) time: 0.3980
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.parse 489834
+repair(parse) time: 0.0031
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/para.c
+Postprocess time: 0.0102
+Elapsed time: 0.5024
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/para.c
+Elapsed time: 0.0256
+==== Done
+GCIS Decompression time: 8571 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,310,500,322, peak: 2,194,209,694, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/para.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/para.c 
+Decompression.
+malloc_count ### exiting, total: 929,764,034, peak: 681,971,278, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/para.r): 22,088,200 bytes
+  - .c.R (../datasets/repcorpus/real/para.c.R): 562,644 bytes
+  - .c.C (../datasets/repcorpus/real/para.c.C): 15,424 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	429265758 bytes
+Output (.c):	23053049 bytes
+GCIS Compression Time: 24941ms
+GCIS Compression Peak Memory: 2194209694 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/para.c -w 10 -p 100 -c
+Parsing time: 0.0230
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/para.c.dicz
+Preprocess time: 0.0105
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.dicz.int 489834
+repair(dict) time: 0.0792
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.parse 489834
+repair(parse) time: 0.0024
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/para.c
+Postprocess time: 0.0062
+Elapsed time: 0.1237
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/para.c
+Elapsed time: 0.0092
+==== Done
+GCIS Decompression time: 8700 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,311,693,930, peak: 2,194,209,694, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/para.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/para.c 
+Decompression.
+malloc_count ### exiting, total: 929,834,634, peak: 681,596,166, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/para.r): 22,182,034 bytes
+  - .c.R (../datasets/repcorpus/real/para.c.R): 193,236 bytes
+  - .c.C (../datasets/repcorpus/real/para.c.C): 5,100 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	429265758 bytes
+Output (.c):	22989403 bytes
+GCIS Compression Time: 25013ms
+GCIS Compression Peak Memory: 2194209694 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/para.c -w 10 -p 100 -c
+Parsing time: 0.0095
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/para.c.dicz
+Preprocess time: 0.0034
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.dicz.int 489834
+repair(dict) time: 0.0216
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.parse 489834
+repair(parse) time: 0.0013
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/para.c
+Postprocess time: 0.0023
+Elapsed time: 0.0405
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/para.c
+Elapsed time: 0.0039
+==== Done
+GCIS Decompression time: 8534 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,313,379,826, peak: 2,194,209,694, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/para.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/para.c 
+Decompression.
+malloc_count ### exiting, total: 929,914,578, peak: 681,532,598, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/para.r): 22,209,484 bytes
+  - .c.R (../datasets/repcorpus/real/para.c.R): 62,532 bytes
+  - .c.C (../datasets/repcorpus/real/para.c.C): 1,624 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	429265758 bytes
+Output (.c):	23015021 bytes
+GCIS Compression Time: 24963ms
+GCIS Compression Peak Memory: 2194209694 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/para.c -w 10 -p 100 -c
+Parsing time: 0.0051
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/para.c.dicz
+Preprocess time: 0.0017
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.dicz.int 489834
+repair(dict) time: 0.0080
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.parse 489834
+repair(parse) time: 0.0012
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/para.c
+Postprocess time: 0.0403
+Elapsed time: 0.0585
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/para.c
+Elapsed time: 0.0022
+==== Done
+GCIS Decompression time: 8571 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,313,524,250, peak: 2,194,209,694, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/para.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/para.c 
+Decompression.
+malloc_count ### exiting, total: 929,974,642, peak: 681,558,294, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/para.r): 22,217,726 bytes
+  - .c.R (../datasets/repcorpus/real/para.c.R): 20,484 bytes
+  - .c.C (../datasets/repcorpus/real/para.c.C): 564 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	429265758 bytes
+Output (.c):	23075015 bytes
+GCIS Compression Time: 24942ms
+GCIS Compression Peak Memory: 2194209694 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/para.c -w 10 -p 100 -c
+Parsing time: 0.0050
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/para.c.dicz
+Preprocess time: 0.0010
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.dicz.int 489834
+repair(dict) time: 0.0032
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/para.c
+Postprocess time: 0.0012
+Elapsed time: 0.0137
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/para.c
+Elapsed time: 0.0019
+==== Done
+GCIS Decompression time: 8593 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,313,572,778, peak: 2,194,209,694, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/para.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/para.c 
+Decompression.
+malloc_count ### exiting, total: 930,044,194, peak: 681,618,366, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/para.r): 22,220,048 bytes
+  - .c.R (../datasets/repcorpus/real/para.c.R): 6,364 bytes
+  - .c.C (../datasets/repcorpus/real/para.c.C): 176 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	429265758 bytes
+Output (.c):	23145761 bytes
+GCIS Compression Time: 25002ms
+GCIS Compression Peak Memory: 2194209694 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/para.c -w 10 -p 100 -c
+Parsing time: 0.0046
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/para.c.dicz
+Preprocess time: 0.0020
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.dicz.int 489834
+repair(dict) time: 0.0017
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/para.c
+Postprocess time: 0.0011
+Elapsed time: 0.0130
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/para.c
+Elapsed time: 0.0013
+==== Done
+GCIS Decompression time: 8596 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,313,588,930, peak: 2,194,209,694, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/para.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/para.c 
+Decompression.
+malloc_count ### exiting, total: 930,116,330, peak: 681,689,190, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/para.r): 22,220,682 bytes
+  - .c.R (../datasets/repcorpus/real/para.c.R): 2,740 bytes
+  - .c.C (../datasets/repcorpus/real/para.c.C): 84 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	429265758 bytes
+Output (.c):	23221067 bytes
+GCIS Compression Time: 24979ms
+GCIS Compression Peak Memory: 2194209694 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/para.c -w 10 -p 100 -c
+Parsing time: 0.0037
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/para.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.dicz.int 489834
+repair(dict) time: 0.0032
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/para.c
+Postprocess time: 0.0011
+Elapsed time: 0.0121
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/para.c
+Elapsed time: 0.0016
+==== Done
+GCIS Decompression time: 8657 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,313,596,602, peak: 2,194,209,694, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/para.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/para.c 
+Decompression.
+malloc_count ### exiting, total: 930,192,426, peak: 681,764,574, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/para.r): 22,220,948 bytes
+  - .c.R (../datasets/repcorpus/real/para.c.R): 836 bytes
+  - .c.C (../datasets/repcorpus/real/para.c.C): 40 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	429265758 bytes
+Output (.c):	23297213 bytes
+GCIS Compression Time: 25036ms
+GCIS Compression Peak Memory: 2194209694 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/para.c -w 10 -p 100 -c
+Parsing time: 0.0038
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/para.c.dicz
+Preprocess time: 0.0010
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.dicz.int 489834
+repair(dict) time: 0.0029
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/para.c
+Postprocess time: 0.0010
+Elapsed time: 0.0123
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/para.c
+Elapsed time: 0.0014
+==== Done
+GCIS Decompression time: 8647 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,313,601,666, peak: 2,194,209,694, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/para.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/para.c 
+Decompression.
+malloc_count ### exiting, total: 930,268,642, peak: 681,840,806, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/para.r): 22,221,070 bytes
+  - .c.R (../datasets/repcorpus/real/para.c.R): 300 bytes
+  - .c.C (../datasets/repcorpus/real/para.c.C): 32 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	429265758 bytes
+Output (.c):	23373911 bytes
+GCIS Compression Time: 25026ms
+GCIS Compression Peak Memory: 2194209694 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/para.c -w 10 -p 100 -c
+Parsing time: 0.0027
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/para.c.dicz
+Preprocess time: 0.0020
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.parse 489834
+repair(parse) time: 0.0012
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/para.c
+Postprocess time: 0.0011
+Elapsed time: 0.0094
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/para.c
+Elapsed time: 0.0014
+==== Done
+GCIS Decompression time: 8579 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,313,605,246, peak: 2,194,209,694, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/para.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/para.c 
+Decompression.
+malloc_count ### exiting, total: 930,345,418, peak: 681,917,582, current: 4,096
+
+========================================
+
+=== LEVEL 15 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/para.r): 22,221,160 bytes
+  - .c.R (../datasets/repcorpus/real/para.c.R): 148 bytes
+  - .c.C (../datasets/repcorpus/real/para.c.C): 12 bytes
+
+--- STDOUT ---
+Max Level = 15
+Input:	429265758 bytes
+Output (.c):	23450769 bytes
+GCIS Compression Time: 25018ms
+GCIS Compression Peak Memory: 2194209694 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/para.c -w 10 -p 100 -c
+Parsing time: 0.0031
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/para.c.dicz
+Preprocess time: 0.0018
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/para.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/para.c
+Postprocess time: 0.0011
+Elapsed time: 0.0106
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/para.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/para.c
+Elapsed time: 0.0013
+==== Done
+GCIS Decompression time: 8535 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,313,608,418, peak: 2,194,209,694, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/para.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/para.c 
+Decompression.
+malloc_count ### exiting, total: 930,422,370, peak: 681,994,518, current: 4,096
+
+========================================
+
+=== LEVEL 16 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -c ../datasets/repcorpus/real/para ../datasets/repcorpus/real/para -s8b 16' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+GCIS Compression.
+malloc(): unsorted double linked list corrupted
+Aborted
+
+
+========================================
+

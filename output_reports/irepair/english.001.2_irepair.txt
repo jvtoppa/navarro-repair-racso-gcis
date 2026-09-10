@@ -1,0 +1,448 @@
+=== IREPAIR Report for english.001.2 ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/english.001.2.r): 163,090 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/english.001.2.c.R): 6,286,188 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/english.001.2.c.C): 742,004 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	104857600 bytes
+Output (.c):	258676603 bytes
+GCIS Compression Time: 3863ms
+GCIS Compression Peak Memory: 783044968 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 800165608 bytes
+iRepair Peak Memory (Decompression): 6295320 bytes
+GCIS Decompression time: 916 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 785,393,852, peak: 783,048,284, current: 4,096
+iRepair Compression time: 24.538653 s
+malloc_count ### exiting, total: 23,506,307,744, peak: 800,165,608, current: 7,677,004
+iRepair Decompression time: 5.801109 s
+malloc_count ### exiting, total: 6,303,984, peak: 6,295,320, current: 6,290,280
+Decompression.
+malloc_count ### exiting, total: 623,541,788, peak: 622,767,592, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/english.001.2.r): 1,089,572 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/english.001.2.c.R): 5,727,940 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/english.001.2.c.C): 739,932 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	104857600 bytes
+Output (.c):	90559157 bytes
+GCIS Compression Time: 5187ms
+GCIS Compression Peak Memory: 615014000 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 289688696 bytes
+iRepair Peak Memory (Decompression): 5737072 bytes
+GCIS Decompression time: 1268 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 624,537,444, peak: 615,016,292, current: 4,096
+iRepair Compression time: 9.486945 s
+malloc_count ### exiting, total: 3,956,284,652, peak: 289,688,696, current: 8,649,628
+iRepair Decompression time: 1.779200 s
+malloc_count ### exiting, total: 5,745,736, peak: 5,737,072, current: 5,732,032
+Decompression.
+malloc_count ### exiting, total: 360,237,628, peak: 264,860,792, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/english.001.2.r): 2,143,654 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/english.001.2.c.R): 3,839,756 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/english.001.2.c.C): 726,344 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	104857600 bytes
+Output (.c):	31882831 bytes
+GCIS Compression Time: 5644ms
+GCIS Compression Peak Memory: 556528824 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 109203128 bytes
+iRepair Peak Memory (Decompression): 3848888 bytes
+GCIS Decompression time: 1439 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 572,802,940, peak: 556,531,116, current: 4,096
+iRepair Compression time: 3.211300 s
+malloc_count ### exiting, total: 1,693,207,564, peak: 109,203,128, current: 7,116,936
+iRepair Decompression time: 0.519214 s
+malloc_count ### exiting, total: 3,857,552, peak: 3,848,888, current: 3,843,848
+Decompression.
+malloc_count ### exiting, total: 271,251,788, peak: 206,184,544, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/english.001.2.r): 2,906,800 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/english.001.2.c.R): 2,613,964 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/english.001.2.c.C): 714,128 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	104857600 bytes
+Output (.c):	14195593 bytes
+GCIS Compression Time: 5791ms
+GCIS Compression Peak Memory: 538783968 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 53493464 bytes
+iRepair Peak Memory (Decompression): 2623096 bytes
+GCIS Decompression time: 1628 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 560,201,476, peak: 538,786,260, current: 4,096
+iRepair Compression time: 1.436947 s
+malloc_count ### exiting, total: 845,106,616, peak: 53,493,464, current: 8,409,160
+iRepair Decompression time: 0.088379 s
+malloc_count ### exiting, total: 2,631,760, peak: 2,623,096, current: 2,618,056
+Decompression.
+malloc_count ### exiting, total: 246,794,252, peak: 188,497,384, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/english.001.2.r): 3,615,754 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/english.001.2.c.R): 1,397,316 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/english.001.2.c.C): 671,532 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	104857600 bytes
+Output (.c):	7664507 bytes
+GCIS Compression Time: 5853ms
+GCIS Compression Peak Memory: 532956936 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 31512872 bytes
+iRepair Peak Memory (Decompression): 1406448 bytes
+GCIS Decompression time: 1538 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 558,754,996, peak: 532,956,936, current: 4,096
+iRepair Compression time: 0.555680 s
+malloc_count ### exiting, total: 327,021,112, peak: 31,512,872, current: 7,000,420
+iRepair Decompression time: 0.030691 s
+malloc_count ### exiting, total: 1,415,112, peak: 1,406,448, current: 1,401,408
+Decompression.
+malloc_count ### exiting, total: 239,096,660, peak: 181,966,376, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/english.001.2.r): 4,147,404 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/english.001.2.c.R): 474,548 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/english.001.2.c.C): 582,148 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	104857600 bytes
+Output (.c):	5828181 bytes
+GCIS Compression Time: 5862ms
+GCIS Compression Peak Memory: 532956936 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 13887048 bytes
+iRepair Peak Memory (Decompression): 483680 bytes
+GCIS Decompression time: 1658 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 560,184,428, peak: 532,956,936, current: 4,096
+iRepair Compression time: 0.152415 s
+malloc_count ### exiting, total: 96,146,028, peak: 13,887,048, current: 3,961,748
+iRepair Decompression time: 0.010553 s
+malloc_count ### exiting, total: 492,344, peak: 483,680, current: 478,640
+Decompression.
+malloc_count ### exiting, total: 237,983,116, peak: 180,130,128, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/english.001.2.r): 4,436,046 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/english.001.2.c.R): 39,876 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/english.001.2.c.C): 348,780 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	104857600 bytes
+Output (.c):	5364927 bytes
+GCIS Compression Time: 5903ms
+GCIS Compression Peak Memory: 532956936 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 6191600 bytes
+iRepair Peak Memory (Decompression): 49008 bytes
+GCIS Decompression time: 1663 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 561,396,420, peak: 532,956,936, current: 4,096
+iRepair Compression time: 0.024968 s
+malloc_count ### exiting, total: 18,439,032, peak: 6,191,600, current: 2,243,056
+iRepair Decompression time: 0.003470 s
+malloc_count ### exiting, total: 57,672, peak: 49,008, current: 43,968
+Decompression.
+malloc_count ### exiting, total: 237,999,844, peak: 179,666,952, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/english.001.2.r): 4,539,960 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/english.001.2.c.R): 164 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/english.001.2.c.C): 127,660 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	104857600 bytes
+Output (.c):	5282553 bytes
+GCIS Compression Time: 5857ms
+GCIS Compression Peak Memory: 532956936 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1836288 bytes
+iRepair Peak Memory (Decompression): 9296 bytes
+GCIS Decompression time: 1687 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 561,895,068, peak: 532,956,936, current: 4,096
+iRepair Compression time: 0.004692 s
+malloc_count ### exiting, total: 3,522,184, peak: 1,836,288, current: 921,856
+iRepair Decompression time: 0.000848 s
+malloc_count ### exiting, total: 17,960, peak: 9,296, current: 4,256
+Decompression.
+malloc_count ### exiting, total: 238,075,324, peak: 179,584,664, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/english.001.2.r): 4,570,002 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/english.001.2.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/english.001.2.c.C): 41,884 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	104857600 bytes
+Output (.c):	5303515 bytes
+GCIS Compression Time: 6028ms
+GCIS Compression Peak Memory: 532956936 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1115496 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1526 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 563,287,924, peak: 532,956,936, current: 4,096
+iRepair Compression time: 0.001636 s
+malloc_count ### exiting, total: 1,929,968, peak: 1,115,496, current: 659,816
+iRepair Decompression time: 0.001172 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 238,136,228, peak: 179,605,704, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/english.001.2.r): 4,579,204 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/english.001.2.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/english.001.2.c.C): 13,532 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	104857600 bytes
+Output (.c):	5361213 bytes
+GCIS Compression Time: 5865ms
+GCIS Compression Peak Memory: 532956936 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 683912 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1654 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 563,342,140, peak: 532,956,936, current: 4,096
+iRepair Compression time: 0.000724 s
+malloc_count ### exiting, total: 859,408, peak: 683,912, current: 572,296
+iRepair Decompression time: 0.000468 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 238,204,732, peak: 179,663,480, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/english.001.2.r): 4,581,822 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/english.001.2.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/english.001.2.c.C): 4,692 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	104857600 bytes
+Output (.c):	5431839 bytes
+GCIS Compression Time: 5878ms
+GCIS Compression Peak Memory: 532956936 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 598704 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1651 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 563,362,052, peak: 532,956,936, current: 4,096
+iRepair Compression time: 0.000364 s
+malloc_count ### exiting, total: 667,704, peak: 598,704, current: 544,432
+iRepair Decompression time: 0.000252 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 238,278,300, peak: 179,734,184, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/english.001.2.r): 4,582,712 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/english.001.2.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/english.001.2.c.C): 1,660 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	104857600 bytes
+Output (.c):	5506545 bytes
+GCIS Compression Time: 5839ms
+GCIS Compression Peak Memory: 532956936 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 548336 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1640 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 563,370,980, peak: 532,956,936, current: 4,096
+iRepair Compression time: 0.000328 s
+malloc_count ### exiting, total: 571,808, peak: 548,336, current: 534,552
+iRepair Decompression time: 0.000072 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 238,353,948, peak: 179,808,968, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/english.001.2.r): 4,583,026 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/english.001.2.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/english.001.2.c.C): 764 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	104857600 bytes
+Output (.c):	5582811 bytes
+GCIS Compression Time: 5848ms
+GCIS Compression Peak Memory: 532956936 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 539112 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1623 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 563,377,328, peak: 532,956,936, current: 4,096
+iRepair Compression time: 0.000430 s
+malloc_count ### exiting, total: 554,392, peak: 539,112, current: 531,472
+iRepair Decompression time: 0.000043 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 238,430,812, peak: 179,885,312, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/english.001.2.r): 4,583,204 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/english.001.2.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/english.001.2.c.C): 172 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	104857600 bytes
+Output (.c):	5659245 bytes
+GCIS Compression Time: 5926ms
+GCIS Compression Peak Memory: 532956936 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536944 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1626 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 563,381,300, peak: 532,956,936, current: 4,096
+iRepair Compression time: 0.000382 s
+malloc_count ### exiting, total: 552,224, peak: 536,944, current: 529,304
+iRepair Decompression time: 0.000061 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 238,507,196, peak: 179,961,824, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/english.001.2.r): 4,583,302 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/english.001.2.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/english.001.2.c.C): 44 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	104857600 bytes
+Output (.c):	5736063 bytes
+GCIS Compression Time: 5947ms
+GCIS Compression Peak Memory: 532956936 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536392 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1538 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 563,384,504, peak: 532,956,936, current: 4,096
+iRepair Compression time: 0.000321 s
+malloc_count ### exiting, total: 551,672, peak: 536,392, current: 528,752
+iRepair Decompression time: 0.000142 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 238,584,084, peak: 180,038,720, current: 4,096
+
+========================================
+
+=== LEVEL 15 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -c ../datasets/repcorpus/pseudo-real/english.001.2 ../datasets/repcorpus/pseudo-real/english.001.2 -s8b 15' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+GCIS Compression.
+malloc(): unsorted double linked list corrupted
+Aborted
+
+
+========================================
+

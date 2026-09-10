@@ -1,0 +1,11 @@
+=== IREPAIR Report for english.1024MB ===
+
+=== LEVEL 0 (ERROR) ===
+Error message: Command '.././repair/idespair ../datasets/texts/nlang/english.1024MB.c' returned non-zero exit status 139.
+
+--- STDERR BEFORE FAILURE ---
+Segmentation fault
+
+
+========================================
+

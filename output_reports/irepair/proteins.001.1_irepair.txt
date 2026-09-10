@@ -1,0 +1,478 @@
+=== IREPAIR Report for proteins.001.1 ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 198,762 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 1,820,156 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 6,847,000 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	104857600 bytes
+Output (.c):	268682627 bytes
+GCIS Compression Time: 3877ms
+GCIS Compression Peak Memory: 793018034 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 827838160 bytes
+iRepair Peak Memory (Decompression): 1829288 bytes
+GCIS Decompression time: 932 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 796,175,608, peak: 793,021,350, current: 4,096
+iRepair Compression time: 21.328955 s
+malloc_count ### exiting, total: 60,479,511,180, peak: 827,838,160, current: 36,779,772
+iRepair Decompression time: 3.422904 s
+malloc_count ### exiting, total: 1,837,952, peak: 1,829,288, current: 1,824,248
+Decompression.
+malloc_count ### exiting, total: 644,205,512, peak: 643,087,642, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 1,305,652 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 1,694,532 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 2,079,780 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	104857600 bytes
+Output (.c):	89225021 bytes
+GCIS Compression Time: 4564ms
+GCIS Compression Peak Memory: 613658834 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 284710120 bytes
+iRepair Peak Memory (Decompression): 1703664 bytes
+GCIS Decompression time: 1255 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 624,022,144, peak: 613,661,126, current: 4,096
+iRepair Compression time: 4.854475 s
+malloc_count ### exiting, total: 9,970,330,508, peak: 284,710,120, current: 12,687,924
+iRepair Decompression time: 1.302557 s
+malloc_count ### exiting, total: 1,712,328, peak: 1,703,664, current: 1,698,624
+Decompression.
+malloc_count ### exiting, total: 364,562,648, peak: 270,712,570, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 2,235,998 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 869,932 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 1,719,332 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	104857600 bytes
+Output (.c):	31142615 bytes
+GCIS Compression Time: 5002ms
+GCIS Compression Peak Memory: 555720530 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 106693024 bytes
+iRepair Peak Memory (Decompression): 879064 bytes
+GCIS Decompression time: 1390 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 572,094,024, peak: 555,722,822, current: 4,096
+iRepair Compression time: 1.533050 s
+malloc_count ### exiting, total: 2,539,290,588, peak: 106,693,024, current: 9,724,704
+iRepair Decompression time: 0.339994 s
+malloc_count ### exiting, total: 887,728, peak: 879,064, current: 874,024
+Decompression.
+malloc_count ### exiting, total: 276,075,424, peak: 212,630,242, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 3,023,176 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 441,932 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 1,383,744 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	104857600 bytes
+Output (.c):	12709161 bytes
+GCIS Compression Time: 4949ms
+GCIS Compression Peak Memory: 537235082 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 48559256 bytes
+iRepair Peak Memory (Decompression): 451064 bytes
+GCIS Decompression time: 1432 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 558,618,960, peak: 537,237,374, current: 4,096
+iRepair Compression time: 0.450336 s
+malloc_count ### exiting, total: 543,878,304, peak: 48,559,256, current: 11,317,812
+iRepair Decompression time: 0.055144 s
+malloc_count ### exiting, total: 459,728, peak: 451,064, current: 446,024
+Decompression.
+malloc_count ### exiting, total: 249,914,880, peak: 194,196,866, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 3,691,082 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 184,212 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 1,061,796 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	104857600 bytes
+Output (.c):	7158059 bytes
+GCIS Compression Time: 4982ms
+GCIS Compression Peak Memory: 532783514 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 19432952 bytes
+iRepair Peak Memory (Decompression): 193344 bytes
+GCIS Decompression time: 1458 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 557,936,800, peak: 532,783,514, current: 4,096
+iRepair Compression time: 0.247633 s
+malloc_count ### exiting, total: 107,397,568, peak: 19,432,952, current: 6,774,352
+iRepair Decompression time: 0.024230 s
+malloc_count ### exiting, total: 202,008, peak: 193,344, current: 188,304
+Decompression.
+malloc_count ### exiting, total: 243,633,968, peak: 188,645,842, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 4,158,564 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 41,868 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 698,664 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	104857600 bytes
+Output (.c):	5624957 bytes
+GCIS Compression Time: 4997ms
+GCIS Compression Peak Memory: 532783514 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 13081296 bytes
+iRepair Peak Memory (Decompression): 51000 bytes
+GCIS Decompression time: 1456 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 559,368,232, peak: 532,783,514, current: 4,096
+iRepair Compression time: 0.046641 s
+malloc_count ### exiting, total: 37,573,720, peak: 13,081,296, current: 5,145,296
+iRepair Decompression time: 0.008578 s
+malloc_count ### exiting, total: 59,664, peak: 51,000, current: 45,960
+Decompression.
+malloc_count ### exiting, total: 242,727,248, peak: 187,112,818, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 4,406,974 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 4,676 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 303,948 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	104857600 bytes
+Output (.c):	5261615 bytes
+GCIS Compression Time: 5171ms
+GCIS Compression Peak Memory: 532783514 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 5964072 bytes
+iRepair Peak Memory (Decompression): 13808 bytes
+GCIS Decompression time: 1590 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 560,424,416, peak: 532,783,514, current: 4,096
+iRepair Compression time: 0.011839 s
+malloc_count ### exiting, total: 13,660,848, peak: 5,964,072, current: 2,018,600
+iRepair Decompression time: 0.002826 s
+malloc_count ### exiting, total: 22,472, peak: 13,808, current: 8,768
+Decompression.
+malloc_count ### exiting, total: 242,766,728, peak: 186,749,554, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 4,490,968 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 44 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 93,596 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	104857600 bytes
+Output (.c):	5199377 bytes
+GCIS Compression Time: 5032ms
+GCIS Compression Peak Memory: 532783514 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1732280 bytes
+iRepair Peak Memory (Decompression): 9176 bytes
+GCIS Decompression time: 1504 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 560,803,400, peak: 532,783,514, current: 4,096
+iRepair Compression time: 0.002622 s
+malloc_count ### exiting, total: 3,403,840, peak: 1,732,280, current: 817,848
+iRepair Decompression time: 0.000890 s
+malloc_count ### exiting, total: 17,840, peak: 9,176, current: 4,136
+Decompression.
+malloc_count ### exiting, total: 242,812,648, peak: 186,687,394, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 4,512,914 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 20 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 29,788 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	104857600 bytes
+Output (.c):	5234339 bytes
+GCIS Compression Time: 5029ms
+GCIS Compression Peak Memory: 532783514 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 848960 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 1472 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 562,152,552, peak: 532,783,514, current: 4,096
+iRepair Compression time: 0.002202 s
+malloc_count ### exiting, total: 1,238,472, peak: 848,960, current: 622,656
+iRepair Decompression time: 0.000333 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 242,875,128, peak: 186,722,434, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 4,519,004 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 20 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 9,372 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	104857600 bytes
+Output (.c):	5296861 bytes
+GCIS Compression Time: 5091ms
+GCIS Compression Peak Memory: 532783514 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 670896 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 1587 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 562,190,368, peak: 532,783,514, current: 4,096
+iRepair Compression time: 0.000414 s
+malloc_count ### exiting, total: 847,416, peak: 670,896, current: 559,280
+iRepair Decompression time: 0.000137 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 242,943,480, peak: 186,785,034, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 4,520,822 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 2,444 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	104857600 bytes
+Output (.c):	5368591 bytes
+GCIS Compression Time: 4997ms
+GCIS Compression Peak Memory: 532783514 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 563200 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1462 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 562,202,536, peak: 532,783,514, current: 4,096
+iRepair Compression time: 0.000309 s
+malloc_count ### exiting, total: 603,056, peak: 563,200, current: 537,128
+iRepair Decompression time: 0.000193 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 243,015,656, peak: 186,856,842, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 4,521,280 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 796 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	104857600 bytes
+Output (.c):	5444249 bytes
+GCIS Compression Time: 5004ms
+GCIS Compression Peak Memory: 532783514 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 539264 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1582 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 562,208,344, peak: 532,783,514, current: 4,096
+iRepair Compression time: 0.000457 s
+malloc_count ### exiting, total: 554,544, peak: 539,264, current: 531,624
+iRepair Decompression time: 0.000041 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 243,091,600, peak: 186,932,578, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 4,521,458 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 284 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	104857600 bytes
+Output (.c):	5520763 bytes
+GCIS Compression Time: 5000ms
+GCIS Compression Peak Memory: 532783514 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 537392 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1605 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 562,212,668, peak: 532,783,514, current: 4,096
+iRepair Compression time: 0.000400 s
+malloc_count ### exiting, total: 552,672, peak: 537,392, current: 529,752
+iRepair Decompression time: 0.000124 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 243,168,256, peak: 187,009,170, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 4,521,572 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 84 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	104857600 bytes
+Output (.c):	5597525 bytes
+GCIS Compression Time: 5124ms
+GCIS Compression Peak Memory: 532783514 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536568 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1617 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 562,216,056, peak: 532,783,514, current: 4,096
+iRepair Compression time: 0.000282 s
+malloc_count ### exiting, total: 551,848, peak: 536,568, current: 528,928
+iRepair Decompression time: 0.000050 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 243,245,104, peak: 187,086,010, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 4,521,662 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 20 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 28 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	104857600 bytes
+Output (.c):	5674415 bytes
+GCIS Compression Time: 5013ms
+GCIS Compression Peak Memory: 532783514 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 537392 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 1493 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 562,219,176, peak: 532,783,514, current: 4,096
+iRepair Compression time: 0.000746 s
+malloc_count ### exiting, total: 552,672, peak: 537,392, current: 528,728
+iRepair Decompression time: 0.000052 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 243,322,112, peak: 187,162,978, current: 4,096
+
+========================================
+
+=== LEVEL 15 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 4,521,752 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 4 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 16 bytes
+
+--- STDOUT ---
+Max Level = 15
+Input:	104857600 bytes
+Output (.c):	5751329 bytes
+GCIS Compression Time: 5119ms
+GCIS Compression Peak Memory: 532783514 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 531616 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 1464 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 562,222,272, peak: 532,783,514, current: 4,096
+iRepair Compression time: 0.000263 s
+malloc_count ### exiting, total: 549,416, peak: 533,112, current: 528,544
+iRepair Decompression time: 0.000156 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 243,399,176, peak: 187,239,970, current: 4,096
+
+========================================
+
+=== LEVEL 16 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/pseudo-real/proteins.001.1 ../datasets/repcorpus/pseudo-real/proteins.001.1 -s8b 16' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

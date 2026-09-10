@@ -1,0 +1,40 @@
+=== IREPAIR Report for proteins.200MB ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.200MB.r): 4,657,914 bytes
+  - .c.R (../datasets/texts/protein/proteins.200MB.c.R): 74,247,372 bytes
+  - .c.C (../datasets/texts/protein/proteins.200MB.c.C): 104,378,572 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	209715200 bytes
+Output (.c):	540004075 bytes
+GCIS Compression Time: 14428ms
+GCIS Compression Peak Memory: 1590241682 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 2253587376 bytes
+iRepair Peak Memory (Decompression): 74256504 bytes
+GCIS Decompression time: 4921 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,664,363,800, peak: 1,590,244,998, current: 4,096
+iRepair Compression time: 130.775609 s
+malloc_count ### exiting, total: 45,876,163,572, peak: 2,253,587,376, current: 536,321,352
+iRepair Decompression time: 9.037813 s
+malloc_count ### exiting, total: 74,265,168, peak: 74,256,504, current: 74,251,464
+Decompression.
+malloc_count ### exiting, total: 1,345,744,592, peak: 1,315,377,854, current: 4,096
+
+========================================
+
+=== LEVEL 1 (ERROR) ===
+Error message: Command '.././repair/irepair ../datasets/texts/protein/proteins.200MB.c' returned non-zero exit status 139.
+
+--- STDERR BEFORE FAILURE ---
+Segmentation fault
+
+
+========================================
+

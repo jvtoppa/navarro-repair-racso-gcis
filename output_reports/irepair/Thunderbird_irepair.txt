@@ -1,0 +1,217 @@
+=== IREPAIR Report for Thunderbird ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Thunderbird.r): 106,842 bytes
+  - .c.R (../datasets/repcorpus/logs/Thunderbird.c.R): 3,428,660 bytes
+  - .c.C (../datasets/repcorpus/logs/Thunderbird.c.C): 8,626,052 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	104857600 bytes
+Output (.c):	262454555 bytes
+GCIS Compression Time: 2929ms
+GCIS Compression Peak Memory: 786777398 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 800470032 bytes
+iRepair Peak Memory (Decompression): 3437792 bytes
+GCIS Decompression time: 634 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 788,401,816, peak: 786,780,714, current: 4,096
+iRepair Compression time: 17.444764 s
+malloc_count ### exiting, total: 35,747,270,960, peak: 800,470,032, current: 57,991,988
+iRepair Decompression time: 2.442003 s
+malloc_count ### exiting, total: 3,446,456, peak: 3,437,792, current: 3,432,752
+Decompression.
+malloc_count ### exiting, total: 630,754,624, peak: 630,180,090, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Thunderbird.r): 1,289,108 bytes
+  - .c.R (../datasets/repcorpus/logs/Thunderbird.c.R): 3,297,564 bytes
+  - .c.C (../datasets/repcorpus/logs/Thunderbird.c.C): 8,825,324 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	104857600 bytes
+Output (.c):	85098813 bytes
+GCIS Compression Time: 3806ms
+GCIS Compression Peak Memory: 609614070 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 334921856 bytes
+iRepair Peak Memory (Decompression): 3306696 bytes
+GCIS Decompression time: 710 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 623,695,048, peak: 609,616,362, current: 4,096
+iRepair Compression time: 7.145548 s
+malloc_count ### exiting, total: 8,644,163,076, peak: 334,921,856, current: 48,405,276
+iRepair Decompression time: 0.921009 s
+malloc_count ### exiting, total: 3,315,360, peak: 3,306,696, current: 3,301,656
+Decompression.
+malloc_count ### exiting, total: 351,382,816, peak: 256,121,282, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Thunderbird.r): 7,082,446 bytes
+  - .c.R (../datasets/repcorpus/logs/Thunderbird.c.R): 3,029,196 bytes
+  - .c.C (../datasets/repcorpus/logs/Thunderbird.c.C): 10,904,060 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	104857600 bytes
+Output (.c):	34781183 bytes
+GCIS Compression Time: 4248ms
+GCIS Compression Peak Memory: 563832046 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 244575824 bytes
+iRepair Peak Memory (Decompression): 3038328 bytes
+GCIS Decompression time: 838 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 611,155,720, peak: 563,832,046, current: 4,096
+iRepair Compression time: 3.633948 s
+malloc_count ### exiting, total: 2,128,886,308, peak: 244,575,824, current: 74,907,556
+iRepair Decompression time: 0.332119 s
+malloc_count ### exiting, total: 3,046,992, peak: 3,038,328, current: 3,033,288
+Decompression.
+malloc_count ### exiting, total: 302,798,600, peak: 205,803,730, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Thunderbird.r): 13,012,032 bytes
+  - .c.R (../datasets/repcorpus/logs/Thunderbird.c.R): 599,028 bytes
+  - .c.C (../datasets/repcorpus/logs/Thunderbird.c.C): 7,589,476 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	104857600 bytes
+Output (.c):	21751617 bytes
+GCIS Compression Time: 4312ms
+GCIS Compression Peak Memory: 565175310 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 105479288 bytes
+iRepair Peak Memory (Decompression): 608160 bytes
+GCIS Decompression time: 893 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 631,248,768, peak: 565,175,310, current: 4,096
+iRepair Compression time: 1.101456 s
+malloc_count ### exiting, total: 333,439,488, peak: 105,479,288, current: 42,159,224
+iRepair Decompression time: 0.068127 s
+malloc_count ### exiting, total: 616,824, peak: 608,160, current: 603,120
+Decompression.
+malloc_count ### exiting, total: 304,321,800, peak: 192,774,242, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Thunderbird.r): 15,701,626 bytes
+  - .c.R (../datasets/repcorpus/logs/Thunderbird.c.R): 1,388 bytes
+  - .c.C (../datasets/repcorpus/logs/Thunderbird.c.C): 1,665,356 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	104857600 bytes
+Output (.c):	17754539 bytes
+GCIS Compression Time: 4361ms
+GCIS Compression Peak Memory: 565175310 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 24977448 bytes
+iRepair Peak Memory (Decompression): 10520 bytes
+GCIS Decompression time: 909 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 639,504,336, peak: 565,175,310, current: 4,096
+iRepair Compression time: 0.158316 s
+malloc_count ### exiting, total: 55,346,608, peak: 24,977,448, current: 9,240,616
+iRepair Decompression time: 0.014234 s
+malloc_count ### exiting, total: 19,184, peak: 10,520, current: 5,480
+Decompression.
+malloc_count ### exiting, total: 303,125,008, peak: 188,777,242, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Thunderbird.r): 16,173,788 bytes
+  - .c.R (../datasets/repcorpus/logs/Thunderbird.c.R): 4 bytes
+  - .c.C (../datasets/repcorpus/logs/Thunderbird.c.C): 19,248 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	104857600 bytes
+Output (.c):	16654117 bytes
+GCIS Compression Time: 4371ms
+GCIS Compression Peak Memory: 565175310 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 815328 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 1037 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 640,042,808, peak: 565,175,310, current: 4,096
+iRepair Compression time: 0.000775 s
+malloc_count ### exiting, total: 1,202,792, peak: 815,328, current: 590,048
+iRepair Decompression time: 0.000246 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 301,801,728, peak: 187,676,898, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Thunderbird.r): 16,177,486 bytes
+  - .c.R (../datasets/repcorpus/logs/Thunderbird.c.R): 4 bytes
+  - .c.C (../datasets/repcorpus/logs/Thunderbird.c.C): 304 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	104857600 bytes
+Output (.c):	16715719 bytes
+GCIS Compression Time: 4447ms
+GCIS Compression Peak Memory: 565175310 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 532872 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 910 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 640,050,376, peak: 565,175,310, current: 4,096
+iRepair Compression time: 0.000982 s
+malloc_count ### exiting, total: 550,672, peak: 534,368, current: 529,800
+iRepair Decompression time: 0.000077 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 301,855,552, peak: 187,738,578, current: 4,096
+
+========================================
+
+=== LEVEL 7 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/logs/Thunderbird ../datasets/repcorpus/logs/Thunderbird -s8b 7' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

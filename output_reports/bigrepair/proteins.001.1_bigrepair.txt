@@ -1,0 +1,782 @@
+=== BIGREPAIR Report for proteins.001.1 ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 198,762 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 6,027,324 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 1,191,480 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	104857600 bytes
+Output (.c):	268682627 bytes
+GCIS Compression Time: 3538ms
+GCIS Compression Peak Memory: 793018034 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/proteins.001.1.c -w 10 -p 100 -c
+Parsing time: 9.1177
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz
+Preprocess time: 0.3445
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz.int 489834
+repair(dict) time: 13.4082
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.parse 489834
+repair(parse) time: 0.8018
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Postprocess time: 0.0405
+Elapsed time: 23.7176
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Elapsed time: 4.6809
+==== Done
+GCIS Decompression time: 986 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 796,175,608, peak: 793,021,350, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Decompression.
+malloc_count ### exiting, total: 644,205,512, peak: 643,087,642, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 1,305,652 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 5,045,284 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 860,876 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	104857600 bytes
+Output (.c):	89225021 bytes
+GCIS Compression Time: 4666ms
+GCIS Compression Peak Memory: 613658834 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/proteins.001.1.c -w 10 -p 100 -c
+Parsing time: 2.9953
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz
+Preprocess time: 0.3637
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz.int 489834
+repair(dict) time: 5.1343
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.parse 489834
+repair(parse) time: 0.2086
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Postprocess time: 0.0350
+Elapsed time: 8.7395
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Elapsed time: 1.5263
+==== Done
+GCIS Decompression time: 1365 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 624,022,144, peak: 613,661,126, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Decompression.
+malloc_count ### exiting, total: 364,562,648, peak: 270,712,570, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 2,235,998 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 3,750,524 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 580,820 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	104857600 bytes
+Output (.c):	31142615 bytes
+GCIS Compression Time: 4905ms
+GCIS Compression Peak Memory: 555720530 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/proteins.001.1.c -w 10 -p 100 -c
+Parsing time: 1.0771
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz
+Preprocess time: 0.2953
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz.int 489834
+repair(dict) time: 3.1233
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.parse 489834
+repair(parse) time: 0.0728
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Postprocess time: 0.0279
+Elapsed time: 4.5993
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Elapsed time: 0.4960
+==== Done
+GCIS Decompression time: 1391 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 572,094,024, peak: 555,722,822, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Decompression.
+malloc_count ### exiting, total: 276,075,424, peak: 212,630,242, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 3,023,176 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 2,944,132 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 306,784 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	104857600 bytes
+Output (.c):	12709161 bytes
+GCIS Compression Time: 4956ms
+GCIS Compression Peak Memory: 537235082 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/proteins.001.1.c -w 10 -p 100 -c
+Parsing time: 0.3829
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz
+Preprocess time: 0.1122
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz.int 489834
+repair(dict) time: 2.4396
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.parse 489834
+repair(parse) time: 0.0191
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Postprocess time: 0.0203
+Elapsed time: 2.9753
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Elapsed time: 0.2249
+==== Done
+GCIS Decompression time: 1433 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 558,618,960, peak: 537,237,374, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Decompression.
+malloc_count ### exiting, total: 249,914,880, peak: 194,196,866, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 3,691,082 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 2,170,052 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 131,500 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	104857600 bytes
+Output (.c):	7158059 bytes
+GCIS Compression Time: 4980ms
+GCIS Compression Peak Memory: 532783514 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/proteins.001.1.c -w 10 -p 100 -c
+Parsing time: 0.1387
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz
+Preprocess time: 0.0636
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz.int 489834
+repair(dict) time: 0.6434
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.parse 489834
+repair(parse) time: 0.0044
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Postprocess time: 0.0163
+Elapsed time: 0.8675
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Elapsed time: 0.0607
+==== Done
+GCIS Decompression time: 1458 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 557,936,800, peak: 532,783,514, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Decompression.
+malloc_count ### exiting, total: 243,633,968, peak: 188,645,842, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 4,158,564 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 1,310,988 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 43,932 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	104857600 bytes
+Output (.c):	5624957 bytes
+GCIS Compression Time: 4992ms
+GCIS Compression Peak Memory: 532783514 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/proteins.001.1.c -w 10 -p 100 -c
+Parsing time: 0.0603
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz
+Preprocess time: 0.0223
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz.int 489834
+repair(dict) time: 0.2050
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.parse 489834
+repair(parse) time: 0.0021
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Postprocess time: 0.0095
+Elapsed time: 0.3010
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Elapsed time: 0.0230
+==== Done
+GCIS Decompression time: 1459 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 559,368,232, peak: 532,783,514, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Decompression.
+malloc_count ### exiting, total: 242,727,248, peak: 187,112,818, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 4,406,974 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 526,172 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 14,080 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	104857600 bytes
+Output (.c):	5261615 bytes
+GCIS Compression Time: 4997ms
+GCIS Compression Peak Memory: 532783514 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/proteins.001.1.c -w 10 -p 100 -c
+Parsing time: 0.0202
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz
+Preprocess time: 0.0073
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz.int 489834
+repair(dict) time: 0.0564
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.parse 489834
+repair(parse) time: 0.0015
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Postprocess time: 0.0042
+Elapsed time: 0.0914
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Elapsed time: 0.0091
+==== Done
+GCIS Decompression time: 1614 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 560,424,416, peak: 532,783,514, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Decompression.
+malloc_count ### exiting, total: 242,766,728, peak: 186,749,554, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 4,490,968 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 162,828 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 4,168 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	104857600 bytes
+Output (.c):	5199377 bytes
+GCIS Compression Time: 5013ms
+GCIS Compression Peak Memory: 532783514 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/proteins.001.1.c -w 10 -p 100 -c
+Parsing time: 0.0086
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz
+Preprocess time: 0.0045
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz.int 489834
+repair(dict) time: 0.0180
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.parse 489834
+repair(parse) time: 0.0013
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Postprocess time: 0.0021
+Elapsed time: 0.0356
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Elapsed time: 0.0056
+==== Done
+GCIS Decompression time: 1678 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 560,803,400, peak: 532,783,514, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Decompression.
+malloc_count ### exiting, total: 242,812,648, peak: 186,687,394, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 4,512,914 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 52,884 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 1,388 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	104857600 bytes
+Output (.c):	5234339 bytes
+GCIS Compression Time: 5872ms
+GCIS Compression Peak Memory: 532783514 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/proteins.001.1.c -w 10 -p 100 -c
+Parsing time: 0.0044
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz
+Preprocess time: 0.0013
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz.int 489834
+repair(dict) time: 0.0075
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Postprocess time: 0.0014
+Elapsed time: 0.0169
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Elapsed time: 0.0020
+==== Done
+GCIS Decompression time: 1586 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 562,152,552, peak: 532,783,514, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Decompression.
+malloc_count ### exiting, total: 242,875,128, peak: 186,722,434, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 4,519,004 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 16,044 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 480 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	104857600 bytes
+Output (.c):	5296861 bytes
+GCIS Compression Time: 5740ms
+GCIS Compression Peak Memory: 532783514 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/proteins.001.1.c -w 10 -p 100 -c
+Parsing time: 0.0035
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz
+Preprocess time: 0.0009
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz.int 489834
+repair(dict) time: 0.0053
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.parse 489834
+repair(parse) time: 0.0010
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Postprocess time: 0.0013
+Elapsed time: 0.0141
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Elapsed time: 0.0011
+==== Done
+GCIS Decompression time: 1574 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 562,190,368, peak: 532,783,514, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Decompression.
+malloc_count ### exiting, total: 242,943,480, peak: 186,785,034, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 4,520,822 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 4,676 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 128 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	104857600 bytes
+Output (.c):	5368591 bytes
+GCIS Compression Time: 5738ms
+GCIS Compression Peak Memory: 532783514 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/proteins.001.1.c -w 10 -p 100 -c
+Parsing time: 0.0036
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz
+Preprocess time: 0.0007
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz.int 489834
+repair(dict) time: 0.0013
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.parse 489834
+repair(parse) time: 0.0026
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Postprocess time: 0.0010
+Elapsed time: 0.0111
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Elapsed time: 0.0016
+==== Done
+GCIS Decompression time: 1595 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 562,202,536, peak: 532,783,514, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Decompression.
+malloc_count ### exiting, total: 243,015,656, peak: 186,856,842, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 4,521,280 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 1,612 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 64 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	104857600 bytes
+Output (.c):	5444249 bytes
+GCIS Compression Time: 5759ms
+GCIS Compression Peak Memory: 532783514 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/proteins.001.1.c -w 10 -p 100 -c
+Parsing time: 0.0029
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz
+Preprocess time: 0.0018
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz.int 489834
+repair(dict) time: 0.0012
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.parse 489834
+repair(parse) time: 0.0010
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Postprocess time: 0.0010
+Elapsed time: 0.0099
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Elapsed time: 0.0013
+==== Done
+GCIS Decompression time: 1543 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 562,208,344, peak: 532,783,514, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Decompression.
+malloc_count ### exiting, total: 243,091,600, peak: 186,932,578, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 4,521,458 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 612 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 40 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	104857600 bytes
+Output (.c):	5520763 bytes
+GCIS Compression Time: 5744ms
+GCIS Compression Peak Memory: 532783514 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/proteins.001.1.c -w 10 -p 100 -c
+Parsing time: 0.0042
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz
+Preprocess time: 0.0018
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.parse 489834
+repair(parse) time: 0.0010
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Postprocess time: 0.0010
+Elapsed time: 0.0109
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Elapsed time: 0.0014
+==== Done
+GCIS Decompression time: 1567 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 562,212,668, peak: 532,783,514, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Decompression.
+malloc_count ### exiting, total: 243,168,256, peak: 187,009,170, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 4,521,572 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 220 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 28 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	104857600 bytes
+Output (.c):	5597525 bytes
+GCIS Compression Time: 5759ms
+GCIS Compression Peak Memory: 532783514 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/proteins.001.1.c -w 10 -p 100 -c
+Parsing time: 0.0045
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz
+Preprocess time: 0.0019
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz.int 489834
+repair(dict) time: 0.0021
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.parse 489834
+repair(parse) time: 0.0010
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Postprocess time: 0.0010
+Elapsed time: 0.0123
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Elapsed time: 0.0019
+==== Done
+GCIS Decompression time: 1549 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 562,216,056, peak: 532,783,514, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Decompression.
+malloc_count ### exiting, total: 243,245,104, peak: 187,086,010, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 4,521,662 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 116 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 20 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	104857600 bytes
+Output (.c):	5674415 bytes
+GCIS Compression Time: 5772ms
+GCIS Compression Peak Memory: 532783514 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/proteins.001.1.c -w 10 -p 100 -c
+Parsing time: 0.0036
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz
+Preprocess time: 0.0018
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz.int 489834
+repair(dict) time: 0.0016
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.parse 489834
+repair(parse) time: 0.0010
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Postprocess time: 0.0011
+Elapsed time: 0.0101
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Elapsed time: 0.0010
+==== Done
+GCIS Decompression time: 1770 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 562,219,176, peak: 532,783,514, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Decompression.
+malloc_count ### exiting, total: 243,322,112, peak: 187,162,978, current: 4,096
+
+========================================
+
+=== LEVEL 15 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/proteins.001.1.r): 4,521,752 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/proteins.001.1.c.R): 68 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/proteins.001.1.c.C): 4 bytes
+
+--- STDOUT ---
+Max Level = 15
+Input:	104857600 bytes
+Output (.c):	5751329 bytes
+GCIS Compression Time: 5761ms
+GCIS Compression Peak Memory: 532783514 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/pseudo-real/proteins.001.1.c -w 10 -p 100 -c
+Parsing time: 0.0026
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz
+Preprocess time: 0.0010
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.dicz.int 489834
+repair(dict) time: 0.0016
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c.parse 489834
+repair(parse) time: 0.0010
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Postprocess time: 0.0010
+Elapsed time: 0.0091
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/pseudo-real/proteins.001.1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/pseudo-real/proteins.001.1.c
+Elapsed time: 0.0013
+==== Done
+GCIS Decompression time: 1571 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 562,222,272, peak: 532,783,514, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/pseudo-real/proteins.001.1.c 
+Decompression.
+malloc_count ### exiting, total: 243,399,176, peak: 187,239,970, current: 4,096
+
+========================================
+
+=== LEVEL 16 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/pseudo-real/proteins.001.1 ../datasets/repcorpus/pseudo-real/proteins.001.1 -s8b 16' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

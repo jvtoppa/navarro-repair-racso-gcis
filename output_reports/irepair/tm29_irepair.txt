@@ -1,0 +1,506 @@
+=== IREPAIR Report for tm29 ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 98 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 596 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 96 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	268435456 bytes
+Output (.c):	715904819 bytes
+GCIS Compression Time: 4057ms
+GCIS Compression Peak Memory: 2058101204 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 2148771904 bytes
+iRepair Peak Memory (Decompression): 9728 bytes
+GCIS Decompression time: 1944 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,058,121,708, peak: 2,058,104,520, current: 4,096
+iRepair Compression time: 11.793291 s
+malloc_count ### exiting, total: 4,915,739,588, peak: 2,148,771,904, current: 1,277,996
+iRepair Decompression time: 7.835679 s
+malloc_count ### exiting, total: 18,392, peak: 9,728, current: 4,688
+Decompression.
+malloc_count ### exiting, total: 1,700,199,220, peak: 1,700,194,948, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 188 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 508 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 224 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	268435456 bytes
+Output (.c):	268589333 bytes
+GCIS Compression Time: 4913ms
+GCIS Compression Peak Memory: 1610786820 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 806307288 bytes
+iRepair Peak Memory (Decompression): 9640 bytes
+GCIS Decompression time: 1541 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,610,887,464, peak: 1,610,789,112, current: 4,096
+iRepair Compression time: 4.476431 s
+malloc_count ### exiting, total: 2,228,511,408, peak: 806,307,288, current: 997,288
+iRepair Decompression time: 2.926244 s
+malloc_count ### exiting, total: 18,304, peak: 9,640, current: 4,600
+Decompression.
+malloc_count ### exiting, total: 839,045,916, peak: 570,606,092, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 278 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 532 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 92 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	268435456 bytes
+Output (.c):	89709303 bytes
+GCIS Compression Time: 5211ms
+GCIS Compression Peak Memory: 1431983860 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 269239440 bytes
+iRepair Peak Memory (Decompression): 9664 bytes
+GCIS Decompression time: 1394 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,432,241,584, peak: 1,431,986,152, current: 4,096
+iRepair Compression time: 1.536622 s
+malloc_count ### exiting, total: 918,680,284, peak: 269,239,440, current: 793,696
+iRepair Decompression time: 0.831463 s
+malloc_count ### exiting, total: 18,328, peak: 9,664, current: 4,624
+Decompression.
+malloc_count ### exiting, total: 493,791,996, peak: 391,726,140, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 368 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 500 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 88 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	268435456 bytes
+Output (.c):	33862185 bytes
+GCIS Compression Time: 5360ms
+GCIS Compression Peak Memory: 1376059836 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 101366672 bytes
+iRepair Peak Memory (Decompression): 9632 bytes
+GCIS Decompression time: 1389 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,376,320,716, peak: 1,376,062,128, current: 4,096
+iRepair Compression time: 0.581533 s
+malloc_count ### exiting, total: 438,097,488, peak: 101,366,672, current: 690,976
+iRepair Decompression time: 0.288313 s
+malloc_count ### exiting, total: 18,296, peak: 9,632, current: 4,592
+Decompression.
+malloc_count ### exiting, total: 386,215,300, peak: 335,879,100, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 458 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 468 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 80 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	268435456 bytes
+Output (.c):	11569507 bytes
+GCIS Compression Time: 5397ms
+GCIS Compression Peak Memory: 1353998196 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 34187232 bytes
+iRepair Peak Memory (Decompression): 9600 bytes
+GCIS Decompression time: 1442 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,354,570,124, peak: 1,354,000,488, current: 4,096
+iRepair Compression time: 0.199966 s
+malloc_count ### exiting, total: 213,994,820, peak: 34,187,232, current: 622,408
+iRepair Decompression time: 0.042476 s
+malloc_count ### exiting, total: 18,264, peak: 9,600, current: 4,560
+Decompression.
+malloc_count ### exiting, total: 343,126,036, peak: 313,586,500, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 548 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 428 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 76 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	268435456 bytes
+Output (.c):	4655933 bytes
+GCIS Compression Time: 5379ms
+GCIS Compression Peak Memory: 1347007716 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 13182424 bytes
+iRepair Peak Memory (Decompression): 9560 bytes
+GCIS Decompression time: 1384 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,347,582,800, peak: 1,347,010,008, current: 4,096
+iRepair Compression time: 0.080204 s
+malloc_count ### exiting, total: 103,258,492, peak: 13,182,424, current: 586,028
+iRepair Decompression time: 0.022417 s
+malloc_count ### exiting, total: 18,224, peak: 9,560, current: 4,520
+Decompression.
+malloc_count ### exiting, total: 329,746,412, peak: 306,673,004, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 638 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 388 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 80 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	268435456 bytes
+Output (.c):	1936671 bytes
+GCIS Compression Time: 5388ms
+GCIS Compression Peak Memory: 1344211556 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 4766560 bytes
+iRepair Peak Memory (Decompression): 9520 bytes
+GCIS Decompression time: 1412 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,789,752, peak: 1,344,213,848, current: 4,096
+iRepair Compression time: 0.025072 s
+malloc_count ### exiting, total: 48,693,960, peak: 4,766,560, current: 561,836
+iRepair Decompression time: 0.008078 s
+malloc_count ### exiting, total: 18,184, peak: 9,520, current: 4,480
+Decompression.
+malloc_count ### exiting, total: 324,427,724, peak: 303,953,820, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 728 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 356 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 76 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	268435456 bytes
+Output (.c):	1139793 bytes
+GCIS Compression Time: 5418ms
+GCIS Compression Peak Memory: 1343337772 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 2134336 bytes
+iRepair Peak Memory (Decompression): 9488 bytes
+GCIS Decompression time: 1552 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,343,919,124, peak: 1,343,340,064, current: 4,096
+iRepair Compression time: 0.014296 s
+malloc_count ### exiting, total: 27,199,560, peak: 2,134,336, current: 548,940
+iRepair Decompression time: 0.003057 s
+malloc_count ### exiting, total: 18,152, peak: 9,488, current: 4,448
+Decompression.
+malloc_count ### exiting, total: 322,822,740, peak: 303,157,020, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 818 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 324 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 68 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	268435456 bytes
+Output (.c):	867211 bytes
+GCIS Compression Time: 5488ms
+GCIS Compression Peak Memory: 1344044564 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1075160 bytes
+iRepair Peak Memory (Decompression): 9456 bytes
+GCIS Decompression time: 1532 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,804,500, peak: 1,344,044,564, current: 4,096
+iRepair Compression time: 0.006123 s
+malloc_count ### exiting, total: 15,223,292, peak: 1,075,160, current: 540,372
+iRepair Decompression time: 0.001083 s
+malloc_count ### exiting, total: 18,120, peak: 9,456, current: 4,416
+Decompression.
+malloc_count ### exiting, total: 322,225,380, peak: 302,884,516, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 908 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 284 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 64 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	268435456 bytes
+Output (.c):	834917 bytes
+GCIS Compression Time: 5397ms
+GCIS Compression Peak Memory: 1344044564 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 745944 bytes
+iRepair Peak Memory (Decompression): 9416 bytes
+GCIS Decompression time: 1400 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,698,456, peak: 1,344,044,564, current: 4,096
+iRepair Compression time: 0.003377 s
+malloc_count ### exiting, total: 7,677,064, peak: 745,944, current: 535,756
+iRepair Decompression time: 0.000826 s
+malloc_count ### exiting, total: 18,080, peak: 9,416, current: 4,376
+Decompression.
+malloc_count ### exiting, total: 322,092,220, peak: 302,852,300, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 998 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 244 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 68 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	268435456 bytes
+Output (.c):	868167 bytes
+GCIS Compression Time: 5399ms
+GCIS Compression Peak Memory: 1344044564 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 608784 bytes
+iRepair Peak Memory (Decompression): 9376 bytes
+GCIS Decompression time: 1399 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,657,920, peak: 1,344,044,564, current: 4,096
+iRepair Compression time: 0.000865 s
+malloc_count ### exiting, total: 3,789,956, peak: 608,784, current: 532,732
+iRepair Decompression time: 0.000199 s
+malloc_count ### exiting, total: 18,040, peak: 9,376, current: 4,336
+Decompression.
+malloc_count ### exiting, total: 322,085,020, peak: 302,885,628, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 1,088 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 212 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 64 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	268435456 bytes
+Output (.c):	931449 bytes
+GCIS Compression Time: 5478ms
+GCIS Compression Peak Memory: 1344044564 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 568296 bytes
+iRepair Peak Memory (Decompression): 9344 bytes
+GCIS Decompression time: 1477 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,647,452, peak: 1,344,044,564, current: 4,096
+iRepair Compression time: 0.001366 s
+malloc_count ### exiting, total: 2,347,608, peak: 568,296, current: 531,308
+iRepair Decompression time: 0.000111 s
+malloc_count ### exiting, total: 18,008, peak: 9,344, current: 4,304
+Decompression.
+malloc_count ### exiting, total: 322,135,844, peak: 302,948,988, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 1,178 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 180 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 56 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	268435456 bytes
+Output (.c):	1002931 bytes
+GCIS Compression Time: 5395ms
+GCIS Compression Peak Memory: 1344044564 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 550864 bytes
+iRepair Peak Memory (Decompression): 9312 bytes
+GCIS Decompression time: 1418 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,645,148, peak: 1,344,044,564, current: 4,096
+iRepair Compression time: 0.000570 s
+malloc_count ### exiting, total: 1,369,020, peak: 550,864, current: 530,220
+iRepair Decompression time: 0.000075 s
+malloc_count ### exiting, total: 17,976, peak: 9,312, current: 4,272
+Decompression.
+malloc_count ### exiting, total: 322,202,420, peak: 303,020,548, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 1,268 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 140 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 52 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	268435456 bytes
+Output (.c):	1078157 bytes
+GCIS Compression Time: 5478ms
+GCIS Compression Peak Memory: 1344044564 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 548184 bytes
+iRepair Peak Memory (Decompression): 9272 bytes
+GCIS Decompression time: 1938 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,646,624, peak: 1,344,044,564, current: 4,096
+iRepair Compression time: 0.000349 s
+malloc_count ### exiting, total: 839,008, peak: 548,184, current: 529,544
+iRepair Decompression time: 0.000139 s
+malloc_count ### exiting, total: 17,936, peak: 9,272, current: 4,232
+Decompression.
+malloc_count ### exiting, total: 322,276,236, peak: 303,095,852, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 1,358 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 100 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 56 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	268435456 bytes
+Output (.c):	1154415 bytes
+GCIS Compression Time: 5397ms
+GCIS Compression Peak Memory: 1344044564 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 544784 bytes
+iRepair Peak Memory (Decompression): 9232 bytes
+GCIS Decompression time: 1398 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,649,096, peak: 1,344,044,564, current: 4,096
+iRepair Compression time: 0.000298 s
+malloc_count ### exiting, total: 625,272, peak: 544,784, current: 529,160
+iRepair Decompression time: 0.000136 s
+malloc_count ### exiting, total: 17,896, peak: 9,232, current: 4,192
+Decompression.
+malloc_count ### exiting, total: 322,352,028, peak: 303,172,188, current: 4,096
+
+========================================
+
+=== LEVEL 15 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 1,448 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 60 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 48 bytes
+
+--- STDOUT ---
+Max Level = 15
+Input:	268435456 bytes
+Output (.c):	1231137 bytes
+GCIS Compression Time: 5406ms
+GCIS Compression Peak Memory: 1344044564 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 538792 bytes
+iRepair Peak Memory (Decompression): 9192 bytes
+GCIS Decompression time: 1396 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,652,068, peak: 1,344,044,564, current: 4,096
+iRepair Compression time: 0.000305 s
+malloc_count ### exiting, total: 565,504, peak: 538,792, current: 528,888
+iRepair Decompression time: 0.000101 s
+malloc_count ### exiting, total: 17,856, peak: 9,192, current: 4,152
+Decompression.
+malloc_count ### exiting, total: 322,428,724, peak: 303,248,988, current: 4,096
+
+========================================
+
+=== LEVEL 16 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/tm29.r): 1,538 bytes
+  - .c.R (../datasets/repcorpus/artificial/tm29.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/artificial/tm29.c.C): 44 bytes
+
+--- STDOUT ---
+Max Level = 16
+Input:	268435456 bytes
+Output (.c):	1307995 bytes
+GCIS Compression Time: 5463ms
+GCIS Compression Peak Memory: 1345892644 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536392 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1395 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,347,118,628, peak: 1,345,892,644, current: 4,096
+iRepair Compression time: 0.000871 s
+malloc_count ### exiting, total: 551,672, peak: 536,392, current: 528,752
+iRepair Decompression time: 0.000063 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 322,505,676, peak: 303,325,924, current: 4,096
+
+========================================
+
+=== LEVEL 17 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -c ../datasets/repcorpus/artificial/tm29 ../datasets/repcorpus/artificial/tm29 -s8b 17' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+GCIS Compression.
+malloc(): unsorted double linked list corrupted
+Aborted
+
+
+========================================
+

@@ -1,0 +1,594 @@
+=== IREPAIR Report for fib41 ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 98 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 300 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 104 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	267914296 bytes
+Output (.c):	818750179 bytes
+GCIS Compression Time: 4051ms
+GCIS Compression Peak Memory: 2158340766 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 2457360008 bytes
+iRepair Peak Memory (Decompression): 9432 bytes
+GCIS Decompression time: 1701 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,158,361,216, peak: 2,158,344,082, current: 4,096
+iRepair Compression time: 12.768256 s
+malloc_count ### exiting, total: 5,182,482,584, peak: 2,457,360,008, current: 1,329,888
+iRepair Decompression time: 6.725242 s
+malloc_count ### exiting, total: 18,096, peak: 9,432, current: 4,392
+Decompression.
+malloc_count ### exiting, total: 1,905,368,752, peak: 1,905,364,494, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 188 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 284 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 100 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	267914296 bytes
+Output (.c):	312859229 bytes
+GCIS Compression Time: 5074ms
+GCIS Compression Peak Memory: 1652450918 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 939150304 bytes
+iRepair Peak Memory (Decompression): 9416 bytes
+GCIS Decompression time: 1605 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,652,551,428, peak: 1,652,453,210, current: 4,096
+iRepair Compression time: 5.086644 s
+malloc_count ### exiting, total: 2,286,386,536, peak: 939,150,304, current: 1,023,836
+iRepair Decompression time: 3.224680 s
+malloc_count ### exiting, total: 18,080, peak: 9,416, current: 4,376
+Decompression.
+malloc_count ### exiting, total: 919,093,608, peak: 651,174,974, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 278 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 268 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 96 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	267914296 bytes
+Output (.c):	119673631 bytes
+GCIS Compression Time: 5289ms
+GCIS Compression Peak Memory: 1459342382 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 359173584 bytes
+iRepair Peak Memory (Decompression): 9400 bytes
+GCIS Decompression time: 1619 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,459,599,936, peak: 1,459,344,674, current: 4,096
+iRepair Compression time: 1.984676 s
+malloc_count ### exiting, total: 1,052,627,144, peak: 359,173,584, current: 834,712
+iRepair Decompression time: 1.125166 s
+malloc_count ### exiting, total: 18,064, peak: 9,400, current: 4,360
+Decompression.
+malloc_count ### exiting, total: 542,417,672, peak: 413,198,406, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 368 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 252 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 92 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	267914296 bytes
+Output (.c):	45930849 bytes
+GCIS Compression Time: 5396ms
+GCIS Compression Peak Memory: 1385522694 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 137597552 bytes
+iRepair Peak Memory (Decompression): 9384 bytes
+GCIS Decompression time: 1626 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,385,783,324, peak: 1,385,524,986, current: 4,096
+iRepair Compression time: 0.813160 s
+malloc_count ### exiting, total: 505,845,540, peak: 137,597,552, current: 717,828
+iRepair Decompression time: 0.500303 s
+malloc_count ### exiting, total: 18,048, peak: 9,384, current: 4,344
+Decompression.
+malloc_count ### exiting, total: 398,587,912, peak: 339,455,702, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 458 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 236 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 88 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	267914296 bytes
+Output (.c):	17811163 bytes
+GCIS Compression Time: 5451ms
+GCIS Compression Peak Memory: 1357634038 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 52935440 bytes
+iRepair Peak Memory (Decompression): 9368 bytes
+GCIS Decompression time: 1624 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,358,205,680, peak: 1,357,636,330, current: 4,096
+iRepair Compression time: 0.273049 s
+malloc_count ### exiting, total: 253,422,688, peak: 52,935,440, current: 645,576
+iRepair Decompression time: 0.104531 s
+malloc_count ### exiting, total: 18,032, peak: 9,368, current: 4,328
+Decompression.
+malloc_count ### exiting, total: 343,697,480, peak: 311,336,094, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 548 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 220 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 84 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	267914296 bytes
+Output (.c):	7117949 bytes
+GCIS Compression Time: 5491ms
+GCIS Compression Peak Memory: 1346863918 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 20580296 bytes
+iRepair Peak Memory (Decompression): 9352 bytes
+GCIS Decompression time: 1623 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,347,438,636, peak: 1,346,866,210, current: 4,096
+iRepair Compression time: 0.145773 s
+malloc_count ### exiting, total: 131,308,028, peak: 20,580,296, current: 600,876
+iRepair Decompression time: 0.032079 s
+malloc_count ### exiting, total: 18,016, peak: 9,352, current: 4,312
+Decompression.
+malloc_count ### exiting, total: 322,778,848, peak: 300,642,958, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 638 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 204 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 80 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	267914296 bytes
+Output (.c):	3081055 bytes
+GCIS Compression Time: 5489ms
+GCIS Compression Peak Memory: 1342750118 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 8211248 bytes
+iRepair Peak Memory (Decompression): 9336 bytes
+GCIS Decompression time: 1622 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,343,327,912, peak: 1,342,752,410, current: 4,096
+iRepair Compression time: 0.040817 s
+malloc_count ### exiting, total: 70,072,408, peak: 8,211,248, current: 573,348
+iRepair Decompression time: 0.013841 s
+malloc_count ### exiting, total: 18,000, peak: 9,336, current: 4,296
+Decompression.
+malloc_count ### exiting, total: 314,836,288, peak: 296,606,142, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 728 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 188 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 76 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	267914296 bytes
+Output (.c):	1586649 bytes
+GCIS Compression Time: 5499ms
+GCIS Compression Peak Memory: 1341178806 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 3480136 bytes
+iRepair Peak Memory (Decompression): 9320 bytes
+GCIS Decompression time: 1715 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,341,759,676, peak: 1,341,181,098, current: 4,096
+iRepair Compression time: 0.016374 s
+malloc_count ### exiting, total: 38,077,360, peak: 3,480,136, current: 556,256
+iRepair Decompression time: 0.005576 s
+malloc_count ### exiting, total: 17,984, peak: 9,320, current: 4,280
+Decompression.
+malloc_count ### exiting, total: 311,850,144, peak: 295,111,814, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 818 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 172 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 72 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	267914296 bytes
+Output (.c):	1063387 bytes
+GCIS Compression Time: 5643ms
+GCIS Compression Peak Memory: 1341438614 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1669008 bytes
+iRepair Peak Memory (Decompression): 9304 bytes
+GCIS Decompression time: 1644 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,342,394,328, peak: 1,341,438,614, current: 4,096
+iRepair Compression time: 0.006607 s
+malloc_count ### exiting, total: 21,037,968, peak: 1,669,008, current: 545,716
+iRepair Decompression time: 0.002260 s
+malloc_count ### exiting, total: 17,968, peak: 9,304, current: 4,264
+Decompression.
+malloc_count ### exiting, total: 310,757,184, peak: 294,588,630, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 908 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 156 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 68 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	267914296 bytes
+Output (.c):	911069 bytes
+GCIS Compression Time: 5650ms
+GCIS Compression Peak Memory: 1341438614 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 974744 bytes
+iRepair Peak Memory (Decompression): 9288 bytes
+GCIS Decompression time: 1637 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,342,168,180, peak: 1,341,438,614, current: 4,096
+iRepair Compression time: 0.002971 s
+malloc_count ### exiting, total: 11,750,332, peak: 974,744, current: 539,208
+iRepair Decompression time: 0.000598 s
+malloc_count ### exiting, total: 17,952, peak: 9,288, current: 4,248
+Decompression.
+malloc_count ### exiting, total: 310,387,352, peak: 294,436,390, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 998 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 140 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 64 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	267914296 bytes
+Output (.c):	900439 bytes
+GCIS Compression Time: 5581ms
+GCIS Compression Peak Memory: 1341438614 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 708008 bytes
+iRepair Peak Memory (Decompression): 9272 bytes
+GCIS Decompression time: 1787 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,342,083,720, peak: 1,341,438,614, current: 4,096
+iRepair Compression time: 0.001435 s
+malloc_count ### exiting, total: 6,640,688, peak: 708,008, current: 535,164
+iRepair Decompression time: 0.000398 s
+malloc_count ### exiting, total: 17,936, peak: 9,272, current: 4,232
+Decompression.
+malloc_count ### exiting, total: 310,293,736, peak: 294,425,838, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 1,088 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 124 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 60 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	267914296 bytes
+Output (.c):	943929 bytes
+GCIS Compression Time: 5589ms
+GCIS Compression Peak Memory: 1341438614 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 605144 bytes
+iRepair Peak Memory (Decompression): 9256 bytes
+GCIS Decompression time: 1668 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,342,053,380, peak: 1,341,438,614, current: 4,096
+iRepair Compression time: 0.001271 s
+malloc_count ### exiting, total: 3,794,412, peak: 605,144, current: 532,632
+iRepair Decompression time: 0.000204 s
+malloc_count ### exiting, total: 17,920, peak: 9,256, current: 4,216
+Decompression.
+malloc_count ### exiting, total: 310,305,624, peak: 294,469,406, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 1,178 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 108 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 56 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	267914296 bytes
+Output (.c):	1008091 bytes
+GCIS Compression Time: 5472ms
+GCIS Compression Peak Memory: 1341438614 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 565304 bytes
+iRepair Peak Memory (Decompression): 9240 bytes
+GCIS Decompression time: 1640 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,342,043,712, peak: 1,341,438,614, current: 4,096
+iRepair Compression time: 0.000497 s
+malloc_count ### exiting, total: 2,259,716, peak: 565,304, current: 531,108
+iRepair Decompression time: 0.000147 s
+malloc_count ### exiting, total: 17,904, peak: 9,240, current: 4,200
+Decompression.
+malloc_count ### exiting, total: 310,357,808, peak: 294,533,646, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 1,268 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 92 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 52 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	267914296 bytes
+Output (.c):	1080149 bytes
+GCIS Compression Time: 5483ms
+GCIS Compression Peak Memory: 1341438614 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 549712 bytes
+iRepair Peak Memory (Decompression): 9224 bytes
+GCIS Decompression time: 1632 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,342,041,940, peak: 1,341,438,614, current: 4,096
+iRepair Compression time: 0.000394 s
+malloc_count ### exiting, total: 1,411,364, peak: 549,712, current: 530,144
+iRepair Decompression time: 0.000107 s
+malloc_count ### exiting, total: 17,888, peak: 9,224, current: 4,184
+Decompression.
+malloc_count ### exiting, total: 310,425,384, peak: 294,605,782, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 1,358 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 76 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 48 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	267914296 bytes
+Output (.c):	1155223 bytes
+GCIS Compression Time: 5471ms
+GCIS Compression Peak Memory: 1341438614 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 544528 bytes
+iRepair Peak Memory (Decompression): 9208 bytes
+GCIS Decompression time: 1631 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,342,043,184, peak: 1,341,438,614, current: 4,096
+iRepair Compression time: 0.000337 s
+malloc_count ### exiting, total: 943,572, peak: 544,528, current: 529,564
+iRepair Decompression time: 0.000150 s
+malloc_count ### exiting, total: 17,872, peak: 9,208, current: 4,168
+Decompression.
+malloc_count ### exiting, total: 310,498,840, peak: 294,680,934, current: 4,096
+
+========================================
+
+=== LEVEL 15 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 1,448 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 60 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 44 bytes
+
+--- STDOUT ---
+Max Level = 15
+Input:	267914296 bytes
+Output (.c):	1231449 bytes
+GCIS Compression Time: 5483ms
+GCIS Compression Peak Memory: 1341438614 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 544104 bytes
+iRepair Peak Memory (Decompression): 9192 bytes
+GCIS Decompression time: 1997 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,342,045,580, peak: 1,341,438,614, current: 4,096
+iRepair Compression time: 0.000313 s
+malloc_count ### exiting, total: 713,656, peak: 544,104, current: 529,216
+iRepair Decompression time: 0.000070 s
+malloc_count ### exiting, total: 17,856, peak: 9,192, current: 4,152
+Decompression.
+malloc_count ### exiting, total: 310,574,544, peak: 294,757,238, current: 4,096
+
+========================================
+
+=== LEVEL 16 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 1,538 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 44 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 40 bytes
+
+--- STDOUT ---
+Max Level = 16
+Input:	267914296 bytes
+Output (.c):	1308115 bytes
+GCIS Compression Time: 5474ms
+GCIS Compression Peak Memory: 1343286582 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 541016 bytes
+iRepair Peak Memory (Decompression): 9176 bytes
+GCIS Decompression time: 1632 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,511,904, peak: 1,343,286,582, current: 4,096
+iRepair Compression time: 0.000290 s
+malloc_count ### exiting, total: 598,484, peak: 541,016, current: 528,980
+iRepair Decompression time: 0.000065 s
+malloc_count ### exiting, total: 17,840, peak: 9,176, current: 4,136
+Decompression.
+malloc_count ### exiting, total: 310,651,104, peak: 294,833,982, current: 4,096
+
+========================================
+
+=== LEVEL 17 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 1,628 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 28 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 36 bytes
+
+--- STDOUT ---
+Max Level = 17
+Input:	267914296 bytes
+Output (.c):	1384949 bytes
+GCIS Compression Time: 5565ms
+GCIS Compression Peak Memory: 1343286582 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 537464 bytes
+iRepair Peak Memory (Decompression): 9160 bytes
+GCIS Decompression time: 1770 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,514,908, peak: 1,343,286,582, current: 4,096
+iRepair Compression time: 0.000303 s
+malloc_count ### exiting, total: 556,840, peak: 537,464, current: 528,800
+iRepair Decompression time: 0.000133 s
+malloc_count ### exiting, total: 17,824, peak: 9,160, current: 4,120
+Decompression.
+malloc_count ### exiting, total: 310,727,992, peak: 294,910,894, current: 4,096
+
+========================================
+
+=== LEVEL 18 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 1,718 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 4 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 24 bytes
+
+--- STDOUT ---
+Max Level = 18
+Input:	267914296 bytes
+Output (.c):	1461847 bytes
+GCIS Compression Time: 5489ms
+GCIS Compression Peak Memory: 1343286582 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 531696 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 1769 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,517,952, peak: 1,343,286,582, current: 4,096
+iRepair Compression time: 0.000486 s
+malloc_count ### exiting, total: 549,496, peak: 533,192, current: 528,624
+iRepair Decompression time: 0.000126 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 310,805,000, peak: 294,987,870, current: 4,096
+
+========================================
+
+=== LEVEL 19 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/artificial/fib41.r): 1,718 bytes
+  - .c.R (../datasets/repcorpus/artificial/fib41.c.R): 4 bytes
+  - .c.C (../datasets/repcorpus/artificial/fib41.c.C): 8 bytes
+
+--- STDOUT ---
+Max Level = 19
+Input:	267914296 bytes
+Output (.c):	1461831 bytes
+GCIS Compression Time: 5488ms
+GCIS Compression Peak Memory: 1343286582 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 531592 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 1733 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,344,517,936, peak: 1,343,286,582, current: 4,096
+iRepair Compression time: 0.000285 s
+malloc_count ### exiting, total: 549,392, peak: 533,088, current: 528,520
+iRepair Decompression time: 0.000065 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 310,804,960, peak: 294,987,854, current: 4,096
+
+========================================
+
+=== LEVEL 20 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/artificial/fib41 ../datasets/repcorpus/artificial/fib41 -s8b 20' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

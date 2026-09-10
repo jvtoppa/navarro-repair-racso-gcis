@@ -1,0 +1,350 @@
+=== BIGREPAIR Report for HDFS_1 ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/HDFS_1.r): 131,034 bytes
+  - .c.R (../datasets/repcorpus/logs/HDFS_1.c.R): 19,714,124 bytes
+  - .c.C (../datasets/repcorpus/logs/HDFS_1.c.C): 9,197,332 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	104857600 bytes
+Output (.c):	247080699 bytes
+GCIS Compression Time: 3179ms
+GCIS Compression Peak Memory: 771419796 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/HDFS_1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/HDFS_1.c -w 10 -p 100 -c
+Parsing time: 15.1863
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/HDFS_1.c.dicz
+Preprocess time: 1.8561
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/HDFS_1.c.dicz.int 489834
+repair(dict) time: 45.0698
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/HDFS_1.c.parse 489834
+repair(parse) time: 2.0333
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/HDFS_1.c
+Postprocess time: 0.1717
+Elapsed time: 64.3263
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/HDFS_1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/HDFS_1.c
+Elapsed time: 4.1287
+==== Done
+GCIS Decompression time: 731 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 773,438,900, peak: 771,423,112, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/HDFS_1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/HDFS_1.c 
+Decompression.
+malloc_count ### exiting, total: 600,357,908, peak: 599,595,776, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/HDFS_1.r): 2,351,028 bytes
+  - .c.R (../datasets/repcorpus/logs/HDFS_1.c.R): 30,628,244 bytes
+  - .c.C (../datasets/repcorpus/logs/HDFS_1.c.C): 3,911,188 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	104857600 bytes
+Output (.c):	91964381 bytes
+GCIS Compression Time: 4269ms
+GCIS Compression Peak Memory: 616322916 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/HDFS_1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/HDFS_1.c -w 10 -p 100 -c
+Parsing time: 6.2343
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/HDFS_1.c.dicz
+Preprocess time: 1.3546
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/HDFS_1.c.dicz.int 489834
+repair(dict) time: 206.5573
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/HDFS_1.c.parse 489834
+repair(parse) time: 0.4583
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/HDFS_1.c
+Postprocess time: 0.4469
+Elapsed time: 215.0546
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/HDFS_1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/HDFS_1.c
+Elapsed time: 2.1142
+==== Done
+GCIS Decompression time: 1069 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 638,044,284, peak: 616,325,208, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/HDFS_1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/HDFS_1.c 
+Decompression.
+malloc_count ### exiting, total: 370,938,940, peak: 263,182,304, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/HDFS_1.r): 9,435,958 bytes
+  - .c.R (../datasets/repcorpus/logs/HDFS_1.c.R): 29,074,140 bytes
+  - .c.C (../datasets/repcorpus/logs/HDFS_1.c.C): 1,759,080 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	104857600 bytes
+Output (.c):	37963079 bytes
+GCIS Compression Time: 4874ms
+GCIS Compression Peak Memory: 571482524 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/HDFS_1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/HDFS_1.c -w 10 -p 100 -c
+Parsing time: 2.2548
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/HDFS_1.c.dicz
+Preprocess time: 0.4116
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/HDFS_1.c.dicz.int 489834
+repair(dict) time: 11.0856
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/HDFS_1.c.parse 489834
+repair(parse) time: 0.1076
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/HDFS_1.c
+Postprocess time: 0.2972
+Elapsed time: 14.1602
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/HDFS_1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/HDFS_1.c
+Elapsed time: 0.6684
+==== Done
+GCIS Decompression time: 1225 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 628,397,996, peak: 571,482,524, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/HDFS_1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/HDFS_1.c 
+Decompression.
+malloc_count ### exiting, total: 321,385,756, peak: 209,181,080, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/HDFS_1.r): 17,794,040 bytes
+  - .c.R (../datasets/repcorpus/logs/HDFS_1.c.R): 15,330,644 bytes
+  - .c.C (../datasets/repcorpus/logs/HDFS_1.c.C): 367,480 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	104857600 bytes
+Output (.c):	27238721 bytes
+GCIS Compression Time: 4978ms
+GCIS Compression Peak Memory: 576818708 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/HDFS_1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/HDFS_1.c -w 10 -p 100 -c
+Parsing time: 0.6062
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/HDFS_1.c.dicz
+Preprocess time: 0.1880
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/HDFS_1.c.dicz.int 489834
+repair(dict) time: 2.9837
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/HDFS_1.c.parse 489834
+repair(parse) time: 0.0179
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/HDFS_1.c
+Postprocess time: 0.1780
+Elapsed time: 3.9750
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/HDFS_1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/HDFS_1.c
+Elapsed time: 0.1896
+==== Done
+GCIS Decompression time: 1295 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 660,157,628, peak: 576,818,708, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/HDFS_1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/HDFS_1.c 
+Decompression.
+malloc_count ### exiting, total: 328,162,292, peak: 198,456,800, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/HDFS_1.r): 20,953,186 bytes
+  - .c.R (../datasets/repcorpus/logs/HDFS_1.c.R): 6,199,756 bytes
+  - .c.C (../datasets/repcorpus/logs/HDFS_1.c.C): 129,996 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	104857600 bytes
+Output (.c):	24531587 bytes
+GCIS Compression Time: 5032ms
+GCIS Compression Peak Memory: 576818708 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/HDFS_1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/HDFS_1.c -w 10 -p 100 -c
+Parsing time: 0.1637
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/HDFS_1.c.dicz
+Preprocess time: 0.0492
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/HDFS_1.c.dicz.int 489834
+repair(dict) time: 1.0470
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/HDFS_1.c.parse 489834
+repair(parse) time: 0.0073
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/HDFS_1.c
+Postprocess time: 0.0239
+Elapsed time: 1.2934
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/HDFS_1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/HDFS_1.c
+Elapsed time: 0.0637
+==== Done
+GCIS Decompression time: 1381 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 673,846,324, peak: 576,818,708, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/HDFS_1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/HDFS_1.c 
+Decompression.
+malloc_count ### exiting, total: 331,700,756, peak: 195,749,744, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/HDFS_1.r): 21,907,468 bytes
+  - .c.R (../datasets/repcorpus/logs/HDFS_1.c.R): 95,964 bytes
+  - .c.C (../datasets/repcorpus/logs/HDFS_1.c.C): 2,192 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	104857600 bytes
+Output (.c):	22416733 bytes
+GCIS Compression Time: 5061ms
+GCIS Compression Peak Memory: 576818708 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/HDFS_1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/HDFS_1.c -w 10 -p 100 -c
+Parsing time: 0.0062
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/HDFS_1.c.dicz
+Preprocess time: 0.0040
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/HDFS_1.c.dicz.int 489834
+repair(dict) time: 0.0091
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/HDFS_1.c.parse 489834
+repair(parse) time: 0.0023
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/HDFS_1.c
+Postprocess time: 0.0027
+Elapsed time: 0.0267
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/HDFS_1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/HDFS_1.c
+Elapsed time: 0.0029
+==== Done
+GCIS Decompression time: 1240 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 674,958,756, peak: 576,818,708, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/HDFS_1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/HDFS_1.c 
+Decompression.
+malloc_count ### exiting, total: 329,332,284, peak: 193,634,968, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/HDFS_1.r): 21,917,238 bytes
+  - .c.R (../datasets/repcorpus/logs/HDFS_1.c.R): 3,724 bytes
+  - .c.C (../datasets/repcorpus/logs/HDFS_1.c.C): 108 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	104857600 bytes
+Output (.c):	22457047 bytes
+GCIS Compression Time: 5052ms
+GCIS Compression Peak Memory: 576818708 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/HDFS_1.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/HDFS_1.c -w 10 -p 100 -c
+Parsing time: 0.0026
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/HDFS_1.c.dicz
+Preprocess time: 0.0016
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/HDFS_1.c.dicz.int 489834
+repair(dict) time: 0.0025
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/HDFS_1.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/HDFS_1.c
+Postprocess time: 0.0011
+Elapsed time: 0.0104
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/HDFS_1.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/HDFS_1.c
+Elapsed time: 0.0022
+==== Done
+GCIS Decompression time: 1350 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 674,977,380, peak: 576,818,708, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/HDFS_1.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/HDFS_1.c 
+Decompression.
+malloc_count ### exiting, total: 329,356,004, peak: 193,675,360, current: 4,096
+
+========================================
+
+=== LEVEL 7 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/logs/HDFS_1 ../datasets/repcorpus/logs/HDFS_1 -s8b 7' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

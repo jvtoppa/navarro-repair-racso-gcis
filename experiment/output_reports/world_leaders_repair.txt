@@ -1,0 +1,27 @@
+=== Output Report for world_leaders ===
+
+--- ENCODING SIZES ---
+ - world_leaders.C: 377,308 bytes
+ - world_leaders.R: 1,652,157 bytes
+Total Run Encoding Size: 2,029,465 bytes
+
+--- STDOUT ---
+
+--- STDERR ---
+Repair Compression time: 5.604005 s
+RePair succeeded
+
+   Original chars: 46968181
+   Number of rules: 206508
+   Final sequence length: 94327
+   Compression ratio: 2.43%
+malloc_count ### exiting, total: 22796054897, peak: 565861028, current: 4661676
+Repair Decompression time: 2.449556 s
+DesPair succeeded
+
+   Original chars: 46968181
+   Number of rules: 206508
+   Compressed sequence length: 94327
+   Maximum rule depth: 461
+   Compression ratio: 2.43%
+malloc_count ### exiting, total: 1665768, peak: 1661200, current: 1652064

@@ -1,0 +1,449 @@
+=== IREPAIR Report for dna.100MB ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.100MB.r): 51,354 bytes
+  - .c.R (../datasets/texts/dna/dna.100MB.c.R): 9,211,908 bytes
+  - .c.C (../datasets/texts/dna/dna.100MB.c.C): 46,477,724 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	104857600 bytes
+Output (.c):	234037123 bytes
+GCIS Compression Time: 3873ms
+GCIS Compression Peak Memory: 758352584 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 725753624 bytes
+iRepair Peak Memory (Decompression): 9221040 bytes
+GCIS Decompression time: 852 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 759,021,996, peak: 758,355,900, current: 4,096
+iRepair Compression time: 19.014872 s
+malloc_count ### exiting, total: 23,904,798,816, peak: 725,753,624, current: 209,405,288
+iRepair Decompression time: 3.746664 s
+malloc_count ### exiting, total: 9,229,704, peak: 9,221,040, current: 9,216,000
+Decompression.
+malloc_count ### exiting, total: 573,605,980, peak: 573,216,076, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.100MB.r): 15,879,644 bytes
+  - .c.R (../datasets/texts/dna/dna.100MB.c.R): 7,700,548 bytes
+  - .c.C (../datasets/texts/dna/dna.100MB.c.C): 50,289,144 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	104857600 bytes
+Output (.c):	89358133 bytes
+GCIS Compression Time: 6009ms
+GCIS Compression Peak Memory: 679847384 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 862945200 bytes
+iRepair Peak Memory (Decompression): 7709680 bytes
+GCIS Decompression time: 1842 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 769,721,804, peak: 679,847,384, current: 4,096
+iRepair Compression time: 12.013192 s
+malloc_count ### exiting, total: 3,251,369,272, peak: 862,945,200, current: 354,436,016
+iRepair Decompression time: 0.775850 s
+malloc_count ### exiting, total: 7,718,344, peak: 7,709,680, current: 7,704,640
+Decompression.
+malloc_count ### exiting, total: 452,100,716, peak: 291,645,088, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.100MB.r): 40,792,734 bytes
+  - .c.R (../datasets/texts/dna/dna.100MB.c.R): 485,420 bytes
+  - .c.C (../datasets/texts/dna/dna.100MB.c.C): 22,996,632 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	104857600 bytes
+Output (.c):	64755703 bytes
+GCIS Compression Time: 6929ms
+GCIS Compression Peak Memory: 679847384 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 390477648 bytes
+iRepair Peak Memory (Decompression): 494552 bytes
+GCIS Decompression time: 2280 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 859,988,828, peak: 679,847,384, current: 4,096
+iRepair Compression time: 3.185729 s
+malloc_count ### exiting, total: 944,491,736, peak: 390,477,648, current: 138,446,672
+iRepair Decompression time: 0.253624 s
+malloc_count ### exiting, total: 503,216, peak: 494,552, current: 489,512
+Decompression.
+malloc_count ### exiting, total: 479,060,044, peak: 224,848,292, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.100MB.r): 49,303,504 bytes
+  - .c.R (../datasets/texts/dna/dna.100MB.c.R): 90,244 bytes
+  - .c.C (../datasets/texts/dna/dna.100MB.c.C): 7,648,880 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	104857600 bytes
+Output (.c):	57357969 bytes
+GCIS Compression Time: 7139ms
+GCIS Compression Peak Memory: 679847384 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 103057048 bytes
+iRepair Peak Memory (Decompression): 99376 bytes
+GCIS Decompression time: 2349 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 892,176,596, peak: 679,847,384, current: 4,096
+iRepair Compression time: 0.726628 s
+malloc_count ### exiting, total: 236,153,888, peak: 103,057,048, current: 40,100,504
+iRepair Decompression time: 0.045381 s
+malloc_count ### exiting, total: 108,040, peak: 99,376, current: 94,336
+Decompression.
+malloc_count ### exiting, total: 487,734,804, peak: 217,450,636, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.100MB.r): 51,857,834 bytes
+  - .c.R (../datasets/texts/dna/dna.100MB.c.R): 19,292 bytes
+  - .c.C (../datasets/texts/dna/dna.100MB.c.C): 2,495,660 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	104857600 bytes
+Output (.c):	54757075 bytes
+GCIS Compression Time: 7273ms
+GCIS Compression Peak Memory: 679847384 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 47453752 bytes
+iRepair Peak Memory (Decompression): 28424 bytes
+GCIS Decompression time: 2383 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 903,017,684, peak: 679,847,384, current: 4,096
+iRepair Compression time: 0.201457 s
+malloc_count ### exiting, total: 110,212,032, peak: 47,453,752, current: 15,982,136
+iRepair Decompression time: 0.020922 s
+malloc_count ### exiting, total: 37,088, peak: 28,424, current: 23,384
+Decompression.
+malloc_count ### exiting, total: 489,652,268, peak: 214,849,820, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.100MB.r): 52,649,180 bytes
+  - .c.R (../datasets/texts/dna/dna.100MB.c.R): 3,452 bytes
+  - .c.C (../datasets/texts/dna/dna.100MB.c.C): 806,428 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	104857600 bytes
+Output (.c):	53920133 bytes
+GCIS Compression Time: 7209ms
+GCIS Compression Peak Memory: 679847384 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 12418336 bytes
+iRepair Peak Memory (Decompression): 12584 bytes
+GCIS Decompression time: 2485 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 906,331,172, peak: 679,847,384, current: 4,096
+iRepair Compression time: 0.047624 s
+malloc_count ### exiting, total: 27,504,296, peak: 12,418,336, current: 4,556,064
+iRepair Decompression time: 0.007265 s
+malloc_count ### exiting, total: 21,248, peak: 12,584, current: 7,544
+Decompression.
+malloc_count ### exiting, total: 490,155,316, peak: 214,012,956, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.100MB.r): 52,879,110 bytes
+  - .c.R (../datasets/texts/dna/dna.100MB.c.R): 300 bytes
+  - .c.C (../datasets/texts/dna/dna.100MB.c.C): 261,684 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	104857600 bytes
+Output (.c):	53679015 bytes
+GCIS Compression Time: 7207ms
+GCIS Compression Peak Memory: 679847384 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 3160584 bytes
+iRepair Peak Memory (Decompression): 9432 bytes
+GCIS Decompression time: 2399 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 907,370,516, peak: 679,847,384, current: 4,096
+iRepair Compression time: 0.010713 s
+malloc_count ### exiting, total: 6,568,848, peak: 3,160,584, current: 1,328,648
+iRepair Decompression time: 0.002584 s
+malloc_count ### exiting, total: 18,096, peak: 9,432, current: 4,392
+Decompression.
+malloc_count ### exiting, total: 490,273,364, peak: 213,771,916, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.100MB.r): 52,945,352 bytes
+  - .c.R (../datasets/texts/dna/dna.100MB.c.R): 20 bytes
+  - .c.C (../datasets/texts/dna/dna.100MB.c.C): 85,596 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	104857600 bytes
+Output (.c):	53645737 bytes
+GCIS Compression Time: 7208ms
+GCIS Compression Peak Memory: 679847384 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1707872 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 2429 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 907,709,004, peak: 679,847,384, current: 4,096
+iRepair Compression time: 0.002503 s
+malloc_count ### exiting, total: 3,375,336, peak: 1,707,872, current: 793,440
+iRepair Decompression time: 0.000845 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 490,333,628, peak: 213,738,716, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.100MB.r): 52,965,690 bytes
+  - .c.R (../datasets/texts/dna/dna.100MB.c.R): 12 bytes
+  - .c.C (../datasets/texts/dna/dna.100MB.c.C): 27,892 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	104857600 bytes
+Output (.c):	53685211 bytes
+GCIS Compression Time: 7216ms
+GCIS Compression Peak Memory: 679847384 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 843080 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2317 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 909,050,436, peak: 679,847,384, current: 4,096
+iRepair Compression time: 0.065807 s
+malloc_count ### exiting, total: 1,231,568, peak: 843,080, current: 616,776
+iRepair Decompression time: 0.000417 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 490,399,556, peak: 213,778,268, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.100MB.r): 52,971,508 bytes
+  - .c.R (../datasets/texts/dna/dna.100MB.c.R): 12 bytes
+  - .c.C (../datasets/texts/dna/dna.100MB.c.C): 9,356 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	104857600 bytes
+Output (.c):	53749341 bytes
+GCIS Compression Time: 7210ms
+GCIS Compression Peak Memory: 679847384 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 670824 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2394 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 909,087,828, peak: 679,847,384, current: 4,096
+iRepair Compression time: 0.000642 s
+malloc_count ### exiting, total: 846,320, peak: 670,824, current: 559,208
+iRepair Decompression time: 0.000142 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 490,470,308, peak: 213,842,476, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.100MB.r): 52,973,366 bytes
+  - .c.R (../datasets/texts/dna/dna.100MB.c.R): 12 bytes
+  - .c.C (../datasets/texts/dna/dna.100MB.c.C): 3,220 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	104857600 bytes
+Output (.c):	53821911 bytes
+GCIS Compression Time: 7222ms
+GCIS Compression Peak Memory: 679847384 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 565752 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2412 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 909,102,580, peak: 679,847,384, current: 4,096
+iRepair Compression time: 0.000706 s
+malloc_count ### exiting, total: 605,608, peak: 565,752, current: 539,680
+iRepair Decompression time: 0.000074 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 490,544,892, peak: 213,915,124, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.100MB.r): 52,973,952 bytes
+  - .c.R (../datasets/texts/dna/dna.100MB.c.R): 12 bytes
+  - .c.C (../datasets/texts/dna/dna.100MB.c.C): 1,036 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	104857600 bytes
+Output (.c):	53897161 bytes
+GCIS Compression Time: 7290ms
+GCIS Compression Peak Memory: 679847384 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 546240 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2301 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 909,109,228, peak: 679,847,384, current: 4,096
+iRepair Compression time: 0.000980 s
+malloc_count ### exiting, total: 569,712, peak: 546,240, current: 532,456
+iRepair Decompression time: 0.000158 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 490,620,468, peak: 213,990,452, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.100MB.r): 52,974,178 bytes
+  - .c.R (../datasets/texts/dna/dna.100MB.c.R): 12 bytes
+  - .c.C (../datasets/texts/dna/dna.100MB.c.C): 332 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	104857600 bytes
+Output (.c):	53973531 bytes
+GCIS Compression Time: 7213ms
+GCIS Compression Peak Memory: 679847384 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 537592 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2408 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 909,113,888, peak: 679,847,384, current: 4,096
+iRepair Compression time: 0.000948 s
+malloc_count ### exiting, total: 552,872, peak: 537,592, current: 529,952
+iRepair Decompression time: 0.000136 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 490,696,964, peak: 214,066,900, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.100MB.r): 52,974,292 bytes
+  - .c.R (../datasets/texts/dna/dna.100MB.c.R): 12 bytes
+  - .c.C (../datasets/texts/dna/dna.100MB.c.C): 108 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	104857600 bytes
+Output (.c):	54050269 bytes
+GCIS Compression Time: 7351ms
+GCIS Compression Peak Memory: 679847384 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536696 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2310 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 909,117,380, peak: 679,847,384, current: 4,096
+iRepair Compression time: 0.000964 s
+malloc_count ### exiting, total: 551,976, peak: 536,696, current: 529,056
+iRepair Decompression time: 0.000057 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 490,773,788, peak: 214,143,716, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.100MB.r): 52,974,382 bytes
+  - .c.R (../datasets/texts/dna/dna.100MB.c.R): 4 bytes
+  - .c.C (../datasets/texts/dna/dna.100MB.c.C): 32 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	104857600 bytes
+Output (.c):	54127127 bytes
+GCIS Compression Time: 7238ms
+GCIS Compression Peak Memory: 679847384 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 531720 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 2307 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 909,120,496, peak: 679,847,384, current: 4,096
+iRepair Compression time: 0.000926 s
+malloc_count ### exiting, total: 549,520, peak: 533,216, current: 528,648
+iRepair Decompression time: 0.000130 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 490,850,724, peak: 214,220,652, current: 4,096
+
+========================================
+
+=== LEVEL 15 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/texts/dna/dna.100MB ../datasets/texts/dna/dna.100MB -s8b 15' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

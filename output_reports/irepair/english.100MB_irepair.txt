@@ -1,0 +1,478 @@
+=== IREPAIR Report for english.100MB ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 659,474 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 29,139,052 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 28,800,640 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	104857600 bytes
+Output (.c):	263038739 bytes
+GCIS Compression Time: 4074ms
+GCIS Compression Peak Memory: 787587956 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 872237520 bytes
+iRepair Peak Memory (Decompression): 29148184 bytes
+GCIS Decompression time: 1016 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 796,748,884, peak: 787,591,272, current: 4,096
+iRepair Compression time: 33.946656 s
+malloc_count ### exiting, total: 26,250,991,468, peak: 872,237,520, current: 132,370,016
+iRepair Decompression time: 3.535626 s
+malloc_count ### exiting, total: 29,156,848, peak: 29,148,184, current: 29,143,144
+Decompression.
+malloc_count ### exiting, total: 636,794,884, peak: 633,508,084, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 14,322,780 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 31,236,508 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 34,519,172 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	104857600 bytes
+Output (.c):	106095637 bytes
+GCIS Compression Time: 6608ms
+GCIS Compression Peak Memory: 650292260 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 935662864 bytes
+iRepair Peak Memory (Decompression): 31245640 bytes
+GCIS Decompression time: 2447 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 764,397,092, peak: 650,292,260, current: 4,096
+iRepair Compression time: 20.209352 s
+malloc_count ### exiting, total: 7,026,791,824, peak: 935,662,864, current: 271,918,568
+iRepair Decompression time: 1.645378 s
+malloc_count ### exiting, total: 31,254,304, peak: 31,245,640, current: 31,240,600
+Decompression.
+malloc_count ### exiting, total: 509,452,484, peak: 336,819,072, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 38,941,102 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 12,119,244 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 17,857,916 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	104857600 bytes
+Output (.c):	69508151 bytes
+GCIS Compression Time: 7907ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 418510960 bytes
+iRepair Peak Memory (Decompression): 12128376 bytes
+GCIS Decompression time: 2838 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 843,774,804, peak: 655,492,348, current: 4,096
+iRepair Compression time: 5.885810 s
+malloc_count ### exiting, total: 2,531,661,304, peak: 418,510,960, current: 158,276,720
+iRepair Decompression time: 0.303014 s
+malloc_count ### exiting, total: 12,137,040, peak: 12,128,376, current: 12,123,336
+Decompression.
+malloc_count ### exiting, total: 520,398,220, peak: 255,546,260, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 47,813,576 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 4,558,988 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 6,959,452 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	104857600 bytes
+Output (.c):	59695185 bytes
+GCIS Compression Time: 8297ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 196367296 bytes
+iRepair Peak Memory (Decompression): 4568120 bytes
+GCIS Decompression time: 3127 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 877,403,676, peak: 655,492,348, current: 4,096
+iRepair Compression time: 2.000789 s
+malloc_count ### exiting, total: 1,026,865,480, peak: 196,367,296, current: 68,376,512
+iRepair Decompression time: 0.141795 s
+malloc_count ### exiting, total: 4,576,784, peak: 4,568,120, current: 4,563,080
+Decompression.
+malloc_count ### exiting, total: 528,199,212, peak: 245,733,372, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 51,099,106 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 1,392,772 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 2,426,856 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	104857600 bytes
+Output (.c):	55309075 bytes
+GCIS Compression Time: 8424ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 52439752 bytes
+iRepair Peak Memory (Decompression): 1401904 bytes
+GCIS Decompression time: 3029 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 889,574,956, peak: 655,492,348, current: 4,096
+iRepair Compression time: 0.576382 s
+malloc_count ### exiting, total: 293,564,496, peak: 52,439,752, current: 19,924,680
+iRepair Decompression time: 0.028132 s
+malloc_count ### exiting, total: 1,410,568, peak: 1,401,904, current: 1,396,864
+Decompression.
+malloc_count ### exiting, total: 529,196,300, peak: 241,347,340, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 52,121,276 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 388,204 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 859,736 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	104857600 bytes
+Output (.c):	53831013 bytes
+GCIS Compression Time: 8457ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 23968504 bytes
+iRepair Peak Memory (Decompression): 397336 bytes
+GCIS Decompression time: 3027 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 893,423,844, peak: 655,492,348, current: 4,096
+iRepair Compression time: 0.152942 s
+malloc_count ### exiting, total: 101,971,072, peak: 23,968,504, current: 7,975,672
+iRepair Decompression time: 0.009441 s
+malloc_count ### exiting, total: 406,000, peak: 397,336, current: 392,296
+Decompression.
+malloc_count ### exiting, total: 529,255,388, peak: 239,869,356, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 52,452,958 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 93,244 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 310,392 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	104857600 bytes
+Output (.c):	53394567 bytes
+GCIS Compression Time: 8472ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 6277168 bytes
+iRepair Peak Memory (Decompression): 102376 bytes
+GCIS Decompression time: 3175 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 894,778,380, peak: 655,492,348, current: 4,096
+iRepair Compression time: 0.028379 s
+malloc_count ### exiting, total: 25,388,472, peak: 6,277,168, current: 2,281,520
+iRepair Decompression time: 0.003584 s
+malloc_count ### exiting, total: 111,040, peak: 102,376, current: 97,336
+Decompression.
+malloc_count ### exiting, total: 529,307,404, peak: 239,432,988, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 52,554,528 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 17,708 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 115,724 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	104857600 bytes
+Output (.c):	53302729 bytes
+GCIS Compression Time: 8475ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1868696 bytes
+iRepair Peak Memory (Decompression): 26840 bytes
+GCIS Decompression time: 3069 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 895,243,748, peak: 655,492,348, current: 4,096
+iRepair Compression time: 0.005350 s
+malloc_count ### exiting, total: 5,831,968, peak: 1,868,696, current: 938,904
+iRepair Decompression time: 0.001257 s
+malloc_count ### exiting, total: 35,504, peak: 26,840, current: 21,800
+Decompression.
+malloc_count ### exiting, total: 529,360,540, peak: 239,341,228, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 52,585,690 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 2,068 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 41,788 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	104857600 bytes
+Output (.c):	53321163 bytes
+GCIS Compression Time: 8460ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1122512 bytes
+iRepair Peak Memory (Decompression): 11200 bytes
+GCIS Decompression time: 3048 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 896,640,420, peak: 655,492,348, current: 4,096
+iRepair Compression time: 0.002021 s
+malloc_count ### exiting, total: 2,203,224, peak: 1,122,512, current: 665,808
+iRepair Decompression time: 0.000458 s
+malloc_count ### exiting, total: 19,864, peak: 11,200, current: 6,160
+Decompression.
+malloc_count ### exiting, total: 529,418,636, peak: 239,359,740, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 52,595,492 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 92 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 13,316 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	104857600 bytes
+Output (.c):	53377365 bytes
+GCIS Compression Time: 8560ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 683448 bytes
+iRepair Peak Memory (Decompression): 9224 bytes
+GCIS Decompression time: 3039 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 896,694,244, peak: 655,492,348, current: 4,096
+iRepair Compression time: 0.001305 s
+malloc_count ### exiting, total: 869,184, peak: 683,448, current: 571,832
+iRepair Decompression time: 0.000228 s
+malloc_count ### exiting, total: 17,888, peak: 9,224, current: 4,184
+Decompression.
+malloc_count ### exiting, total: 529,484,492, peak: 239,416,020, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 52,598,126 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 20 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 4,028 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	104857600 bytes
+Output (.c):	53447487 bytes
+GCIS Compression Time: 8449ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 569392 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 3131 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 896,712,188, peak: 655,492,348, current: 4,096
+iRepair Compression time: 0.001116 s
+malloc_count ### exiting, total: 609,248, peak: 569,392, current: 542,296
+iRepair Decompression time: 0.000096 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 529,556,308, peak: 239,486,220, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 52,598,840 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 12 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 1,276 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	104857600 bytes
+Output (.c):	53522289 bytes
+GCIS Compression Time: 8452ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 547016 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 3035 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 896,719,796, peak: 655,492,348, current: 4,096
+iRepair Compression time: 0.000454 s
+malloc_count ### exiting, total: 570,488, peak: 547,016, current: 533,232
+iRepair Decompression time: 0.000080 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 529,631,436, peak: 239,561,100, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 52,599,098 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 12 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 380 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	104857600 bytes
+Output (.c):	53598499 bytes
+GCIS Compression Time: 8448ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 537736 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 3155 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 896,724,752, peak: 655,492,348, current: 4,096
+iRepair Compression time: 0.000955 s
+malloc_count ### exiting, total: 553,016, peak: 537,736, current: 530,096
+iRepair Decompression time: 0.000205 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 529,707,716, peak: 239,637,388, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 52,599,220 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 12 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 148 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	104857600 bytes
+Output (.c):	53675237 bytes
+GCIS Compression Time: 8443ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536872 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 3270 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 896,728,396, peak: 655,492,348, current: 4,096
+iRepair Compression time: 0.000673 s
+malloc_count ### exiting, total: 552,152, peak: 536,872, current: 529,232
+iRepair Decompression time: 0.000071 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 529,784,596, peak: 239,714,204, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 52,599,310 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 12 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 52 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	104857600 bytes
+Output (.c):	53752079 bytes
+GCIS Compression Time: 8466ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536416 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 3222 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 896,731,604, peak: 655,492,348, current: 4,096
+iRepair Compression time: 0.000448 s
+malloc_count ### exiting, total: 551,696, peak: 536,416, current: 528,776
+iRepair Decompression time: 0.000060 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 529,861,548, peak: 239,791,124, current: 4,096
+
+========================================
+
+=== LEVEL 15 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 52,599,400 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 4 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 16 bytes
+
+--- STDOUT ---
+Max Level = 15
+Input:	104857600 bytes
+Output (.c):	53828977 bytes
+GCIS Compression Time: 8449ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 531616 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 3223 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 896,734,740, peak: 655,492,348, current: 4,096
+iRepair Compression time: 0.000431 s
+malloc_count ### exiting, total: 549,416, peak: 533,112, current: 528,544
+iRepair Decompression time: 0.000072 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 529,938,596, peak: 239,868,100, current: 4,096
+
+========================================
+
+=== LEVEL 16 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/texts/nlang/english.100MB ../datasets/texts/nlang/english.100MB -s8b 16' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

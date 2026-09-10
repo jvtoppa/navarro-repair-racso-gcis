@@ -1,0 +1,733 @@
+=== BIGREPAIR Report for Escherichia_Coli ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 28,810 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 28,245,844 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 2,056,000 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	112689515 bytes
+Output (.c):	253361947 bytes
+GCIS Compression Time: 4254ms
+GCIS Compression Peak Memory: 816832391 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/Escherichia_Coli.c -w 10 -p 100 -c
+Parsing time: 13.1269
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/Escherichia_Coli.c.dicz
+Preprocess time: 1.3507
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.dicz.int 489834
+repair(dict) time: 43.2757
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.parse 489834
+repair(parse) time: 1.4302
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/Escherichia_Coli.c
+Postprocess time: 0.1432
+Elapsed time: 59.3308
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/Escherichia_Coli.c
+Elapsed time: 5.1435
+==== Done
+GCIS Decompression time: 994 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 817,221,419, peak: 816,835,707, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/Escherichia_Coli.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/Escherichia_Coli.c 
+Decompression.
+malloc_count ### exiting, total: 619,678,631, peak: 619,504,455, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 4,325,252 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 31,594,404 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 1,104,864 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	112689515 bytes
+Output (.c):	85604197 bytes
+GCIS Compression Time: 6089ms
+GCIS Compression Peak Memory: 650032247 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/Escherichia_Coli.c -w 10 -p 100 -c
+Parsing time: 4.4729
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/Escherichia_Coli.c.dicz
+Preprocess time: 0.7041
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.dicz.int 489834
+repair(dict) time: 15.0810
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.parse 489834
+repair(parse) time: 0.4201
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/Escherichia_Coli.c
+Postprocess time: 0.6347
+Elapsed time: 21.3149
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/Escherichia_Coli.c
+Elapsed time: 2.6548
+==== Done
+GCIS Decompression time: 2019 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 693,499,811, peak: 650,034,539, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/Escherichia_Coli.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/Escherichia_Coli.c 
+Decompression.
+malloc_count ### exiting, total: 367,937,839, peak: 253,890,303, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 10,913,486 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 15,072,084 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 523,924 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	112689515 bytes
+Output (.c):	37684999 bytes
+GCIS Compression Time: 6854ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/Escherichia_Coli.c -w 10 -p 100 -c
+Parsing time: 1.5047
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/Escherichia_Coli.c.dicz
+Preprocess time: 0.2469
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.dicz.int 489834
+repair(dict) time: 10.1288
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.parse 489834
+repair(parse) time: 0.1045
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/Escherichia_Coli.c
+Postprocess time: 0.1792
+Elapsed time: 12.1676
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/Escherichia_Coli.c
+Elapsed time: 0.7693
+==== Done
+GCIS Decompression time: 2338 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 679,762,331, peak: 607,253,007, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/Escherichia_Coli.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/Escherichia_Coli.c 
+Decompression.
+malloc_count ### exiting, total: 314,253,199, peak: 205,971,183, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 14,044,896 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 6,947,372 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 224,028 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	112689515 bytes
+Output (.c):	23072873 bytes
+GCIS Compression Time: 7081ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/Escherichia_Coli.c -w 10 -p 100 -c
+Parsing time: 0.5408
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/Escherichia_Coli.c.dicz
+Preprocess time: 0.0965
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.dicz.int 489834
+repair(dict) time: 2.8793
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.parse 489834
+repair(parse) time: 0.0223
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/Escherichia_Coli.c
+Postprocess time: 0.0395
+Elapsed time: 3.5811
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/Escherichia_Coli.c
+Elapsed time: 0.2783
+==== Done
+GCIS Decompression time: 2411 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 681,962,451, peak: 607,253,007, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/Escherichia_Coli.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/Escherichia_Coli.c 
+Decompression.
+malloc_count ### exiting, total: 300,738,855, peak: 191,359,135, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 15,468,082 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 2,961,964 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 89,624 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	112689515 bytes
+Output (.c):	18707803 bytes
+GCIS Compression Time: 7159ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/Escherichia_Coli.c -w 10 -p 100 -c
+Parsing time: 0.1760
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/Escherichia_Coli.c.dicz
+Preprocess time: 0.0546
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.dicz.int 489834
+repair(dict) time: 1.0037
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.parse 489834
+repair(parse) time: 0.0078
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/Escherichia_Coli.c
+Postprocess time: 0.0188
+Elapsed time: 1.2623
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/Escherichia_Coli.c
+Elapsed time: 0.0789
+==== Done
+GCIS Decompression time: 2434 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 685,974,499, peak: 607,253,007, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/Escherichia_Coli.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/Escherichia_Coli.c 
+Decompression.
+malloc_count ### exiting, total: 297,781,631, peak: 186,994,143, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 16,046,412 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 1,138,684 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 35,264 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	112689515 bytes
+Output (.c):	17432373 bytes
+GCIS Compression Time: 7172ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/Escherichia_Coli.c -w 10 -p 100 -c
+Parsing time: 0.0484
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/Escherichia_Coli.c.dicz
+Preprocess time: 0.0208
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.dicz.int 489834
+repair(dict) time: 0.2822
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.parse 489834
+repair(parse) time: 0.0031
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/Escherichia_Coli.c
+Postprocess time: 0.0103
+Elapsed time: 0.3659
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/Escherichia_Coli.c
+Elapsed time: 0.0238
+==== Done
+GCIS Decompression time: 2443 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 687,940,331, peak: 607,253,007, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/Escherichia_Coli.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/Escherichia_Coli.c 
+Decompression.
+malloc_count ### exiting, total: 297,205,911, peak: 185,718,791, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 16,255,918 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 416,100 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 12,260 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	112689515 bytes
+Output (.c):	17093655 bytes
+GCIS Compression Time: 7168ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/Escherichia_Coli.c -w 10 -p 100 -c
+Parsing time: 0.0198
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/Escherichia_Coli.c.dicz
+Preprocess time: 0.0076
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.dicz.int 489834
+repair(dict) time: 0.0677
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.parse 489834
+repair(parse) time: 0.0022
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/Escherichia_Coli.c
+Postprocess time: 0.0058
+Elapsed time: 0.1050
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/Escherichia_Coli.c
+Elapsed time: 0.0082
+==== Done
+GCIS Decompression time: 2442 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 688,771,379, peak: 607,253,007, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/Escherichia_Coli.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/Escherichia_Coli.c 
+Decompression.
+malloc_count ### exiting, total: 297,135,863, peak: 185,380,151, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 16,322,848 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 147,380 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 4,180 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	112689515 bytes
+Output (.c):	17035201 bytes
+GCIS Compression Time: 7167ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/Escherichia_Coli.c -w 10 -p 100 -c
+Parsing time: 0.0082
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/Escherichia_Coli.c.dicz
+Preprocess time: 0.0042
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.dicz.int 489834
+repair(dict) time: 0.0197
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.parse 489834
+repair(parse) time: 0.0014
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/Escherichia_Coli.c
+Postprocess time: 0.0021
+Elapsed time: 0.0368
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/Escherichia_Coli.c
+Elapsed time: 0.0033
+==== Done
+GCIS Decompression time: 2550 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 689,084,003, peak: 607,253,007, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/Escherichia_Coli.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/Escherichia_Coli.c 
+Decompression.
+malloc_count ### exiting, total: 297,156,815, peak: 185,321,775, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 16,344,706 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 51,276 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 1,388 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	112689515 bytes
+Output (.c):	17068515 bytes
+GCIS Compression Time: 7209ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/Escherichia_Coli.c -w 10 -p 100 -c
+Parsing time: 0.0047
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/Escherichia_Coli.c.dicz
+Preprocess time: 0.0015
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.dicz.int 489834
+repair(dict) time: 0.0091
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.parse 489834
+repair(parse) time: 0.0012
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/Escherichia_Coli.c
+Postprocess time: 0.0016
+Elapsed time: 0.0204
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/Escherichia_Coli.c
+Elapsed time: 0.0019
+==== Done
+GCIS Decompression time: 2462 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 690,427,427, peak: 607,253,007, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/Escherichia_Coli.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/Escherichia_Coli.c 
+Decompression.
+malloc_count ### exiting, total: 297,215,991, peak: 185,355,167, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 16,351,316 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 17,564 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 520 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	112689515 bytes
+Output (.c):	17130333 bytes
+GCIS Compression Time: 7225ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/Escherichia_Coli.c -w 10 -p 100 -c
+Parsing time: 0.0034
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/Escherichia_Coli.c.dicz
+Preprocess time: 0.0016
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.dicz.int 489834
+repair(dict) time: 0.0030
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.parse 489834
+repair(parse) time: 0.0027
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/Escherichia_Coli.c
+Postprocess time: 0.0012
+Elapsed time: 0.0139
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/Escherichia_Coli.c
+Elapsed time: 0.0014
+==== Done
+GCIS Decompression time: 2560 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 690,468,627, peak: 607,253,007, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/Escherichia_Coli.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/Escherichia_Coli.c 
+Decompression.
+malloc_count ### exiting, total: 297,284,335, peak: 185,417,071, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 16,353,406 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 6,412 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 172 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	112689515 bytes
+Output (.c):	17202255 bytes
+GCIS Compression Time: 7201ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/Escherichia_Coli.c -w 10 -p 100 -c
+Parsing time: 0.0036
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/Escherichia_Coli.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.dicz.int 489834
+repair(dict) time: 0.0028
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/Escherichia_Coli.c
+Postprocess time: 0.0017
+Elapsed time: 0.0123
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/Escherichia_Coli.c
+Elapsed time: 0.0022
+==== Done
+GCIS Decompression time: 2462 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 690,484,299, peak: 607,253,007, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/Escherichia_Coli.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/Escherichia_Coli.c 
+Decompression.
+malloc_count ### exiting, total: 297,358,255, peak: 185,489,071, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 16,354,056 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 2,396 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 80 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	112689515 bytes
+Output (.c):	17277417 bytes
+GCIS Compression Time: 7206ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/Escherichia_Coli.c -w 10 -p 100 -c
+Parsing time: 0.0029
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/Escherichia_Coli.c.dicz
+Preprocess time: 0.0010
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.dicz.int 489834
+repair(dict) time: 0.0024
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/Escherichia_Coli.c
+Postprocess time: 0.0012
+Elapsed time: 0.0110
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/Escherichia_Coli.c
+Elapsed time: 0.0021
+==== Done
+GCIS Decompression time: 2464 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 690,491,483, peak: 607,253,007, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/Escherichia_Coli.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/Escherichia_Coli.c 
+Decompression.
+malloc_count ### exiting, total: 297,433,863, peak: 185,564,311, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 16,354,306 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 828 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 48 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	112689515 bytes
+Output (.c):	17353723 bytes
+GCIS Compression Time: 7614ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/Escherichia_Coli.c -w 10 -p 100 -c
+Parsing time: 0.0030
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/Escherichia_Coli.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.dicz.int 489834
+repair(dict) time: 0.0012
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.parse 489834
+repair(parse) time: 0.0024
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/Escherichia_Coli.c
+Postprocess time: 0.0011
+Elapsed time: 0.0102
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/Escherichia_Coli.c
+Elapsed time: 0.0011
+==== Done
+GCIS Decompression time: 2560 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 690,496,435, peak: 607,253,007, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/Escherichia_Coli.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/Escherichia_Coli.c 
+Decompression.
+malloc_count ### exiting, total: 297,510,335, peak: 185,640,695, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 16,354,428 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 300 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 28 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	112689515 bytes
+Output (.c):	17430421 bytes
+GCIS Compression Time: 7173ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/Escherichia_Coli.c -w 10 -p 100 -c
+Parsing time: 0.0021
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/Escherichia_Coli.c.dicz
+Preprocess time: 0.0011
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.dicz.int 489834
+repair(dict) time: 0.0024
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/Escherichia_Coli.c
+Postprocess time: 0.0020
+Elapsed time: 0.0097
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/Escherichia_Coli.c
+Elapsed time: 0.0014
+==== Done
+GCIS Decompression time: 2442 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 690,500,007, peak: 607,253,007, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/Escherichia_Coli.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/Escherichia_Coli.c 
+Decompression.
+malloc_count ### exiting, total: 297,587,111, peak: 185,717,471, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 16,354,518 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 132 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 8 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	112689515 bytes
+Output (.c):	17507271 bytes
+GCIS Compression Time: 7181ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/Escherichia_Coli.c -w 10 -p 100 -c
+Parsing time: 0.0023
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/Escherichia_Coli.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.dicz.int 489834
+repair(dict) time: 0.0015
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/Escherichia_Coli.c.parse 489834
+repair(parse) time: 0.0022
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/Escherichia_Coli.c
+Postprocess time: 0.0010
+Elapsed time: 0.0099
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/Escherichia_Coli.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/Escherichia_Coli.c
+Elapsed time: 0.0020
+==== Done
+GCIS Decompression time: 2557 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 690,503,147, peak: 607,253,007, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/Escherichia_Coli.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/Escherichia_Coli.c 
+Decompression.
+malloc_count ### exiting, total: 297,664,039, peak: 185,794,399, current: 4,096
+
+========================================
+
+=== LEVEL 15 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -c ../datasets/repcorpus/real/Escherichia_Coli ../datasets/repcorpus/real/Escherichia_Coli -s8b 15' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+GCIS Compression.
+malloc(): invalid size (unsorted)
+Aborted
+
+
+========================================
+

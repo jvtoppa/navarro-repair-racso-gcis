@@ -1,0 +1,449 @@
+=== IREPAIR Report for EDGAR ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 236,786 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 6,461,364 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 12,317,228 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	104857600 bytes
+Output (.c):	287839011 bytes
+GCIS Compression Time: 3127ms
+GCIS Compression Peak Memory: 812163178 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 885272800 bytes
+iRepair Peak Memory (Decompression): 6470496 bytes
+GCIS Decompression time: 728 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 815,740,640, peak: 812,166,494, current: 4,096
+iRepair Compression time: 20.182581 s
+malloc_count ### exiting, total: 35,260,258,832, peak: 885,272,800, current: 70,962,820
+iRepair Decompression time: 2.950685 s
+malloc_count ### exiting, total: 6,479,160, peak: 6,470,496, current: 6,465,456
+Decompression.
+malloc_count ### exiting, total: 682,922,928, peak: 681,583,722, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 3,189,932 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 6,263,636 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 12,406,668 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	104857600 bytes
+Output (.c):	120245821 bytes
+GCIS Compression Time: 4239ms
+GCIS Compression Peak Memory: 645063002 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 434046576 bytes
+iRepair Peak Memory (Decompression): 6272768 bytes
+GCIS Decompression time: 1131 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 671,680,104, peak: 645,065,294, current: 4,096
+iRepair Compression time: 11.769545 s
+malloc_count ### exiting, total: 13,946,361,240, peak: 434,046,576, current: 60,893,896
+iRepair Decompression time: 1.915433 s
+malloc_count ### exiting, total: 6,281,432, peak: 6,272,768, current: 6,267,728
+Decompression.
+malloc_count ### exiting, total: 445,121,592, peak: 327,815,562, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 7,253,110 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 4,246,084 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 12,212,988 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	104857600 bytes
+Output (.c):	45878095 bytes
+GCIS Compression Time: 4852ms
+GCIS Compression Peak Memory: 571054530 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 279015640 bytes
+iRepair Peak Memory (Decompression): 4255216 bytes
+GCIS Decompression time: 1501 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 630,596,264, peak: 571,056,822, current: 4,096
+iRepair Compression time: 5.336602 s
+malloc_count ### exiting, total: 3,152,744,896, peak: 279,015,640, current: 91,323,720
+iRepair Decompression time: 0.559134 s
+malloc_count ### exiting, total: 4,263,880, peak: 4,255,216, current: 4,250,176
+Decompression.
+malloc_count ### exiting, total: 357,799,488, peak: 232,964,098, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 13,728,064 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 1,408,988 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 11,095,836 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	104857600 bytes
+Output (.c):	29928825 bytes
+GCIS Compression Time: 5324ms
+GCIS Compression Peak Memory: 573642402 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 208859824 bytes
+iRepair Peak Memory (Decompression): 1418120 bytes
+GCIS Decompression time: 1620 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 655,582,696, peak: 573,642,402, current: 4,096
+iRepair Compression time: 2.355227 s
+malloc_count ### exiting, total: 830,451,768, peak: 208,859,824, current: 81,350,320
+iRepair Decompression time: 0.184285 s
+malloc_count ### exiting, total: 1,426,784, peak: 1,418,120, current: 1,413,080
+Decompression.
+malloc_count ### exiting, total: 361,643,040, peak: 217,014,906, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 18,902,122 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 40,300 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 6,775,572 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	104857600 bytes
+Output (.c):	26103859 bytes
+GCIS Compression Time: 5281ms
+GCIS Compression Peak Memory: 573642402 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 100235856 bytes
+iRepair Peak Memory (Decompression): 49432 bytes
+GCIS Decompression time: 1532 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 681,095,080, peak: 573,642,402, current: 4,096
+iRepair Compression time: 0.832816 s
+malloc_count ### exiting, total: 226,559,960, peak: 100,235,856, current: 37,306,960
+iRepair Decompression time: 0.056701 s
+malloc_count ### exiting, total: 58,096, peak: 49,432, current: 44,392
+Decompression.
+malloc_count ### exiting, total: 371,143,960, peak: 213,190,018, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 21,146,724 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 244 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 1,764,804 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	104857600 bytes
+Output (.c):	23372853 bytes
+GCIS Compression Time: 5345ms
+GCIS Compression Peak Memory: 573642402 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 25257376 bytes
+iRepair Peak Memory (Decompression): 9376 bytes
+GCIS Decompression time: 1694 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 688,812,344, peak: 573,642,402, current: 4,096
+iRepair Compression time: 0.150211 s
+malloc_count ### exiting, total: 55,135,016, peak: 25,257,376, current: 9,530,784
+iRepair Decompression time: 0.014718 s
+malloc_count ### exiting, total: 18,040, peak: 9,376, current: 4,336
+Decompression.
+malloc_count ### exiting, total: 371,516,528, peak: 210,459,090, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 21,668,358 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 20 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 355,324 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	104857600 bytes
+Output (.c):	22561623 bytes
+GCIS Compression Time: 5338ms
+GCIS Compression Peak Memory: 573642402 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 6064512 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 1551 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 690,447,320, peak: 573,642,402, current: 4,096
+iRepair Compression time: 0.045096 s
+malloc_count ### exiting, total: 13,105,928, peak: 6,064,512, current: 2,135,424
+iRepair Decompression time: 0.003255 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 371,140,280, peak: 209,647,938, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 21,761,568 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 59,796 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	104857600 bytes
+Output (.c):	22436145 bytes
+GCIS Compression Time: 5347ms
+GCIS Compression Peak Memory: 573642402 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1170352 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1704 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 690,727,176, peak: 573,642,402, current: 4,096
+iRepair Compression time: 0.002156 s
+malloc_count ### exiting, total: 1,984,824, peak: 1,170,352, current: 714,672
+iRepair Decompression time: 0.000622 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 371,045,672, peak: 209,522,538, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 21,774,858 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 19,756 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	104857600 bytes
+Output (.c):	22486243 bytes
+GCIS Compression Time: 5347ms
+GCIS Compression Peak Memory: 573642402 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 817944 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1656 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 692,035,576, peak: 573,642,402, current: 4,096
+iRepair Compression time: 0.001926 s
+malloc_count ### exiting, total: 1,206,432, peak: 817,944, current: 591,640
+iRepair Decompression time: 0.000461 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 371,112,032, peak: 209,572,714, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 21,778,972 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 4,700 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	104857600 bytes
+Output (.c):	22552149 bytes
+GCIS Compression Time: 5345ms
+GCIS Compression Peak Memory: 573642402 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 598728 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1546 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 692,057,408, peak: 573,642,402, current: 4,096
+iRepair Compression time: 0.062524 s
+malloc_count ### exiting, total: 667,728, peak: 598,728, current: 544,456
+iRepair Decompression time: 0.000109 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 371,178,800, peak: 209,638,698, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 21,779,870 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 1,300 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	104857600 bytes
+Output (.c):	22626495 bytes
+GCIS Compression Time: 5350ms
+GCIS Compression Peak Memory: 573642402 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 547144 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1677 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 692,065,256, peak: 573,642,402, current: 4,096
+iRepair Compression time: 0.000441 s
+malloc_count ### exiting, total: 570,616, peak: 547,144, current: 533,360
+iRepair Decompression time: 0.000083 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 371,253,360, peak: 209,713,122, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 21,780,136 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 348 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	104857600 bytes
+Output (.c):	22702657 bytes
+GCIS Compression Time: 5540ms
+GCIS Compression Peak Memory: 573642402 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 537640 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1661 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 692,070,128, peak: 573,642,402, current: 4,096
+iRepair Compression time: 0.000423 s
+malloc_count ### exiting, total: 552,920, peak: 537,640, current: 530,000
+iRepair Decompression time: 0.000155 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 371,329,528, peak: 209,789,362, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 21,780,250 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 4 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 120 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	104857600 bytes
+Output (.c):	22779387 bytes
+GCIS Compression Time: 5449ms
+GCIS Compression Peak Memory: 573642402 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 532152 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 1684 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 692,073,652, peak: 573,642,402, current: 4,096
+iRepair Compression time: 0.000395 s
+malloc_count ### exiting, total: 549,952, peak: 533,648, current: 529,080
+iRepair Decompression time: 0.057100 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 371,406,352, peak: 209,866,170, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 21,780,340 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 36 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	104857600 bytes
+Output (.c):	22856245 bytes
+GCIS Compression Time: 5343ms
+GCIS Compression Peak Memory: 573642402 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536368 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1703 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 692,076,796, peak: 573,642,402, current: 4,096
+iRepair Compression time: 0.071804 s
+malloc_count ### exiting, total: 551,648, peak: 536,368, current: 528,728
+iRepair Decompression time: 0.000069 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 371,483,296, peak: 209,943,106, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 21,780,430 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 4 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 16 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	104857600 bytes
+Output (.c):	22933159 bytes
+GCIS Compression Time: 5444ms
+GCIS Compression Peak Memory: 573642402 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 531616 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 1554 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 692,079,884, peak: 573,642,402, current: 4,096
+iRepair Compression time: 0.000427 s
+malloc_count ### exiting, total: 549,416, peak: 533,112, current: 528,544
+iRepair Decompression time: 0.000240 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 371,560,360, peak: 210,020,098, current: 4,096
+
+========================================
+
+=== LEVEL 15 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/logs/EDGAR ../datasets/repcorpus/logs/EDGAR -s8b 15' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

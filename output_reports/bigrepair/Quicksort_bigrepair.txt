@@ -1,0 +1,734 @@
+=== BIGREPAIR Report for Quicksort ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 242 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 145,188 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 572,084 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	381494534 bytes
+Output (.c):	889132347 bytes
+GCIS Compression Time: 7631ms
+GCIS Compression Peak Memory: 2796624136 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Quicksort.c -w 10 -p 100 -c
+Parsing time: 22.1022
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Quicksort.c.dicz
+Preprocess time: 0.0021
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.dicz.int 489834
+repair(dict) time: 0.0012
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.parse 489834
+repair(parse) time: 0.5803
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Quicksort.c
+Postprocess time: 0.0080
+Elapsed time: 22.6984
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Quicksort.c
+Elapsed time: 12.0701
+==== Done
+GCIS Decompression time: 2046 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,796,646,494, peak: 2,796,627,452, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Quicksort.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Quicksort.c 
+Decompression.
+malloc_count ### exiting, total: 2,159,713,958, peak: 2,159,709,312, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 420 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 139,428 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 559,276 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	381494534 bytes
+Output (.c):	304359805 bytes
+GCIS Compression Time: 9540ms
+GCIS Compression Peak Memory: 2211852712 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Quicksort.c -w 10 -p 100 -c
+Parsing time: 7.9015
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Quicksort.c.dicz
+Preprocess time: 0.0020
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.dicz.int 489834
+repair(dict) time: 0.0009
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.parse 489834
+repair(parse) time: 0.5967
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Quicksort.c
+Postprocess time: 0.0570
+Elapsed time: 8.5630
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Quicksort.c
+Elapsed time: 4.1682
+==== Done
+GCIS Decompression time: 1963 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,211,956,722, peak: 2,211,855,004, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Quicksort.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Quicksort.c 
+Decompression.
+malloc_count ### exiting, total: 1,073,441,542, peak: 769,230,520, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 574 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 141,740 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 559,480 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	381494534 bytes
+Output (.c):	54192759 bytes
+GCIS Compression Time: 9911ms
+GCIS Compression Peak Memory: 1961762728 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Quicksort.c -w 10 -p 100 -c
+Parsing time: 1.8345
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Quicksort.c.dicz
+Preprocess time: 0.0035
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.dicz.int 489834
+repair(dict) time: 0.0092
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.parse 489834
+repair(parse) time: 0.4342
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Quicksort.c
+Postprocess time: 0.0118
+Elapsed time: 2.3004
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Quicksort.c
+Elapsed time: 1.0371
+==== Done
+GCIS Decompression time: 1946 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,962,024,750, peak: 1,961,765,020, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Quicksort.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Quicksort.c 
+Decompression.
+malloc_count ### exiting, total: 601,550,158, peak: 519,063,552, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 776 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 141,052 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 559,996 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	381494534 bytes
+Output (.c):	24889001 bytes
+GCIS Compression Time: 9965ms
+GCIS Compression Peak Memory: 1932382088 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Quicksort.c -w 10 -p 100 -c
+Parsing time: 1.0616
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Quicksort.c.dicz
+Preprocess time: 0.0032
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.dicz.int 489834
+repair(dict) time: 0.0026
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.parse 489834
+repair(parse) time: 0.4400
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Quicksort.c
+Postprocess time: 0.0070
+Elapsed time: 1.5182
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Quicksort.c
+Elapsed time: 0.3477
+==== Done
+GCIS Decompression time: 1954 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,932,648,866, peak: 1,932,384,380, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Quicksort.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Quicksort.c 
+Decompression.
+malloc_count ### exiting, total: 547,082,158, peak: 489,759,872, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 10,706 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 914,028 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 267,176 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	381494534 bytes
+Output (.c):	4072611 bytes
+GCIS Compression Time: 9998ms
+GCIS Compression Peak Memory: 1911797752 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Quicksort.c -w 10 -p 100 -c
+Parsing time: 0.2758
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Quicksort.c.dicz
+Preprocess time: 0.0636
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.dicz.int 489834
+repair(dict) time: 0.6632
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.parse 489834
+repair(parse) time: 0.0194
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Quicksort.c
+Postprocess time: 0.0102
+Elapsed time: 1.0340
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Quicksort.c
+Elapsed time: 0.0798
+==== Done
+GCIS Decompression time: 2043 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,912,484,846, peak: 1,911,800,044, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Quicksort.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Quicksort.c 
+Decompression.
+malloc_count ### exiting, total: 507,804,206, peak: 468,943,560, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 131,324 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 1,500,028 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 50,280 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	381494534 bytes
+Output (.c):	1749357 bytes
+GCIS Compression Time: 10032ms
+GCIS Compression Peak Memory: 1909601176 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Quicksort.c -w 10 -p 100 -c
+Parsing time: 0.0724
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Quicksort.c.dicz
+Preprocess time: 0.0274
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.dicz.int 489834
+repair(dict) time: 0.3888
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.parse 489834
+repair(parse) time: 0.0033
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Quicksort.c
+Postprocess time: 0.0074
+Elapsed time: 0.5006
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Quicksort.c
+Elapsed time: 0.0261
+==== Done
+GCIS Decompression time: 1951 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,911,575,334, peak: 1,909,601,176, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Quicksort.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Quicksort.c 
+Decompression.
+malloc_count ### exiting, total: 504,705,798, peak: 466,620,384, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 391,398 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 609,852 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 16,368 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	381494534 bytes
+Output (.c):	1300311 bytes
+GCIS Compression Time: 10049ms
+GCIS Compression Peak Memory: 1909995904 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Quicksort.c -w 10 -p 100 -c
+Parsing time: 0.0242
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Quicksort.c.dicz
+Preprocess time: 0.0107
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.dicz.int 489834
+repair(dict) time: 0.0830
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.parse 489834
+repair(parse) time: 0.0029
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Quicksort.c
+Postprocess time: 0.0048
+Elapsed time: 0.1270
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Quicksort.c
+Elapsed time: 0.0096
+==== Done
+GCIS Decompression time: 1976 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,912,789,822, peak: 1,909,995,904, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Quicksort.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Quicksort.c 
+Decompression.
+malloc_count ### exiting, total: 504,708,038, peak: 466,171,416, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 490,928 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 201,484 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 5,344 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	381494534 bytes
+Output (.c):	1226481 bytes
+GCIS Compression Time: 10047ms
+GCIS Compression Peak Memory: 1909995904 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Quicksort.c -w 10 -p 100 -c
+Parsing time: 0.0085
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Quicksort.c.dicz
+Preprocess time: 0.0056
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.dicz.int 489834
+repair(dict) time: 0.0213
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.parse 489834
+repair(parse) time: 0.0013
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Quicksort.c
+Postprocess time: 0.0037
+Elapsed time: 0.0415
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Quicksort.c
+Elapsed time: 0.0039
+==== Done
+GCIS Decompression time: 2138 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,913,265,814, peak: 1,909,995,904, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Quicksort.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Quicksort.c 
+Decompression.
+malloc_count ### exiting, total: 504,783,102, peak: 466,097,664, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 519,570 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 66,220 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 1,828 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	381494534 bytes
+Output (.c):	1250035 bytes
+GCIS Compression Time: 10029ms
+GCIS Compression Peak Memory: 1910079224 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Quicksort.c -w 10 -p 100 -c
+Parsing time: 0.0066
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Quicksort.c.dicz
+Preprocess time: 0.0015
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.dicz.int 489834
+repair(dict) time: 0.0079
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Quicksort.c
+Postprocess time: 0.0015
+Elapsed time: 0.0204
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Quicksort.c
+Elapsed time: 0.0019
+==== Done
+GCIS Decompression time: 2141 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,914,648,030, peak: 1,910,079,224, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Quicksort.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Quicksort.c 
+Decompression.
+malloc_count ### exiting, total: 504,842,918, peak: 466,121,296, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 528,228 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 21,076 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 596 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	381494534 bytes
+Output (.c):	1308901 bytes
+GCIS Compression Time: 10017ms
+GCIS Compression Peak Memory: 1910079224 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Quicksort.c -w 10 -p 100 -c
+Parsing time: 0.0047
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Quicksort.c.dicz
+Preprocess time: 0.0018
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.dicz.int 489834
+repair(dict) time: 0.0039
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Quicksort.c
+Postprocess time: 0.0012
+Elapsed time: 0.0148
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Quicksort.c
+Elapsed time: 0.0016
+==== Done
+GCIS Decompression time: 1951 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,914,697,622, peak: 1,910,079,224, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Quicksort.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Quicksort.c 
+Decompression.
+malloc_count ### exiting, total: 504,911,110, peak: 466,180,240, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 530,606 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 6,932 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 160 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	381494534 bytes
+Output (.c):	1379735 bytes
+GCIS Compression Time: 10121ms
+GCIS Compression Peak Memory: 1910079224 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Quicksort.c -w 10 -p 100 -c
+Parsing time: 0.0026
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Quicksort.c.dicz
+Preprocess time: 0.0018
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.dicz.int 489834
+repair(dict) time: 0.0025
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.parse 489834
+repair(parse) time: 0.0010
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Quicksort.c
+Postprocess time: 0.0011
+Elapsed time: 0.0101
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Quicksort.c
+Elapsed time: 0.0023
+==== Done
+GCIS Decompression time: 2119 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,914,714,606, peak: 1,910,079,224, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Quicksort.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Quicksort.c 
+Decompression.
+malloc_count ### exiting, total: 504,983,750, peak: 466,251,152, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 531,288 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 2,468 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 80 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	381494534 bytes
+Output (.c):	1454689 bytes
+GCIS Compression Time: 10040ms
+GCIS Compression Peak Memory: 1910079224 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Quicksort.c -w 10 -p 100 -c
+Parsing time: 0.0033
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Quicksort.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.dicz.int 489834
+repair(dict) time: 0.0031
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Quicksort.c
+Postprocess time: 0.0011
+Elapsed time: 0.0115
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Quicksort.c
+Elapsed time: 0.0015
+==== Done
+GCIS Decompression time: 2060 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,914,722,030, peak: 1,910,079,224, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Quicksort.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Quicksort.c 
+Decompression.
+malloc_count ### exiting, total: 505,059,070, peak: 466,326,184, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 531,538 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 836 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 40 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	381494534 bytes
+Output (.c):	1530955 bytes
+GCIS Compression Time: 10011ms
+GCIS Compression Peak Memory: 1910079224 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Quicksort.c -w 10 -p 100 -c
+Parsing time: 0.0023
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Quicksort.c.dicz
+Preprocess time: 0.0012
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.parse 489834
+repair(parse) time: 0.0025
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Quicksort.c
+Postprocess time: 0.0011
+Elapsed time: 0.0100
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Quicksort.c
+Elapsed time: 0.0011
+==== Done
+GCIS Decompression time: 1958 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,914,727,002, peak: 1,910,079,224, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Quicksort.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Quicksort.c 
+Decompression.
+malloc_count ### exiting, total: 505,135,470, peak: 466,402,528, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 531,660 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 268 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 32 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	381494534 bytes
+Output (.c):	1607637 bytes
+GCIS Compression Time: 10082ms
+GCIS Compression Peak Memory: 1910079224 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Quicksort.c -w 10 -p 100 -c
+Parsing time: 0.0028
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Quicksort.c.dicz
+Preprocess time: 0.0007
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.dicz.int 489834
+repair(dict) time: 0.0019
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.parse 489834
+repair(parse) time: 0.0026
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Quicksort.c
+Postprocess time: 0.0011
+Elapsed time: 0.0104
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Quicksort.c
+Elapsed time: 0.0020
+==== Done
+GCIS Decompression time: 2128 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,914,730,534, peak: 1,910,079,224, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Quicksort.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Quicksort.c 
+Decompression.
+malloc_count ### exiting, total: 505,212,198, peak: 466,479,288, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 531,750 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 124 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 24 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	381494534 bytes
+Output (.c):	1684503 bytes
+GCIS Compression Time: 10028ms
+GCIS Compression Peak Memory: 1910079224 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Quicksort.c -w 10 -p 100 -c
+Parsing time: 0.0042
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Quicksort.c.dicz
+Preprocess time: 0.0007
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.dicz.int 489834
+repair(dict) time: 0.0024
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Quicksort.c.parse 489834
+repair(parse) time: 0.0010
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Quicksort.c
+Postprocess time: 0.0011
+Elapsed time: 0.0112
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Quicksort.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Quicksort.c
+Elapsed time: 0.0020
+==== Done
+GCIS Decompression time: 1954 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,914,733,666, peak: 1,910,079,224, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Quicksort.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Quicksort.c 
+Decompression.
+malloc_count ### exiting, total: 505,289,158, peak: 466,556,232, current: 4,096
+
+========================================
+
+=== LEVEL 15 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/logs/Quicksort ../datasets/repcorpus/logs/Quicksort -s8b 15' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

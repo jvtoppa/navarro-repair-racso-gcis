@@ -1,0 +1,780 @@
+=== BIGREPAIR Report for einstein.en.txt ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.en.txt.r): 55,762 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.en.txt.c.R): 1,381,724 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.en.txt.c.C): 120,948 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	467626544 bytes
+Output (.c):	1127993947 bytes
+GCIS Compression Time: 16546ms
+GCIS Compression Peak Memory: 3466158158 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/einstein.en.txt.c -w 10 -p 100 -c
+Parsing time: 39.6599
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/einstein.en.txt.c.dicz
+Preprocess time: 0.0662
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.dicz.int 489834
+repair(dict) time: 1.1689
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.parse 489834
+repair(parse) time: 3.2309
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/einstein.en.txt.c
+Postprocess time: 0.0081
+Elapsed time: 44.1508
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/einstein.en.txt.c
+Elapsed time: 16.8335
+==== Done
+GCIS Decompression time: 3786 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 3,466,907,400, peak: 3,466,161,474, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/einstein.en.txt.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/einstein.en.txt.c 
+Decompression.
+malloc_count ### exiting, total: 2,723,944,128, peak: 2,723,724,242, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.en.txt.r): 275,316 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.en.txt.c.R): 1,226,692 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.en.txt.c.C): 95,928 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	467626544 bytes
+Output (.c):	390475789 bytes
+GCIS Compression Time: 21205ms
+GCIS Compression Peak Memory: 2728668302 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/einstein.en.txt.c -w 10 -p 100 -c
+Parsing time: 11.4533
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/einstein.en.txt.c.dicz
+Preprocess time: 0.0426
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.dicz.int 489834
+repair(dict) time: 0.8217
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.parse 489834
+repair(parse) time: 1.0884
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/einstein.en.txt.c
+Postprocess time: 0.0116
+Elapsed time: 13.4266
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/einstein.en.txt.c
+Elapsed time: 6.1247
+==== Done
+GCIS Decompression time: 4663 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,731,223,408, peak: 2,728,670,594, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/einstein.en.txt.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/einstein.en.txt.c 
+Decompression.
+malloc_count ### exiting, total: 1,514,100,360, peak: 1,122,687,322, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.en.txt.r): 547,614 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.en.txt.c.R): 745,100 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.en.txt.c.C): 77,276 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	467626544 bytes
+Output (.c):	128733711 bytes
+GCIS Compression Time: 22567ms
+GCIS Compression Peak Memory: 2467012166 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/einstein.en.txt.c -w 10 -p 100 -c
+Parsing time: 3.5609
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/einstein.en.txt.c.dicz
+Preprocess time: 0.0389
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.dicz.int 489834
+repair(dict) time: 0.4290
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.parse 489834
+repair(parse) time: 0.2899
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/einstein.en.txt.c
+Postprocess time: 0.0057
+Elapsed time: 4.3289
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/einstein.en.txt.c
+Elapsed time: 1.9933
+==== Done
+GCIS Decompression time: 5032 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,471,272,704, peak: 2,467,014,458, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/einstein.en.txt.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/einstein.en.txt.c 
+Decompression.
+malloc_count ### exiting, total: 1,088,647,776, peak: 860,945,322, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.en.txt.r): 650,440 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.en.txt.c.R): 481,396 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.en.txt.c.C): 64,072 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	467626544 bytes
+Output (.c):	41994521 bytes
+GCIS Compression Time: 23064ms
+GCIS Compression Peak Memory: 2380197750 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/einstein.en.txt.c -w 10 -p 100 -c
+Parsing time: 1.2211
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/einstein.en.txt.c.dicz
+Preprocess time: 0.0207
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.dicz.int 489834
+repair(dict) time: 0.3395
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.parse 489834
+repair(parse) time: 0.0868
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/einstein.en.txt.c
+Postprocess time: 0.0044
+Elapsed time: 1.6767
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/einstein.en.txt.c
+Elapsed time: 0.8828
+==== Done
+GCIS Decompression time: 5044 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,385,168,232, peak: 2,380,200,042, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/einstein.en.txt.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/einstein.en.txt.c 
+Decompression.
+malloc_count ### exiting, total: 945,392,072, peak: 774,206,210, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.en.txt.r): 720,498 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.en.txt.c.R): 346,052 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.en.txt.c.C): 54,760 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	467626544 bytes
+Output (.c):	14583067 bytes
+GCIS Compression Time: 22768ms
+GCIS Compression Peak Memory: 2353023718 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/einstein.en.txt.c -w 10 -p 100 -c
+Parsing time: 0.4959
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/einstein.en.txt.c.dicz
+Preprocess time: 0.0164
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.dicz.int 489834
+repair(dict) time: 0.2444
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.parse 489834
+repair(parse) time: 0.0348
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/einstein.en.txt.c
+Postprocess time: 0.0046
+Elapsed time: 0.7993
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/einstein.en.txt.c
+Elapsed time: 0.2849
+==== Done
+GCIS Decompression time: 5317 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,358,797,792, peak: 2,353,026,010, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/einstein.en.txt.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/einstein.en.txt.c 
+Decompression.
+malloc_count ### exiting, total: 900,332,984, peak: 746,794,834, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.en.txt.r): 768,684 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.en.txt.c.R): 261,564 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.en.txt.c.C): 46,696 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	467626544 bytes
+Output (.c):	5500805 bytes
+GCIS Compression Time: 23177ms
+GCIS Compression Peak Memory: 2343865118 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/einstein.en.txt.c -w 10 -p 100 -c
+Parsing time: 0.1716
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/einstein.en.txt.c.dicz
+Preprocess time: 0.0207
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.dicz.int 489834
+repair(dict) time: 0.1580
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.parse 489834
+repair(parse) time: 0.0146
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/einstein.en.txt.c
+Postprocess time: 0.0029
+Elapsed time: 0.3690
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/einstein.en.txt.c
+Elapsed time: 0.0702
+==== Done
+GCIS Decompression time: 5113 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,350,008,448, peak: 2,343,867,410, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/einstein.en.txt.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/einstein.en.txt.c 
+Decompression.
+malloc_count ### exiting, total: 885,211,040, peak: 737,712,650, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.en.txt.r): 805,190 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.en.txt.c.R): 219,196 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.en.txt.c.C): 33,464 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	467626544 bytes
+Output (.c):	2771287 bytes
+GCIS Compression Time: 22979ms
+GCIS Compression Peak Memory: 2341060598 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/einstein.en.txt.c -w 10 -p 100 -c
+Parsing time: 0.0686
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/einstein.en.txt.c.dicz
+Preprocess time: 0.0165
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.dicz.int 489834
+repair(dict) time: 0.1649
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.parse 489834
+repair(parse) time: 0.0050
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/einstein.en.txt.c
+Postprocess time: 0.0032
+Elapsed time: 0.2604
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/einstein.en.txt.c
+Elapsed time: 0.0306
+==== Done
+GCIS Decompression time: 5314 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,347,501,848, peak: 2,341,062,890, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/einstein.en.txt.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/einstein.en.txt.c 
+Decompression.
+malloc_count ### exiting, total: 880,751,296, peak: 734,983,210, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.en.txt.r): 843,448 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.en.txt.c.R): 185,652 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.en.txt.c.C): 18,464 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	467626544 bytes
+Output (.c):	1896937 bytes
+GCIS Compression Time: 22828ms
+GCIS Compression Peak Memory: 2340485190 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/einstein.en.txt.c -w 10 -p 100 -c
+Parsing time: 0.0265
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/einstein.en.txt.c.dicz
+Preprocess time: 0.0082
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.dicz.int 489834
+repair(dict) time: 0.0748
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.parse 489834
+repair(parse) time: 0.0028
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/einstein.en.txt.c
+Postprocess time: 0.0026
+Elapsed time: 0.1169
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/einstein.en.txt.c
+Elapsed time: 0.0107
+==== Done
+GCIS Decompression time: 5104 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,346,849,224, peak: 2,340,485,190, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/einstein.en.txt.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/einstein.en.txt.c 
+Decompression.
+malloc_count ### exiting, total: 879,376,544, peak: 734,108,938, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.en.txt.r): 875,074 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.en.txt.c.R): 152,468 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.en.txt.c.C): 6,356 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	467626544 bytes
+Output (.c):	1721683 bytes
+GCIS Compression Time: 22929ms
+GCIS Compression Peak Memory: 2341159926 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/einstein.en.txt.c -w 10 -p 100 -c
+Parsing time: 0.0113
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/einstein.en.txt.c.dicz
+Preprocess time: 0.0060
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.dicz.int 489834
+repair(dict) time: 0.0321
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.parse 489834
+repair(parse) time: 0.0021
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/einstein.en.txt.c
+Postprocess time: 0.0021
+Elapsed time: 0.0554
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/einstein.en.txt.c
+Elapsed time: 0.0049
+==== Done
+GCIS Decompression time: 5104 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,348,094,144, peak: 2,341,159,926, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/einstein.en.txt.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/einstein.en.txt.c 
+Decompression.
+malloc_count ### exiting, total: 879,165,704, peak: 733,933,762, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.en.txt.r): 899,156 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.en.txt.c.R): 98,492 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.en.txt.c.C): 2,488 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	467626544 bytes
+Output (.c):	1723189 bytes
+GCIS Compression Time: 22812ms
+GCIS Compression Peak Memory: 2341159926 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/einstein.en.txt.c -w 10 -p 100 -c
+Parsing time: 0.0073
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/einstein.en.txt.c.dicz
+Preprocess time: 0.0037
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.dicz.int 489834
+repair(dict) time: 0.0109
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.parse 489834
+repair(parse) time: 0.0012
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/einstein.en.txt.c
+Postprocess time: 0.0017
+Elapsed time: 0.0261
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/einstein.en.txt.c
+Elapsed time: 0.0027
+==== Done
+GCIS Decompression time: 5303 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,348,230,416, peak: 2,341,159,926, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/einstein.en.txt.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/einstein.en.txt.c 
+Decompression.
+malloc_count ### exiting, total: 879,207,256, peak: 733,935,346, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.en.txt.r): 911,486 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.en.txt.c.R): 32,948 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.en.txt.c.C): 772 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	467626544 bytes
+Output (.c):	1774247 bytes
+GCIS Compression Time: 22904ms
+GCIS Compression Peak Memory: 2341159926 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/einstein.en.txt.c -w 10 -p 100 -c
+Parsing time: 0.0051
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/einstein.en.txt.c.dicz
+Preprocess time: 0.0022
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.dicz.int 489834
+repair(dict) time: 0.0040
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/einstein.en.txt.c
+Postprocess time: 0.0012
+Elapsed time: 0.0161
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/einstein.en.txt.c
+Elapsed time: 0.0016
+==== Done
+GCIS Decompression time: 5092 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,348,297,720, peak: 2,341,159,926, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/einstein.en.txt.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/einstein.en.txt.c 
+Decompression.
+malloc_count ### exiting, total: 879,271,344, peak: 733,986,482, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.en.txt.r): 915,136 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.en.txt.c.R): 9,124 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.en.txt.c.C): 224 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	467626544 bytes
+Output (.c):	1842137 bytes
+GCIS Compression Time: 23351ms
+GCIS Compression Peak Memory: 2341159926 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/einstein.en.txt.c -w 10 -p 100 -c
+Parsing time: 0.0023
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/einstein.en.txt.c.dicz
+Preprocess time: 0.0018
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.dicz.int 489834
+repair(dict) time: 0.0019
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/einstein.en.txt.c
+Postprocess time: 0.0011
+Elapsed time: 0.0097
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/einstein.en.txt.c
+Elapsed time: 0.0013
+==== Done
+GCIS Decompression time: 5288 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,348,319,552, peak: 2,341,159,926, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/einstein.en.txt.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/einstein.en.txt.c 
+Decompression.
+malloc_count ### exiting, total: 879,341,360, peak: 734,054,450, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.en.txt.r): 916,050 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.en.txt.c.R): 2,852 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.en.txt.c.C): 100 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	467626544 bytes
+Output (.c):	1916507 bytes
+GCIS Compression Time: 22905ms
+GCIS Compression Peak Memory: 2341159926 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/einstein.en.txt.c -w 10 -p 100 -c
+Parsing time: 0.0030
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/einstein.en.txt.c.dicz
+Preprocess time: 0.0011
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.dicz.int 489834
+repair(dict) time: 0.0032
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/einstein.en.txt.c
+Postprocess time: 0.0011
+Elapsed time: 0.0104
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/einstein.en.txt.c
+Elapsed time: 0.0013
+==== Done
+GCIS Decompression time: 5106 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,348,327,824, peak: 2,341,159,926, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/einstein.en.txt.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/einstein.en.txt.c 
+Decompression.
+malloc_count ### exiting, total: 879,416,160, peak: 734,128,898, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.en.txt.r): 916,332 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.en.txt.c.R): 964 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.en.txt.c.C): 48 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	467626544 bytes
+Output (.c):	1992669 bytes
+GCIS Compression Time: 22961ms
+GCIS Compression Peak Memory: 2341159926 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/einstein.en.txt.c -w 10 -p 100 -c
+Parsing time: 0.0028
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/einstein.en.txt.c.dicz
+Preprocess time: 0.0009
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.dicz.int 489834
+repair(dict) time: 0.0024
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/einstein.en.txt.c
+Postprocess time: 0.0015
+Elapsed time: 0.0111
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/einstein.en.txt.c
+Elapsed time: 0.0014
+==== Done
+GCIS Decompression time: 5098 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,348,333,148, peak: 2,341,159,926, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/einstein.en.txt.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/einstein.en.txt.c 
+Decompression.
+malloc_count ### exiting, total: 879,492,480, peak: 734,205,138, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.en.txt.r): 916,462 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.en.txt.c.R): 380 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.en.txt.c.C): 28 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	467626544 bytes
+Output (.c):	2069343 bytes
+GCIS Compression Time: 22900ms
+GCIS Compression Peak Memory: 2341159926 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/einstein.en.txt.c -w 10 -p 100 -c
+Parsing time: 0.0032
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/einstein.en.txt.c.dicz
+Preprocess time: 0.0007
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.dicz.int 489834
+repair(dict) time: 0.0029
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/einstein.en.txt.c
+Postprocess time: 0.0010
+Elapsed time: 0.0102
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/einstein.en.txt.c
+Elapsed time: 0.0012
+==== Done
+GCIS Decompression time: 5096 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,348,336,892, peak: 2,341,159,926, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/einstein.en.txt.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/einstein.en.txt.c 
+Decompression.
+malloc_count ### exiting, total: 879,569,264, peak: 734,281,890, current: 4,096
+
+========================================
+
+=== LEVEL 15 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.en.txt.r): 916,560 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.en.txt.c.R): 156 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.en.txt.c.C): 28 bytes
+
+--- STDOUT ---
+Max Level = 15
+Input:	467626544 bytes
+Output (.c):	2146177 bytes
+GCIS Compression Time: 23060ms
+GCIS Compression Peak Memory: 2341159926 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/einstein.en.txt.c -w 10 -p 100 -c
+Parsing time: 0.0037
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/einstein.en.txt.c.dicz
+Preprocess time: 0.0018
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.dicz.int 489834
+repair(dict) time: 0.0012
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/einstein.en.txt.c.parse 489834
+repair(parse) time: 0.0010
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/einstein.en.txt.c
+Postprocess time: 0.0010
+Elapsed time: 0.0096
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/einstein.en.txt.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/einstein.en.txt.c
+Elapsed time: 0.0018
+==== Done
+GCIS Decompression time: 5087 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,348,340,116, peak: 2,341,159,926, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/einstein.en.txt.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/einstein.en.txt.c 
+Decompression.
+malloc_count ### exiting, total: 879,646,192, peak: 734,358,802, current: 4,096
+
+========================================
+
+=== LEVEL 16 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -c ../datasets/repcorpus/real/einstein.en.txt ../datasets/repcorpus/real/einstein.en.txt -s8b 16' returned non-zero exit status 139.
+
+--- STDERR BEFORE FAILURE ---
+GCIS Compression.
+Segmentation fault
+
+
+========================================
+

@@ -1,0 +1,448 @@
+=== IREPAIR Report for Escherichia_Coli ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 28,810 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 16,827,532 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 6,534,356 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	112689515 bytes
+Output (.c):	253361947 bytes
+GCIS Compression Time: 4272ms
+GCIS Compression Peak Memory: 816832391 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 783727072 bytes
+iRepair Peak Memory (Decompression): 16836664 bytes
+GCIS Decompression time: 886 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 817,221,419, peak: 816,835,707, current: 4,096
+iRepair Compression time: 23.537676 s
+malloc_count ### exiting, total: 27,785,127,312, peak: 783,727,072, current: 40,962,840
+iRepair Decompression time: 3.516380 s
+malloc_count ### exiting, total: 16,845,328, peak: 16,836,664, current: 16,831,624
+Decompression.
+malloc_count ### exiting, total: 619,678,631, peak: 619,504,455, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 4,325,252 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 17,244,956 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 6,966,196 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	112689515 bytes
+Output (.c):	85604197 bytes
+GCIS Compression Time: 6091ms
+GCIS Compression Peak Memory: 650032247 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 409867224 bytes
+iRepair Peak Memory (Decompression): 17254088 bytes
+GCIS Decompression time: 1948 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 693,499,811, peak: 650,034,539, current: 4,096
+iRepair Compression time: 11.436884 s
+malloc_count ### exiting, total: 4,554,942,276, peak: 409,867,224, current: 64,232,660
+iRepair Decompression time: 1.494020 s
+malloc_count ### exiting, total: 17,262,752, peak: 17,254,088, current: 17,249,048
+Decompression.
+malloc_count ### exiting, total: 367,937,839, peak: 253,890,303, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 10,913,486 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 7,702,508 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 4,181,152 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	112689515 bytes
+Output (.c):	37684999 bytes
+GCIS Compression Time: 6853ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 161776272 bytes
+iRepair Peak Memory (Decompression): 7711640 bytes
+GCIS Decompression time: 2366 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 679,762,331, peak: 607,253,007, current: 4,096
+iRepair Compression time: 3.936754 s
+malloc_count ### exiting, total: 1,785,433,616, peak: 161,776,272, current: 36,831,252
+iRepair Decompression time: 0.408745 s
+malloc_count ### exiting, total: 7,720,304, peak: 7,711,640, current: 7,706,600
+Decompression.
+malloc_count ### exiting, total: 314,253,199, peak: 205,971,183, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 14,044,896 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 3,023,780 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 2,317,760 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	112689515 bytes
+Output (.c):	23072873 bytes
+GCIS Compression Time: 7058ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 67161480 bytes
+iRepair Peak Memory (Decompression): 3032912 bytes
+GCIS Decompression time: 2407 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 681,962,451, peak: 607,253,007, current: 4,096
+iRepair Compression time: 1.279425 s
+malloc_count ### exiting, total: 655,760,444, peak: 67,161,480, current: 21,556,292
+iRepair Decompression time: 0.086246 s
+malloc_count ### exiting, total: 3,041,576, peak: 3,032,912, current: 3,027,872
+Decompression.
+malloc_count ### exiting, total: 300,738,855, peak: 191,359,135, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 15,468,082 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 1,004,524 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 1,185,808 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	112689515 bytes
+Output (.c):	18707803 bytes
+GCIS Compression Time: 7126ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 28777368 bytes
+iRepair Peak Memory (Decompression): 1013656 bytes
+GCIS Decompression time: 2431 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 685,974,499, peak: 607,253,007, current: 4,096
+iRepair Compression time: 0.334056 s
+malloc_count ### exiting, total: 223,674,484, peak: 28,777,368, current: 8,528,940
+iRepair Decompression time: 0.017057 s
+malloc_count ### exiting, total: 1,022,320, peak: 1,013,656, current: 1,008,616
+Decompression.
+malloc_count ### exiting, total: 297,781,631, peak: 186,994,143, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 16,046,412 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 266,540 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 536,032 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	112689515 bytes
+Output (.c):	17432373 bytes
+GCIS Compression Time: 7271ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 12871592 bytes
+iRepair Peak Memory (Decompression): 275672 bytes
+GCIS Decompression time: 2515 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 687,940,331, peak: 607,253,007, current: 4,096
+iRepair Compression time: 0.072348 s
+malloc_count ### exiting, total: 68,859,184, peak: 12,871,592, current: 4,902,824
+iRepair Decompression time: 0.007750 s
+malloc_count ### exiting, total: 284,336, peak: 275,672, current: 270,632
+Decompression.
+malloc_count ### exiting, total: 297,205,911, peak: 185,718,791, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 16,255,918 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 58,964 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 216,252 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	112689515 bytes
+Output (.c):	17093655 bytes
+GCIS Compression Time: 7242ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 3333456 bytes
+iRepair Peak Memory (Decompression): 68096 bytes
+GCIS Decompression time: 2464 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 688,771,379, peak: 607,253,007, current: 4,096
+iRepair Compression time: 0.016808 s
+malloc_count ### exiting, total: 16,160,472, peak: 3,333,456, current: 1,443,152
+iRepair Decompression time: 0.002735 s
+malloc_count ### exiting, total: 76,760, peak: 68,096, current: 63,056
+Decompression.
+malloc_count ### exiting, total: 297,135,863, peak: 185,380,151, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 16,322,848 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 11,564 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 80,792 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	112689515 bytes
+Output (.c):	17035201 bytes
+GCIS Compression Time: 7172ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1754576 bytes
+iRepair Peak Memory (Decompression): 20696 bytes
+GCIS Decompression time: 2526 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 689,084,003, peak: 607,253,007, current: 4,096
+iRepair Compression time: 0.004729 s
+malloc_count ### exiting, total: 5,352,280, peak: 1,754,576, current: 829,904
+iRepair Decompression time: 0.000936 s
+malloc_count ### exiting, total: 29,360, peak: 20,696, current: 15,656
+Decompression.
+malloc_count ### exiting, total: 297,156,815, peak: 185,321,775, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 16,344,706 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 2,420 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 28,832 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	112689515 bytes
+Output (.c):	17068515 bytes
+GCIS Compression Time: 7165ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 859352 bytes
+iRepair Peak Memory (Decompression): 11552 bytes
+GCIS Decompression time: 2449 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 690,427,427, peak: 607,253,007, current: 4,096
+iRepair Compression time: 0.001078 s
+malloc_count ### exiting, total: 1,618,528, peak: 859,352, current: 629,976
+iRepair Decompression time: 0.000416 s
+malloc_count ### exiting, total: 20,216, peak: 11,552, current: 6,512
+Decompression.
+malloc_count ### exiting, total: 297,215,991, peak: 185,355,167, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 16,351,316 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 476 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 10,012 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	112689515 bytes
+Output (.c):	17130333 bytes
+GCIS Compression Time: 7168ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 676592 bytes
+iRepair Peak Memory (Decompression): 9608 bytes
+GCIS Decompression time: 2622 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 690,468,627, peak: 607,253,007, current: 4,096
+iRepair Compression time: 0.001549 s
+malloc_count ### exiting, total: 914,552, peak: 676,592, current: 562,928
+iRepair Decompression time: 0.000186 s
+malloc_count ### exiting, total: 18,272, peak: 9,608, current: 4,568
+Decompression.
+malloc_count ### exiting, total: 297,284,335, peak: 185,417,071, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 16,353,406 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 84 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 3,452 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	112689515 bytes
+Output (.c):	17202255 bytes
+GCIS Compression Time: 7159ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 567744 bytes
+iRepair Peak Memory (Decompression): 9216 bytes
+GCIS Decompression time: 2522 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 690,484,299, peak: 607,253,007, current: 4,096
+iRepair Compression time: 0.000450 s
+malloc_count ### exiting, total: 615,792, peak: 567,744, current: 540,648
+iRepair Decompression time: 0.000104 s
+malloc_count ### exiting, total: 17,880, peak: 9,216, current: 4,176
+Decompression.
+malloc_count ### exiting, total: 297,358,255, peak: 185,489,071, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 16,354,056 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 20 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 1,180 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	112689515 bytes
+Output (.c):	17277417 bytes
+GCIS Compression Time: 7167ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 547776 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 2542 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 690,491,483, peak: 607,253,007, current: 4,096
+iRepair Compression time: 0.000480 s
+malloc_count ### exiting, total: 571,248, peak: 547,776, current: 532,968
+iRepair Decompression time: 0.000087 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 297,433,863, peak: 185,564,311, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 16,354,306 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 396 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	112689515 bytes
+Output (.c):	17353723 bytes
+GCIS Compression Time: 7166ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 537784 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2439 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 690,496,435, peak: 607,253,007, current: 4,096
+iRepair Compression time: 0.000444 s
+malloc_count ### exiting, total: 553,064, peak: 537,784, current: 530,144
+iRepair Decompression time: 0.000183 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 297,510,335, peak: 185,640,695, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 16,354,428 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 124 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	112689515 bytes
+Output (.c):	17430421 bytes
+GCIS Compression Time: 7157ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536744 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2626 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 690,500,007, peak: 607,253,007, current: 4,096
+iRepair Compression time: 0.000465 s
+malloc_count ### exiting, total: 552,024, peak: 536,744, current: 529,104
+iRepair Decompression time: 0.000131 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 297,587,111, peak: 185,717,471, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/Escherichia_Coli.r): 16,354,518 bytes
+  - .c.R (../datasets/repcorpus/real/Escherichia_Coli.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/real/Escherichia_Coli.c.C): 32 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	112689515 bytes
+Output (.c):	17507271 bytes
+GCIS Compression Time: 7156ms
+GCIS Compression Peak Memory: 607253007 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536368 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2501 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 690,503,147, peak: 607,253,007, current: 4,096
+iRepair Compression time: 0.000991 s
+malloc_count ### exiting, total: 551,648, peak: 536,368, current: 528,728
+iRepair Decompression time: 0.000061 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 297,664,039, peak: 185,794,399, current: 4,096
+
+========================================
+
+=== LEVEL 15 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -c ../datasets/repcorpus/real/Escherichia_Coli ../datasets/repcorpus/real/Escherichia_Coli -s8b 15' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+GCIS Compression.
+malloc(): invalid size (unsorted)
+Aborted
+
+
+========================================
+

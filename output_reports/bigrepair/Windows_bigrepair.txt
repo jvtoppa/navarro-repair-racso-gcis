@@ -1,0 +1,590 @@
+=== BIGREPAIR Report for Windows ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Windows.r): 50,898 bytes
+  - .c.R (../datasets/repcorpus/logs/Windows.c.R): 1,817,700 bytes
+  - .c.C (../datasets/repcorpus/logs/Windows.c.C): 321,712 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	104857600 bytes
+Output (.c):	245514675 bytes
+GCIS Compression Time: 3062ms
+GCIS Compression Peak Memory: 769833350 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Windows.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Windows.c -w 10 -p 100 -c
+Parsing time: 7.2065
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Windows.c.dicz
+Preprocess time: 0.2574
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Windows.c.dicz.int 489834
+repair(dict) time: 2.4141
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Windows.c.parse 489834
+repair(parse) time: 1.0285
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Windows.c
+Postprocess time: 0.0161
+Elapsed time: 10.9277
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Windows.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Windows.c
+Elapsed time: 3.5670
+==== Done
+GCIS Decompression time: 678 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 770,561,608, peak: 769,836,666, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Windows.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Windows.c 
+Decompression.
+malloc_count ### exiting, total: 596,243,040, peak: 596,012,386, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Windows.r): 176,828 bytes
+  - .c.R (../datasets/repcorpus/logs/Windows.c.R): 1,684,164 bytes
+  - .c.C (../datasets/repcorpus/logs/Windows.c.C): 288,492 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	104857600 bytes
+Output (.c):	84846269 bytes
+GCIS Compression Time: 3868ms
+GCIS Compression Peak Memory: 609177334 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Windows.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Windows.c -w 10 -p 100 -c
+Parsing time: 2.7817
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Windows.c.dicz
+Preprocess time: 0.1710
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Windows.c.dicz.int 489834
+repair(dict) time: 2.2784
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Windows.c.parse 489834
+repair(parse) time: 0.3538
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Windows.c
+Postprocess time: 0.0148
+Elapsed time: 5.6040
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Windows.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Windows.c
+Elapsed time: 1.5735
+==== Done
+GCIS Decompression time: 705 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 611,010,648, peak: 609,179,626, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Windows.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Windows.c 
+Decompression.
+malloc_count ### exiting, total: 332,894,168, peak: 247,469,690, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Windows.r): 402,470 bytes
+  - .c.R (../datasets/repcorpus/logs/Windows.c.R): 1,868,900 bytes
+  - .c.C (../datasets/repcorpus/logs/Windows.c.C): 177,472 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	104857600 bytes
+Output (.c):	27425775 bytes
+GCIS Compression Time: 4095ms
+GCIS Compression Peak Memory: 551861310 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Windows.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Windows.c -w 10 -p 100 -c
+Parsing time: 0.8853
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Windows.c.dicz
+Preprocess time: 0.0755
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Windows.c.dicz.int 489834
+repair(dict) time: 1.2231
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Windows.c.parse 489834
+repair(parse) time: 0.0751
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Windows.c
+Postprocess time: 0.0162
+Elapsed time: 2.2775
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Windows.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Windows.c
+Elapsed time: 0.3987
+==== Done
+GCIS Decompression time: 748 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 555,506,456, peak: 551,863,602, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Windows.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Windows.c 
+Decompression.
+malloc_count ### exiting, total: 240,182,048, peak: 190,049,274, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Windows.r): 722,280 bytes
+  - .c.R (../datasets/repcorpus/logs/Windows.c.R): 1,777,908 bytes
+  - .c.C (../datasets/repcorpus/logs/Windows.c.C): 70,400 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	104857600 bytes
+Output (.c):	10159465 bytes
+GCIS Compression Time: 4149ms
+GCIS Compression Peak Memory: 534532302 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Windows.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Windows.c -w 10 -p 100 -c
+Parsing time: 0.3179
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Windows.c.dicz
+Preprocess time: 0.0535
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Windows.c.dicz.int 489834
+repair(dict) time: 0.6070
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Windows.c.parse 489834
+repair(parse) time: 0.0313
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Windows.c
+Postprocess time: 0.0126
+Elapsed time: 1.0237
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Windows.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Windows.c
+Elapsed time: 0.1939
+==== Done
+GCIS Decompression time: 754 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 540,614,936, peak: 534,534,594, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Windows.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Windows.c 
+Decompression.
+malloc_count ### exiting, total: 213,671,648, peak: 172,783,042, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Windows.r): 1,035,146 bytes
+  - .c.R (../datasets/repcorpus/logs/Windows.c.R): 1,185,796 bytes
+  - .c.C (../datasets/repcorpus/logs/Windows.c.C): 30,656 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	104857600 bytes
+Output (.c):	5052123 bytes
+GCIS Compression Time: 4183ms
+GCIS Compression Peak Memory: 529682078 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Windows.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Windows.c -w 10 -p 100 -c
+Parsing time: 0.1259
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Windows.c.dicz
+Preprocess time: 0.0182
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Windows.c.dicz.int 489834
+repair(dict) time: 0.3708
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Windows.c.parse 489834
+repair(parse) time: 0.0105
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Windows.c
+Postprocess time: 0.0078
+Elapsed time: 0.5358
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Windows.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Windows.c
+Elapsed time: 0.0645
+==== Done
+GCIS Decompression time: 770 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 538,376,280, peak: 529,684,370, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Windows.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Windows.c 
+Decompression.
+malloc_count ### exiting, total: 206,968,552, peak: 167,675,778, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Windows.r): 1,288,356 bytes
+  - .c.R (../datasets/repcorpus/logs/Windows.c.R): 601,236 bytes
+  - .c.C (../datasets/repcorpus/logs/Windows.c.C): 14,952 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	104857600 bytes
+Output (.c):	3350741 bytes
+GCIS Compression Time: 4177ms
+GCIS Compression Peak Memory: 528318086 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Windows.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Windows.c -w 10 -p 100 -c
+Parsing time: 0.0595
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Windows.c.dicz
+Preprocess time: 0.0082
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Windows.c.dicz.int 489834
+repair(dict) time: 0.1087
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Windows.c.parse 489834
+repair(parse) time: 0.0058
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Windows.c
+Postprocess time: 0.0048
+Elapsed time: 0.1893
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Windows.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Windows.c
+Elapsed time: 0.0351
+==== Done
+GCIS Decompression time: 771 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 538,136,136, peak: 528,318,086, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Windows.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Windows.c 
+Decompression.
+malloc_count ### exiting, total: 204,995,520, peak: 165,974,474, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Windows.r): 1,437,206 bytes
+  - .c.R (../datasets/repcorpus/logs/Windows.c.R): 130,740 bytes
+  - .c.C (../datasets/repcorpus/logs/Windows.c.C): 3,244 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	104857600 bytes
+Output (.c):	2080911 bytes
+GCIS Compression Time: 4187ms
+GCIS Compression Peak Memory: 528318086 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Windows.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Windows.c -w 10 -p 100 -c
+Parsing time: 0.0098
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Windows.c.dicz
+Preprocess time: 0.0025
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Windows.c.dicz.int 489834
+repair(dict) time: 0.0179
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Windows.c.parse 489834
+repair(parse) time: 0.0026
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Windows.c
+Postprocess time: 0.0019
+Elapsed time: 0.0370
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Windows.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Windows.c
+Elapsed time: 0.0037
+==== Done
+GCIS Decompression time: 768 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 537,505,624, peak: 528,318,086, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Windows.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Windows.c 
+Decompression.
+malloc_count ### exiting, total: 203,096,344, peak: 164,704,722, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Windows.r): 1,454,024 bytes
+  - .c.R (../datasets/repcorpus/logs/Windows.c.R): 31,428 bytes
+  - .c.C (../datasets/repcorpus/logs/Windows.c.C): 848 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	104857600 bytes
+Output (.c):	2088505 bytes
+GCIS Compression Time: 4194ms
+GCIS Compression Peak Memory: 528318086 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Windows.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Windows.c -w 10 -p 100 -c
+Parsing time: 0.0044
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Windows.c.dicz
+Preprocess time: 0.0012
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Windows.c.dicz.int 489834
+repair(dict) time: 0.0044
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Windows.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Windows.c
+Postprocess time: 0.0013
+Elapsed time: 0.0138
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Windows.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Windows.c
+Elapsed time: 0.0031
+==== Done
+GCIS Decompression time: 770 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 537,549,760, peak: 528,318,086, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Windows.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Windows.c 
+Decompression.
+malloc_count ### exiting, total: 203,092,160, peak: 164,712,394, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Windows.r): 1,457,506 bytes
+  - .c.R (../datasets/repcorpus/logs/Windows.c.R): 12,388 bytes
+  - .c.C (../datasets/repcorpus/logs/Windows.c.C): 288 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	104857600 bytes
+Output (.c):	2156171 bytes
+GCIS Compression Time: 4197ms
+GCIS Compression Peak Memory: 528318086 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Windows.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Windows.c -w 10 -p 100 -c
+Parsing time: 0.0037
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Windows.c.dicz
+Preprocess time: 0.0009
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Windows.c.dicz.int 489834
+repair(dict) time: 0.0023
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Windows.c.parse 489834
+repair(parse) time: 0.0025
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Windows.c
+Postprocess time: 0.0012
+Elapsed time: 0.0120
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Windows.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Windows.c
+Elapsed time: 0.0014
+==== Done
+GCIS Decompression time: 964 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 538,806,016, peak: 528,318,086, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Windows.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Windows.c 
+Decompression.
+malloc_count ### exiting, total: 203,163,312, peak: 164,780,138, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Windows.r): 1,458,788 bytes
+  - .c.R (../datasets/repcorpus/logs/Windows.c.R): 4,236 bytes
+  - .c.C (../datasets/repcorpus/logs/Windows.c.C): 140 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	104857600 bytes
+Output (.c):	2229493 bytes
+GCIS Compression Time: 4180ms
+GCIS Compression Peak Memory: 528318086 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Windows.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Windows.c -w 10 -p 100 -c
+Parsing time: 0.0038
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Windows.c.dicz
+Preprocess time: 0.0019
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Windows.c.dicz.int 489834
+repair(dict) time: 0.0019
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Windows.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Windows.c
+Postprocess time: 0.0011
+Elapsed time: 0.0112
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Windows.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Windows.c
+Elapsed time: 0.0022
+==== Done
+GCIS Decompression time: 767 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 538,816,584, peak: 528,318,086, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Windows.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Windows.c 
+Decompression.
+malloc_count ### exiting, total: 203,237,296, peak: 164,853,538, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Windows.r): 1,459,214 bytes
+  - .c.R (../datasets/repcorpus/logs/Windows.c.R): 740 bytes
+  - .c.C (../datasets/repcorpus/logs/Windows.c.C): 28 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	104857600 bytes
+Output (.c):	2304887 bytes
+GCIS Compression Time: 4194ms
+GCIS Compression Peak Memory: 528318086 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Windows.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Windows.c -w 10 -p 100 -c
+Parsing time: 0.0027
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Windows.c.dicz
+Preprocess time: 0.0018
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Windows.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Windows.c.parse 489834
+repair(parse) time: 0.0010
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Windows.c
+Postprocess time: 0.0022
+Elapsed time: 0.0110
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Windows.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Windows.c
+Elapsed time: 0.0012
+==== Done
+GCIS Decompression time: 768 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 538,820,936, peak: 528,318,086, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Windows.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Windows.c 
+Decompression.
+malloc_count ### exiting, total: 203,312,208, peak: 164,929,010, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Windows.r): 1,459,328 bytes
+  - .c.R (../datasets/repcorpus/logs/Windows.c.R): 212 bytes
+  - .c.C (../datasets/repcorpus/logs/Windows.c.C): 16 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	104857600 bytes
+Output (.c):	2381577 bytes
+GCIS Compression Time: 4184ms
+GCIS Compression Peak Memory: 528318086 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Windows.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Windows.c -w 10 -p 100 -c
+Parsing time: 0.0033
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Windows.c.dicz
+Preprocess time: 0.0011
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Windows.c.dicz.int 489834
+repair(dict) time: 0.0019
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Windows.c.parse 489834
+repair(parse) time: 0.0010
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Windows.c
+Postprocess time: 0.0010
+Elapsed time: 0.0105
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Windows.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Windows.c
+Elapsed time: 0.0013
+==== Done
+GCIS Decompression time: 776 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 538,824,340, peak: 528,318,086, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Windows.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Windows.c 
+Decompression.
+malloc_count ### exiting, total: 203,388,912, peak: 165,005,778, current: 4,096
+
+========================================
+
+=== LEVEL 12 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/logs/Windows ../datasets/repcorpus/logs/Windows -s8b 12' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

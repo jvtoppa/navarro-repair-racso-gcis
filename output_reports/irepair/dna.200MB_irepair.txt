@@ -1,0 +1,40 @@
+=== IREPAIR Report for dna.200MB ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.200MB.r): 65,914 bytes
+  - .c.R (../datasets/texts/dna/dna.200MB.c.R): 17,259,652 bytes
+  - .c.C (../datasets/texts/dna/dna.200MB.c.C): 87,950,140 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	209715200 bytes
+Output (.c):	468446283 bytes
+GCIS Compression Time: 7591ms
+GCIS Compression Peak Memory: 1517059480 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1450627304 bytes
+iRepair Peak Memory (Decompression): 17268784 bytes
+GCIS Decompression time: 1771 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,517,914,388, peak: 1,517,062,796, current: 4,096
+iRepair Compression time: 38.717262 s
+malloc_count ### exiting, total: 47,715,714,608, peak: 1,450,627,304, current: 418,933,628
+iRepair Decompression time: 3.718125 s
+malloc_count ### exiting, total: 17,277,448, peak: 17,268,784, current: 17,263,744
+Decompression.
+malloc_count ### exiting, total: 1,147,504,340, peak: 1,146,995,936, current: 4,096
+
+========================================
+
+=== LEVEL 1 (ERROR) ===
+Error message: Command '.././repair/irepair ../datasets/texts/dna/dna.200MB.c' returned non-zero exit status 139.
+
+--- STDERR BEFORE FAILURE ---
+Segmentation fault
+
+
+========================================
+

@@ -1,0 +1,361 @@
+=== IREPAIR Report for world_leaders ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/world_leaders.r): 65,338 bytes
+  - .c.R (../datasets/repcorpus/real/world_leaders.c.R): 1,645,140 bytes
+  - .c.C (../datasets/repcorpus/real/world_leaders.c.C): 407,444 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	46968181 bytes
+Output (.c):	58889155 bytes
+GCIS Compression Time: 1359ms
+GCIS Compression Peak Memory: 293755227 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 183021936 bytes
+iRepair Peak Memory (Decompression): 1654272 bytes
+GCIS Decompression time: 332 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 294,673,297, peak: 293,758,543, current: 4,096
+iRepair Compression time: 4.514250 s
+malloc_count ### exiting, total: 7,699,678,896, peak: 183,021,936, current: 3,692,356
+iRepair Decompression time: 0.705132 s
+malloc_count ### exiting, total: 1,662,936, peak: 1,654,272, current: 1,649,232
+Decompression.
+malloc_count ### exiting, total: 165,232,973, peak: 164,929,903, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/world_leaders.r): 395,580 bytes
+  - .c.R (../datasets/repcorpus/real/world_leaders.c.R): 1,604,492 bytes
+  - .c.C (../datasets/repcorpus/real/world_leaders.c.C): 472,308 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	46968181 bytes
+Output (.c):	21306125 bytes
+GCIS Compression Time: 1609ms
+GCIS Compression Peak Memory: 256231795 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 73040568 bytes
+iRepair Peak Memory (Decompression): 1613624 bytes
+GCIS Decompression time: 270 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 260,113,961, peak: 256,234,087, current: 4,096
+iRepair Compression time: 1.812107 s
+malloc_count ### exiting, total: 1,735,323,272, peak: 73,040,568, current: 4,174,640
+iRepair Decompression time: 0.190334 s
+malloc_count ### exiting, total: 1,622,288, peak: 1,613,624, current: 1,608,584
+Decompression.
+malloc_count ### exiting, total: 106,471,477, peak: 83,286,719, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/world_leaders.r): 866,718 bytes
+  - .c.R (../datasets/repcorpus/real/world_leaders.c.R): 1,039,564 bytes
+  - .c.C (../datasets/repcorpus/real/world_leaders.c.C): 442,348 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	46968181 bytes
+Output (.c):	8297895 bytes
+GCIS Compression Time: 1579ms
+GCIS Compression Peak Memory: 243331459 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 32231440 bytes
+iRepair Peak Memory (Decompression): 1048696 bytes
+GCIS Decompression time: 402 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 250,504,537, peak: 243,333,751, current: 4,096
+iRepair Compression time: 0.609175 s
+malloc_count ### exiting, total: 377,713,768, peak: 32,231,440, current: 3,526,460
+iRepair Decompression time: 0.051817 s
+malloc_count ### exiting, total: 1,057,360, peak: 1,048,696, current: 1,043,656
+Decompression.
+malloc_count ### exiting, total: 87,425,397, peak: 70,278,567, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/world_leaders.r): 1,218,440 bytes
+  - .c.R (../datasets/repcorpus/real/world_leaders.c.R): 502,324 bytes
+  - .c.C (../datasets/repcorpus/real/world_leaders.c.C): 335,348 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	46968181 bytes
+Output (.c):	3909025 bytes
+GCIS Compression Time: 1696ms
+GCIS Compression Peak Memory: 238948643 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 12390656 bytes
+iRepair Peak Memory (Decompression): 511456 bytes
+GCIS Decompression time: 343 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 248,257,281, peak: 238,948,643, current: 4,096
+iRepair Compression time: 0.195566 s
+malloc_count ### exiting, total: 129,259,452, peak: 12,390,656, current: 2,883,196
+iRepair Decompression time: 0.021091 s
+malloc_count ### exiting, total: 520,120, peak: 511,456, current: 506,416
+Decompression.
+malloc_count ### exiting, total: 81,462,205, peak: 65,889,775, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/world_leaders.r): 1,429,882 bytes
+  - .c.R (../datasets/repcorpus/real/world_leaders.c.R): 210,932 bytes
+  - .c.C (../datasets/repcorpus/real/world_leaders.c.C): 233,592 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	46968181 bytes
+Output (.c):	2576667 bytes
+GCIS Compression Time: 1615ms
+GCIS Compression Peak Memory: 238948643 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 7460800 bytes
+iRepair Peak Memory (Decompression): 220064 bytes
+GCIS Decompression time: 304 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 248,851,417, peak: 238,948,643, current: 4,096
+iRepair Compression time: 0.058400 s
+malloc_count ### exiting, total: 50,715,984, peak: 7,460,800, current: 2,220,960
+iRepair Decompression time: 0.006881 s
+malloc_count ### exiting, total: 228,728, peak: 220,064, current: 215,024
+Decompression.
+malloc_count ### exiting, total: 79,913,453, peak: 64,557,503, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/world_leaders.r): 1,551,572 bytes
+  - .c.R (../datasets/repcorpus/real/world_leaders.c.R): 69,060 bytes
+  - .c.C (../datasets/repcorpus/real/world_leaders.c.C): 148,188 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	46968181 bytes
+Output (.c):	2265069 bytes
+GCIS Compression Time: 1718ms
+GCIS Compression Peak Memory: 238948643 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 3197216 bytes
+iRepair Peak Memory (Decompression): 78192 bytes
+GCIS Decompression time: 310 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 249,281,049, peak: 238,948,643, current: 4,096
+iRepair Compression time: 0.015500 s
+malloc_count ### exiting, total: 16,589,480, peak: 3,197,216, current: 1,299,744
+iRepair Decompression time: 0.002466 s
+malloc_count ### exiting, total: 86,856, peak: 78,192, current: 73,152
+Decompression.
+malloc_count ### exiting, total: 79,737,869, peak: 64,245,983, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/world_leaders.r): 1,606,862 bytes
+  - .c.R (../datasets/repcorpus/real/world_leaders.c.R): 13,828 bytes
+  - .c.C (../datasets/repcorpus/real/world_leaders.c.C): 70,312 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	46968181 bytes
+Output (.c):	2231247 bytes
+GCIS Compression Time: 1612ms
+GCIS Compression Peak Memory: 238948643 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1723784 bytes
+iRepair Peak Memory (Decompression): 22960 bytes
+GCIS Decompression time: 306 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 249,545,489, peak: 238,948,643, current: 4,096
+iRepair Compression time: 0.002496 s
+malloc_count ### exiting, total: 5,251,856, peak: 1,723,784, current: 796,040
+iRepair Decompression time: 0.000952 s
+malloc_count ### exiting, total: 31,624, peak: 22,960, current: 17,920
+Decompression.
+malloc_count ### exiting, total: 79,779,733, peak: 64,212,239, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/world_leaders.r): 1,626,512 bytes
+  - .c.R (../datasets/repcorpus/real/world_leaders.c.R): 956 bytes
+  - .c.C (../datasets/repcorpus/real/world_leaders.c.C): 16,092 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	46968181 bytes
+Output (.c):	2258385 bytes
+GCIS Compression Time: 1620ms
+GCIS Compression Peak Memory: 238948643 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 794312 bytes
+iRepair Peak Memory (Decompression): 10088 bytes
+GCIS Decompression time: 414 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 249,617,481, peak: 238,948,643, current: 4,096
+iRepair Compression time: 0.000636 s
+malloc_count ### exiting, total: 1,291,344, peak: 794,312, current: 583,368
+iRepair Decompression time: 0.000574 s
+malloc_count ### exiting, total: 18,752, peak: 10,088, current: 5,048
+Decompression.
+malloc_count ### exiting, total: 79,810,013, peak: 64,239,463, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/world_leaders.r): 1,629,906 bytes
+  - .c.R (../datasets/repcorpus/real/world_leaders.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/real/world_leaders.c.C): 1,980 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	46968181 bytes
+Output (.c):	2323515 bytes
+GCIS Compression Time: 1715ms
+GCIS Compression Peak Memory: 238948643 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 549408 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 318 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 250,861,657, peak: 238,948,643, current: 4,096
+iRepair Compression time: 0.001048 s
+malloc_count ### exiting, total: 572,880, peak: 549,408, current: 535,624
+iRepair Decompression time: 0.000176 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 79,871,677, peak: 64,304,671, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/world_leaders.r): 1,630,268 bytes
+  - .c.R (../datasets/repcorpus/real/world_leaders.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/real/world_leaders.c.C): 684 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	46968181 bytes
+Output (.c):	2399429 bytes
+GCIS Compression Time: 1621ms
+GCIS Compression Peak Memory: 238948643 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 538872 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 422 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 250,868,021, peak: 238,948,643, current: 4,096
+iRepair Compression time: 0.000334 s
+malloc_count ### exiting, total: 554,152, peak: 538,872, current: 531,232
+iRepair Decompression time: 0.000066 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 79,947,829, peak: 64,380,663, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/world_leaders.r): 1,630,430 bytes
+  - .c.R (../datasets/repcorpus/real/world_leaders.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/real/world_leaders.c.C): 180 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	46968181 bytes
+Output (.c):	2475935 bytes
+GCIS Compression Time: 1613ms
+GCIS Compression Peak Memory: 238948643 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536968 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 312 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 250,871,961, peak: 238,948,643, current: 4,096
+iRepair Compression time: 0.000427 s
+malloc_count ### exiting, total: 552,248, peak: 536,968, current: 529,328
+iRepair Decompression time: 0.000058 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 80,024,341, peak: 64,457,247, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/world_leaders.r): 1,630,528 bytes
+  - .c.R (../datasets/repcorpus/real/world_leaders.c.R): 4 bytes
+  - .c.C (../datasets/repcorpus/real/world_leaders.c.C): 64 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	46968181 bytes
+Output (.c):	2552761 bytes
+GCIS Compression Time: 1613ms
+GCIS Compression Peak Memory: 238948643 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 531872 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 313 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 250,875,209, peak: 238,948,643, current: 4,096
+iRepair Compression time: 0.000307 s
+malloc_count ### exiting, total: 549,672, peak: 533,368, current: 528,800
+iRepair Decompression time: 0.000059 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 80,101,261, peak: 64,534,151, current: 4,096
+
+========================================
+
+=== LEVEL 12 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -c ../datasets/repcorpus/real/world_leaders ../datasets/repcorpus/real/world_leaders -s8b 12' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+GCIS Compression.
+malloc(): unsorted double linked list corrupted
+Aborted
+
+
+========================================
+

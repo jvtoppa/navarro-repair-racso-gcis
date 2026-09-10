@@ -1,0 +1,782 @@
+=== BIGREPAIR Report for dblp.xml ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.r): 1,710,426 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.c.R): 101,502,196 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.c.C): 17,999,860 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	296135874 bytes
+Output (.c):	685429571 bytes
+GCIS Compression Time: 10006ms
+GCIS Compression Peak Memory: 2166374376 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/xml/dblp.xml.c -w 10 -p 100 -c
+Parsing time: 42.4354
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/xml/dblp.xml.c.dicz
+Preprocess time: 8.2380
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.dicz.int 489834
+repair(dict) time: 873.8170
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.parse 489834
+repair(parse) time: 2.2764
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/xml/dblp.xml.c
+Postprocess time: 0.6035
+Elapsed time: 927.3807
+==== Done
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/xml/dblp.xml.c
+Elapsed time: 12.3263
+==== Done
+GCIS Decompression time: 2461 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,191,637,442, peak: 2,166,377,692, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/xml/dblp.xml.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/xml/dblp.xml.c 
+Decompression.
+malloc_count ### exiting, total: 1,683,652,010, peak: 1,674,441,140, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.r): 20,151,684 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.c.R): 127,122,324 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.c.C): 8,136,388 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	296135874 bytes
+Output (.c):	266397901 bytes
+GCIS Compression Time: 14264ms
+GCIS Compression Peak Memory: 1748099400 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/xml/dblp.xml.c -w 10 -p 100 -c
+Parsing time: 17.1781
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/xml/dblp.xml.c.dicz
+Preprocess time: 3.5446
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.dicz.int 489834
+repair(dict) time: 120.7686
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.parse 489834
+repair(parse) time: 0.6245
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/xml/dblp.xml.c
+Postprocess time: 1.6505
+Elapsed time: 143.7709
+==== Done
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/xml/dblp.xml.c
+Elapsed time: 5.4331
+==== Done
+GCIS Decompression time: 4091 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,909,032,242, peak: 1,748,101,692, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/xml/dblp.xml.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/xml/dblp.xml.c 
+Decompression.
+malloc_count ### exiting, total: 1,171,742,634, peak: 791,672,334, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.r): 47,141,238 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.c.R): 95,537,428 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.c.C): 3,391,576 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	296135874 bytes
+Output (.c):	135623719 bytes
+GCIS Compression Time: 16634ms
+GCIS Compression Peak Memory: 1665833456 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/xml/dblp.xml.c -w 10 -p 100 -c
+Parsing time: 6.4357
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/xml/dblp.xml.c.dicz
+Preprocess time: 1.4821
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.dicz.int 489834
+repair(dict) time: 128.4911
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.parse 489834
+repair(parse) time: 0.2751
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/xml/dblp.xml.c
+Postprocess time: 0.9599
+Elapsed time: 137.6460
+==== Done
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/xml/dblp.xml.c
+Elapsed time: 2.0954
+==== Done
+GCIS Decompression time: 5131 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,941,707,114, peak: 1,665,833,456, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/xml/dblp.xml.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/xml/dblp.xml.c 
+Decompression.
+malloc_count ### exiting, total: 1,114,139,066, peak: 654,631,364, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.r): 69,783,232 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.c.R): 50,120,644 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.c.C): 1,335,336 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	296135874 bytes
+Output (.c):	103359985 bytes
+GCIS Compression Time: 17738ms
+GCIS Compression Peak Memory: 1665833456 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/xml/dblp.xml.c -w 10 -p 100 -c
+Parsing time: 2.2960
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/xml/dblp.xml.c.dicz
+Preprocess time: 0.4894
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.dicz.int 489834
+repair(dict) time: 16.5065
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.parse 489834
+repair(parse) time: 0.0730
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/xml/dblp.xml.c
+Postprocess time: 0.7169
+Elapsed time: 20.0856
+==== Done
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/xml/dblp.xml.c
+Elapsed time: 0.7810
+==== Done
+GCIS Decompression time: 5645 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,030,389,850, peak: 1,665,833,456, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/xml/dblp.xml.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/xml/dblp.xml.c 
+Decompression.
+malloc_count ### exiting, total: 1,145,608,786, peak: 622,367,708, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.r): 81,446,378 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.c.R): 14,376,052 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.c.C): 349,268 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	296135874 bytes
+Output (.c):	90541355 bytes
+GCIS Compression Time: 17961ms
+GCIS Compression Peak Memory: 1665833456 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/xml/dblp.xml.c -w 10 -p 100 -c
+Parsing time: 0.5898
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/xml/dblp.xml.c.dicz
+Preprocess time: 0.1337
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.dicz.int 489834
+repair(dict) time: 2.8383
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.parse 489834
+repair(parse) time: 0.0156
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/xml/dblp.xml.c
+Postprocess time: 0.1041
+Elapsed time: 3.6846
+==== Done
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/xml/dblp.xml.c
+Elapsed time: 0.1880
+==== Done
+GCIS Decompression time: 5540 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,068,770,130, peak: 1,665,833,456, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/xml/dblp.xml.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/xml/dblp.xml.c 
+Decompression.
+malloc_count ### exiting, total: 1,151,244,714, peak: 609,549,156, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.r): 84,473,388 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.c.R): 5,591,452 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.c.C): 132,572 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	296135874 bytes
+Output (.c):	88198237 bytes
+GCIS Compression Time: 18055ms
+GCIS Compression Peak Memory: 1665833456 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/xml/dblp.xml.c -w 10 -p 100 -c
+Parsing time: 0.2171
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/xml/dblp.xml.c.dicz
+Preprocess time: 0.0695
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.dicz.int 489834
+repair(dict) time: 2.4541
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.parse 489834
+repair(parse) time: 0.0047
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/xml/dblp.xml.c
+Postprocess time: 0.0346
+Elapsed time: 2.7813
+==== Done
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/xml/dblp.xml.c
+Elapsed time: 0.0835
+==== Done
+GCIS Decompression time: 5619 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,081,979,314, peak: 1,665,833,456, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/xml/dblp.xml.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/xml/dblp.xml.c 
+Decompression.
+malloc_count ### exiting, total: 1,155,293,074, peak: 607,206,116, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.r): 85,500,950 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.c.R): 1,844,668 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.c.C): 46,100 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	296135874 bytes
+Output (.c):	87082199 bytes
+GCIS Compression Time: 17930ms
+GCIS Compression Peak Memory: 1665833456 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/xml/dblp.xml.c -w 10 -p 100 -c
+Parsing time: 0.0674
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/xml/dblp.xml.c.dicz
+Preprocess time: 0.0240
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.dicz.int 489834
+repair(dict) time: 0.3847
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.parse 489834
+repair(parse) time: 0.0039
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/xml/dblp.xml.c
+Postprocess time: 0.0121
+Elapsed time: 0.4932
+==== Done
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/xml/dblp.xml.c
+Elapsed time: 0.0248
+==== Done
+GCIS Decompression time: 5551 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,086,228,578, peak: 1,665,833,456, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/xml/dblp.xml.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/xml/dblp.xml.c 
+Decompression.
+malloc_count ### exiting, total: 1,155,906,802, peak: 606,090,156, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.r): 85,796,848 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.c.R): 606,108 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.c.C): 14,820 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	296135874 bytes
+Output (.c):	86747929 bytes
+GCIS Compression Time: 18026ms
+GCIS Compression Peak Memory: 1665833456 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/xml/dblp.xml.c -w 10 -p 100 -c
+Parsing time: 0.0221
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/xml/dblp.xml.c.dicz
+Preprocess time: 0.0090
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.dicz.int 489834
+repair(dict) time: 0.0690
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.parse 489834
+repair(parse) time: 0.0020
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/xml/dblp.xml.c
+Postprocess time: 0.0050
+Elapsed time: 0.1082
+==== Done
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/xml/dblp.xml.c
+Elapsed time: 0.0094
+==== Done
+GCIS Decompression time: 5849 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,087,587,178, peak: 1,665,833,456, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/xml/dblp.xml.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/xml/dblp.xml.c 
+Decompression.
+malloc_count ### exiting, total: 1,156,033,314, peak: 605,755,964, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.r): 85,887,002 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.c.R): 192,508 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.c.C): 4,604 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	296135874 bytes
+Output (.c):	86685963 bytes
+GCIS Compression Time: 17926ms
+GCIS Compression Peak Memory: 1665833456 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/xml/dblp.xml.c -w 10 -p 100 -c
+Parsing time: 0.0088
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/xml/dblp.xml.c.dicz
+Preprocess time: 0.0045
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.dicz.int 489834
+repair(dict) time: 0.0205
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.parse 489834
+repair(parse) time: 0.0013
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/xml/dblp.xml.c
+Postprocess time: 0.0023
+Elapsed time: 0.0388
+==== Done
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/xml/dblp.xml.c
+Elapsed time: 0.0038
+==== Done
+GCIS Decompression time: 5522 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,089,245,338, peak: 1,665,833,456, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/xml/dblp.xml.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/xml/dblp.xml.c 
+Decompression.
+malloc_count ### exiting, total: 1,156,102,042, peak: 605,694,076, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.r): 85,912,460 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.c.R): 60,620 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.c.C): 1,580 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	296135874 bytes
+Output (.c):	86714941 bytes
+GCIS Compression Time: 18098ms
+GCIS Compression Peak Memory: 1665833456 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/xml/dblp.xml.c -w 10 -p 100 -c
+Parsing time: 0.0046
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/xml/dblp.xml.c.dicz
+Preprocess time: 0.0015
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.dicz.int 489834
+repair(dict) time: 0.0074
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.parse 489834
+repair(parse) time: 0.0012
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/xml/dblp.xml.c
+Postprocess time: 0.0015
+Elapsed time: 0.0179
+==== Done
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/xml/dblp.xml.c
+Elapsed time: 0.0021
+==== Done
+GCIS Decompression time: 5797 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,089,378,370, peak: 1,665,833,456, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/xml/dblp.xml.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/xml/dblp.xml.c 
+Decompression.
+malloc_count ### exiting, total: 1,156,162,226, peak: 605,723,132, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.r): 85,920,030 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.c.R): 17,684 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.c.C): 492 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	296135874 bytes
+Output (.c):	86775367 bytes
+GCIS Compression Time: 18099ms
+GCIS Compression Peak Memory: 1665833456 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/xml/dblp.xml.c -w 10 -p 100 -c
+Parsing time: 0.0042
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/xml/dblp.xml.c.dicz
+Preprocess time: 0.0021
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.dicz.int 489834
+repair(dict) time: 0.0028
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/xml/dblp.xml.c
+Postprocess time: 0.0012
+Elapsed time: 0.0134
+==== Done
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/xml/dblp.xml.c
+Elapsed time: 0.0018
+==== Done
+GCIS Decompression time: 5629 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,089,420,426, peak: 1,665,833,456, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/xml/dblp.xml.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/xml/dblp.xml.c 
+Decompression.
+malloc_count ### exiting, total: 1,156,229,498, peak: 605,783,636, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.r): 85,922,000 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.c.R): 5,364 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.c.C): 160 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	296135874 bytes
+Output (.c):	86847009 bytes
+GCIS Compression Time: 18176ms
+GCIS Compression Peak Memory: 1665833456 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/xml/dblp.xml.c -w 10 -p 100 -c
+Parsing time: 0.0035
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/xml/dblp.xml.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.dicz.int 489834
+repair(dict) time: 0.0018
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/xml/dblp.xml.c
+Postprocess time: 0.0012
+Elapsed time: 0.0099
+==== Done
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/xml/dblp.xml.c
+Elapsed time: 0.0021
+==== Done
+GCIS Decompression time: 5679 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,089,434,130, peak: 1,665,833,456, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/xml/dblp.xml.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/xml/dblp.xml.c 
+Decompression.
+malloc_count ### exiting, total: 1,156,302,074, peak: 605,855,356, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.r): 85,922,522 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.c.R): 1,612 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.c.C): 72 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	296135874 bytes
+Output (.c):	86922339 bytes
+GCIS Compression Time: 18127ms
+GCIS Compression Peak Memory: 1665833456 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/xml/dblp.xml.c -w 10 -p 100 -c
+Parsing time: 0.0031
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/xml/dblp.xml.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.dicz.int 489834
+repair(dict) time: 0.0016
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.parse 489834
+repair(parse) time: 0.0010
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/xml/dblp.xml.c
+Postprocess time: 0.0015
+Elapsed time: 0.0103
+==== Done
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/xml/dblp.xml.c
+Elapsed time: 0.0018
+==== Done
+GCIS Decompression time: 5612 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,089,440,002, peak: 1,665,833,456, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/xml/dblp.xml.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/xml/dblp.xml.c 
+Decompression.
+malloc_count ### exiting, total: 1,156,377,466, peak: 605,930,764, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.r): 85,922,700 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.c.R): 468 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.c.C): 44 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	296135874 bytes
+Output (.c):	86998781 bytes
+GCIS Compression Time: 18162ms
+GCIS Compression Peak Memory: 1665833456 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/xml/dblp.xml.c -w 10 -p 100 -c
+Parsing time: 0.0033
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/xml/dblp.xml.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.parse 489834
+repair(parse) time: 0.0022
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/xml/dblp.xml.c
+Postprocess time: 0.0014
+Elapsed time: 0.0109
+==== Done
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/xml/dblp.xml.c
+Elapsed time: 0.0013
+==== Done
+GCIS Decompression time: 5596 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,089,444,110, peak: 1,665,833,456, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/xml/dblp.xml.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/xml/dblp.xml.c 
+Decompression.
+malloc_count ### exiting, total: 1,156,453,906, peak: 606,007,284, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.r): 85,922,798 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.c.R): 180 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.c.C): 32 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	296135874 bytes
+Output (.c):	87075583 bytes
+GCIS Compression Time: 18084ms
+GCIS Compression Peak Memory: 1665833456 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/xml/dblp.xml.c -w 10 -p 100 -c
+Parsing time: 0.0022
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/xml/dblp.xml.c.dicz
+Preprocess time: 0.0007
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.dicz.int 489834
+repair(dict) time: 0.0018
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.parse 489834
+repair(parse) time: 0.0015
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/xml/dblp.xml.c
+Postprocess time: 0.0011
+Elapsed time: 0.0096
+==== Done
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/xml/dblp.xml.c
+Elapsed time: 0.0012
+==== Done
+GCIS Decompression time: 5611 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,089,447,406, peak: 1,665,833,456, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/xml/dblp.xml.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/xml/dblp.xml.c 
+Decompression.
+malloc_count ### exiting, total: 1,156,530,794, peak: 606,084,164, current: 4,096
+
+========================================
+
+=== LEVEL 15 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/xml/dblp.xml.r): 85,922,888 bytes
+  - .c.R (../datasets/texts/xml/dblp.xml.c.R): 100 bytes
+  - .c.C (../datasets/texts/xml/dblp.xml.c.C): 8 bytes
+
+--- STDOUT ---
+Max Level = 15
+Input:	296135874 bytes
+Output (.c):	87152481 bytes
+GCIS Compression Time: 18174ms
+GCIS Compression Peak Memory: 1665833456 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/xml/dblp.xml.c -w 10 -p 100 -c
+Parsing time: 0.0030
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/xml/dblp.xml.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.dicz.int 489834
+repair(dict) time: 0.0028
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/xml/dblp.xml.c.parse 489834
+repair(parse) time: 0.0021
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/xml/dblp.xml.c
+Postprocess time: 0.0015
+Elapsed time: 0.0122
+==== Done
+Sending logging messages to file: ../datasets/texts/xml/dblp.xml.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/xml/dblp.xml.c
+Elapsed time: 0.0013
+==== Done
+GCIS Decompression time: 5572 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,089,450,494, peak: 1,665,833,456, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/xml/dblp.xml.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/xml/dblp.xml.c 
+Decompression.
+malloc_count ### exiting, total: 1,156,607,810, peak: 606,161,140, current: 4,096
+
+========================================
+
+=== LEVEL 16 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/texts/xml/dblp.xml ../datasets/texts/xml/dblp.xml -s8b 16' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

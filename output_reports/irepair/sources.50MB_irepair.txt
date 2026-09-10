@@ -1,0 +1,448 @@
+=== IREPAIR Report for sources.50MB ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/code/sources.50MB.r): 993,706 bytes
+  - .c.R (../datasets/texts/code/sources.50MB.c.R): 11,889,684 bytes
+  - .c.C (../datasets/texts/code/sources.50MB.c.C): 15,395,484 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	52428800 bytes
+Output (.c):	120767995 bytes
+GCIS Compression Time: 2082ms
+GCIS Compression Peak Memory: 383031048 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 441972504 bytes
+iRepair Peak Memory (Decompression): 11898816 bytes
+GCIS Decompression time: 532 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 396,444,260, peak: 383,034,364, current: 4,096
+iRepair Compression time: 15.678232 s
+malloc_count ### exiting, total: 10,279,216,892, peak: 441,972,504, current: 106,860,384
+iRepair Decompression time: 1.524943 s
+malloc_count ### exiting, total: 11,907,480, peak: 11,898,816, current: 11,893,776
+Decompression.
+malloc_count ### exiting, total: 302,846,348, peak: 297,881,556, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/code/sources.50MB.r): 10,045,540 bytes
+  - .c.R (../datasets/texts/code/sources.50MB.c.R): 8,887,460 bytes
+  - .c.C (../datasets/texts/code/sources.50MB.c.C): 16,286,908 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	52428800 bytes
+Output (.c):	48805677 bytes
+GCIS Compression Time: 3152ms
+GCIS Compression Peak Memory: 327989872 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 442322680 bytes
+iRepair Peak Memory (Decompression): 8896592 bytes
+GCIS Decompression time: 939 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 389,020,492, peak: 327,989,872, current: 4,096
+iRepair Compression time: 7.390885 s
+malloc_count ### exiting, total: 2,692,658,704, peak: 442,322,680, current: 125,196,600
+iRepair Decompression time: 0.655420 s
+malloc_count ### exiting, total: 8,905,256, peak: 8,896,592, current: 8,891,552
+Decompression.
+malloc_count ### exiting, total: 240,465,404, peak: 150,542,672, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/code/sources.50MB.r): 19,752,918 bytes
+  - .c.R (../datasets/texts/code/sources.50MB.c.R): 1,964,540 bytes
+  - .c.C (../datasets/texts/code/sources.50MB.c.C): 9,796,468 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	52428800 bytes
+Output (.c):	32891407 bytes
+GCIS Compression Time: 3620ms
+GCIS Compression Peak Memory: 327989872 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 199670312 bytes
+iRepair Peak Memory (Decompression): 1973672 bytes
+GCIS Decompression time: 1200 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 421,559,844, peak: 327,989,872, current: 4,096
+iRepair Compression time: 2.258797 s
+malloc_count ### exiting, total: 760,620,976, peak: 199,670,312, current: 72,383,016
+iRepair Decompression time: 0.089877 s
+malloc_count ### exiting, total: 1,982,336, peak: 1,973,672, current: 1,968,632
+Decompression.
+malloc_count ### exiting, total: 245,101,276, peak: 125,842,860, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/code/sources.50MB.r): 23,842,744 bytes
+  - .c.R (../datasets/texts/code/sources.50MB.c.R): 283,372 bytes
+  - .c.C (../datasets/texts/code/sources.50MB.c.C): 3,931,408 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	52428800 bytes
+Output (.c):	28505929 bytes
+GCIS Compression Time: 3786ms
+GCIS Compression Peak Memory: 327989872 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 53109992 bytes
+iRepair Peak Memory (Decompression): 292504 bytes
+GCIS Decompression time: 1157 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 437,210,308, peak: 327,989,872, current: 4,096
+iRepair Compression time: 0.575704 s
+malloc_count ### exiting, total: 167,866,992, peak: 53,109,992, current: 21,518,568
+iRepair Decompression time: 0.032047 s
+malloc_count ### exiting, total: 301,168, peak: 292,504, current: 287,464
+Decompression.
+malloc_count ### exiting, total: 248,447,516, peak: 121,457,460, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/code/sources.50MB.r): 25,177,650 bytes
+  - .c.R (../datasets/texts/code/sources.50MB.c.R): 31,804 bytes
+  - .c.C (../datasets/texts/code/sources.50MB.c.C): 1,224,888 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	52428800 bytes
+Output (.c):	26834667 bytes
+GCIS Compression Time: 3818ms
+GCIS Compression Peak Memory: 327989872 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 23812872 bytes
+iRepair Peak Memory (Decompression): 40936 bytes
+GCIS Decompression time: 1171 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 442,977,740, peak: 327,989,872, current: 4,096
+iRepair Compression time: 0.111020 s
+malloc_count ### exiting, total: 60,392,592, peak: 23,812,872, current: 8,048,392
+iRepair Decompression time: 0.010790 s
+malloc_count ### exiting, total: 49,600, peak: 40,936, current: 35,896
+Decompression.
+malloc_count ### exiting, total: 248,757,316, peak: 119,786,276, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/code/sources.50MB.r): 25,556,188 bytes
+  - .c.R (../datasets/texts/code/sources.50MB.c.R): 2,980 bytes
+  - .c.C (../datasets/texts/code/sources.50MB.c.C): 377,684 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	52428800 bytes
+Output (.c):	26398813 bytes
+GCIS Compression Time: 3822ms
+GCIS Compression Peak Memory: 327989872 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 6146768 bytes
+iRepair Peak Memory (Decompression): 12112 bytes
+GCIS Decompression time: 1306 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 444,538,924, peak: 327,989,872, current: 4,096
+iRepair Compression time: 0.020460 s
+malloc_count ### exiting, total: 13,882,456, peak: 6,146,768, current: 2,214,608
+iRepair Decompression time: 0.003683 s
+malloc_count ### exiting, total: 20,776, peak: 12,112, current: 7,072
+Decompression.
+malloc_count ### exiting, total: 248,879,940, peak: 119,350,500, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/code/sources.50MB.r): 25,658,606 bytes
+  - .c.R (../datasets/texts/code/sources.50MB.c.R): 220 bytes
+  - .c.C (../datasets/texts/code/sources.50MB.c.C): 117,484 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	52428800 bytes
+Output (.c):	26314231 bytes
+GCIS Compression Time: 3851ms
+GCIS Compression Peak Memory: 327989872 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1805536 bytes
+iRepair Peak Memory (Decompression): 9352 bytes
+GCIS Decompression time: 1265 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 445,007,644, peak: 327,989,872, current: 4,096
+iRepair Compression time: 0.003588 s
+malloc_count ### exiting, total: 3,499,624, peak: 1,805,536, current: 891,104
+iRepair Decompression time: 0.001345 s
+malloc_count ### exiting, total: 18,016, peak: 9,352, current: 4,312
+Decompression.
+malloc_count ### exiting, total: 248,935,220, peak: 119,265,996, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/code/sources.50MB.r): 25,686,568 bytes
+  - .c.R (../datasets/texts/code/sources.50MB.c.R): 20 bytes
+  - .c.C (../datasets/texts/code/sources.50MB.c.C): 36,988 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	52428800 bytes
+Output (.c):	26338345 bytes
+GCIS Compression Time: 3843ms
+GCIS Compression Peak Memory: 327989872 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1100496 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 1172 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 445,151,836, peak: 327,989,872, current: 4,096
+iRepair Compression time: 0.001365 s
+malloc_count ### exiting, total: 1,915,992, peak: 1,100,496, current: 644,816
+iRepair Decompression time: 0.000459 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 248,992,980, peak: 119,290,188, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/code/sources.50MB.r): 25,694,810 bytes
+  - .c.R (../datasets/texts/code/sources.50MB.c.R): 12 bytes
+  - .c.C (../datasets/texts/code/sources.50MB.c.C): 11,700 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	52428800 bytes
+Output (.c):	26398139 bytes
+GCIS Compression Time: 3846ms
+GCIS Compression Peak Memory: 327989872 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 678192 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1176 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 446,431,308, peak: 327,989,872, current: 4,096
+iRepair Compression time: 0.000880 s
+malloc_count ### exiting, total: 853,688, peak: 678,192, current: 566,576
+iRepair Decompression time: 0.000243 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 249,061,844, peak: 119,350,060, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/code/sources.50MB.r): 25,697,092 bytes
+  - .c.R (../datasets/texts/code/sources.50MB.c.R): 20 bytes
+  - .c.C (../datasets/texts/code/sources.50MB.c.C): 3,676 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	52428800 bytes
+Output (.c):	26469253 bytes
+GCIS Compression Time: 3818ms
+GCIS Compression Peak Memory: 327989872 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 568280 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 1269 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 446,447,852, peak: 327,989,872, current: 4,096
+iRepair Compression time: 0.012074 s
+malloc_count ### exiting, total: 608,136, peak: 568,280, current: 541,184
+iRepair Decompression time: 0.000114 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 249,134,764, peak: 119,421,252, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/code/sources.50MB.r): 25,697,750 bytes
+  - .c.R (../datasets/texts/code/sources.50MB.c.R): 12 bytes
+  - .c.C (../datasets/texts/code/sources.50MB.c.C): 1,148 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	52428800 bytes
+Output (.c):	26544223 bytes
+GCIS Compression Time: 3828ms
+GCIS Compression Peak Memory: 327989872 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 546576 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1273 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 446,454,892, peak: 327,989,872, current: 4,096
+iRepair Compression time: 0.000831 s
+malloc_count ### exiting, total: 570,048, peak: 546,576, current: 532,792
+iRepair Decompression time: 0.000167 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 249,210,012, peak: 119,496,300, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/code/sources.50MB.r): 25,697,992 bytes
+  - .c.R (../datasets/texts/code/sources.50MB.c.R): 12 bytes
+  - .c.C (../datasets/texts/code/sources.50MB.c.C): 372 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	52428800 bytes
+Output (.c):	26620537 bytes
+GCIS Compression Time: 3834ms
+GCIS Compression Peak Memory: 327989872 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 537712 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1177 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 446,459,744, peak: 327,989,872, current: 4,096
+iRepair Compression time: 0.000522 s
+malloc_count ### exiting, total: 552,992, peak: 537,712, current: 530,072
+iRepair Decompression time: 0.000185 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 249,286,460, peak: 119,572,692, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/code/sources.50MB.r): 25,698,114 bytes
+  - .c.R (../datasets/texts/code/sources.50MB.c.R): 12 bytes
+  - .c.C (../datasets/texts/code/sources.50MB.c.C): 116 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	52428800 bytes
+Output (.c):	26697251 bytes
+GCIS Compression Time: 3830ms
+GCIS Compression Peak Memory: 327989872 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536720 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1245 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 446,463,280, peak: 327,989,872, current: 4,096
+iRepair Compression time: 0.000448 s
+malloc_count ### exiting, total: 552,000, peak: 536,720, current: 529,080
+iRepair Decompression time: 0.000055 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 249,363,260, peak: 119,649,484, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/code/sources.50MB.r): 25,698,204 bytes
+  - .c.R (../datasets/texts/code/sources.50MB.c.R): 12 bytes
+  - .c.C (../datasets/texts/code/sources.50MB.c.C): 28 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	52428800 bytes
+Output (.c):	26774101 bytes
+GCIS Compression Time: 3828ms
+GCIS Compression Peak Memory: 327989872 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536288 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1179 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 446,466,400, peak: 327,989,872, current: 4,096
+iRepair Compression time: 0.001008 s
+malloc_count ### exiting, total: 551,568, peak: 536,288, current: 528,648
+iRepair Decompression time: 0.000095 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 249,440,180, peak: 119,726,412, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/code/sources.50MB.r): 25,698,294 bytes
+  - .c.R (../datasets/texts/code/sources.50MB.c.R): 4 bytes
+  - .c.C (../datasets/texts/code/sources.50MB.c.C): 16 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	52428800 bytes
+Output (.c):	26851023 bytes
+GCIS Compression Time: 3833ms
+GCIS Compression Peak Memory: 327989872 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 531616 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 1340 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 446,469,468, peak: 327,989,872, current: 4,096
+iRepair Compression time: 0.001009 s
+malloc_count ### exiting, total: 549,416, peak: 533,112, current: 528,544
+iRepair Decompression time: 0.000169 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 249,517,252, peak: 119,803,412, current: 4,096
+
+========================================
+
+=== LEVEL 15 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -c ../datasets/texts/code/sources.50MB ../datasets/texts/code/sources.50MB -s8b 15' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+GCIS Compression.
+double free or corruption (out)
+Aborted
+
+
+========================================
+

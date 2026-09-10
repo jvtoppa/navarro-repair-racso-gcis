@@ -1,0 +1,782 @@
+=== BIGREPAIR Report for english.100MB ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 659,474 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 83,022,884 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 5,757,092 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	104857600 bytes
+Output (.c):	263038739 bytes
+GCIS Compression Time: 4079ms
+GCIS Compression Peak Memory: 787587956 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/nlang/english.100MB.c -w 10 -p 100 -c
+Parsing time: 18.6886
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/nlang/english.100MB.c.dicz
+Preprocess time: 3.0877
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.dicz.int 489834
+repair(dict) time: 72.6129
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.parse 489834
+repair(parse) time: 1.0358
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/nlang/english.100MB.c
+Postprocess time: 0.5182
+Elapsed time: 95.9475
+==== Done
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/nlang/english.100MB.c
+Elapsed time: 5.1986
+==== Done
+GCIS Decompression time: 1124 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 796,748,884, peak: 787,591,272, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/nlang/english.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/nlang/english.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 636,794,884, peak: 633,508,084, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 14,322,780 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 105,018,644 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 2,295,412 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	104857600 bytes
+Output (.c):	106095637 bytes
+GCIS Compression Time: 6617ms
+GCIS Compression Peak Memory: 650292260 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/nlang/english.100MB.c -w 10 -p 100 -c
+Parsing time: 6.4273
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/nlang/english.100MB.c.dicz
+Preprocess time: 1.5722
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.dicz.int 489834
+repair(dict) time: 30.6918
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.parse 489834
+repair(parse) time: 0.5475
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/nlang/english.100MB.c
+Postprocess time: 1.1500
+Elapsed time: 40.3911
+==== Done
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/nlang/english.100MB.c
+Elapsed time: 2.3659
+==== Done
+GCIS Decompression time: 2407 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 764,397,092, peak: 650,292,260, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/nlang/english.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/nlang/english.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 509,452,484, peak: 336,819,072, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 38,941,102 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 39,608,356 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 816,888 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	104857600 bytes
+Output (.c):	69508151 bytes
+GCIS Compression Time: 7881ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/nlang/english.100MB.c -w 10 -p 100 -c
+Parsing time: 1.9220
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/nlang/english.100MB.c.dicz
+Preprocess time: 0.4993
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.dicz.int 489834
+repair(dict) time: 11.4664
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.parse 489834
+repair(parse) time: 0.1001
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/nlang/english.100MB.c
+Postprocess time: 0.3872
+Elapsed time: 14.3780
+==== Done
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/nlang/english.100MB.c
+Elapsed time: 0.8463
+==== Done
+GCIS Decompression time: 2862 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 843,774,804, peak: 655,492,348, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/nlang/english.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/nlang/english.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 520,398,220, peak: 255,546,260, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 47,813,576 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 15,372,644 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 336,960 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	104857600 bytes
+Output (.c):	59695185 bytes
+GCIS Compression Time: 8397ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/nlang/english.100MB.c -w 10 -p 100 -c
+Parsing time: 0.7802
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/nlang/english.100MB.c.dicz
+Preprocess time: 0.1461
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.dicz.int 489834
+repair(dict) time: 3.7014
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.parse 489834
+repair(parse) time: 0.0309
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/nlang/english.100MB.c
+Postprocess time: 0.1321
+Elapsed time: 4.7933
+==== Done
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/nlang/english.100MB.c
+Elapsed time: 0.3374
+==== Done
+GCIS Decompression time: 2985 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 877,403,676, peak: 655,492,348, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/nlang/english.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/nlang/english.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 528,199,212, peak: 245,733,372, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 51,099,106 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 5,187,964 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 127,016 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	104857600 bytes
+Output (.c):	55309075 bytes
+GCIS Compression Time: 8435ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/nlang/english.100MB.c -w 10 -p 100 -c
+Parsing time: 0.2493
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/nlang/english.100MB.c.dicz
+Preprocess time: 0.0719
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.dicz.int 489834
+repair(dict) time: 1.1861
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.parse 489834
+repair(parse) time: 0.0086
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/nlang/english.100MB.c
+Postprocess time: 0.0338
+Elapsed time: 1.5525
+==== Done
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/nlang/english.100MB.c
+Elapsed time: 0.0844
+==== Done
+GCIS Decompression time: 3029 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 889,574,956, peak: 655,492,348, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/nlang/english.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/nlang/english.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 529,196,300, peak: 241,347,340, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 52,121,276 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 1,744,092 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 49,484 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	104857600 bytes
+Output (.c):	53831013 bytes
+GCIS Compression Time: 8479ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/nlang/english.100MB.c -w 10 -p 100 -c
+Parsing time: 0.0779
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/nlang/english.100MB.c.dicz
+Preprocess time: 0.0252
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.dicz.int 489834
+repair(dict) time: 0.6700
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.parse 489834
+repair(parse) time: 0.0047
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/nlang/english.100MB.c
+Postprocess time: 0.0121
+Elapsed time: 0.7921
+==== Done
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/nlang/english.100MB.c
+Elapsed time: 0.0292
+==== Done
+GCIS Decompression time: 3041 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 893,423,844, peak: 655,492,348, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/nlang/english.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/nlang/english.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 529,255,388, peak: 239,869,356, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 52,452,958 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 597,940 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 17,472 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	104857600 bytes
+Output (.c):	53394567 bytes
+GCIS Compression Time: 8470ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/nlang/english.100MB.c -w 10 -p 100 -c
+Parsing time: 0.0250
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/nlang/english.100MB.c.dicz
+Preprocess time: 0.0090
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.dicz.int 489834
+repair(dict) time: 0.0992
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.parse 489834
+repair(parse) time: 0.0021
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/nlang/english.100MB.c
+Postprocess time: 0.0065
+Elapsed time: 0.1447
+==== Done
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/nlang/english.100MB.c
+Elapsed time: 0.0108
+==== Done
+GCIS Decompression time: 3050 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 894,778,380, peak: 655,492,348, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/nlang/english.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/nlang/english.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 529,307,404, peak: 239,432,988, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 52,554,528 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 211,692 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 5,824 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	104857600 bytes
+Output (.c):	53302729 bytes
+GCIS Compression Time: 8547ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/nlang/english.100MB.c -w 10 -p 100 -c
+Parsing time: 0.0114
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/nlang/english.100MB.c.dicz
+Preprocess time: 0.0034
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.dicz.int 489834
+repair(dict) time: 0.0278
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.parse 489834
+repair(parse) time: 0.0014
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/nlang/english.100MB.c
+Postprocess time: 0.0033
+Elapsed time: 0.0498
+==== Done
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/nlang/english.100MB.c
+Elapsed time: 0.0044
+==== Done
+GCIS Decompression time: 3047 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 895,243,748, peak: 655,492,348, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/nlang/english.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/nlang/english.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 529,360,540, peak: 239,341,228, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 52,585,690 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 74,068 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 1,868 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	104857600 bytes
+Output (.c):	53321163 bytes
+GCIS Compression Time: 8584ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/nlang/english.100MB.c -w 10 -p 100 -c
+Parsing time: 0.0051
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/nlang/english.100MB.c.dicz
+Preprocess time: 0.0017
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.dicz.int 489834
+repair(dict) time: 0.0097
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.parse 489834
+repair(parse) time: 0.0012
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/nlang/english.100MB.c
+Postprocess time: 0.0016
+Elapsed time: 0.0205
+==== Done
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/nlang/english.100MB.c
+Elapsed time: 0.0045
+==== Done
+GCIS Decompression time: 3126 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 896,640,420, peak: 655,492,348, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/nlang/english.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/nlang/english.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 529,418,636, peak: 239,359,740, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 52,595,492 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 23,300 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 596 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	104857600 bytes
+Output (.c):	53377365 bytes
+GCIS Compression Time: 8555ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/nlang/english.100MB.c -w 10 -p 100 -c
+Parsing time: 0.0033
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/nlang/english.100MB.c.dicz
+Preprocess time: 0.0019
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.dicz.int 489834
+repair(dict) time: 0.0052
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/nlang/english.100MB.c
+Postprocess time: 0.0013
+Elapsed time: 0.0138
+==== Done
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/nlang/english.100MB.c
+Elapsed time: 0.0015
+==== Done
+GCIS Decompression time: 3037 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 896,694,244, peak: 655,492,348, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/nlang/english.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/nlang/english.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 529,484,492, peak: 239,416,020, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 52,598,126 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 7,188 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 220 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	104857600 bytes
+Output (.c):	53447487 bytes
+GCIS Compression Time: 8459ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/nlang/english.100MB.c -w 10 -p 100 -c
+Parsing time: 0.0028
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/nlang/english.100MB.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.dicz.int 489834
+repair(dict) time: 0.0030
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/nlang/english.100MB.c
+Postprocess time: 0.0028
+Elapsed time: 0.0124
+==== Done
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/nlang/english.100MB.c
+Elapsed time: 0.0014
+==== Done
+GCIS Decompression time: 3160 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 896,712,188, peak: 655,492,348, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/nlang/english.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/nlang/english.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 529,556,308, peak: 239,486,220, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 52,598,840 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 2,564 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 80 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	104857600 bytes
+Output (.c):	53522289 bytes
+GCIS Compression Time: 8454ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/nlang/english.100MB.c -w 10 -p 100 -c
+Parsing time: 0.0041
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/nlang/english.100MB.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.dicz.int 489834
+repair(dict) time: 0.0013
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.parse 489834
+repair(parse) time: 0.0016
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/nlang/english.100MB.c
+Postprocess time: 0.0011
+Elapsed time: 0.0110
+==== Done
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/nlang/english.100MB.c
+Elapsed time: 0.0010
+==== Done
+GCIS Decompression time: 3036 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 896,719,796, peak: 655,492,348, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/nlang/english.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/nlang/english.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 529,631,436, peak: 239,561,100, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 52,599,098 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 796 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 44 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	104857600 bytes
+Output (.c):	53598499 bytes
+GCIS Compression Time: 8445ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/nlang/english.100MB.c -w 10 -p 100 -c
+Parsing time: 0.0045
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/nlang/english.100MB.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.parse 489834
+repair(parse) time: 0.0018
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/nlang/english.100MB.c
+Postprocess time: 0.0010
+Elapsed time: 0.0112
+==== Done
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/nlang/english.100MB.c
+Elapsed time: 0.0013
+==== Done
+GCIS Decompression time: 3034 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 896,724,752, peak: 655,492,348, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/nlang/english.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/nlang/english.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 529,707,716, peak: 239,637,388, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 52,599,220 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 340 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 36 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	104857600 bytes
+Output (.c):	53675237 bytes
+GCIS Compression Time: 8439ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/nlang/english.100MB.c -w 10 -p 100 -c
+Parsing time: 0.0039
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/nlang/english.100MB.c.dicz
+Preprocess time: 0.0014
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/nlang/english.100MB.c
+Postprocess time: 0.0019
+Elapsed time: 0.0116
+==== Done
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/nlang/english.100MB.c
+Elapsed time: 0.0013
+==== Done
+GCIS Decompression time: 3135 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 896,728,396, peak: 655,492,348, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/nlang/english.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/nlang/english.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 529,784,596, peak: 239,714,204, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 52,599,310 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 156 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 28 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	104857600 bytes
+Output (.c):	53752079 bytes
+GCIS Compression Time: 8569ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/nlang/english.100MB.c -w 10 -p 100 -c
+Parsing time: 0.0035
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/nlang/english.100MB.c.dicz
+Preprocess time: 0.0016
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/nlang/english.100MB.c
+Postprocess time: 0.0272
+Elapsed time: 0.0366
+==== Done
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/nlang/english.100MB.c
+Elapsed time: 0.0013
+==== Done
+GCIS Decompression time: 3046 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 896,731,604, peak: 655,492,348, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/nlang/english.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/nlang/english.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 529,861,548, peak: 239,791,124, current: 4,096
+
+========================================
+
+=== LEVEL 15 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.100MB.r): 52,599,400 bytes
+  - .c.R (../datasets/texts/nlang/english.100MB.c.R): 68 bytes
+  - .c.C (../datasets/texts/nlang/english.100MB.c.C): 4 bytes
+
+--- STDOUT ---
+Max Level = 15
+Input:	104857600 bytes
+Output (.c):	53828977 bytes
+GCIS Compression Time: 8506ms
+GCIS Compression Peak Memory: 655492348 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/nlang/english.100MB.c -w 10 -p 100 -c
+Parsing time: 0.0029
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/nlang/english.100MB.c.dicz
+Preprocess time: 0.0012
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.100MB.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/nlang/english.100MB.c
+Postprocess time: 0.0022
+Elapsed time: 0.0106
+==== Done
+Sending logging messages to file: ../datasets/texts/nlang/english.100MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/nlang/english.100MB.c
+Elapsed time: 0.0013
+==== Done
+GCIS Decompression time: 3140 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 896,734,740, peak: 655,492,348, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/nlang/english.100MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/nlang/english.100MB.c 
+Decompression.
+malloc_count ### exiting, total: 529,938,596, peak: 239,868,100, current: 4,096
+
+========================================
+
+=== LEVEL 16 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/texts/nlang/english.100MB ../datasets/texts/nlang/english.100MB -s8b 16' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

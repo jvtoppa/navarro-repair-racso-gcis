@@ -1,0 +1,734 @@
+=== BIGREPAIR Report for dna.50MB ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.50MB.r): 40,466 bytes
+  - .c.R (../datasets/texts/dna/dna.50MB.c.R): 47,596,820 bytes
+  - .c.C (../datasets/texts/dna/dna.50MB.c.C): 4,052,144 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	52428800 bytes
+Output (.c):	116968731 bytes
+GCIS Compression Time: 1842ms
+GCIS Compression Peak Memory: 379145310 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/dna/dna.50MB.c -w 10 -p 100 -c
+Parsing time: 6.6415
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/dna/dna.50MB.c.dicz
+Preprocess time: 1.6509
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.dicz.int 489834
+repair(dict) time: 25.5913
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.parse 489834
+repair(parse) time: 0.2657
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/dna/dna.50MB.c
+Postprocess time: 0.2019
+Elapsed time: 34.3540
+==== Done
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/dna/dna.50MB.c
+Elapsed time: 1.9996
+==== Done
+GCIS Decompression time: 563 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 379,686,952, peak: 379,148,626, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/dna/dna.50MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/dna/dna.50MB.c 
+Decompression.
+malloc_count ### exiting, total: 286,865,488, peak: 286,568,482, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.50MB.r): 8,772,924 bytes
+  - .c.R (../datasets/texts/dna/dna.50MB.c.R): 54,417,700 bytes
+  - .c.C (../datasets/texts/dna/dna.50MB.c.C): 1,435,672 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	52428800 bytes
+Output (.c):	45508533 bytes
+GCIS Compression Time: 2884ms
+GCIS Compression Peak Memory: 347204158 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/dna/dna.50MB.c -w 10 -p 100 -c
+Parsing time: 2.1724
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/dna/dna.50MB.c.dicz
+Preprocess time: 0.6302
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.dicz.int 489834
+repair(dict) time: 22.3345
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.parse 489834
+repair(parse) time: 0.0502
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/dna/dna.50MB.c
+Postprocess time: 0.6140
+Elapsed time: 25.8029
+==== Done
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/dna/dna.50MB.c
+Elapsed time: 0.6980
+==== Done
+GCIS Decompression time: 920 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 394,021,016, peak: 347,204,158, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/dna/dna.50MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/dna/dna.50MB.c 
+Decompression.
+malloc_count ### exiting, total: 230,420,240, peak: 150,014,558, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.50MB.r): 20,883,494 bytes
+  - .c.R (../datasets/texts/dna/dna.50MB.c.R): 19,151,436 bytes
+  - .c.C (../datasets/texts/dna/dna.50MB.c.C): 474,320 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	52428800 bytes
+Output (.c):	32956823 bytes
+GCIS Compression Time: 3256ms
+GCIS Compression Peak Memory: 347204158 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/dna/dna.50MB.c -w 10 -p 100 -c
+Parsing time: 0.6852
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/dna/dna.50MB.c.dicz
+Preprocess time: 0.2412
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.dicz.int 489834
+repair(dict) time: 3.3715
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.parse 489834
+repair(parse) time: 0.0237
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/dna/dna.50MB.c
+Postprocess time: 0.2216
+Elapsed time: 4.5445
+==== Done
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/dna/dna.50MB.c
+Elapsed time: 0.2246
+==== Done
+GCIS Decompression time: 1068 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 439,481,544, peak: 347,204,158, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/dna/dna.50MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/dna/dna.50MB.c 
+Decompression.
+malloc_count ### exiting, total: 241,941,568, peak: 113,456,046, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.50MB.r): 24,945,824 bytes
+  - .c.R (../datasets/texts/dna/dna.50MB.c.R): 6,292,460 bytes
+  - .c.C (../datasets/texts/dna/dna.50MB.c.C): 154,800 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	52428800 bytes
+Output (.c):	29118593 bytes
+GCIS Compression Time: 3348ms
+GCIS Compression Peak Memory: 347204158 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/dna/dna.50MB.c -w 10 -p 100 -c
+Parsing time: 0.1738
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/dna/dna.50MB.c.dicz
+Preprocess time: 0.0812
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.dicz.int 489834
+repair(dict) time: 0.8951
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.parse 489834
+repair(parse) time: 0.0072
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/dna/dna.50MB.c
+Postprocess time: 0.0339
+Elapsed time: 1.1924
+==== Done
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/dna/dna.50MB.c
+Elapsed time: 0.0961
+==== Done
+GCIS Decompression time: 988 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 455,349,552, peak: 347,204,158, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/dna/dna.50MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/dna/dna.50MB.c 
+Decompression.
+malloc_count ### exiting, total: 245,557,832, peak: 109,617,894, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.50MB.r): 26,158,514 bytes
+  - .c.R (../datasets/texts/dna/dna.50MB.c.R): 2,041,116 bytes
+  - .c.C (../datasets/texts/dna/dna.50MB.c.C): 53,436 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	52428800 bytes
+Output (.c):	27798611 bytes
+GCIS Compression Time: 3377ms
+GCIS Compression Peak Memory: 347204158 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/dna/dna.50MB.c -w 10 -p 100 -c
+Parsing time: 0.0771
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/dna/dna.50MB.c.dicz
+Preprocess time: 0.0347
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.dicz.int 489834
+repair(dict) time: 0.7968
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.parse 489834
+repair(parse) time: 0.0024
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/dna/dna.50MB.c
+Postprocess time: 0.0145
+Elapsed time: 0.9275
+==== Done
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/dna/dna.50MB.c
+Elapsed time: 0.0326
+==== Done
+GCIS Decompression time: 1164 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 461,002,568, peak: 347,204,158, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/dna/dna.50MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/dna/dna.50MB.c 
+Decompression.
+malloc_count ### exiting, total: 246,308,800, peak: 108,297,990, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.50MB.r): 26,534,092 bytes
+  - .c.R (../datasets/texts/dna/dna.50MB.c.R): 661,068 bytes
+  - .c.C (../datasets/texts/dna/dna.50MB.c.C): 17,904 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	52428800 bytes
+Output (.c):	27399381 bytes
+GCIS Compression Time: 3372ms
+GCIS Compression Peak Memory: 347204158 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/dna/dna.50MB.c -w 10 -p 100 -c
+Parsing time: 0.0265
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/dna/dna.50MB.c.dicz
+Preprocess time: 0.0092
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.dicz.int 489834
+repair(dict) time: 0.0838
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.parse 489834
+repair(parse) time: 0.0017
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/dna/dna.50MB.c
+Postprocess time: 0.0055
+Elapsed time: 0.1289
+==== Done
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/dna/dna.50MB.c
+Elapsed time: 0.0110
+==== Done
+GCIS Decompression time: 999 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 462,635,840, peak: 347,204,158, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/dna/dna.50MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/dna/dna.50MB.c 
+Decompression.
+malloc_count ### exiting, total: 246,518,552, peak: 107,898,838, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.50MB.r): 26,642,614 bytes
+  - .c.R (../datasets/texts/dna/dna.50MB.c.R): 217,284 bytes
+  - .c.C (../datasets/texts/dna/dna.50MB.c.C): 5,664 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	52428800 bytes
+Output (.c):	27311239 bytes
+GCIS Compression Time: 3373ms
+GCIS Compression Peak Memory: 347204158 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/dna/dna.50MB.c -w 10 -p 100 -c
+Parsing time: 0.0101
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/dna/dna.50MB.c.dicz
+Preprocess time: 0.0038
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.dicz.int 489834
+repair(dict) time: 0.0220
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.parse 489834
+repair(parse) time: 0.0014
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/dna/dna.50MB.c
+Postprocess time: 0.0023
+Elapsed time: 0.0404
+==== Done
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/dna/dna.50MB.c
+Elapsed time: 0.0041
+==== Done
+GCIS Decompression time: 999 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 463,149,392, peak: 347,204,158, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/dna/dna.50MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/dna/dna.50MB.c 
+Decompression.
+malloc_count ### exiting, total: 246,590,632, peak: 107,810,774, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.50MB.r): 26,673,672 bytes
+  - .c.R (../datasets/texts/dna/dna.50MB.c.R): 71,780 bytes
+  - .c.C (../datasets/texts/dna/dna.50MB.c.C): 1,764 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	52428800 bytes
+Output (.c):	27331001 bytes
+GCIS Compression Time: 3373ms
+GCIS Compression Peak Memory: 347204158 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/dna/dna.50MB.c -w 10 -p 100 -c
+Parsing time: 0.0059
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/dna/dna.50MB.c.dicz
+Preprocess time: 0.0016
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.dicz.int 489834
+repair(dict) time: 0.0087
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.parse 489834
+repair(parse) time: 0.0015
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/dna/dna.50MB.c
+Postprocess time: 0.0014
+Elapsed time: 0.0205
+==== Done
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/dna/dna.50MB.c
+Elapsed time: 0.0035
+==== Done
+GCIS Decompression time: 1217 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 463,317,208, peak: 347,204,158, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/dna/dna.50MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/dna/dna.50MB.c 
+Decompression.
+malloc_count ### exiting, total: 246,650,680, peak: 107,830,614, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.50MB.r): 26,683,146 bytes
+  - .c.R (../datasets/texts/dna/dna.50MB.c.R): 23,212 bytes
+  - .c.C (../datasets/texts/dna/dna.50MB.c.C): 664 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	52428800 bytes
+Output (.c):	27388491 bytes
+GCIS Compression Time: 3375ms
+GCIS Compression Peak Memory: 347204158 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/dna/dna.50MB.c -w 10 -p 100 -c
+Parsing time: 0.0041
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/dna/dna.50MB.c.dicz
+Preprocess time: 0.0009
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.dicz.int 489834
+repair(dict) time: 0.0054
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.parse 489834
+repair(parse) time: 0.0010
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/dna/dna.50MB.c
+Postprocess time: 0.0038
+Elapsed time: 0.0172
+==== Done
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/dna/dna.50MB.c
+Elapsed time: 0.0012
+==== Done
+GCIS Decompression time: 1001 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 464,603,856, peak: 347,204,158, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/dna/dna.50MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/dna/dna.50MB.c 
+Decompression.
+malloc_count ### exiting, total: 246,719,088, peak: 107,888,182, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.50MB.r): 26,685,836 bytes
+  - .c.R (../datasets/texts/dna/dna.50MB.c.R): 8,316 bytes
+  - .c.C (../datasets/texts/dna/dna.50MB.c.C): 196 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	52428800 bytes
+Output (.c):	27458949 bytes
+GCIS Compression Time: 3380ms
+GCIS Compression Peak Memory: 347204158 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/dna/dna.50MB.c -w 10 -p 100 -c
+Parsing time: 0.0020
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/dna/dna.50MB.c.dicz
+Preprocess time: 0.0009
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.dicz.int 489834
+repair(dict) time: 0.0019
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.parse 489834
+repair(parse) time: 0.0017
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/dna/dna.50MB.c
+Postprocess time: 0.0013
+Elapsed time: 0.0088
+==== Done
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/dna/dna.50MB.c
+Elapsed time: 0.0009
+==== Done
+GCIS Decompression time: 1005 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 464,623,640, peak: 347,204,158, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/dna/dna.50MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/dna/dna.50MB.c 
+Decompression.
+malloc_count ### exiting, total: 246,792,288, peak: 107,958,718, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.50MB.r): 26,686,726 bytes
+  - .c.R (../datasets/texts/dna/dna.50MB.c.R): 3,236 bytes
+  - .c.C (../datasets/texts/dna/dna.50MB.c.C): 104 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	52428800 bytes
+Output (.c):	27533679 bytes
+GCIS Compression Time: 3384ms
+GCIS Compression Peak Memory: 347204158 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/dna/dna.50MB.c -w 10 -p 100 -c
+Parsing time: 0.0029
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/dna/dna.50MB.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.dicz.int 489834
+repair(dict) time: 0.0014
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/dna/dna.50MB.c
+Postprocess time: 0.0022
+Elapsed time: 0.0107
+==== Done
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/dna/dna.50MB.c
+Elapsed time: 0.0009
+==== Done
+GCIS Decompression time: 1180 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 464,632,464, peak: 347,204,158, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/dna/dna.50MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/dna/dna.50MB.c 
+Decompression.
+malloc_count ### exiting, total: 246,867,928, peak: 108,033,526, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.50MB.r): 26,687,032 bytes
+  - .c.R (../datasets/texts/dna/dna.50MB.c.R): 1,060 bytes
+  - .c.C (../datasets/texts/dna/dna.50MB.c.C): 56 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	52428800 bytes
+Output (.c):	27609721 bytes
+GCIS Compression Time: 3401ms
+GCIS Compression Peak Memory: 347204158 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/dna/dna.50MB.c -w 10 -p 100 -c
+Parsing time: 0.0029
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/dna/dna.50MB.c.dicz
+Preprocess time: 0.0011
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.dicz.int 489834
+repair(dict) time: 0.0010
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.parse 489834
+repair(parse) time: 0.0010
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/dna/dna.50MB.c
+Postprocess time: 0.0134
+Elapsed time: 0.0214
+==== Done
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/dna/dna.50MB.c
+Elapsed time: 0.0019
+==== Done
+GCIS Decompression time: 1004 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 464,638,052, peak: 347,204,158, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/dna/dna.50MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/dna/dna.50MB.c 
+Decompression.
+malloc_count ### exiting, total: 246,944,112, peak: 108,109,654, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.50MB.r): 26,687,162 bytes
+  - .c.R (../datasets/texts/dna/dna.50MB.c.R): 380 bytes
+  - .c.C (../datasets/texts/dna/dna.50MB.c.C): 32 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	52428800 bytes
+Output (.c):	27686347 bytes
+GCIS Compression Time: 3376ms
+GCIS Compression Peak Memory: 347204158 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/dna/dna.50MB.c -w 10 -p 100 -c
+Parsing time: 0.0023
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/dna/dna.50MB.c.dicz
+Preprocess time: 0.0006
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.dicz.int 489834
+repair(dict) time: 0.0010
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.parse 489834
+repair(parse) time: 0.0025
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/dna/dna.50MB.c
+Postprocess time: 0.0009
+Elapsed time: 0.0081
+==== Done
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/dna/dna.50MB.c
+Elapsed time: 0.0009
+==== Done
+GCIS Decompression time: 1003 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 464,641,820, peak: 347,204,158, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/dna/dna.50MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/dna/dna.50MB.c 
+Decompression.
+malloc_count ### exiting, total: 247,020,816, peak: 108,186,358, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.50MB.r): 26,687,260 bytes
+  - .c.R (../datasets/texts/dna/dna.50MB.c.R): 148 bytes
+  - .c.C (../datasets/texts/dna/dna.50MB.c.C): 28 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	52428800 bytes
+Output (.c):	27763181 bytes
+GCIS Compression Time: 3379ms
+GCIS Compression Peak Memory: 347204158 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/dna/dna.50MB.c -w 10 -p 100 -c
+Parsing time: 0.0033
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/dna/dna.50MB.c.dicz
+Preprocess time: 0.0017
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.dicz.int 489834
+repair(dict) time: 0.0010
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.parse 489834
+repair(parse) time: 0.0019
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/dna/dna.50MB.c
+Postprocess time: 0.0010
+Elapsed time: 0.0101
+==== Done
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/dna/dna.50MB.c
+Elapsed time: 0.0009
+==== Done
+GCIS Decompression time: 1202 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 464,645,044, peak: 347,204,158, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/dna/dna.50MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/dna/dna.50MB.c 
+Decompression.
+malloc_count ### exiting, total: 247,097,744, peak: 108,263,270, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/dna/dna.50MB.r): 26,687,350 bytes
+  - .c.R (../datasets/texts/dna/dna.50MB.c.R): 68 bytes
+  - .c.C (../datasets/texts/dna/dna.50MB.c.C): 4 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	52428800 bytes
+Output (.c):	27840079 bytes
+GCIS Compression Time: 3382ms
+GCIS Compression Peak Memory: 347204158 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/dna/dna.50MB.c -w 10 -p 100 -c
+Parsing time: 0.0032
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/dna/dna.50MB.c.dicz
+Preprocess time: 0.0007
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.dicz.int 489834
+repair(dict) time: 0.0025
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/dna/dna.50MB.c.parse 489834
+repair(parse) time: 0.0009
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/dna/dna.50MB.c
+Postprocess time: 0.0010
+Elapsed time: 0.0103
+==== Done
+Sending logging messages to file: ../datasets/texts/dna/dna.50MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/dna/dna.50MB.c
+Elapsed time: 0.0008
+==== Done
+GCIS Decompression time: 1001 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 464,648,180, peak: 347,204,158, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/dna/dna.50MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/dna/dna.50MB.c 
+Decompression.
+malloc_count ### exiting, total: 247,174,792, peak: 108,340,246, current: 4,096
+
+========================================
+
+=== LEVEL 15 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/texts/dna/dna.50MB ../datasets/texts/dna/dna.50MB -s8b 15' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

@@ -1,0 +1,362 @@
+=== IREPAIR Report for Windows ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Windows.r): 50,898 bytes
+  - .c.R (../datasets/repcorpus/logs/Windows.c.R): 1,045,540 bytes
+  - .c.C (../datasets/repcorpus/logs/Windows.c.C): 445,560 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	104857600 bytes
+Output (.c):	245514675 bytes
+GCIS Compression Time: 3073ms
+GCIS Compression Peak Memory: 769833350 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 740469624 bytes
+iRepair Peak Memory (Decompression): 1054672 bytes
+GCIS Decompression time: 583 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 770,561,608, peak: 769,836,666, current: 4,096
+iRepair Compression time: 15.138838 s
+malloc_count ### exiting, total: 31,693,368,332, peak: 740,469,624, current: 2,927,780
+iRepair Decompression time: 3.344773 s
+malloc_count ### exiting, total: 1,063,336, peak: 1,054,672, current: 1,049,632
+Decompression.
+malloc_count ### exiting, total: 596,243,040, peak: 596,012,386, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Windows.r): 176,828 bytes
+  - .c.R (../datasets/repcorpus/logs/Windows.c.R): 863,660 bytes
+  - .c.C (../datasets/repcorpus/logs/Windows.c.C): 418,200 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	104857600 bytes
+Output (.c):	84846269 bytes
+GCIS Compression Time: 3863ms
+GCIS Compression Peak Memory: 609177334 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 259470480 bytes
+iRepair Peak Memory (Decompression): 872792 bytes
+GCIS Decompression time: 702 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 611,010,648, peak: 609,179,626, current: 4,096
+iRepair Compression time: 4.764149 s
+malloc_count ### exiting, total: 14,492,322,568, peak: 259,470,480, current: 3,271,564
+iRepair Decompression time: 0.990353 s
+malloc_count ### exiting, total: 881,456, peak: 872,792, current: 867,752
+Decompression.
+malloc_count ### exiting, total: 332,894,168, peak: 247,469,690, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Windows.r): 402,470 bytes
+  - .c.R (../datasets/repcorpus/logs/Windows.c.R): 903,796 bytes
+  - .c.C (../datasets/repcorpus/logs/Windows.c.C): 404,032 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	104857600 bytes
+Output (.c):	27425775 bytes
+GCIS Compression Time: 4087ms
+GCIS Compression Peak Memory: 551861310 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 86019568 bytes
+iRepair Peak Memory (Decompression): 912928 bytes
+GCIS Decompression time: 760 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 555,506,456, peak: 551,863,602, current: 4,096
+iRepair Compression time: 1.627124 s
+malloc_count ### exiting, total: 4,350,784,780, peak: 86,019,568, current: 2,452,088
+iRepair Decompression time: 0.276390 s
+malloc_count ### exiting, total: 921,592, peak: 912,928, current: 907,888
+Decompression.
+malloc_count ### exiting, total: 240,182,048, peak: 190,049,274, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Windows.r): 722,280 bytes
+  - .c.R (../datasets/repcorpus/logs/Windows.c.R): 767,060 bytes
+  - .c.C (../datasets/repcorpus/logs/Windows.c.C): 452,924 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	104857600 bytes
+Output (.c):	10159465 bytes
+GCIS Compression Time: 4160ms
+GCIS Compression Peak Memory: 534532302 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 38135904 bytes
+iRepair Peak Memory (Decompression): 776192 bytes
+GCIS Decompression time: 759 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 540,614,936, peak: 534,534,594, current: 4,096
+iRepair Compression time: 0.579247 s
+malloc_count ### exiting, total: 1,097,934,096, peak: 38,135,904, current: 3,897,520
+iRepair Decompression time: 0.055225 s
+malloc_count ### exiting, total: 784,856, peak: 776,192, current: 771,152
+Decompression.
+malloc_count ### exiting, total: 213,671,648, peak: 172,783,042, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Windows.r): 1,035,146 bytes
+  - .c.R (../datasets/repcorpus/logs/Windows.c.R): 571,404 bytes
+  - .c.C (../datasets/repcorpus/logs/Windows.c.C): 327,088 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	104857600 bytes
+Output (.c):	5052123 bytes
+GCIS Compression Time: 4164ms
+GCIS Compression Peak Memory: 529682078 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 21337008 bytes
+iRepair Peak Memory (Decompression): 580536 bytes
+GCIS Decompression time: 764 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 538,376,280, peak: 529,684,370, current: 4,096
+iRepair Compression time: 0.219097 s
+malloc_count ### exiting, total: 211,159,556, peak: 21,337,008, current: 3,516,820
+iRepair Decompression time: 0.022571 s
+malloc_count ### exiting, total: 589,200, peak: 580,536, current: 575,496
+Decompression.
+malloc_count ### exiting, total: 206,968,552, peak: 167,675,778, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Windows.r): 1,288,356 bytes
+  - .c.R (../datasets/repcorpus/logs/Windows.c.R): 278,916 bytes
+  - .c.C (../datasets/repcorpus/logs/Windows.c.C): 179,328 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	104857600 bytes
+Output (.c):	3350741 bytes
+GCIS Compression Time: 4175ms
+GCIS Compression Peak Memory: 528318086 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 10014656 bytes
+iRepair Peak Memory (Decompression): 288048 bytes
+GCIS Decompression time: 774 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 538,136,136, peak: 528,318,086, current: 4,096
+iRepair Compression time: 0.078381 s
+malloc_count ### exiting, total: 114,078,192, peak: 10,014,656, current: 1,688,468
+iRepair Decompression time: 0.007021 s
+malloc_count ### exiting, total: 296,712, peak: 288,048, current: 283,008
+Decompression.
+malloc_count ### exiting, total: 204,995,520, peak: 165,974,474, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Windows.r): 1,437,206 bytes
+  - .c.R (../datasets/repcorpus/logs/Windows.c.R): 41,236 bytes
+  - .c.C (../datasets/repcorpus/logs/Windows.c.C): 45,492 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	104857600 bytes
+Output (.c):	2080911 bytes
+GCIS Compression Time: 4173ms
+GCIS Compression Peak Memory: 528318086 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1366840 bytes
+iRepair Peak Memory (Decompression): 50368 bytes
+GCIS Decompression time: 911 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 537,505,624, peak: 528,318,086, current: 4,096
+iRepair Compression time: 0.004029 s
+malloc_count ### exiting, total: 9,006,204, peak: 1,366,840, current: 696,164
+iRepair Decompression time: 0.000891 s
+malloc_count ### exiting, total: 59,032, peak: 50,368, current: 45,328
+Decompression.
+malloc_count ### exiting, total: 203,096,344, peak: 164,704,722, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Windows.r): 1,454,024 bytes
+  - .c.R (../datasets/repcorpus/logs/Windows.c.R): 4,092 bytes
+  - .c.C (../datasets/repcorpus/logs/Windows.c.C): 14,308 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	104857600 bytes
+Output (.c):	2088505 bytes
+GCIS Compression Time: 4307ms
+GCIS Compression Peak Memory: 528318086 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 712304 bytes
+iRepair Peak Memory (Decompression): 13224 bytes
+GCIS Decompression time: 770 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 537,549,760, peak: 528,318,086, current: 4,096
+iRepair Compression time: 0.000708 s
+malloc_count ### exiting, total: 1,476,600, peak: 712,304, current: 591,472
+iRepair Decompression time: 0.000164 s
+malloc_count ### exiting, total: 21,888, peak: 13,224, current: 8,184
+Decompression.
+malloc_count ### exiting, total: 203,092,160, peak: 164,712,394, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Windows.r): 1,457,506 bytes
+  - .c.R (../datasets/repcorpus/logs/Windows.c.R): 884 bytes
+  - .c.C (../datasets/repcorpus/logs/Windows.c.C): 5,988 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	104857600 bytes
+Output (.c):	2156171 bytes
+GCIS Compression Time: 4202ms
+GCIS Compression Peak Memory: 528318086 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 608176 bytes
+iRepair Peak Memory (Decompression): 10016 bytes
+GCIS Decompression time: 901 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 538,806,016, peak: 528,318,086, current: 4,096
+iRepair Compression time: 0.000427 s
+malloc_count ### exiting, total: 792,888, peak: 608,176, current: 551,856
+iRepair Decompression time: 0.000126 s
+malloc_count ### exiting, total: 18,680, peak: 10,016, current: 4,976
+Decompression.
+malloc_count ### exiting, total: 203,163,312, peak: 164,780,138, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Windows.r): 1,458,788 bytes
+  - .c.R (../datasets/repcorpus/logs/Windows.c.R): 148 bytes
+  - .c.C (../datasets/repcorpus/logs/Windows.c.C): 2,068 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	104857600 bytes
+Output (.c):	2229493 bytes
+GCIS Compression Time: 4280ms
+GCIS Compression Peak Memory: 528318086 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 565568 bytes
+iRepair Peak Memory (Decompression): 9280 bytes
+GCIS Decompression time: 766 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 538,816,584, peak: 528,318,086, current: 4,096
+iRepair Compression time: 0.000360 s
+malloc_count ### exiting, total: 623,856, peak: 565,568, current: 536,424
+iRepair Decompression time: 0.000079 s
+malloc_count ### exiting, total: 17,944, peak: 9,280, current: 4,240
+Decompression.
+malloc_count ### exiting, total: 203,237,296, peak: 164,853,538, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Windows.r): 1,459,214 bytes
+  - .c.R (../datasets/repcorpus/logs/Windows.c.R): 4 bytes
+  - .c.C (../datasets/repcorpus/logs/Windows.c.C): 352 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	104857600 bytes
+Output (.c):	2304887 bytes
+GCIS Compression Time: 4310ms
+GCIS Compression Peak Memory: 528318086 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 533072 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 903 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 538,820,936, peak: 528,318,086, current: 4,096
+iRepair Compression time: 0.000309 s
+malloc_count ### exiting, total: 550,872, peak: 534,568, current: 530,000
+iRepair Decompression time: 0.000048 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 203,312,208, peak: 164,929,010, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Windows.r): 1,459,328 bytes
+  - .c.R (../datasets/repcorpus/logs/Windows.c.R): 4 bytes
+  - .c.C (../datasets/repcorpus/logs/Windows.c.C): 80 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	104857600 bytes
+Output (.c):	2381577 bytes
+GCIS Compression Time: 4171ms
+GCIS Compression Peak Memory: 528318086 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 531976 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 771 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 538,824,340, peak: 528,318,086, current: 4,096
+iRepair Compression time: 0.000312 s
+malloc_count ### exiting, total: 549,776, peak: 533,472, current: 528,904
+iRepair Decompression time: 0.000061 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 203,388,912, peak: 165,005,778, current: 4,096
+
+========================================
+
+=== LEVEL 12 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/logs/Windows ../datasets/repcorpus/logs/Windows -s8b 12' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

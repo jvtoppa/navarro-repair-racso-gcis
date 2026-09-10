@@ -1,0 +1,350 @@
+=== BIGREPAIR Report for Thunderbird ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Thunderbird.r): 106,842 bytes
+  - .c.R (../datasets/repcorpus/logs/Thunderbird.c.R): 12,522,924 bytes
+  - .c.C (../datasets/repcorpus/logs/Thunderbird.c.C): 7,414,420 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	104857600 bytes
+Output (.c):	262454555 bytes
+GCIS Compression Time: 3023ms
+GCIS Compression Peak Memory: 786777398 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Thunderbird.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Thunderbird.c -w 10 -p 100 -c
+Parsing time: 12.4176
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Thunderbird.c.dicz
+Preprocess time: 1.7362
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Thunderbird.c.dicz.int 489834
+repair(dict) time: 36.1564
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Thunderbird.c.parse 489834
+repair(parse) time: 3.0825
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Thunderbird.c
+Postprocess time: 0.1064
+Elapsed time: 53.5124
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Thunderbird.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Thunderbird.c
+Elapsed time: 4.3371
+==== Done
+GCIS Decompression time: 731 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 788,401,816, peak: 786,780,714, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Thunderbird.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Thunderbird.c 
+Decompression.
+malloc_count ### exiting, total: 630,754,624, peak: 630,180,090, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Thunderbird.r): 1,289,108 bytes
+  - .c.R (../datasets/repcorpus/logs/Thunderbird.c.R): 21,531,044 bytes
+  - .c.C (../datasets/repcorpus/logs/Thunderbird.c.C): 2,873,512 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	104857600 bytes
+Output (.c):	85098813 bytes
+GCIS Compression Time: 4081ms
+GCIS Compression Peak Memory: 609614070 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Thunderbird.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Thunderbird.c -w 10 -p 100 -c
+Parsing time: 5.2441
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Thunderbird.c.dicz
+Preprocess time: 1.1432
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Thunderbird.c.dicz.int 489834
+repair(dict) time: 31.3304
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Thunderbird.c.parse 489834
+repair(parse) time: 0.2199
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Thunderbird.c
+Postprocess time: 0.3528
+Elapsed time: 38.2939
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Thunderbird.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Thunderbird.c
+Elapsed time: 1.4934
+==== Done
+GCIS Decompression time: 804 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 623,695,048, peak: 609,616,362, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Thunderbird.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Thunderbird.c 
+Decompression.
+malloc_count ### exiting, total: 351,382,816, peak: 256,121,282, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Thunderbird.r): 7,082,446 bytes
+  - .c.R (../datasets/repcorpus/logs/Thunderbird.c.R): 26,415,684 bytes
+  - .c.C (../datasets/repcorpus/logs/Thunderbird.c.C): 1,363,220 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	104857600 bytes
+Output (.c):	34781183 bytes
+GCIS Compression Time: 4156ms
+GCIS Compression Peak Memory: 563832046 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Thunderbird.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Thunderbird.c -w 10 -p 100 -c
+Parsing time: 1.9334
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Thunderbird.c.dicz
+Preprocess time: 0.3992
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Thunderbird.c.dicz.int 489834
+repair(dict) time: 477.8685
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Thunderbird.c.parse 489834
+repair(parse) time: 0.0804
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Thunderbird.c
+Postprocess time: 0.4044
+Elapsed time: 480.6889
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Thunderbird.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Thunderbird.c
+Elapsed time: 0.6747
+==== Done
+GCIS Decompression time: 923 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 611,155,720, peak: 563,832,046, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Thunderbird.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Thunderbird.c 
+Decompression.
+malloc_count ### exiting, total: 302,798,600, peak: 205,803,730, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Thunderbird.r): 13,012,032 bytes
+  - .c.R (../datasets/repcorpus/logs/Thunderbird.c.R): 14,580,164 bytes
+  - .c.C (../datasets/repcorpus/logs/Thunderbird.c.C): 344,348 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	104857600 bytes
+Output (.c):	21751617 bytes
+GCIS Compression Time: 4327ms
+GCIS Compression Peak Memory: 565175310 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Thunderbird.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Thunderbird.c -w 10 -p 100 -c
+Parsing time: 0.5908
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Thunderbird.c.dicz
+Preprocess time: 0.1380
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Thunderbird.c.dicz.int 489834
+repair(dict) time: 8.3689
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Thunderbird.c.parse 489834
+repair(parse) time: 0.0164
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Thunderbird.c
+Postprocess time: 0.1857
+Elapsed time: 9.3013
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Thunderbird.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Thunderbird.c
+Elapsed time: 0.2154
+==== Done
+GCIS Decompression time: 994 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 631,248,768, peak: 565,175,310, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Thunderbird.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Thunderbird.c 
+Decompression.
+malloc_count ### exiting, total: 304,321,800, peak: 192,774,242, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Thunderbird.r): 15,701,626 bytes
+  - .c.R (../datasets/repcorpus/logs/Thunderbird.c.R): 3,235,692 bytes
+  - .c.C (../datasets/repcorpus/logs/Thunderbird.c.C): 68,456 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	104857600 bytes
+Output (.c):	17754539 bytes
+GCIS Compression Time: 4352ms
+GCIS Compression Peak Memory: 565175310 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Thunderbird.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Thunderbird.c -w 10 -p 100 -c
+Parsing time: 0.1046
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Thunderbird.c.dicz
+Preprocess time: 0.0350
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Thunderbird.c.dicz.int 489834
+repair(dict) time: 0.4364
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Thunderbird.c.parse 489834
+repair(parse) time: 0.0055
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Thunderbird.c
+Postprocess time: 0.0200
+Elapsed time: 0.6036
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Thunderbird.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Thunderbird.c
+Elapsed time: 0.0401
+==== Done
+GCIS Decompression time: 910 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 639,504,336, peak: 565,175,310, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Thunderbird.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Thunderbird.c 
+Decompression.
+malloc_count ### exiting, total: 303,125,008, peak: 188,777,242, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Thunderbird.r): 16,173,788 bytes
+  - .c.R (../datasets/repcorpus/logs/Thunderbird.c.R): 38,268 bytes
+  - .c.C (../datasets/repcorpus/logs/Thunderbird.c.C): 896 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	104857600 bytes
+Output (.c):	16654117 bytes
+GCIS Compression Time: 4361ms
+GCIS Compression Peak Memory: 565175310 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Thunderbird.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Thunderbird.c -w 10 -p 100 -c
+Parsing time: 0.0050
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Thunderbird.c.dicz
+Preprocess time: 0.0019
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Thunderbird.c.dicz.int 489834
+repair(dict) time: 0.0042
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Thunderbird.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Thunderbird.c
+Postprocess time: 0.0020
+Elapsed time: 0.0165
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Thunderbird.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Thunderbird.c
+Elapsed time: 0.0025
+==== Done
+GCIS Decompression time: 915 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 640,042,808, peak: 565,175,310, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Thunderbird.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Thunderbird.c 
+Decompression.
+malloc_count ### exiting, total: 301,801,728, peak: 187,676,898, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Thunderbird.r): 16,177,486 bytes
+  - .c.R (../datasets/repcorpus/logs/Thunderbird.c.R): 652 bytes
+  - .c.C (../datasets/repcorpus/logs/Thunderbird.c.C): 24 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	104857600 bytes
+Output (.c):	16715719 bytes
+GCIS Compression Time: 4358ms
+GCIS Compression Peak Memory: 565175310 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/Thunderbird.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/Thunderbird.c -w 10 -p 100 -c
+Parsing time: 0.0029
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/Thunderbird.c.dicz
+Preprocess time: 0.0007
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Thunderbird.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/Thunderbird.c.parse 489834
+repair(parse) time: 0.0015
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/Thunderbird.c
+Postprocess time: 0.0011
+Elapsed time: 0.0087
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/Thunderbird.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/Thunderbird.c
+Elapsed time: 0.0014
+==== Done
+GCIS Decompression time: 1087 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 640,050,376, peak: 565,175,310, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/Thunderbird.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/Thunderbird.c 
+Decompression.
+malloc_count ### exiting, total: 301,855,552, peak: 187,738,578, current: 4,096
+
+========================================
+
+=== LEVEL 7 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/logs/Thunderbird ../datasets/repcorpus/logs/Thunderbird -s8b 7' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

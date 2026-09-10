@@ -1,0 +1,493 @@
+=== BIGREPAIR Report for BGL ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/BGL.r): 165,978 bytes
+  - .c.R (../datasets/repcorpus/logs/BGL.c.R): 25,445,292 bytes
+  - .c.C (../datasets/repcorpus/logs/BGL.c.C): 8,237,792 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	104857600 bytes
+Output (.c):	298983795 bytes
+GCIS Compression Time: 2970ms
+GCIS Compression Peak Memory: 823346502 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/BGL.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/BGL.c -w 10 -p 100 -c
+Parsing time: 15.1795
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/BGL.c.dicz
+Preprocess time: 3.1714
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/BGL.c.dicz.int 489834
+repair(dict) time: 43.3452
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/BGL.c.parse 489834
+repair(parse) time: 1.6334
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/BGL.c
+Postprocess time: 0.2203
+Elapsed time: 63.5565
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/BGL.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/BGL.c
+Elapsed time: 4.6149
+==== Done
+GCIS Decompression time: 755 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 825,847,048, peak: 823,349,818, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/BGL.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/BGL.c 
+Decompression.
+malloc_count ### exiting, total: 704,462,400, peak: 703,533,646, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/BGL.r): 3,780,780 bytes
+  - .c.R (../datasets/repcorpus/logs/BGL.c.R): 28,866,980 bytes
+  - .c.C (../datasets/repcorpus/logs/BGL.c.C): 3,622,968 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	104857600 bytes
+Output (.c):	116634253 bytes
+GCIS Compression Time: 4146ms
+GCIS Compression Peak Memory: 641395782 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/BGL.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/BGL.c -w 10 -p 100 -c
+Parsing time: 6.8837
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/BGL.c.dicz
+Preprocess time: 1.5401
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/BGL.c.dicz.int 489834
+repair(dict) time: 73.2646
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/BGL.c.parse 489834
+repair(parse) time: 0.3028
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/BGL.c
+Postprocess time: 0.3764
+Elapsed time: 82.3714
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/BGL.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/BGL.c
+Elapsed time: 1.7468
+==== Done
+GCIS Decompression time: 1060 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 672,466,600, peak: 641,398,074, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/BGL.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/BGL.c 
+Decompression.
+malloc_count ### exiting, total: 440,395,632, peak: 321,199,314, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/BGL.r): 8,356,590 bytes
+  - .c.R (../datasets/repcorpus/logs/BGL.c.R): 28,130,644 bytes
+  - .c.C (../datasets/repcorpus/logs/BGL.c.C): 1,240,696 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	104857600 bytes
+Output (.c):	42755783 bytes
+GCIS Compression Time: 4364ms
+GCIS Compression Peak Memory: 567819726 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/BGL.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/BGL.c -w 10 -p 100 -c
+Parsing time: 2.1948
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/BGL.c.dicz
+Preprocess time: 0.5085
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/BGL.c.dicz.int 489834
+repair(dict) time: 11.4151
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/BGL.c.parse 489834
+repair(parse) time: 0.0711
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/BGL.c
+Postprocess time: 0.3146
+Elapsed time: 14.5059
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/BGL.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/BGL.c
+Elapsed time: 0.7117
+==== Done
+GCIS Decompression time: 1103 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 633,117,408, peak: 567,822,018, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/BGL.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/BGL.c 
+Decompression.
+malloc_count ### exiting, total: 356,985,392, peak: 227,917,886, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/BGL.r): 16,919,072 bytes
+  - .c.R (../datasets/repcorpus/logs/BGL.c.R): 20,230,340 bytes
+  - .c.C (../datasets/repcorpus/logs/BGL.c.C): 532,700 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	104857600 bytes
+Output (.c):	30365185 bytes
+GCIS Compression Time: 4687ms
+GCIS Compression Peak Memory: 581585886 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/BGL.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/BGL.c -w 10 -p 100 -c
+Parsing time: 0.7827
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/BGL.c.dicz
+Preprocess time: 0.2016
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/BGL.c.dicz.int 489834
+repair(dict) time: 264.4762
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/BGL.c.parse 489834
+repair(parse) time: 0.0213
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/BGL.c
+Postprocess time: 0.1834
+Elapsed time: 265.6666
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/BGL.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/BGL.c
+Elapsed time: 0.3284
+==== Done
+GCIS Decompression time: 1323 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 668,650,072, peak: 581,585,886, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/BGL.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/BGL.c 
+Decompression.
+malloc_count ### exiting, total: 366,127,928, peak: 215,527,366, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/BGL.r): 21,441,490 bytes
+  - .c.R (../datasets/repcorpus/logs/BGL.c.R): 10,364,924 bytes
+  - .c.C (../datasets/repcorpus/logs/BGL.c.C): 218,340 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	104857600 bytes
+Output (.c):	27254035 bytes
+GCIS Compression Time: 4588ms
+GCIS Compression Peak Memory: 581585886 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/BGL.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/BGL.c -w 10 -p 100 -c
+Parsing time: 0.3732
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/BGL.c.dicz
+Preprocess time: 0.0942
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/BGL.c.dicz.int 489834
+repair(dict) time: 73.9205
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/BGL.c.parse 489834
+repair(parse) time: 0.0106
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/BGL.c
+Postprocess time: 0.1000
+Elapsed time: 74.5004
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/BGL.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/BGL.c
+Elapsed time: 0.1317
+==== Done
+GCIS Decompression time: 1263 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 690,449,560, peak: 581,585,886, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/BGL.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/BGL.c 
+Decompression.
+malloc_count ### exiting, total: 373,668,208, peak: 212,416,294, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/BGL.r): 23,212,252 bytes
+  - .c.R (../datasets/repcorpus/logs/BGL.c.R): 2,942,524 bytes
+  - .c.C (../datasets/repcorpus/logs/BGL.c.C): 62,700 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	104857600 bytes
+Output (.c):	25193957 bytes
+GCIS Compression Time: 4623ms
+GCIS Compression Peak Memory: 581585886 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/BGL.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/BGL.c -w 10 -p 100 -c
+Parsing time: 0.0953
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/BGL.c.dicz
+Preprocess time: 0.0334
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/BGL.c.dicz.int 489834
+repair(dict) time: 0.9573
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/BGL.c.parse 489834
+repair(parse) time: 0.0057
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/BGL.c
+Postprocess time: 0.0164
+Elapsed time: 1.1094
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/BGL.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/BGL.c
+Elapsed time: 0.0371
+==== Done
+GCIS Decompression time: 1204 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 696,987,568, peak: 581,585,886, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/BGL.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/BGL.c 
+Decompression.
+malloc_count ### exiting, total: 374,302,832, peak: 210,356,294, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/BGL.r): 23,665,614 bytes
+  - .c.R (../datasets/repcorpus/logs/BGL.c.R): 889,492 bytes
+  - .c.C (../datasets/repcorpus/logs/BGL.c.C): 20,368 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	104857600 bytes
+Output (.c):	24660279 bytes
+GCIS Compression Time: 4631ms
+GCIS Compression Peak Memory: 581585886 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/BGL.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/BGL.c -w 10 -p 100 -c
+Parsing time: 0.0296
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/BGL.c.dicz
+Preprocess time: 0.0106
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/BGL.c.dicz.int 489834
+repair(dict) time: 0.0885
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/BGL.c.parse 489834
+repair(parse) time: 0.0023
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/BGL.c
+Postprocess time: 0.0059
+Elapsed time: 0.1389
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/BGL.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/BGL.c
+Elapsed time: 0.0119
+==== Done
+GCIS Decompression time: 1202 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 698,857,976, peak: 581,585,886, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/BGL.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/BGL.c 
+Decompression.
+malloc_count ### exiting, total: 374,445,064, peak: 209,822,694, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/BGL.r): 23,787,392 bytes
+  - .c.R (../datasets/repcorpus/logs/BGL.c.R): 242,692 bytes
+  - .c.C (../datasets/repcorpus/logs/BGL.c.C): 5,432 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	104857600 bytes
+Output (.c):	24525185 bytes
+GCIS Compression Time: 4758ms
+GCIS Compression Peak Memory: 581585886 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/BGL.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/BGL.c -w 10 -p 100 -c
+Parsing time: 0.0100
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/BGL.c.dicz
+Preprocess time: 0.0044
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/BGL.c.dicz.int 489834
+repair(dict) time: 0.0211
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/BGL.c.parse 489834
+repair(parse) time: 0.0014
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/BGL.c
+Postprocess time: 0.0040
+Elapsed time: 0.0424
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/BGL.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/BGL.c
+Elapsed time: 0.0039
+==== Done
+GCIS Decompression time: 1200 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 699,362,560, peak: 581,585,886, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/BGL.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/BGL.c 
+Decompression.
+malloc_count ### exiting, total: 374,441,904, peak: 209,687,678, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/BGL.r): 23,815,890 bytes
+  - .c.R (../datasets/repcorpus/logs/BGL.c.R): 45,068 bytes
+  - .c.C (../datasets/repcorpus/logs/BGL.c.C): 1,028 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	104857600 bytes
+Output (.c):	24530179 bytes
+GCIS Compression Time: 4620ms
+GCIS Compression Peak Memory: 581585886 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/BGL.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/BGL.c -w 10 -p 100 -c
+Parsing time: 0.0040
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/BGL.c.dicz
+Preprocess time: 0.0017
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/BGL.c.dicz.int 489834
+repair(dict) time: 0.0047
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/BGL.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/BGL.c
+Postprocess time: 0.0014
+Elapsed time: 0.0150
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/BGL.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/BGL.c
+Elapsed time: 0.0017
+==== Done
+GCIS Decompression time: 1337 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 700,696,432, peak: 581,585,886, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/BGL.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/BGL.c 
+Decompression.
+malloc_count ### exiting, total: 374,449,856, peak: 209,692,750, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/BGL.r): 23,820,228 bytes
+  - .c.R (../datasets/repcorpus/logs/BGL.c.R): 212 bytes
+  - .c.C (../datasets/repcorpus/logs/BGL.c.C): 16 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	104857600 bytes
+Output (.c):	24588781 bytes
+GCIS Compression Time: 4612ms
+GCIS Compression Peak Memory: 581585886 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/BGL.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/BGL.c -w 10 -p 100 -c
+Parsing time: 0.0030
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/BGL.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/BGL.c.dicz.int 489834
+repair(dict) time: 0.0027
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/BGL.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/BGL.c
+Postprocess time: 0.0011
+Elapsed time: 0.0109
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/BGL.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/BGL.c
+Elapsed time: 0.0013
+==== Done
+GCIS Decompression time: 1318 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 700,703,896, peak: 581,585,886, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/BGL.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/BGL.c 
+Decompression.
+malloc_count ### exiting, total: 374,498,648, peak: 209,751,430, current: 4,096
+
+========================================
+
+=== LEVEL 10 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/logs/BGL ../datasets/repcorpus/logs/BGL -s8b 10' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+malloc(): invalid size (unsorted)
+Aborted
+
+
+========================================
+

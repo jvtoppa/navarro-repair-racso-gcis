@@ -1,0 +1,40 @@
+=== Output Report for banana ===
+
+--- ENCODING SIZES ---
+  - banana.C: 4 bytes
+  - banana.R: 300 bytes
+Total Run Encoding Size: 304 bytes
+
+--- STDOUT ---
+Sending logging messages to file: /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/datasets/banana.log
+==== Parsing.
+Command: /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/datasets/banana -w 10 -p 100 -c
+Parsing time: 3.1478
+==== Preprocessing the dictionary.
+Command: /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/bigrepair/procdic /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/datasets/banana.dicz
+Preprocess time: 22.1901
+==== Repair dictionary.
+Command: /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/datasets/banana.dicz.int 3578
+repair(dict) time: 9.7407
+==== Repair parse.
+Command: /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/datasets/banana.parse 3578
+repair(parse) time: 0.0347
+==== Postprocessing the dictionary.
+Command: /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/bigrepair/postproc /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/datasets/banana
+Postprocess time: 0.0529
+Elapsed time: 35.1723
+==== Done
+Sending logging messages to file: /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/datasets/banana.log
+==== Decompressing C+R files.
+Command: /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/bigrepair/repair/despair /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/datasets/banana
+Elapsed time: 3.5269
+==== Done
+
+--- STDERR ---
+Command line: /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/bigrepair/bigrepair /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/datasets/banana 
+malloc_count ### exiting, peak: 124978.64, current: 4.00 (KBs)
+malloc_count ### exiting, total: 13704, peak: 13704, current: 4568
+malloc_count ### exiting, total: 15907032780, peak: 1461606048, current: 1148656
+malloc_count ### exiting, total: 538180, peak: 529040, current: 524472
+malloc_count ### exiting, total: 31564, peak: 13764, current: 4096
+Command line: /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/bigrepair/bigrepair -d /mnt/c/Users/devacc/Documents/navarro-repair-racso-gcis/datasets/banana 

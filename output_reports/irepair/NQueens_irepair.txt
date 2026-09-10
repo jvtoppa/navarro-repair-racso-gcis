@@ -1,0 +1,478 @@
+=== IREPAIR Report for NQueens ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 226 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 167,532 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 311,748 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	302590158 bytes
+Output (.c):	634626891 bytes
+GCIS Compression Time: 6085ms
+GCIS Compression Peak Memory: 2147596796 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1904901664 bytes
+iRepair Peak Memory (Decompression): 176664 bytes
+GCIS Decompression time: 1492 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,147,618,862, peak: 2,147,600,112, current: 4,096
+iRepair Compression time: 15.805574 s
+malloc_count ### exiting, total: 12,213,217,164, peak: 1,904,901,664, current: 2,600,740
+iRepair Decompression time: 8.121969 s
+malloc_count ### exiting, total: 185,328, peak: 176,664, current: 171,624
+Decompression.
+malloc_count ### exiting, total: 1,571,798,550, peak: 1,571,793,972, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 364 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 167,700 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 320,432 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	302590158 bytes
+Output (.c):	235906901 bytes
+GCIS Compression Time: 7257ms
+GCIS Compression Peak Memory: 1748877908 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 708240448 bytes
+iRepair Peak Memory (Decompression): 176832 bytes
+GCIS Decompression time: 1456 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,748,981,082, peak: 1,748,880,200, current: 4,096
+iRepair Compression time: 4.419841 s
+malloc_count ### exiting, total: 6,020,351,036, peak: 708,240,448, current: 2,754,896
+iRepair Decompression time: 2.850495 s
+malloc_count ### exiting, total: 185,496, peak: 176,832, current: 171,792
+Decompression.
+malloc_count ### exiting, total: 833,771,150, peak: 598,013,284, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 486 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 167,484 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 320,212 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	302590158 bytes
+Output (.c):	40332527 bytes
+GCIS Compression Time: 7334ms
+GCIS Compression Peak Memory: 1553380596 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 121030728 bytes
+iRepair Peak Memory (Decompression): 176616 bytes
+GCIS Decompression time: 1397 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,553,641,550, peak: 1,553,382,888, current: 4,096
+iRepair Compression time: 0.901571 s
+malloc_count ### exiting, total: 2,038,334,212, peak: 121,030,728, current: 1,966,000
+iRepair Decompression time: 0.524320 s
+malloc_count ### exiting, total: 185,280, peak: 176,616, current: 171,576
+Decompression.
+malloc_count ### exiting, total: 464,647,670, peak: 402,438,988, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 616 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 168,420 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 316,824 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	302590158 bytes
+Output (.c):	18649041 bytes
+GCIS Compression Time: 7379ms
+GCIS Compression Peak Memory: 1531620204 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 55693984 bytes
+iRepair Peak Memory (Decompression): 177552 bytes
+GCIS Decompression time: 1406 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,531,884,954, peak: 1,531,622,496, current: 4,096
+iRepair Compression time: 0.457033 s
+malloc_count ### exiting, total: 1,524,408,488, peak: 55,693,984, current: 2,260,344
+iRepair Decompression time: 0.157154 s
+malloc_count ### exiting, total: 186,216, peak: 177,552, current: 172,512
+Decompression.
+malloc_count ### exiting, total: 424,337,054, peak: 380,755,580, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 2,938 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 192,212 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 332,668 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	302590158 bytes
+Output (.c):	2761643 bytes
+GCIS Compression Time: 7400ms
+GCIS Compression Peak Memory: 1515964740 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 8490072 bytes
+iRepair Peak Memory (Decompression): 201344 bytes
+GCIS Decompression time: 1531 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,516,573,138, peak: 1,515,967,032, current: 4,096
+iRepair Compression time: 0.126028 s
+malloc_count ### exiting, total: 297,456,112, peak: 8,490,072, current: 2,351,712
+iRepair Decompression time: 0.019210 s
+malloc_count ### exiting, total: 210,008, peak: 201,344, current: 196,304
+Decompression.
+malloc_count ### exiting, total: 393,939,606, peak: 364,868,260, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 118,316 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 158,940 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 371,996 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	302590158 bytes
+Output (.c):	1257589 bytes
+GCIS Compression Time: 7421ms
+GCIS Compression Peak Memory: 1514917928 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 7179696 bytes
+iRepair Peak Memory (Decompression): 168072 bytes
+GCIS Decompression time: 1407 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,516,353,994, peak: 1,514,917,928, current: 4,096
+iRepair Compression time: 0.045410 s
+malloc_count ### exiting, total: 38,163,256, peak: 7,179,696, current: 3,110,320
+iRepair Decompression time: 0.007387 s
+malloc_count ### exiting, total: 176,736, peak: 168,072, current: 163,032
+Decompression.
+malloc_count ### exiting, total: 391,946,006, peak: 363,364,284, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 279,918 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 8,812 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 223,056 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	302590158 bytes
+Output (.c):	1050007 bytes
+GCIS Compression Time: 7408ms
+GCIS Compression Peak Memory: 1514917928 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 3080536 bytes
+iRepair Peak Memory (Decompression): 17944 bytes
+GCIS Decompression time: 1474 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,517,128,146, peak: 1,514,917,928, current: 4,096
+iRepair Compression time: 0.006811 s
+malloc_count ### exiting, total: 7,596,768, peak: 3,080,536, current: 1,238,360
+iRepair Decompression time: 0.002131 s
+malloc_count ### exiting, total: 26,608, peak: 17,944, current: 12,904
+Decompression.
+malloc_count ### exiting, total: 392,022,710, peak: 363,156,780, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 339,032 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 132 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 73,932 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	302590158 bytes
+Output (.c):	1027865 bytes
+GCIS Compression Time: 7423ms
+GCIS Compression Peak Memory: 1514917928 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1672656 bytes
+iRepair Peak Memory (Decompression): 9264 bytes
+GCIS Decompression time: 1555 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,517,418,042, peak: 1,514,917,928, current: 4,096
+iRepair Compression time: 0.002359 s
+malloc_count ### exiting, total: 3,355,480, peak: 1,672,656, current: 758,224
+iRepair Decompression time: 0.001180 s
+malloc_count ### exiting, total: 17,928, peak: 9,264, current: 4,224
+Decompression.
+malloc_count ### exiting, total: 392,079,750, peak: 363,134,716, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 356,634 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 20 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 23,228 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	302590158 bytes
+Output (.c):	1071499 bytes
+GCIS Compression Time: 7428ms
+GCIS Compression Peak Memory: 1515315512 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 828720 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 1527 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,518,742,946, peak: 1,515,315,512, current: 4,096
+iRepair Compression time: 0.000980 s
+malloc_count ### exiting, total: 1,218,232, peak: 828,720, current: 602,416
+iRepair Decompression time: 0.000275 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 392,144,510, peak: 363,178,428, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 361,476 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 7,292 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	302590158 bytes
+Output (.c):	1137245 bytes
+GCIS Compression Time: 7418ms
+GCIS Compression Peak Memory: 1515315512 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 606952 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1410 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,518,773,202, peak: 1,515,315,512, current: 4,096
+iRepair Compression time: 0.000395 s
+malloc_count ### exiting, total: 675,952, peak: 606,952, current: 552,680
+iRepair Decompression time: 0.000130 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 392,214,790, peak: 363,244,252, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 362,830 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 2,364 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	302590158 bytes
+Output (.c):	1210519 bytes
+GCIS Compression Time: 7440ms
+GCIS Compression Peak Memory: 1515315512 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 562960 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1563 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,518,784,666, peak: 1,515,315,512, current: 4,096
+iRepair Compression time: 0.000466 s
+malloc_count ### exiting, total: 602,816, peak: 562,960, current: 536,888
+iRepair Decompression time: 0.000183 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 392,289,038, peak: 363,317,604, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 363,280 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 20 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 732 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	302590158 bytes
+Output (.c):	1286193 bytes
+GCIS Compression Time: 7431ms
+GCIS Compression Peak Memory: 1515315512 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 540064 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 1409 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,518,790,306, peak: 1,515,315,512, current: 4,096
+iRepair Compression time: 0.000318 s
+malloc_count ### exiting, total: 555,344, peak: 540,064, current: 531,400
+iRepair Decompression time: 0.000066 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 392,364,942, peak: 363,393,356, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 363,450 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 252 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	302590158 bytes
+Output (.c):	1362723 bytes
+GCIS Compression Time: 7368ms
+GCIS Compression Peak Memory: 1515315512 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 537240 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1559 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,518,794,490, peak: 1,515,315,512, current: 4,096
+iRepair Compression time: 0.000989 s
+malloc_count ### exiting, total: 552,520, peak: 537,240, current: 529,600
+iRepair Decompression time: 0.000050 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 392,441,590, peak: 363,469,964, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 363,556 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 100 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	302590158 bytes
+Output (.c):	1439525 bytes
+GCIS Compression Time: 7450ms
+GCIS Compression Peak Memory: 1515315512 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536672 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1519 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,518,797,910, peak: 1,515,315,512, current: 4,096
+iRepair Compression time: 0.000960 s
+malloc_count ### exiting, total: 551,952, peak: 536,672, current: 529,032
+iRepair Decompression time: 0.000131 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 392,518,518, peak: 363,546,844, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 363,646 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 36 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	302590158 bytes
+Output (.c):	1516399 bytes
+GCIS Compression Time: 7410ms
+GCIS Compression Peak Memory: 1515315512 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536368 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1413 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,518,801,038, peak: 1,515,315,512, current: 4,096
+iRepair Compression time: 0.000332 s
+malloc_count ### exiting, total: 551,648, peak: 536,368, current: 528,728
+iRepair Decompression time: 0.000069 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 392,595,494, peak: 363,623,796, current: 4,096
+
+========================================
+
+=== LEVEL 15 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/NQueens.r): 363,736 bytes
+  - .c.R (../datasets/repcorpus/logs/NQueens.c.R): 4 bytes
+  - .c.C (../datasets/repcorpus/logs/NQueens.c.C): 16 bytes
+
+--- STDOUT ---
+Max Level = 15
+Input:	302590158 bytes
+Output (.c):	1593313 bytes
+GCIS Compression Time: 7456ms
+GCIS Compression Peak Memory: 1515315512 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 531616 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 1447 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,518,804,134, peak: 1,515,315,512, current: 4,096
+iRepair Compression time: 0.000938 s
+malloc_count ### exiting, total: 549,416, peak: 533,112, current: 528,544
+iRepair Decompression time: 0.000047 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 392,672,558, peak: 363,700,788, current: 4,096
+
+========================================
+
+=== LEVEL 16 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/logs/NQueens ../datasets/repcorpus/logs/NQueens -s8b 16' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

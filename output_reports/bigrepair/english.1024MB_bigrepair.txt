@@ -1,0 +1,62 @@
+=== BIGREPAIR Report for english.1024MB ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/nlang/english.1024MB.r): 2,344,986 bytes
+  - .c.R (../datasets/texts/nlang/english.1024MB.c.R): 658,353,292 bytes
+  - .c.C (../datasets/texts/nlang/english.1024MB.c.C): 79,146,540 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	1073741824 bytes
+Output (.c):	2700981739 bytes
+GCIS Compression Time: 50222ms
+GCIS Compression Peak Memory: 8070269630 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/nlang/english.1024MB.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/nlang/english.1024MB.c -w 10 -p 100 -c
+Parsing time: 286.6716
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/nlang/english.1024MB.c.dicz
+Preprocess time: 29.9072
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.1024MB.c.dicz.int 489834
+repair(dict) time: 766.5952
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/nlang/english.1024MB.c.parse 489834
+repair(parse) time: 24.6958
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/nlang/english.1024MB.c
+Postprocess time: 3.9639
+Elapsed time: 1111.8691
+==== Done
+Sending logging messages to file: ../datasets/texts/nlang/english.1024MB.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/nlang/english.1024MB.c
+Elapsed time: 50.8341
+==== Done
+GCIS Decompression time: 9912 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 8,101,706,728, peak: 8,070,272,946, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/nlang/english.1024MB.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/nlang/english.1024MB.c 
+Decompression.
+malloc_count ### exiting, total: 6,498,082,176, peak: 6,485,694,086, current: 4,096
+
+========================================
+
+=== LEVEL 1 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/texts/nlang/english.1024MB ../datasets/texts/nlang/english.1024MB -s8b 1' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

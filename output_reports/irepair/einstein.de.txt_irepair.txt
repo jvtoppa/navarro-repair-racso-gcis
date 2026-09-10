@@ -1,0 +1,449 @@
+=== IREPAIR Report for einstein.de.txt ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.de.txt.r): 25,818 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.de.txt.c.R): 423,268 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.de.txt.c.C): 52,792 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	92758441 bytes
+Output (.c):	220524459 bytes
+GCIS Compression Time: 3189ms
+GCIS Compression Peak Memory: 684342531 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 667949520 bytes
+iRepair Peak Memory (Decompression): 432400 bytes
+GCIS Decompression time: 718 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 684,709,293, peak: 684,345,847, current: 4,096
+iRepair Compression time: 14.894272 s
+malloc_count ### exiting, total: 27,030,896,644, peak: 667,949,520, current: 1,105,384
+iRepair Decompression time: 2.650076 s
+malloc_count ### exiting, total: 441,064, peak: 432,400, current: 427,360
+Decompression.
+malloc_count ### exiting, total: 533,937,825, peak: 533,832,523, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.de.txt.r): 94,908 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.de.txt.c.R): 354,596 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.de.txt.c.C): 48,748 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	92758441 bytes
+Output (.c):	76075621 bytes
+GCIS Compression Time: 4004ms
+GCIS Compression Peak Memory: 539897075 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 231670368 bytes
+iRepair Peak Memory (Decompression): 363728 bytes
+GCIS Decompression time: 904 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 540,928,477, peak: 539,899,367, current: 4,096
+iRepair Compression time: 3.851545 s
+malloc_count ### exiting, total: 6,628,944,420, peak: 231,670,368, current: 994,172
+iRepair Decompression time: 1.321109 s
+malloc_count ### exiting, total: 372,392, peak: 363,728, current: 358,688
+Decompression.
+malloc_count ### exiting, total: 293,481,225, peak: 217,179,235, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.de.txt.r): 153,678 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.de.txt.c.R): 219,180 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.de.txt.c.C): 37,068 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	92758441 bytes
+Output (.c):	26311439 bytes
+GCIS Compression Time: 4292ms
+GCIS Compression Peak Memory: 490213547 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 80433048 bytes
+iRepair Peak Memory (Decompression): 228312 bytes
+GCIS Decompression time: 980 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 491,815,781, peak: 490,215,839, current: 4,096
+iRepair Compression time: 1.183821 s
+malloc_count ### exiting, total: 2,342,857,824, peak: 80,433,048, current: 822,760
+iRepair Decompression time: 0.255482 s
+malloc_count ### exiting, total: 236,976, peak: 228,312, current: 223,272
+Decompression.
+malloc_count ### exiting, total: 211,821,025, peak: 167,415,131, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.de.txt.r): 194,344 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.de.txt.c.R): 133,604 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.de.txt.c.C): 30,076 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	92758441 bytes
+Output (.c):	8718145 bytes
+GCIS Compression Time: 4338ms
+GCIS Compression Peak Memory: 472545947 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 26397648 bytes
+iRepair Peak Memory (Decompression): 142736 bytes
+GCIS Decompression time: 1121 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 474,434,037, peak: 472,548,239, current: 4,096
+iRepair Compression time: 0.349309 s
+malloc_count ### exiting, total: 706,567,856, peak: 26,397,648, current: 704,856
+iRepair Decompression time: 0.039054 s
+malloc_count ### exiting, total: 151,400, peak: 142,736, current: 137,696
+Decompression.
+malloc_count ### exiting, total: 182,362,953, peak: 149,821,915, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.de.txt.r): 215,706 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.de.txt.c.R): 88,500 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.de.txt.c.C): 26,284 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	92758441 bytes
+Output (.c):	3234707 bytes
+GCIS Compression Time: 4364ms
+GCIS Compression Peak Memory: 467293859 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 9313744 bytes
+iRepair Peak Memory (Decompression): 97632 bytes
+GCIS Decompression time: 1149 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 469,664,661, peak: 467,296,151, current: 4,096
+iRepair Compression time: 0.100059 s
+malloc_count ### exiting, total: 180,532,540, peak: 9,313,744, current: 697,192
+iRepair Decompression time: 0.016488 s
+malloc_count ### exiting, total: 106,296, peak: 97,632, current: 92,592
+Decompression.
+malloc_count ### exiting, total: 173,062,161, peak: 144,338,555, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.de.txt.r): 232,116 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.de.txt.c.R): 57,420 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.de.txt.c.C): 23,232 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	92758441 bytes
+Output (.c):	1554245 bytes
+GCIS Compression Time: 4370ms
+GCIS Compression Peak Memory: 465537651 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 3579880 bytes
+iRepair Peak Memory (Decompression): 66552 bytes
+GCIS Decompression time: 1010 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 468,044,757, peak: 465,539,943, current: 4,096
+iRepair Compression time: 0.030153 s
+malloc_count ### exiting, total: 54,771,900, peak: 3,579,880, current: 634,984
+iRepair Decompression time: 0.005530 s
+malloc_count ### exiting, total: 75,216, peak: 66,552, current: 61,512
+Decompression.
+malloc_count ### exiting, total: 170,219,545, peak: 142,658,171, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.de.txt.r): 244,310 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.de.txt.c.R): 33,924 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.de.txt.c.C): 20,780 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	92758441 bytes
+Output (.c):	1049527 bytes
+GCIS Compression Time: 4347ms
+GCIS Compression Peak Memory: 465117251 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1673456 bytes
+iRepair Peak Memory (Decompression): 43056 bytes
+GCIS Decompression time: 1165 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 467,575,501, peak: 465,117,251, current: 4,096
+iRepair Compression time: 0.009575 s
+malloc_count ### exiting, total: 17,458,252, peak: 1,673,456, current: 642,968
+iRepair Decompression time: 0.001941 s
+malloc_count ### exiting, total: 51,720, peak: 43,056, current: 38,016
+Decompression.
+malloc_count ### exiting, total: 169,341,169, peak: 142,153,531, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.de.txt.r): 255,496 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.de.txt.c.R): 16,636 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.de.txt.c.C): 18,468 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	92758441 bytes
+Output (.c):	947985 bytes
+GCIS Compression Time: 4358ms
+GCIS Compression Peak Memory: 465117251 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1034576 bytes
+iRepair Peak Memory (Decompression): 25768 bytes
+GCIS Decompression time: 1016 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 467,493,861, peak: 465,117,251, current: 4,096
+iRepair Compression time: 0.003058 s
+malloc_count ### exiting, total: 5,416,304, peak: 1,034,576, current: 594,460
+iRepair Decompression time: 0.000704 s
+malloc_count ### exiting, total: 34,432, peak: 25,768, current: 20,728
+Decompression.
+malloc_count ### exiting, total: 169,152,401, peak: 142,052,067, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.de.txt.r): 262,970 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.de.txt.c.R): 6,772 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.de.txt.c.C): 15,188 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	92758441 bytes
+Output (.c):	982171 bytes
+GCIS Compression Time: 4350ms
+GCIS Compression Peak Memory: 465999179 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 846216 bytes
+iRepair Peak Memory (Decompression): 15904 bytes
+GCIS Decompression time: 1150 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 468,755,189, peak: 465,999,179, current: 4,096
+iRepair Compression time: 0.001158 s
+malloc_count ### exiting, total: 2,286,352, peak: 846,216, current: 615,816
+iRepair Decompression time: 0.000797 s
+malloc_count ### exiting, total: 24,568, peak: 15,904, current: 10,864
+Decompression.
+malloc_count ### exiting, total: 169,187,217, peak: 142,086,331, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.de.txt.r): 267,708 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.de.txt.c.R): 732 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.de.txt.c.C): 10,980 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	92758441 bytes
+Output (.c):	1048029 bytes
+GCIS Compression Time: 4349ms
+GCIS Compression Peak Memory: 465999179 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 682720 bytes
+iRepair Peak Memory (Decompression): 9864 bytes
+GCIS Decompression time: 1159 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 468,791,525, peak: 465,999,179, current: 4,096
+iRepair Compression time: 0.000671 s
+malloc_count ### exiting, total: 956,520, peak: 682,720, current: 567,008
+iRepair Decompression time: 0.000147 s
+malloc_count ### exiting, total: 18,528, peak: 9,864, current: 4,824
+Decompression.
+malloc_count ### exiting, total: 169,263,713, peak: 142,152,267, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.de.txt.r): 270,046 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.de.txt.c.R): 28 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.de.txt.c.C): 3,332 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	92758441 bytes
+Output (.c):	1118719 bytes
+GCIS Compression Time: 4482ms
+GCIS Compression Peak Memory: 465999179 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 567160 bytes
+iRepair Peak Memory (Decompression): 9160 bytes
+GCIS Decompression time: 1016 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 468,807,125, peak: 465,999,179, current: 4,096
+iRepair Compression time: 0.000565 s
+malloc_count ### exiting, total: 608,040, peak: 567,160, current: 540,064
+iRepair Decompression time: 0.000073 s
+malloc_count ### exiting, total: 17,824, peak: 9,160, current: 4,120
+Decompression.
+malloc_count ### exiting, total: 169,335,457, peak: 142,223,035, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.de.txt.r): 270,648 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.de.txt.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.de.txt.c.C): 1,004 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	92758441 bytes
+Output (.c):	1193825 bytes
+GCIS Compression Time: 4375ms
+GCIS Compression Peak Memory: 465999179 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 539944 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1161 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 468,813,693, peak: 465,999,179, current: 4,096
+iRepair Compression time: 0.000563 s
+malloc_count ### exiting, total: 555,224, peak: 539,944, current: 532,304
+iRepair Decompression time: 0.000131 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 169,410,745, peak: 142,298,219, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.de.txt.r): 270,858 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.de.txt.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.de.txt.c.C): 308 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	92758441 bytes
+Output (.c):	1270187 bytes
+GCIS Compression Time: 4427ms
+GCIS Compression Peak Memory: 465999179 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 537464 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1014 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 468,818,249, peak: 465,999,179, current: 4,096
+iRepair Compression time: 0.000314 s
+malloc_count ### exiting, total: 552,744, peak: 537,464, current: 529,824
+iRepair Decompression time: 0.000071 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 169,487,161, peak: 142,374,659, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.de.txt.r): 270,972 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.de.txt.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.de.txt.c.C): 92 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	92758441 bytes
+Output (.c):	1346933 bytes
+GCIS Compression Time: 4343ms
+GCIS Compression Peak Memory: 465999179 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536592 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1127 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 468,821,681, peak: 465,999,179, current: 4,096
+iRepair Compression time: 0.000309 s
+malloc_count ### exiting, total: 551,872, peak: 536,592, current: 528,952
+iRepair Decompression time: 0.000135 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 169,563,985, peak: 142,451,483, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/einstein.de.txt.r): 271,062 bytes
+  - .c.R (../datasets/repcorpus/real/einstein.de.txt.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/real/einstein.de.txt.c.C): 20 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	92758441 bytes
+Output (.c):	1423799 bytes
+GCIS Compression Time: 4311ms
+GCIS Compression Peak Memory: 465999179 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536264 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1015 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 468,824,765, peak: 465,999,179, current: 4,096
+iRepair Compression time: 0.000307 s
+malloc_count ### exiting, total: 551,544, peak: 536,264, current: 528,624
+iRepair Decompression time: 0.000129 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 169,640,929, peak: 142,528,427, current: 4,096
+
+========================================
+
+=== LEVEL 15 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/real/einstein.de.txt ../datasets/repcorpus/real/einstein.de.txt -s8b 15' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

@@ -1,0 +1,449 @@
+=== IREPAIR Report for proteins.50MB ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.50MB.r): 2,050,658 bytes
+  - .c.R (../datasets/texts/protein/proteins.50MB.c.R): 15,915,316 bytes
+  - .c.C (../datasets/texts/protein/proteins.50MB.c.C): 37,373,612 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	52428800 bytes
+Output (.c):	136515171 bytes
+GCIS Compression Time: 2987ms
+GCIS Compression Peak Memory: 399656272 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 570471328 bytes
+iRepair Peak Memory (Decompression): 15924448 bytes
+GCIS Decompression time: 951 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 432,733,820, peak: 399,659,588, current: 4,096
+iRepair Compression time: 23.142344 s
+malloc_count ### exiting, total: 10,059,117,612, peak: 570,471,328, current: 235,464,476
+iRepair Decompression time: 2.145081 s
+malloc_count ### exiting, total: 15,933,112, peak: 15,924,448, current: 15,919,408
+Decompression.
+malloc_count ### exiting, total: 349,182,700, peak: 336,268,432, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.50MB.r): 25,403,676 bytes
+  - .c.R (../datasets/texts/protein/proteins.50MB.c.R): 7,321,244 bytes
+  - .c.C (../datasets/texts/protein/proteins.50MB.c.C): 28,431,668 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	52428800 bytes
+Output (.c):	69502429 bytes
+GCIS Compression Time: 4778ms
+GCIS Compression Peak Memory: 397120728 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 455217760 bytes
+iRepair Peak Memory (Decompression): 7330376 bytes
+GCIS Decompression time: 1699 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 498,020,340, peak: 397,120,728, current: 4,096
+iRepair Compression time: 8.092898 s
+malloc_count ### exiting, total: 2,349,090,792, peak: 455,217,760, current: 199,133,792
+iRepair Decompression time: 0.519041 s
+malloc_count ### exiting, total: 7,339,040, peak: 7,330,376, current: 7,325,336
+Decompression.
+malloc_count ### exiting, total: 331,431,404, peak: 209,082,312, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.50MB.r): 37,665,246 bytes
+  - .c.R (../datasets/texts/protein/proteins.50MB.c.R): 2,041,852 bytes
+  - .c.C (../datasets/texts/protein/proteins.50MB.c.C): 10,437,416 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	52428800 bytes
+Output (.c):	52310583 bytes
+GCIS Compression Time: 5354ms
+GCIS Compression Peak Memory: 397120728 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 204578520 bytes
+iRepair Peak Memory (Decompression): 2050984 bytes
+GCIS Decompression time: 1939 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 539,026,780, peak: 397,120,728, current: 4,096
+iRepair Compression time: 2.410553 s
+malloc_count ### exiting, total: 789,580,896, peak: 204,578,520, current: 76,909,272
+iRepair Decompression time: 0.089175 s
+malloc_count ### exiting, total: 2,059,648, peak: 2,050,984, current: 2,045,944
+Decompression.
+malloc_count ### exiting, total: 335,031,660, peak: 163,051,600, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.50MB.r): 41,837,312 bytes
+  - .c.R (../datasets/texts/protein/proteins.50MB.c.R): 514,260 bytes
+  - .c.C (../datasets/texts/protein/proteins.50MB.c.C): 3,825,464 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	52428800 bytes
+Output (.c):	46882393 bytes
+GCIS Compression Time: 5638ms
+GCIS Compression Peak Memory: 397120728 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 54605336 bytes
+iRepair Peak Memory (Decompression): 523392 bytes
+GCIS Decompression time: 2008 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 553,811,508, peak: 397,120,728, current: 4,096
+iRepair Compression time: 0.659311 s
+malloc_count ### exiting, total: 201,600,928, peak: 54,605,336, current: 22,666,776
+iRepair Decompression time: 0.028469 s
+malloc_count ### exiting, total: 532,056, peak: 523,392, current: 518,352
+Decompression.
+malloc_count ### exiting, total: 336,818,212, peak: 157,623,488, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.50MB.r): 43,194,762 bytes
+  - .c.R (../datasets/texts/protein/proteins.50MB.c.R): 87,700 bytes
+  - .c.C (../datasets/texts/protein/proteins.50MB.c.C): 1,434,456 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	52428800 bytes
+Output (.c):	45166819 bytes
+GCIS Compression Time: 5560ms
+GCIS Compression Peak Memory: 397120728 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 24832344 bytes
+iRepair Peak Memory (Decompression): 96832 bytes
+GCIS Decompression time: 2085 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 560,027,620, peak: 397,120,728, current: 4,096
+iRepair Compression time: 0.146753 s
+malloc_count ### exiting, total: 71,037,664, peak: 24,832,344, current: 8,997,208
+iRepair Decompression time: 0.009624 s
+malloc_count ### exiting, total: 105,496, peak: 96,832, current: 91,792
+Decompression.
+malloc_count ### exiting, total: 337,437,508, peak: 155,907,992, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.50MB.r): 43,660,068 bytes
+  - .c.R (../datasets/texts/protein/proteins.50MB.c.R): 8,884 bytes
+  - .c.C (../datasets/texts/protein/proteins.50MB.c.C): 511,404 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	52428800 bytes
+Output (.c):	44648765 bytes
+GCIS Compression Time: 5586ms
+GCIS Compression Peak Memory: 397120728 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 6613664 bytes
+iRepair Peak Memory (Decompression): 18016 bytes
+GCIS Decompression time: 2021 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 562,047,028, peak: 397,120,728, current: 4,096
+iRepair Compression time: 0.030285 s
+malloc_count ### exiting, total: 15,873,064, peak: 6,613,664, current: 2,655,904
+iRepair Decompression time: 0.004925 s
+malloc_count ### exiting, total: 26,680, peak: 18,016, current: 12,976
+Decompression.
+malloc_count ### exiting, total: 337,694,788, peak: 155,390,016, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.50MB.r): 43,801,174 bytes
+  - .c.R (../datasets/texts/protein/proteins.50MB.c.R): 868 bytes
+  - .c.C (../datasets/texts/protein/proteins.50MB.c.C): 167,912 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	52428800 bytes
+Output (.c):	44508087 bytes
+GCIS Compression Time: 5582ms
+GCIS Compression Peak Memory: 397120728 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 2881880 bytes
+iRepair Peak Memory (Decompression): 10000 bytes
+GCIS Decompression time: 2021 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 562,718,076, peak: 397,120,728, current: 4,096
+iRepair Compression time: 0.006675 s
+malloc_count ### exiting, total: 6,368,992, peak: 2,881,880, current: 1,046,872
+iRepair Decompression time: 0.001487 s
+malloc_count ### exiting, total: 18,664, peak: 10,000, current: 4,960
+Decompression.
+malloc_count ### exiting, total: 337,758,612, peak: 155,249,416, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.50MB.r): 43,843,944 bytes
+  - .c.R (../datasets/texts/protein/proteins.50MB.c.R): 60 bytes
+  - .c.C (../datasets/texts/protein/proteins.50MB.c.C): 54,348 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	52428800 bytes
+Output (.c):	44513145 bytes
+GCIS Compression Time: 5588ms
+GCIS Compression Peak Memory: 397120728 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1155936 bytes
+iRepair Peak Memory (Decompression): 9192 bytes
+GCIS Decompression time: 2096 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 562,932,644, peak: 397,120,728, current: 4,096
+iRepair Compression time: 0.001736 s
+malloc_count ### exiting, total: 1,979,624, peak: 1,155,936, current: 698,208
+iRepair Decompression time: 0.000610 s
+malloc_count ### exiting, total: 17,856, peak: 9,192, current: 4,152
+Decompression.
+malloc_count ### exiting, total: 337,822,348, peak: 155,254,552, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.50MB.r): 43,856,050 bytes
+  - .c.R (../datasets/texts/protein/proteins.50MB.c.R): 12 bytes
+  - .c.C (../datasets/texts/protein/proteins.50MB.c.C): 17,548 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	52428800 bytes
+Output (.c):	44565227 bytes
+GCIS Compression Time: 5674ms
+GCIS Compression Peak Memory: 397120728 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 811096 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2108 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 564,233,332, peak: 397,120,728, current: 4,096
+iRepair Compression time: 0.000842 s
+malloc_count ### exiting, total: 1,199,584, peak: 811,096, current: 584,792
+iRepair Decompression time: 0.000435 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 337,888,380, peak: 155,306,712, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.50MB.r): 43,859,724 bytes
+  - .c.R (../datasets/texts/protein/proteins.50MB.c.R): 20 bytes
+  - .c.C (../datasets/texts/protein/proteins.50MB.c.C): 5,724 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	52428800 bytes
+Output (.c):	44633933 bytes
+GCIS Compression Time: 5733ms
+GCIS Compression Peak Memory: 397120728 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 601992 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 2050 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 564,257,844, peak: 397,120,728, current: 4,096
+iRepair Compression time: 0.000816 s
+malloc_count ### exiting, total: 672,016, peak: 601,992, current: 547,720
+iRepair Decompression time: 0.000290 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 337,961,004, peak: 155,375,504, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.50MB.r): 43,860,798 bytes
+  - .c.R (../datasets/texts/protein/proteins.50MB.c.R): 12 bytes
+  - .c.C (../datasets/texts/protein/proteins.50MB.c.C): 1,820 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	52428800 bytes
+Output (.c):	44707943 bytes
+GCIS Compression Time: 5643ms
+GCIS Compression Peak Memory: 397120728 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 548872 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2122 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 564,267,412, peak: 397,120,728, current: 4,096
+iRepair Compression time: 0.000480 s
+malloc_count ### exiting, total: 572,344, peak: 548,872, current: 535,088
+iRepair Decompression time: 0.000073 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 338,035,716, peak: 155,449,592, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.50MB.r): 43,861,128 bytes
+  - .c.R (../datasets/texts/protein/proteins.50MB.c.R): 12 bytes
+  - .c.C (../datasets/texts/protein/proteins.50MB.c.C): 604 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	52428800 bytes
+Output (.c):	44783905 bytes
+GCIS Compression Time: 5773ms
+GCIS Compression Peak Memory: 397120728 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 538576 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2049 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 564,273,384, peak: 397,120,728, current: 4,096
+iRepair Compression time: 0.000484 s
+malloc_count ### exiting, total: 553,856, peak: 538,576, current: 530,936
+iRepair Decompression time: 0.000185 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 338,111,876, peak: 155,525,640, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.50MB.r): 43,861,282 bytes
+  - .c.R (../datasets/texts/protein/proteins.50MB.c.R): 12 bytes
+  - .c.C (../datasets/texts/protein/proteins.50MB.c.C): 188 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	52428800 bytes
+Output (.c):	44860491 bytes
+GCIS Compression Time: 5705ms
+GCIS Compression Peak Memory: 397120728 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536992 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2109 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 564,277,300, peak: 397,120,728, current: 4,096
+iRepair Compression time: 0.000469 s
+malloc_count ### exiting, total: 552,272, peak: 536,992, current: 529,352
+iRepair Decompression time: 0.000148 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 338,188,540, peak: 155,602,304, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.50MB.r): 43,861,380 bytes
+  - .c.R (../datasets/texts/protein/proteins.50MB.c.R): 12 bytes
+  - .c.C (../datasets/texts/protein/proteins.50MB.c.C): 60 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	52428800 bytes
+Output (.c):	44937309 bytes
+GCIS Compression Time: 5902ms
+GCIS Compression Peak Memory: 397120728 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536440 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2125 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 564,280,560, peak: 397,120,728, current: 4,096
+iRepair Compression time: 0.000498 s
+malloc_count ### exiting, total: 551,720, peak: 536,440, current: 528,800
+iRepair Decompression time: 0.000091 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 338,265,444, peak: 155,679,200, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/protein/proteins.50MB.r): 43,861,470 bytes
+  - .c.R (../datasets/texts/protein/proteins.50MB.c.R): 4 bytes
+  - .c.C (../datasets/texts/protein/proteins.50MB.c.C): 16 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	52428800 bytes
+Output (.c):	45014199 bytes
+GCIS Compression Time: 5847ms
+GCIS Compression Peak Memory: 397120728 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 531616 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 2206 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 564,283,716, peak: 397,120,728, current: 4,096
+iRepair Compression time: 0.000885 s
+malloc_count ### exiting, total: 549,416, peak: 533,112, current: 528,544
+iRepair Decompression time: 0.000241 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 338,342,484, peak: 155,756,168, current: 4,096
+
+========================================
+
+=== LEVEL 15 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/texts/protein/proteins.50MB ../datasets/texts/protein/proteins.50MB -s8b 15' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

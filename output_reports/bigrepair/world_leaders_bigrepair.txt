@@ -1,0 +1,589 @@
+=== BIGREPAIR Report for world_leaders ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/world_leaders.r): 65,338 bytes
+  - .c.R (../datasets/repcorpus/real/world_leaders.c.R): 2,440,060 bytes
+  - .c.C (../datasets/repcorpus/real/world_leaders.c.C): 254,088 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	46968181 bytes
+Output (.c):	58889155 bytes
+GCIS Compression Time: 1378ms
+GCIS Compression Peak Memory: 293755227 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/world_leaders.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/world_leaders.c -w 10 -p 100 -c
+Parsing time: 2.1144
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/world_leaders.c.dicz
+Preprocess time: 0.1275
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/world_leaders.c.dicz.int 489834
+repair(dict) time: 2.8603
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/world_leaders.c.parse 489834
+repair(parse) time: 0.2363
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/world_leaders.c
+Postprocess time: 0.0193
+Elapsed time: 5.3600
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/world_leaders.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/world_leaders.c
+Elapsed time: 1.2799
+==== Done
+GCIS Decompression time: 245 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 294,673,297, peak: 293,758,543, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/world_leaders.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/world_leaders.c 
+Decompression.
+malloc_count ### exiting, total: 165,232,973, peak: 164,929,903, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/world_leaders.r): 395,580 bytes
+  - .c.R (../datasets/repcorpus/real/world_leaders.c.R): 2,671,948 bytes
+  - .c.C (../datasets/repcorpus/real/world_leaders.c.C): 191,420 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	46968181 bytes
+Output (.c):	21306125 bytes
+GCIS Compression Time: 1529ms
+GCIS Compression Peak Memory: 256231795 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/world_leaders.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/world_leaders.c -w 10 -p 100 -c
+Parsing time: 0.7799
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/world_leaders.c.dicz
+Preprocess time: 0.0920
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/world_leaders.c.dicz.int 489834
+repair(dict) time: 2.6617
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/world_leaders.c.parse 489834
+repair(parse) time: 0.0652
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/world_leaders.c
+Postprocess time: 0.0214
+Elapsed time: 3.6217
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/world_leaders.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/world_leaders.c
+Elapsed time: 0.5270
+==== Done
+GCIS Decompression time: 269 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 260,113,961, peak: 256,234,087, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/world_leaders.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/world_leaders.c 
+Decompression.
+malloc_count ### exiting, total: 106,471,477, peak: 83,286,719, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/world_leaders.r): 866,718 bytes
+  - .c.R (../datasets/repcorpus/real/world_leaders.c.R): 1,929,724 bytes
+  - .c.C (../datasets/repcorpus/real/world_leaders.c.C): 126,496 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	46968181 bytes
+Output (.c):	8297895 bytes
+GCIS Compression Time: 1594ms
+GCIS Compression Peak Memory: 243331459 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/world_leaders.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/world_leaders.c -w 10 -p 100 -c
+Parsing time: 0.3486
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/world_leaders.c.dicz
+Preprocess time: 0.0522
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/world_leaders.c.dicz.int 489834
+repair(dict) time: 1.2078
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/world_leaders.c.parse 489834
+repair(parse) time: 0.0236
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/world_leaders.c
+Postprocess time: 0.0129
+Elapsed time: 1.6470
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/world_leaders.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/world_leaders.c
+Elapsed time: 0.1322
+==== Done
+GCIS Decompression time: 293 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 250,504,537, peak: 243,333,751, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/world_leaders.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/world_leaders.c 
+Decompression.
+malloc_count ### exiting, total: 87,425,397, peak: 70,278,567, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/world_leaders.r): 1,218,440 bytes
+  - .c.R (../datasets/repcorpus/real/world_leaders.c.R): 1,179,892 bytes
+  - .c.C (../datasets/repcorpus/real/world_leaders.c.C): 69,412 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	46968181 bytes
+Output (.c):	3909025 bytes
+GCIS Compression Time: 1625ms
+GCIS Compression Peak Memory: 238948643 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/world_leaders.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/world_leaders.c -w 10 -p 100 -c
+Parsing time: 0.1373
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/world_leaders.c.dicz
+Preprocess time: 0.0369
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/world_leaders.c.dicz.int 489834
+repair(dict) time: 0.6102
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/world_leaders.c.parse 489834
+repair(parse) time: 0.0069
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/world_leaders.c
+Postprocess time: 0.0107
+Elapsed time: 0.8045
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/world_leaders.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/world_leaders.c
+Elapsed time: 0.0563
+==== Done
+GCIS Decompression time: 417 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 248,257,281, peak: 238,948,643, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/world_leaders.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/world_leaders.c 
+Decompression.
+malloc_count ### exiting, total: 81,462,205, peak: 65,889,775, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/world_leaders.r): 1,429,882 bytes
+  - .c.R (../datasets/repcorpus/real/world_leaders.c.R): 670,676 bytes
+  - .c.C (../datasets/repcorpus/real/world_leaders.c.C): 28,988 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	46968181 bytes
+Output (.c):	2576667 bytes
+GCIS Compression Time: 1778ms
+GCIS Compression Peak Memory: 238948643 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/world_leaders.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/world_leaders.c -w 10 -p 100 -c
+Parsing time: 0.0390
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/world_leaders.c.dicz
+Preprocess time: 0.0163
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/world_leaders.c.dicz.int 489834
+repair(dict) time: 0.1607
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/world_leaders.c.parse 489834
+repair(parse) time: 0.0022
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/world_leaders.c
+Postprocess time: 0.0059
+Elapsed time: 0.2253
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/world_leaders.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/world_leaders.c
+Elapsed time: 0.0193
+==== Done
+GCIS Decompression time: 308 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 248,851,417, peak: 238,948,643, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/world_leaders.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/world_leaders.c 
+Decompression.
+malloc_count ### exiting, total: 79,913,453, peak: 64,557,503, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/world_leaders.r): 1,551,572 bytes
+  - .c.R (../datasets/repcorpus/real/world_leaders.c.R): 332,588 bytes
+  - .c.C (../datasets/repcorpus/real/world_leaders.c.C): 10,948 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	46968181 bytes
+Output (.c):	2265069 bytes
+GCIS Compression Time: 1659ms
+GCIS Compression Peak Memory: 238948643 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/world_leaders.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/world_leaders.c -w 10 -p 100 -c
+Parsing time: 0.0165
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/world_leaders.c.dicz
+Preprocess time: 0.0077
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/world_leaders.c.dicz.int 489834
+repair(dict) time: 0.0507
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/world_leaders.c.parse 489834
+repair(parse) time: 0.0020
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/world_leaders.c
+Postprocess time: 0.0030
+Elapsed time: 0.0811
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/world_leaders.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/world_leaders.c
+Elapsed time: 0.0073
+==== Done
+GCIS Decompression time: 427 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 249,281,049, peak: 238,948,643, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/world_leaders.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/world_leaders.c 
+Decompression.
+malloc_count ### exiting, total: 79,737,869, peak: 64,245,983, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/world_leaders.r): 1,606,862 bytes
+  - .c.R (../datasets/repcorpus/real/world_leaders.c.R): 140,332 bytes
+  - .c.C (../datasets/repcorpus/real/world_leaders.c.C): 3,820 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	46968181 bytes
+Output (.c):	2231247 bytes
+GCIS Compression Time: 1775ms
+GCIS Compression Peak Memory: 238948643 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/world_leaders.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/world_leaders.c -w 10 -p 100 -c
+Parsing time: 0.0078
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/world_leaders.c.dicz
+Preprocess time: 0.0026
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/world_leaders.c.dicz.int 489834
+repair(dict) time: 0.0180
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/world_leaders.c.parse 489834
+repair(parse) time: 0.0013
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/world_leaders.c
+Postprocess time: 0.0018
+Elapsed time: 0.0334
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/world_leaders.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/world_leaders.c
+Elapsed time: 0.0039
+==== Done
+GCIS Decompression time: 428 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 249,545,489, peak: 238,948,643, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/world_leaders.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/world_leaders.c 
+Decompression.
+malloc_count ### exiting, total: 79,779,733, peak: 64,212,239, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/world_leaders.r): 1,626,512 bytes
+  - .c.R (../datasets/repcorpus/real/world_leaders.c.R): 30,412 bytes
+  - .c.C (../datasets/repcorpus/real/world_leaders.c.C): 752 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	46968181 bytes
+Output (.c):	2258385 bytes
+GCIS Compression Time: 1687ms
+GCIS Compression Peak Memory: 238948643 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/world_leaders.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/world_leaders.c -w 10 -p 100 -c
+Parsing time: 0.0035
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/world_leaders.c.dicz
+Preprocess time: 0.0020
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/world_leaders.c.dicz.int 489834
+repair(dict) time: 0.0041
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/world_leaders.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/world_leaders.c
+Postprocess time: 0.0015
+Elapsed time: 0.0133
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/world_leaders.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/world_leaders.c
+Elapsed time: 0.0029
+==== Done
+GCIS Decompression time: 426 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 249,617,481, peak: 238,948,643, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/world_leaders.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/world_leaders.c 
+Decompression.
+malloc_count ### exiting, total: 79,810,013, peak: 64,239,463, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/world_leaders.r): 1,629,906 bytes
+  - .c.R (../datasets/repcorpus/real/world_leaders.c.R): 3,924 bytes
+  - .c.C (../datasets/repcorpus/real/world_leaders.c.C): 120 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	46968181 bytes
+Output (.c):	2323515 bytes
+GCIS Compression Time: 1677ms
+GCIS Compression Peak Memory: 238948643 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/world_leaders.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/world_leaders.c -w 10 -p 100 -c
+Parsing time: 0.0021
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/world_leaders.c.dicz
+Preprocess time: 0.0014
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/world_leaders.c.dicz.int 489834
+repair(dict) time: 0.0014
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/world_leaders.c.parse 489834
+repair(parse) time: 0.0021
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/world_leaders.c
+Postprocess time: 0.0011
+Elapsed time: 0.0102
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/world_leaders.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/world_leaders.c
+Elapsed time: 0.0013
+==== Done
+GCIS Decompression time: 427 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 250,861,657, peak: 238,948,643, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/world_leaders.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/world_leaders.c 
+Decompression.
+malloc_count ### exiting, total: 79,871,677, peak: 64,304,671, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/world_leaders.r): 1,630,268 bytes
+  - .c.R (../datasets/repcorpus/real/world_leaders.c.R): 1,396 bytes
+  - .c.C (../datasets/repcorpus/real/world_leaders.c.C): 56 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	46968181 bytes
+Output (.c):	2399429 bytes
+GCIS Compression Time: 1698ms
+GCIS Compression Peak Memory: 238948643 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/world_leaders.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/world_leaders.c -w 10 -p 100 -c
+Parsing time: 0.0019
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/world_leaders.c.dicz
+Preprocess time: 0.0018
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/world_leaders.c.dicz.int 489834
+repair(dict) time: 0.0012
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/world_leaders.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/world_leaders.c
+Postprocess time: 0.0013
+Elapsed time: 0.0089
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/world_leaders.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/world_leaders.c
+Elapsed time: 0.0014
+==== Done
+GCIS Decompression time: 315 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 250,868,021, peak: 238,948,643, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/world_leaders.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/world_leaders.c 
+Decompression.
+malloc_count ### exiting, total: 79,947,829, peak: 64,380,663, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/world_leaders.r): 1,630,430 bytes
+  - .c.R (../datasets/repcorpus/real/world_leaders.c.R): 412 bytes
+  - .c.C (../datasets/repcorpus/real/world_leaders.c.C): 32 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	46968181 bytes
+Output (.c):	2475935 bytes
+GCIS Compression Time: 1702ms
+GCIS Compression Peak Memory: 238948643 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/world_leaders.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/world_leaders.c -w 10 -p 100 -c
+Parsing time: 0.0038
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/world_leaders.c.dicz
+Preprocess time: 0.0018
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/world_leaders.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/world_leaders.c.parse 489834
+repair(parse) time: 0.0026
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/world_leaders.c
+Postprocess time: 0.0011
+Elapsed time: 0.0122
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/world_leaders.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/world_leaders.c
+Elapsed time: 0.0010
+==== Done
+GCIS Decompression time: 427 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 250,871,961, peak: 238,948,643, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/world_leaders.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/world_leaders.c 
+Decompression.
+malloc_count ### exiting, total: 80,024,341, peak: 64,457,247, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/real/world_leaders.r): 1,630,528 bytes
+  - .c.R (../datasets/repcorpus/real/world_leaders.c.R): 180 bytes
+  - .c.C (../datasets/repcorpus/real/world_leaders.c.C): 16 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	46968181 bytes
+Output (.c):	2552761 bytes
+GCIS Compression Time: 1705ms
+GCIS Compression Peak Memory: 238948643 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/real/world_leaders.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/real/world_leaders.c -w 10 -p 100 -c
+Parsing time: 0.0023
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/real/world_leaders.c.dicz
+Preprocess time: 0.0017
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/world_leaders.c.dicz.int 489834
+repair(dict) time: 0.0021
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/real/world_leaders.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/real/world_leaders.c
+Postprocess time: 0.0012
+Elapsed time: 0.0101
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/real/world_leaders.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/real/world_leaders.c
+Elapsed time: 0.0014
+==== Done
+GCIS Decompression time: 428 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 250,875,209, peak: 238,948,643, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/real/world_leaders.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/real/world_leaders.c 
+Decompression.
+malloc_count ### exiting, total: 80,101,261, peak: 64,534,151, current: 4,096
+
+========================================
+
+=== LEVEL 12 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -c ../datasets/repcorpus/real/world_leaders ../datasets/repcorpus/real/world_leaders -s8b 12' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+GCIS Compression.
+malloc(): unsorted double linked list corrupted
+Aborted
+
+
+========================================
+

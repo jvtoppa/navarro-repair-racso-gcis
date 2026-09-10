@@ -1,0 +1,686 @@
+=== BIGREPAIR Report for pitches ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 6,261,058 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 85,816,764 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 3,235,644 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	55832855 bytes
+Output (.c):	134871643 bytes
+GCIS Compression Time: 2906ms
+GCIS Compression Peak Memory: 416059555 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/music/pitches.c -w 10 -p 100 -c
+Parsing time: 8.8959
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/music/pitches.c.dicz
+Preprocess time: 1.5464
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.dicz.int 489834
+repair(dict) time: 399.0631
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.parse 489834
+repair(parse) time: 0.5823
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/music/pitches.c
+Postprocess time: 0.4873
+Elapsed time: 410.5793
+==== Done
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/music/pitches.c
+Elapsed time: 2.9012
+==== Done
+GCIS Decompression time: 940 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 495,791,063, peak: 416,062,871, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/music/pitches.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/music/pitches.c 
+Decompression.
+malloc_count ### exiting, total: 370,355,819, peak: 344,808,291, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 28,605,444 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 42,829,340 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 1,167,692 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	55832855 bytes
+Output (.c):	66954013 bytes
+GCIS Compression Time: 4233ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/music/pitches.c -w 10 -p 100 -c
+Parsing time: 2.5804
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/music/pitches.c.dicz
+Preprocess time: 0.5057
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.dicz.int 489834
+repair(dict) time: 25.7601
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.parse 489834
+repair(parse) time: 0.1337
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/music/pitches.c
+Postprocess time: 0.4598
+Elapsed time: 29.4426
+==== Done
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/music/pitches.c
+Elapsed time: 0.9369
+==== Done
+GCIS Decompression time: 1608 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 537,340,079, peak: 397,127,371, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/music/pitches.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/music/pitches.c 
+Decompression.
+malloc_count ### exiting, total: 335,585,747, peak: 192,540,467, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 38,627,614 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 15,597,852 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 405,824 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	55832855 bytes
+Output (.c):	50723879 bytes
+GCIS Compression Time: 4671ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/music/pitches.c -w 10 -p 100 -c
+Parsing time: 0.8112
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/music/pitches.c.dicz
+Preprocess time: 0.1660
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.dicz.int 489834
+repair(dict) time: 4.8241
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.parse 489834
+repair(parse) time: 0.0296
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/music/pitches.c
+Postprocess time: 0.1478
+Elapsed time: 5.9808
+==== Done
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/music/pitches.c
+Elapsed time: 0.2878
+==== Done
+GCIS Decompression time: 1610 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 567,340,623, peak: 397,127,371, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/music/pitches.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/music/pitches.c 
+Decompression.
+malloc_count ### exiting, total: 335,317,043, peak: 176,310,411, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 42,131,336 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 5,289,644 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 136,556 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	55832855 bytes
+Output (.c):	46049945 bytes
+GCIS Compression Time: 4820ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/music/pitches.c -w 10 -p 100 -c
+Parsing time: 0.2535
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/music/pitches.c.dicz
+Preprocess time: 0.0728
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.dicz.int 489834
+repair(dict) time: 5.2708
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.parse 489834
+repair(parse) time: 0.0082
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/music/pitches.c
+Postprocess time: 0.0309
+Elapsed time: 5.6386
+==== Done
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/music/pitches.c
+Elapsed time: 0.1034
+==== Done
+GCIS Decompression time: 1791 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 579,228,575, peak: 397,127,371, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/music/pitches.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/music/pitches.c 
+Decompression.
+malloc_count ### exiting, total: 336,240,699, peak: 171,636,555, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 43,189,090 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 1,702,604 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 47,216 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	55832855 bytes
+Output (.c):	44673307 bytes
+GCIS Compression Time: 4834ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/music/pitches.c -w 10 -p 100 -c
+Parsing time: 0.0711
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/music/pitches.c.dicz
+Preprocess time: 0.0239
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.dicz.int 489834
+repair(dict) time: 0.4661
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.parse 489834
+repair(parse) time: 0.0027
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/music/pitches.c
+Postprocess time: 0.0092
+Elapsed time: 0.5753
+==== Done
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/music/pitches.c
+Elapsed time: 0.0273
+==== Done
+GCIS Decompression time: 1675 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 583,843,887, peak: 397,127,371, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/music/pitches.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/music/pitches.c 
+Decompression.
+malloc_count ### exiting, total: 336,450,379, peak: 170,259,995, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 43,491,444 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 545,260 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 14,732 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	55832855 bytes
+Output (.c):	44290373 bytes
+GCIS Compression Time: 4979ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/music/pitches.c -w 10 -p 100 -c
+Parsing time: 0.0215
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/music/pitches.c.dicz
+Preprocess time: 0.0100
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.dicz.int 489834
+repair(dict) time: 0.0704
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.parse 489834
+repair(parse) time: 0.0021
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/music/pitches.c
+Postprocess time: 0.0050
+Elapsed time: 0.1102
+==== Done
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/music/pitches.c
+Elapsed time: 0.0103
+==== Done
+GCIS Decompression time: 1674 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 585,139,551, peak: 397,127,371, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/music/pitches.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/music/pitches.c 
+Decompression.
+malloc_count ### exiting, total: 336,486,787, peak: 169,877,139, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 43,581,686 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 176,692 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 4,644 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	55832855 bytes
+Output (.c):	44226087 bytes
+GCIS Compression Time: 4845ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/music/pitches.c -w 10 -p 100 -c
+Parsing time: 0.0093
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/music/pitches.c.dicz
+Preprocess time: 0.0031
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.dicz.int 489834
+repair(dict) time: 0.0205
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.parse 489834
+repair(parse) time: 0.0015
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/music/pitches.c
+Postprocess time: 0.0043
+Elapsed time: 0.0410
+==== Done
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/music/pitches.c
+Elapsed time: 0.0050
+==== Done
+GCIS Decompression time: 1805 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 585,557,695, peak: 397,127,371, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/music/pitches.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/music/pitches.c 
+Decompression.
+malloc_count ### exiting, total: 336,547,603, peak: 169,812,931, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 43,607,176 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 56,892 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 1,492 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	55832855 bytes
+Output (.c):	44255617 bytes
+GCIS Compression Time: 4933ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/music/pitches.c -w 10 -p 100 -c
+Parsing time: 0.0052
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/music/pitches.c.dicz
+Preprocess time: 0.0025
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.dicz.int 489834
+repair(dict) time: 0.0074
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.parse 489834
+repair(parse) time: 0.0013
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/music/pitches.c
+Postprocess time: 0.0029
+Elapsed time: 0.0203
+==== Done
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/music/pitches.c
+Elapsed time: 0.0021
+==== Done
+GCIS Decompression time: 1697 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 585,689,239, peak: 397,127,371, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/music/pitches.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/music/pitches.c 
+Decompression.
+malloc_count ### exiting, total: 336,607,891, peak: 169,842,539, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 43,614,690 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 18,540 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 508 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	55832855 bytes
+Output (.c):	44317147 bytes
+GCIS Compression Time: 4996ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/music/pitches.c -w 10 -p 100 -c
+Parsing time: 0.0035
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/music/pitches.c.dicz
+Preprocess time: 0.0011
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.dicz.int 489834
+repair(dict) time: 0.0039
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.parse 489834
+repair(parse) time: 0.0012
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/music/pitches.c
+Postprocess time: 0.0013
+Elapsed time: 0.0132
+==== Done
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/music/pitches.c
+Elapsed time: 0.0018
+==== Done
+GCIS Decompression time: 1678 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 586,965,399, peak: 397,127,371, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/music/pitches.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/music/pitches.c 
+Decompression.
+malloc_count ### exiting, total: 336,678,027, peak: 169,904,147, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 43,616,820 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 6,468 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 196 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	55832855 bytes
+Output (.c):	44388861 bytes
+GCIS Compression Time: 4967ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/music/pitches.c -w 10 -p 100 -c
+Parsing time: 0.0037
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/music/pitches.c.dicz
+Preprocess time: 0.0009
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.dicz.int 489834
+repair(dict) time: 0.0036
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.parse 489834
+repair(parse) time: 0.0012
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/music/pitches.c
+Postprocess time: 0.0012
+Elapsed time: 0.0125
+==== Done
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/music/pitches.c
+Elapsed time: 0.0024
+==== Done
+GCIS Decompression time: 1780 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 586,981,439, peak: 397,127,371, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/music/pitches.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/music/pitches.c 
+Decompression.
+malloc_count ### exiting, total: 336,751,739, peak: 169,975,939, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 43,617,462 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 2,324 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 84 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	55832855 bytes
+Output (.c):	44463943 bytes
+GCIS Compression Time: 4853ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/music/pitches.c -w 10 -p 100 -c
+Parsing time: 0.0029
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/music/pitches.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.dicz.int 489834
+repair(dict) time: 0.0012
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.parse 489834
+repair(parse) time: 0.0026
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/music/pitches.c
+Postprocess time: 0.0012
+Elapsed time: 0.0106
+==== Done
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/music/pitches.c
+Elapsed time: 0.0013
+==== Done
+GCIS Decompression time: 1674 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 586,988,487, peak: 397,127,371, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/music/pitches.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/music/pitches.c 
+Decompression.
+malloc_count ### exiting, total: 336,827,187, peak: 170,051,099, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 43,617,704 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 708 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 40 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	55832855 bytes
+Output (.c):	44540209 bytes
+GCIS Compression Time: 4820ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/music/pitches.c -w 10 -p 100 -c
+Parsing time: 0.0025
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/music/pitches.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.parse 489834
+repair(parse) time: 0.0026
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/music/pitches.c
+Postprocess time: 0.0012
+Elapsed time: 0.0105
+==== Done
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/music/pitches.c
+Elapsed time: 0.0022
+==== Done
+GCIS Decompression time: 1736 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 586,993,223, peak: 397,127,371, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/music/pitches.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/music/pitches.c 
+Decompression.
+malloc_count ### exiting, total: 336,903,507, peak: 170,127,443, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 43,617,818 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 236 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 28 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	55832855 bytes
+Output (.c):	44616931 bytes
+GCIS Compression Time: 4773ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/music/pitches.c -w 10 -p 100 -c
+Parsing time: 0.0040
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/music/pitches.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.parse 489834
+repair(parse) time: 0.0023
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/music/pitches.c
+Postprocess time: 0.0011
+Elapsed time: 0.0117
+==== Done
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/music/pitches.c
+Elapsed time: 0.0021
+==== Done
+GCIS Decompression time: 1655 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 586,996,667, peak: 397,127,371, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/music/pitches.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/music/pitches.c 
+Decompression.
+malloc_count ### exiting, total: 336,980,283, peak: 170,204,243, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/texts/music/pitches.r): 43,617,908 bytes
+  - .c.R (../datasets/texts/music/pitches.c.R): 100 bytes
+  - .c.C (../datasets/texts/music/pitches.c.C): 8 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	55832855 bytes
+Output (.c):	44693805 bytes
+GCIS Compression Time: 4793ms
+GCIS Compression Peak Memory: 397127371 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/texts/music/pitches.c -w 10 -p 100 -c
+Parsing time: 0.0034
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/texts/music/pitches.c.dicz
+Preprocess time: 0.0015
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.dicz.int 489834
+repair(dict) time: 0.0027
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/texts/music/pitches.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/texts/music/pitches.c
+Postprocess time: 0.0012
+Elapsed time: 0.0110
+==== Done
+Sending logging messages to file: ../datasets/texts/music/pitches.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/texts/music/pitches.c
+Elapsed time: 0.0013
+==== Done
+GCIS Decompression time: 1744 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 586,999,775, peak: 397,127,371, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/texts/music/pitches.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/texts/music/pitches.c 
+Decompression.
+malloc_count ### exiting, total: 337,057,251, peak: 170,281,195, current: 4,096
+
+========================================
+
+=== LEVEL 14 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/texts/music/pitches ../datasets/texts/music/pitches -s8b 14' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

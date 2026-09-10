@@ -1,0 +1,303 @@
+=== IREPAIR Report for BGL ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/BGL.r): 165,978 bytes
+  - .c.R (../datasets/repcorpus/logs/BGL.c.R): 4,018,404 bytes
+  - .c.C (../datasets/repcorpus/logs/BGL.c.C): 14,475,412 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	104857600 bytes
+Output (.c):	298983795 bytes
+GCIS Compression Time: 2855ms
+GCIS Compression Peak Memory: 823346502 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 908042064 bytes
+iRepair Peak Memory (Decompression): 4027536 bytes
+GCIS Decompression time: 746 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 825,847,048, peak: 823,349,818, current: 4,096
+iRepair Compression time: 18.292963 s
+malloc_count ### exiting, total: 34,036,219,704, peak: 908,042,064, current: 64,856,556
+iRepair Decompression time: 3.139440 s
+malloc_count ### exiting, total: 4,036,200, peak: 4,027,536, current: 4,022,496
+Decompression.
+malloc_count ### exiting, total: 704,462,400, peak: 703,533,646, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/BGL.r): 3,780,780 bytes
+  - .c.R (../datasets/repcorpus/logs/BGL.c.R): 2,244,644 bytes
+  - .c.C (../datasets/repcorpus/logs/BGL.c.C): 13,743,772 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	104857600 bytes
+Output (.c):	116634253 bytes
+GCIS Compression Time: 3998ms
+GCIS Compression Peak Memory: 641395782 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 419275248 bytes
+iRepair Peak Memory (Decompression): 2253776 bytes
+GCIS Decompression time: 925 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 672,466,600, peak: 641,398,074, current: 4,096
+iRepair Compression time: 8.579694 s
+malloc_count ### exiting, total: 15,178,068,364, peak: 419,275,248, current: 59,294,460
+iRepair Decompression time: 1.245605 s
+malloc_count ### exiting, total: 2,262,440, peak: 2,253,776, current: 2,248,736
+Decompression.
+malloc_count ### exiting, total: 440,395,632, peak: 321,199,314, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/BGL.r): 8,356,590 bytes
+  - .c.R (../datasets/repcorpus/logs/BGL.c.R): 2,493,956 bytes
+  - .c.C (../datasets/repcorpus/logs/BGL.c.C): 12,366,656 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	104857600 bytes
+Output (.c):	42755783 bytes
+GCIS Compression Time: 4363ms
+GCIS Compression Peak Memory: 567819726 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 264213848 bytes
+iRepair Peak Memory (Decompression): 2503088 bytes
+GCIS Decompression time: 1217 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 633,117,408, peak: 567,822,018, current: 4,096
+iRepair Compression time: 4.276980 s
+malloc_count ### exiting, total: 2,127,227,244, peak: 264,213,848, current: 84,975,092
+iRepair Decompression time: 0.502159 s
+malloc_count ### exiting, total: 2,511,752, peak: 2,503,088, current: 2,498,048
+Decompression.
+malloc_count ### exiting, total: 356,985,392, peak: 227,917,886, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/BGL.r): 16,919,072 bytes
+  - .c.R (../datasets/repcorpus/logs/BGL.c.R): 547,940 bytes
+  - .c.C (../datasets/repcorpus/logs/BGL.c.C): 11,092,784 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	104857600 bytes
+Output (.c):	30365185 bytes
+GCIS Compression Time: 4614ms
+GCIS Compression Peak Memory: 581585886 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 199210512 bytes
+iRepair Peak Memory (Decompression): 557072 bytes
+GCIS Decompression time: 1158 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 668,650,072, peak: 581,585,886, current: 4,096
+iRepair Compression time: 1.764294 s
+malloc_count ### exiting, total: 521,814,936, peak: 199,210,512, current: 73,076,240
+iRepair Decompression time: 0.113628 s
+malloc_count ### exiting, total: 565,736, peak: 557,072, current: 552,032
+Decompression.
+malloc_count ### exiting, total: 366,127,928, peak: 215,527,366, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/BGL.r): 21,441,490 bytes
+  - .c.R (../datasets/repcorpus/logs/BGL.c.R): 4 bytes
+  - .c.C (../datasets/repcorpus/logs/BGL.c.C): 5,428,312 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	104857600 bytes
+Output (.c):	27254035 bytes
+GCIS Compression Time: 4552ms
+GCIS Compression Peak Memory: 581585886 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 96041952 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 1189 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 690,449,560, peak: 581,585,886, current: 4,096
+iRepair Compression time: 0.687264 s
+malloc_count ### exiting, total: 217,113,960, peak: 96,041,952, current: 33,131,488
+iRepair Decompression time: 0.039148 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 373,668,208, peak: 212,416,294, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/BGL.r): 23,212,252 bytes
+  - .c.R (../datasets/repcorpus/logs/BGL.c.R): 4 bytes
+  - .c.C (../datasets/repcorpus/logs/BGL.c.C): 1,520,624 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	104857600 bytes
+Output (.c):	25193957 bytes
+GCIS Compression Time: 4581ms
+GCIS Compression Peak Memory: 581585886 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 24519368 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 1191 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 696,987,568, peak: 581,585,886, current: 4,096
+iRepair Compression time: 0.144806 s
+malloc_count ### exiting, total: 54,365,264, peak: 24,519,368, current: 8,794,824
+iRepair Decompression time: 0.012882 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 374,302,832, peak: 210,356,294, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/BGL.r): 23,665,614 bytes
+  - .c.R (../datasets/repcorpus/logs/BGL.c.R): 4 bytes
+  - .c.C (../datasets/repcorpus/logs/BGL.c.C): 456,736 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	104857600 bytes
+Output (.c):	24660279 bytes
+GCIS Compression Time: 4602ms
+GCIS Compression Peak Memory: 581585886 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 6369872 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 1188 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 698,857,976, peak: 581,585,886, current: 4,096
+iRepair Compression time: 0.023503 s
+malloc_count ### exiting, total: 13,409,240, peak: 6,369,872, current: 2,441,808
+iRepair Decompression time: 0.004340 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 374,445,064, peak: 209,822,694, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/BGL.r): 23,787,392 bytes
+  - .c.R (../datasets/repcorpus/logs/BGL.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/BGL.c.C): 123,008 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	104857600 bytes
+Output (.c):	24525185 bytes
+GCIS Compression Time: 4608ms
+GCIS Compression Peak Memory: 581585886 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1821720 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1191 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 699,362,560, peak: 581,585,886, current: 4,096
+iRepair Compression time: 0.004022 s
+malloc_count ### exiting, total: 3,488,160, peak: 1,821,720, current: 907,288
+iRepair Decompression time: 0.001239 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 374,441,904, peak: 209,687,678, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/BGL.r): 23,815,890 bytes
+  - .c.R (../datasets/repcorpus/logs/BGL.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/BGL.c.C): 22,656 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	104857600 bytes
+Output (.c):	24530179 bytes
+GCIS Compression Time: 4607ms
+GCIS Compression Peak Memory: 581585886 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 826936 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1378 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 700,696,432, peak: 581,585,886, current: 4,096
+iRepair Compression time: 0.000892 s
+malloc_count ### exiting, total: 1,215,424, peak: 826,936, current: 600,632
+iRepair Decompression time: 0.000275 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 374,449,856, peak: 209,692,750, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/BGL.r): 23,820,228 bytes
+  - .c.R (../datasets/repcorpus/logs/BGL.c.R): 4 bytes
+  - .c.C (../datasets/repcorpus/logs/BGL.c.C): 80 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	104857600 bytes
+Output (.c):	24588781 bytes
+GCIS Compression Time: 4583ms
+GCIS Compression Peak Memory: 581585886 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 531976 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 1200 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 700,703,896, peak: 581,585,886, current: 4,096
+iRepair Compression time: 0.001000 s
+malloc_count ### exiting, total: 549,776, peak: 533,472, current: 528,904
+iRepair Decompression time: 0.000056 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 374,498,648, peak: 209,751,430, current: 4,096
+
+========================================
+
+=== LEVEL 10 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/logs/BGL ../datasets/repcorpus/logs/BGL -s8b 10' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+malloc(): invalid size (unsorted)
+Aborted
+
+
+========================================
+

@@ -1,0 +1,478 @@
+=== IREPAIR Report for dblp.xml.00001.2 ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.r): 40,690 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.R): 730,420 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.C): 7,476 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	104857600 bytes
+Output (.c):	238575091 bytes
+GCIS Compression Time: 3216ms
+GCIS Compression Peak Memory: 762890126 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 719200696 bytes
+iRepair Peak Memory (Decompression): 739552 bytes
+GCIS Decompression time: 669 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 763,499,328, peak: 762,893,442, current: 4,096
+iRepair Compression time: 17.120836 s
+malloc_count ### exiting, total: 39,454,175,348, peak: 719,200,696, current: 1,528,532
+iRepair Decompression time: 3.547520 s
+malloc_count ### exiting, total: 748,216, peak: 739,552, current: 734,512
+Decompression.
+malloc_count ### exiting, total: 582,277,744, peak: 582,095,258, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.r): 169,964 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.R): 675,476 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.C): 7,408 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	104857600 bytes
+Output (.c):	90420037 bytes
+GCIS Compression Time: 4160ms
+GCIS Compression Peak Memory: 614744830 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 275951408 bytes
+iRepair Peak Memory (Decompression): 684608 bytes
+GCIS Decompression time: 855 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 616,493,512, peak: 614,747,122, current: 4,096
+iRepair Compression time: 5.668218 s
+malloc_count ### exiting, total: 10,694,131,484, peak: 275,951,408, current: 1,351,352
+iRepair Decompression time: 1.022806 s
+malloc_count ### exiting, total: 693,272, peak: 684,608, current: 679,568
+Decompression.
+malloc_count ### exiting, total: 342,370,408, peak: 251,371,218, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.r): 283,310 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.R): 451,084 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.C): 7,448 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	104857600 bytes
+Output (.c):	32626711 bytes
+GCIS Compression Time: 4473ms
+GCIS Compression Peak Memory: 557036958 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 99392144 bytes
+iRepair Peak Memory (Decompression): 460216 bytes
+GCIS Decompression time: 914 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 559,773,784, peak: 557,039,250, current: 4,096
+iRepair Compression time: 1.827370 s
+malloc_count ### exiting, total: 3,501,877,916, peak: 99,392,144, current: 710,536
+iRepair Decompression time: 0.402338 s
+malloc_count ### exiting, total: 468,880, peak: 460,216, current: 455,176
+Decompression.
+malloc_count ### exiting, total: 249,623,120, peak: 193,577,970, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.r): 353,624 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.R): 281,220 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.C): 7,424 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	104857600 bytes
+Output (.c):	12708473 bytes
+GCIS Compression Time: 4595ms
+GCIS Compression Peak Memory: 537044766 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 37946616 bytes
+iRepair Peak Memory (Decompression): 290352 bytes
+GCIS Decompression time: 938 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 540,315,024, peak: 537,047,058, current: 4,096
+iRepair Compression time: 0.491812 s
+malloc_count ### exiting, total: 325,003,928, peak: 37,946,616, current: 660,832
+iRepair Decompression time: 0.078861 s
+malloc_count ### exiting, total: 299,016, peak: 290,352, current: 285,312
+Decompression.
+malloc_count ### exiting, total: 217,457,856, peak: 173,659,810, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.r): 389,802 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.R): 95,764 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.C): 7,356 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	104857600 bytes
+Output (.c):	3474779 bytes
+GCIS Compression Time: 4613ms
+GCIS Compression Peak Memory: 528042438 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 9216296 bytes
+iRepair Peak Memory (Decompression): 104896 bytes
+GCIS Decompression time: 1122 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 531,851,080, peak: 528,044,730, current: 4,096
+iRepair Compression time: 0.111168 s
+malloc_count ### exiting, total: 65,955,000, peak: 9,216,296, current: 605,988
+iRepair Decompression time: 0.017791 s
+malloc_count ### exiting, total: 113,560, peak: 104,896, current: 99,856
+Decompression.
+malloc_count ### exiting, total: 201,625,912, peak: 164,426,194, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.r): 401,940 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.R): 54,660 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.C): 7,196 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	104857600 bytes
+Output (.c):	1733813 bytes
+GCIS Compression Time: 4606ms
+GCIS Compression Peak Memory: 526224678 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 3469464 bytes
+iRepair Peak Memory (Decompression): 63792 bytes
+GCIS Decompression time: 953 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 530,127,760, peak: 526,226,970, current: 4,096
+iRepair Compression time: 0.034631 s
+malloc_count ### exiting, total: 32,696,268, peak: 3,469,464, current: 595,240
+iRepair Decompression time: 0.004899 s
+malloc_count ### exiting, total: 72,456, peak: 63,792, current: 58,752
+Decompression.
+malloc_count ### exiting, total: 198,650,752, peak: 162,685,306, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.r): 409,142 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.R): 35,748 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.C): 7,200 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	104857600 bytes
+Output (.c):	1228023 bytes
+GCIS Compression Time: 4617ms
+GCIS Compression Peak Memory: 525835574 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1581168 bytes
+iRepair Peak Memory (Decompression): 44880 bytes
+GCIS Decompression time: 948 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 529,610,328, peak: 525,835,574, current: 4,096
+iRepair Compression time: 0.013004 s
+malloc_count ### exiting, total: 16,647,300, peak: 1,581,168, current: 569,560
+iRepair Decompression time: 0.002261 s
+malloc_count ### exiting, total: 53,544, peak: 44,880, current: 39,840
+Decompression.
+malloc_count ### exiting, total: 197,750,816, peak: 162,179,594, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.r): 414,720 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.R): 22,324 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.C): 6,860 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	104857600 bytes
+Output (.c):	1120625 bytes
+GCIS Compression Time: 4616ms
+GCIS Compression Peak Memory: 525835574 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 959176 bytes
+iRepair Peak Memory (Decompression): 31456 bytes
+GCIS Decompression time: 946 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 529,481,376, peak: 525,835,574, current: 4,096
+iRepair Compression time: 0.003578 s
+malloc_count ### exiting, total: 7,983,016, peak: 959,176, current: 570,932
+iRepair Decompression time: 0.000510 s
+malloc_count ### exiting, total: 40,120, peak: 31,456, current: 26,416
+Decompression.
+malloc_count ### exiting, total: 197,528,296, peak: 162,072,274, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.r): 419,394 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.R): 10,964 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.C): 6,292 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	104857600 bytes
+Output (.c):	1139611 bytes
+GCIS Compression Time: 4614ms
+GCIS Compression Peak Memory: 526640014 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 742272 bytes
+iRepair Peak Memory (Decompression): 20096 bytes
+GCIS Decompression time: 1097 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 530,700,384, peak: 526,640,014, current: 4,096
+iRepair Compression time: 0.001403 s
+malloc_count ### exiting, total: 2,903,640, peak: 742,272, current: 554,564
+iRepair Decompression time: 0.000815 s
+malloc_count ### exiting, total: 28,760, peak: 20,096, current: 15,056
+Decompression.
+malloc_count ### exiting, total: 197,522,392, peak: 162,091,338, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.r): 422,668 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.R): 2,980 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.C): 5,432 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	104857600 bytes
+Output (.c):	1200285 bytes
+GCIS Compression Time: 4639ms
+GCIS Compression Peak Memory: 526640014 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 618920 bytes
+iRepair Peak Memory (Decompression): 12112 bytes
+GCIS Decompression time: 1108 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 530,717,120, peak: 526,640,014, current: 4,096
+iRepair Compression time: 0.001001 s
+malloc_count ### exiting, total: 1,090,352, peak: 618,920, current: 558,504
+iRepair Decompression time: 0.000212 s
+malloc_count ### exiting, total: 20,776, peak: 12,112, current: 7,072
+Decompression.
+malloc_count ### exiting, total: 197,582,776, peak: 162,152,090, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.r): 424,222 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.R): 44 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.C): 2,588 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	104857600 bytes
+Output (.c):	1272167 bytes
+GCIS Compression Time: 4588ms
+GCIS Compression Peak Memory: 526640014 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 564808 bytes
+iRepair Peak Memory (Decompression): 9176 bytes
+GCIS Decompression time: 945 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 530,728,592, peak: 526,640,014, current: 4,096
+iRepair Compression time: 0.000345 s
+malloc_count ### exiting, total: 607,736, peak: 564,808, current: 537,712
+iRepair Decompression time: 0.000165 s
+malloc_count ### exiting, total: 17,840, peak: 9,176, current: 4,136
+Decompression.
+malloc_count ### exiting, total: 197,655,128, peak: 162,224,050, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.r): 424,712 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.C): 1,132 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	104857600 bytes
+Output (.c):	1348017 bytes
+GCIS Compression Time: 4591ms
+GCIS Compression Peak Memory: 526640014 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 546528 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1073 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 530,735,440, peak: 526,640,014, current: 4,096
+iRepair Compression time: 0.000321 s
+malloc_count ### exiting, total: 570,000, peak: 546,528, current: 532,744
+iRepair Decompression time: 0.000158 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 197,731,832, peak: 162,299,978, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.r): 424,954 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.C): 444 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	104857600 bytes
+Output (.c):	1424419 bytes
+GCIS Compression Time: 4590ms
+GCIS Compression Peak Memory: 526640014 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 537984 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1327 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 530,740,492, peak: 526,640,014, current: 4,096
+iRepair Compression time: 0.000313 s
+malloc_count ### exiting, total: 553,264, peak: 537,984, current: 530,344
+iRepair Decompression time: 0.000137 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 197,808,528, peak: 162,376,458, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.r): 425,084 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.C): 116 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	104857600 bytes
+Output (.c):	1501069 bytes
+GCIS Compression Time: 4710ms
+GCIS Compression Peak Memory: 526640014 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536720 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 1060 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 530,744,072, peak: 526,640,014, current: 4,096
+iRepair Compression time: 0.000321 s
+malloc_count ### exiting, total: 552,000, peak: 536,720, current: 529,080
+iRepair Decompression time: 0.000129 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 197,885,216, peak: 162,453,186, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.r): 425,174 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.R): 20 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.C): 28 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	104857600 bytes
+Output (.c):	1577927 bytes
+GCIS Compression Time: 4586ms
+GCIS Compression Peak Memory: 526640014 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 537392 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 945 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 530,747,208, peak: 526,640,014, current: 4,096
+iRepair Compression time: 0.000315 s
+malloc_count ### exiting, total: 552,672, peak: 537,392, current: 528,728
+iRepair Decompression time: 0.000061 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 197,962,160, peak: 162,530,122, current: 4,096
+
+========================================
+
+=== LEVEL 15 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.r): 425,264 bytes
+  - .c.R (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.R): 4 bytes
+  - .c.C (../datasets/repcorpus/pseudo-real/dblp.xml.00001.2.c.C): 16 bytes
+
+--- STDOUT ---
+Max Level = 15
+Input:	104857600 bytes
+Output (.c):	1654841 bytes
+GCIS Compression Time: 4588ms
+GCIS Compression Peak Memory: 526640014 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 531616 bytes
+iRepair Peak Memory (Decompression): 9136 bytes
+GCIS Decompression time: 1070 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 530,750,296, peak: 526,640,014, current: 4,096
+iRepair Compression time: 0.000960 s
+malloc_count ### exiting, total: 549,416, peak: 533,112, current: 528,544
+iRepair Decompression time: 0.000042 s
+malloc_count ### exiting, total: 17,800, peak: 9,136, current: 4,096
+Decompression.
+malloc_count ### exiting, total: 198,039,224, peak: 162,607,114, current: 4,096
+
+========================================
+
+=== LEVEL 16 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/pseudo-real/dblp.xml.00001.2 ../datasets/repcorpus/pseudo-real/dblp.xml.00001.2 -s8b 16' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

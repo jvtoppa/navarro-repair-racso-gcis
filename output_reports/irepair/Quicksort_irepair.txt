@@ -1,0 +1,449 @@
+=== IREPAIR Report for Quicksort ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 242 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 142,068 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 569,648 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	381494534 bytes
+Output (.c):	889132347 bytes
+GCIS Compression Time: 7649ms
+GCIS Compression Peak Memory: 2796624136 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 2668548536 bytes
+iRepair Peak Memory (Decompression): 151200 bytes
+GCIS Decompression time: 2597 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,796,646,494, peak: 2,796,627,452, current: 4,096
+iRepair Compression time: 20.576722 s
+malloc_count ### exiting, total: 19,866,667,552, peak: 2,668,548,536, current: 3,300,208
+iRepair Decompression time: 9.799818 s
+malloc_count ### exiting, total: 159,864, peak: 151,200, current: 146,160
+Decompression.
+malloc_count ### exiting, total: 2,159,713,958, peak: 2,159,709,312, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 420 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 142,244 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 567,596 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	381494534 bytes
+Output (.c):	304359805 bytes
+GCIS Compression Time: 9840ms
+GCIS Compression Peak Memory: 2211852712 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 913649208 bytes
+iRepair Peak Memory (Decompression): 151376 bytes
+GCIS Decompression time: 1936 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 2,211,956,722, peak: 2,211,855,004, current: 4,096
+iRepair Compression time: 5.994398 s
+malloc_count ### exiting, total: 9,096,299,972, peak: 913,649,208, current: 3,722,040
+iRepair Decompression time: 3.292175 s
+malloc_count ### exiting, total: 160,040, peak: 151,376, current: 146,336
+Decompression.
+malloc_count ### exiting, total: 1,073,441,542, peak: 769,230,520, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 574 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 142,436 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 570,300 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	381494534 bytes
+Output (.c):	54192759 bytes
+GCIS Compression Time: 9962ms
+GCIS Compression Peak Memory: 1961762728 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 162632800 bytes
+iRepair Peak Memory (Decompression): 151568 bytes
+GCIS Decompression time: 1946 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,962,024,750, peak: 1,961,765,020, current: 4,096
+iRepair Compression time: 1.300167 s
+malloc_count ### exiting, total: 4,624,753,064, peak: 162,632,800, current: 2,871,356
+iRepair Decompression time: 0.513619 s
+malloc_count ### exiting, total: 160,232, peak: 151,568, current: 146,528
+Decompression.
+malloc_count ### exiting, total: 601,550,158, peak: 519,063,552, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 776 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 143,796 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 572,864 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	381494534 bytes
+Output (.c):	24889001 bytes
+GCIS Compression Time: 10020ms
+GCIS Compression Peak Memory: 1932382088 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 74440920 bytes
+iRepair Peak Memory (Decompression): 152928 bytes
+GCIS Decompression time: 2080 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,932,648,866, peak: 1,932,384,380, current: 4,096
+iRepair Compression time: 0.603422 s
+malloc_count ### exiting, total: 1,822,516,932, peak: 74,440,920, current: 2,825,840
+iRepair Decompression time: 0.275374 s
+malloc_count ### exiting, total: 161,592, peak: 152,928, current: 147,888
+Decompression.
+malloc_count ### exiting, total: 547,082,158, peak: 489,759,872, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 10,706 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 143,356 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 571,804 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	381494534 bytes
+Output (.c):	4072611 bytes
+GCIS Compression Time: 10055ms
+GCIS Compression Peak Memory: 1911797752 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 12325208 bytes
+iRepair Peak Memory (Decompression): 152488 bytes
+GCIS Decompression time: 1955 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,912,484,846, peak: 1,911,800,044, current: 4,096
+iRepair Compression time: 0.216503 s
+malloc_count ### exiting, total: 438,911,044, peak: 12,325,208, current: 3,327,664
+iRepair Decompression time: 0.025710 s
+malloc_count ### exiting, total: 161,152, peak: 152,488, current: 147,448
+Decompression.
+malloc_count ### exiting, total: 507,804,206, peak: 468,943,560, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 131,324 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 130,284 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 643,268 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	381494534 bytes
+Output (.c):	1749357 bytes
+GCIS Compression Time: 10073ms
+GCIS Compression Peak Memory: 1909601176 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 8665016 bytes
+iRepair Peak Memory (Decompression): 139416 bytes
+GCIS Decompression time: 1971 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,911,575,334, peak: 1,909,601,176, current: 4,096
+iRepair Compression time: 0.105332 s
+malloc_count ### exiting, total: 56,225,088, peak: 8,665,016, current: 4,553,656
+iRepair Decompression time: 0.009880 s
+malloc_count ### exiting, total: 148,080, peak: 139,416, current: 134,376
+Decompression.
+malloc_count ### exiting, total: 504,705,798, peak: 466,620,384, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 391,398 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 812 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 369,824 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	381494534 bytes
+Output (.c):	1300311 bytes
+GCIS Compression Time: 10101ms
+GCIS Compression Peak Memory: 1909995904 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 6116912 bytes
+iRepair Peak Memory (Decompression): 9944 bytes
+GCIS Decompression time: 2052 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,912,789,822, peak: 1,909,995,904, current: 4,096
+iRepair Compression time: 0.020024 s
+malloc_count ### exiting, total: 13,329,336, peak: 6,116,912, current: 2,182,704
+iRepair Decompression time: 0.003422 s
+malloc_count ### exiting, total: 18,608, peak: 9,944, current: 4,904
+Decompression.
+malloc_count ### exiting, total: 504,708,038, peak: 466,171,416, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 490,928 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 20 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 120,764 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	381494534 bytes
+Output (.c):	1226481 bytes
+GCIS Compression Time: 10101ms
+GCIS Compression Peak Memory: 1909995904 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1814888 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 2093 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,913,265,814, peak: 1,909,995,904, current: 4,096
+iRepair Compression time: 0.002415 s
+malloc_count ### exiting, total: 3,482,352, peak: 1,814,888, current: 900,456
+iRepair Decompression time: 0.001163 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 504,783,102, peak: 466,097,664, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 519,570 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 38,836 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	381494534 bytes
+Output (.c):	1250035 bytes
+GCIS Compression Time: 10026ms
+GCIS Compression Peak Memory: 1910079224 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 1106128 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2128 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,914,648,030, peak: 1,910,079,224, current: 4,096
+iRepair Compression time: 0.002295 s
+malloc_count ### exiting, total: 1,920,600, peak: 1,106,128, current: 650,448
+iRepair Decompression time: 0.000451 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 504,842,918, peak: 466,121,296, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 528,228 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 20 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 12,188 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	381494534 bytes
+Output (.c):	1308901 bytes
+GCIS Compression Time: 10082ms
+GCIS Compression Peak Memory: 1910079224 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 679736 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 2097 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,914,697,622, peak: 1,910,079,224, current: 4,096
+iRepair Compression time: 0.000687 s
+malloc_count ### exiting, total: 856,256, peak: 679,736, current: 568,120
+iRepair Decompression time: 0.000178 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 504,911,110, peak: 466,180,240, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 530,606 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 3,804 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	381494534 bytes
+Output (.c):	1379735 bytes
+GCIS Compression Time: 10053ms
+GCIS Compression Peak Memory: 1910079224 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 567616 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2090 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,914,714,606, peak: 1,910,079,224, current: 4,096
+iRepair Compression time: 0.000362 s
+malloc_count ### exiting, total: 607,472, peak: 567,616, current: 541,544
+iRepair Decompression time: 0.000214 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 504,983,750, peak: 466,251,152, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 531,288 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 1,228 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	381494534 bytes
+Output (.c):	1454689 bytes
+GCIS Compression Time: 10048ms
+GCIS Compression Peak Memory: 1910079224 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 546872 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2093 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,914,722,030, peak: 1,910,079,224, current: 4,096
+iRepair Compression time: 0.000328 s
+malloc_count ### exiting, total: 570,344, peak: 546,872, current: 533,088
+iRepair Decompression time: 0.000149 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 505,059,070, peak: 466,326,184, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 531,538 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 396 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	381494534 bytes
+Output (.c):	1530955 bytes
+GCIS Compression Time: 10049ms
+GCIS Compression Peak Memory: 1910079224 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 537784 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2061 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,914,727,002, peak: 1,910,079,224, current: 4,096
+iRepair Compression time: 0.000327 s
+malloc_count ### exiting, total: 553,064, peak: 537,784, current: 530,144
+iRepair Decompression time: 0.000066 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 505,135,470, peak: 466,402,528, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 531,660 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 12 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 108 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	381494534 bytes
+Output (.c):	1607637 bytes
+GCIS Compression Time: 10037ms
+GCIS Compression Peak Memory: 1910079224 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 536696 bytes
+iRepair Peak Memory (Decompression): 9144 bytes
+GCIS Decompression time: 2068 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,914,730,534, peak: 1,910,079,224, current: 4,096
+iRepair Compression time: 0.000981 s
+malloc_count ### exiting, total: 551,976, peak: 536,696, current: 529,056
+iRepair Decompression time: 0.000063 s
+malloc_count ### exiting, total: 17,808, peak: 9,144, current: 4,104
+Decompression.
+malloc_count ### exiting, total: 505,212,198, peak: 466,479,288, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/Quicksort.r): 531,750 bytes
+  - .c.R (../datasets/repcorpus/logs/Quicksort.c.R): 20 bytes
+  - .c.C (../datasets/repcorpus/logs/Quicksort.c.C): 28 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	381494534 bytes
+Output (.c):	1684503 bytes
+GCIS Compression Time: 10043ms
+GCIS Compression Peak Memory: 1910079224 bytes
+Compression done successfully
+iRepair Peak Memory (Compression): 537392 bytes
+iRepair Peak Memory (Decompression): 9152 bytes
+GCIS Decompression time: 2059 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 1,914,733,666, peak: 1,910,079,224, current: 4,096
+iRepair Compression time: 0.000428 s
+malloc_count ### exiting, total: 552,672, peak: 537,392, current: 528,728
+iRepair Decompression time: 0.000132 s
+malloc_count ### exiting, total: 17,816, peak: 9,152, current: 4,112
+Decompression.
+malloc_count ### exiting, total: 505,289,158, peak: 466,556,232, current: 4,096
+
+========================================
+
+=== LEVEL 15 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/logs/Quicksort ../datasets/repcorpus/logs/Quicksort -s8b 15' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+

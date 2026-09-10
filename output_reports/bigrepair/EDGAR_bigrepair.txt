@@ -1,0 +1,734 @@
+=== BIGREPAIR Report for EDGAR ===
+
+=== LEVEL 0 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 236,786 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 26,456,036 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 6,206,248 bytes
+
+--- STDOUT ---
+Max Level = 0
+Input:	104857600 bytes
+Output (.c):	287839011 bytes
+GCIS Compression Time: 3162ms
+GCIS Compression Peak Memory: 812163178 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/EDGAR.c -w 10 -p 100 -c
+Parsing time: 14.7455
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/EDGAR.c.dicz
+Preprocess time: 3.2709
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.dicz.int 489834
+repair(dict) time: 54.4875
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.parse 489834
+repair(parse) time: 0.7229
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/EDGAR.c
+Postprocess time: 0.1658
+Elapsed time: 73.3984
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/EDGAR.c
+Elapsed time: 4.6934
+==== Done
+GCIS Decompression time: 812 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 815,740,640, peak: 812,166,494, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/EDGAR.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/EDGAR.c 
+Decompression.
+malloc_count ### exiting, total: 682,922,928, peak: 681,583,722, current: 4,096
+
+========================================
+
+=== LEVEL 1 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 3,189,932 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 27,244,124 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 6,316,312 bytes
+
+--- STDOUT ---
+Max Level = 1
+Input:	104857600 bytes
+Output (.c):	120245821 bytes
+GCIS Compression Time: 4252ms
+GCIS Compression Peak Memory: 645063002 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/EDGAR.c -w 10 -p 100 -c
+Parsing time: 8.7516
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/EDGAR.c.dicz
+Preprocess time: 1.3532
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.dicz.int 489834
+repair(dict) time: 39.0607
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.parse 489834
+repair(parse) time: 0.6754
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/EDGAR.c
+Postprocess time: 0.7403
+Elapsed time: 50.5873
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/EDGAR.c
+Elapsed time: 2.0902
+==== Done
+GCIS Decompression time: 1198 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 671,680,104, peak: 645,065,294, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/EDGAR.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/EDGAR.c 
+Decompression.
+malloc_count ### exiting, total: 445,121,592, peak: 327,815,562, current: 4,096
+
+========================================
+
+=== LEVEL 2 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 7,253,110 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 31,870,348 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 1,349,884 bytes
+
+--- STDOUT ---
+Max Level = 2
+Input:	104857600 bytes
+Output (.c):	45878095 bytes
+GCIS Compression Time: 4911ms
+GCIS Compression Peak Memory: 571054530 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/EDGAR.c -w 10 -p 100 -c
+Parsing time: 2.4957
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/EDGAR.c.dicz
+Preprocess time: 0.7608
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.dicz.int 489834
+repair(dict) time: 13.6900
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.parse 489834
+repair(parse) time: 0.0767
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/EDGAR.c
+Postprocess time: 0.4259
+Elapsed time: 17.4507
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/EDGAR.c
+Elapsed time: 0.7665
+==== Done
+GCIS Decompression time: 1442 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 630,596,264, peak: 571,056,822, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/EDGAR.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/EDGAR.c 
+Decompression.
+malloc_count ### exiting, total: 357,799,488, peak: 232,964,098, current: 4,096
+
+========================================
+
+=== LEVEL 3 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 13,728,064 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 22,123,852 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 627,640 bytes
+
+--- STDOUT ---
+Max Level = 3
+Input:	104857600 bytes
+Output (.c):	29928825 bytes
+GCIS Compression Time: 5174ms
+GCIS Compression Peak Memory: 573642402 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/EDGAR.c -w 10 -p 100 -c
+Parsing time: 1.1415
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/EDGAR.c.dicz
+Preprocess time: 0.2306
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.dicz.int 489834
+repair(dict) time: 7.2394
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.parse 489834
+repair(parse) time: 0.0302
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/EDGAR.c
+Postprocess time: 0.2027
+Elapsed time: 8.8472
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/EDGAR.c
+Elapsed time: 0.4357
+==== Done
+GCIS Decompression time: 1615 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 655,582,696, peak: 573,642,402, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/EDGAR.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/EDGAR.c 
+Decompression.
+malloc_count ### exiting, total: 361,643,040, peak: 217,014,906, current: 4,096
+
+========================================
+
+=== LEVEL 4 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 18,902,122 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 12,191,084 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 274,172 bytes
+
+--- STDOUT ---
+Max Level = 4
+Input:	104857600 bytes
+Output (.c):	26103859 bytes
+GCIS Compression Time: 5475ms
+GCIS Compression Peak Memory: 573642402 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/EDGAR.c -w 10 -p 100 -c
+Parsing time: 0.3750
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/EDGAR.c.dicz
+Preprocess time: 0.1411
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.dicz.int 489834
+repair(dict) time: 3.0018
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.parse 489834
+repair(parse) time: 0.0089
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/EDGAR.c
+Postprocess time: 0.1129
+Elapsed time: 3.6409
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/EDGAR.c
+Elapsed time: 0.1768
+==== Done
+GCIS Decompression time: 1645 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 681,095,080, peak: 573,642,402, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/EDGAR.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/EDGAR.c 
+Decompression.
+malloc_count ### exiting, total: 371,143,960, peak: 213,190,018, current: 4,096
+
+========================================
+
+=== LEVEL 5 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 21,146,724 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 3,053,292 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 72,272 bytes
+
+--- STDOUT ---
+Max Level = 5
+Input:	104857600 bytes
+Output (.c):	23372853 bytes
+GCIS Compression Time: 5424ms
+GCIS Compression Peak Memory: 573642402 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/EDGAR.c -w 10 -p 100 -c
+Parsing time: 0.0884
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/EDGAR.c.dicz
+Preprocess time: 0.0265
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.dicz.int 489834
+repair(dict) time: 0.5734
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.parse 489834
+repair(parse) time: 0.0044
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/EDGAR.c
+Postprocess time: 0.0148
+Elapsed time: 0.7092
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/EDGAR.c
+Elapsed time: 0.0392
+==== Done
+GCIS Decompression time: 1578 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 688,812,344, peak: 573,642,402, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/EDGAR.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/EDGAR.c 
+Decompression.
+malloc_count ### exiting, total: 371,516,528, peak: 210,459,090, current: 4,096
+
+========================================
+
+=== LEVEL 6 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 21,668,358 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 601,956 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 15,648 bytes
+
+--- STDOUT ---
+Max Level = 6
+Input:	104857600 bytes
+Output (.c):	22561623 bytes
+GCIS Compression Time: 5590ms
+GCIS Compression Peak Memory: 573642402 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/EDGAR.c -w 10 -p 100 -c
+Parsing time: 0.0228
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/EDGAR.c.dicz
+Preprocess time: 0.0094
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.dicz.int 489834
+repair(dict) time: 0.0636
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.parse 489834
+repair(parse) time: 0.0025
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/EDGAR.c
+Postprocess time: 0.0038
+Elapsed time: 0.1043
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/EDGAR.c
+Elapsed time: 0.0111
+==== Done
+GCIS Decompression time: 1682 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 690,447,320, peak: 573,642,402, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/EDGAR.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/EDGAR.c 
+Decompression.
+malloc_count ### exiting, total: 371,140,280, peak: 209,647,938, current: 4,096
+
+========================================
+
+=== LEVEL 7 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 21,761,568 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 100,540 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 2,664 bytes
+
+--- STDOUT ---
+Max Level = 7
+Input:	104857600 bytes
+Output (.c):	22436145 bytes
+GCIS Compression Time: 5563ms
+GCIS Compression Peak Memory: 573642402 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/EDGAR.c -w 10 -p 100 -c
+Parsing time: 0.0063
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/EDGAR.c.dicz
+Preprocess time: 0.0028
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.dicz.int 489834
+repair(dict) time: 0.0126
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.parse 489834
+repair(parse) time: 0.0012
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/EDGAR.c
+Postprocess time: 0.0025
+Elapsed time: 0.0277
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/EDGAR.c
+Elapsed time: 0.0027
+==== Done
+GCIS Decompression time: 1649 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 690,727,176, peak: 573,642,402, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/EDGAR.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/EDGAR.c 
+Decompression.
+malloc_count ### exiting, total: 371,045,672, peak: 209,522,538, current: 4,096
+
+========================================
+
+=== LEVEL 8 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 21,774,858 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 34,844 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 932 bytes
+
+--- STDOUT ---
+Max Level = 8
+Input:	104857600 bytes
+Output (.c):	22486243 bytes
+GCIS Compression Time: 5710ms
+GCIS Compression Peak Memory: 573642402 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/EDGAR.c -w 10 -p 100 -c
+Parsing time: 0.0042
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/EDGAR.c.dicz
+Preprocess time: 0.0012
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.dicz.int 489834
+repair(dict) time: 0.0045
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/EDGAR.c
+Postprocess time: 0.0023
+Elapsed time: 0.0147
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/EDGAR.c
+Elapsed time: 0.0019
+==== Done
+GCIS Decompression time: 1603 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 692,035,576, peak: 573,642,402, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/EDGAR.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/EDGAR.c 
+Decompression.
+malloc_count ### exiting, total: 371,112,032, peak: 209,572,714, current: 4,096
+
+========================================
+
+=== LEVEL 9 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 21,778,972 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 8,412 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 228 bytes
+
+--- STDOUT ---
+Max Level = 9
+Input:	104857600 bytes
+Output (.c):	22552149 bytes
+GCIS Compression Time: 5645ms
+GCIS Compression Peak Memory: 573642402 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/EDGAR.c -w 10 -p 100 -c
+Parsing time: 0.0038
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/EDGAR.c.dicz
+Preprocess time: 0.0010
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.dicz.int 489834
+repair(dict) time: 0.0023
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/EDGAR.c
+Postprocess time: 0.0012
+Elapsed time: 0.0118
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/EDGAR.c
+Elapsed time: 0.0012
+==== Done
+GCIS Decompression time: 1613 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 692,057,408, peak: 573,642,402, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/EDGAR.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/EDGAR.c 
+Decompression.
+malloc_count ### exiting, total: 371,178,800, peak: 209,638,698, current: 4,096
+
+========================================
+
+=== LEVEL 10 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 21,779,870 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 2,612 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 84 bytes
+
+--- STDOUT ---
+Max Level = 10
+Input:	104857600 bytes
+Output (.c):	22626495 bytes
+GCIS Compression Time: 5696ms
+GCIS Compression Peak Memory: 573642402 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/EDGAR.c -w 10 -p 100 -c
+Parsing time: 0.0030
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/EDGAR.c.dicz
+Preprocess time: 0.0008
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.dicz.int 489834
+repair(dict) time: 0.0027
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/EDGAR.c
+Postprocess time: 0.0012
+Elapsed time: 0.0111
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/EDGAR.c
+Elapsed time: 0.0023
+==== Done
+GCIS Decompression time: 1752 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 692,065,256, peak: 573,642,402, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/EDGAR.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/EDGAR.c 
+Decompression.
+malloc_count ### exiting, total: 371,253,360, peak: 209,713,122, current: 4,096
+
+========================================
+
+=== LEVEL 11 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 21,780,136 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 740 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 44 bytes
+
+--- STDOUT ---
+Max Level = 11
+Input:	104857600 bytes
+Output (.c):	22702657 bytes
+GCIS Compression Time: 5387ms
+GCIS Compression Peak Memory: 573642402 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/EDGAR.c -w 10 -p 100 -c
+Parsing time: 0.0025
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/EDGAR.c.dicz
+Preprocess time: 0.0007
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.parse 489834
+repair(parse) time: 0.0018
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/EDGAR.c
+Postprocess time: 0.0010
+Elapsed time: 0.0093
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/EDGAR.c
+Elapsed time: 0.0020
+==== Done
+GCIS Decompression time: 1683 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 692,070,128, peak: 573,642,402, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/EDGAR.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/EDGAR.c 
+Decompression.
+malloc_count ### exiting, total: 371,329,528, peak: 209,789,362, current: 4,096
+
+========================================
+
+=== LEVEL 12 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 21,780,250 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 292 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 16 bytes
+
+--- STDOUT ---
+Max Level = 12
+Input:	104857600 bytes
+Output (.c):	22779387 bytes
+GCIS Compression Time: 5375ms
+GCIS Compression Peak Memory: 573642402 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/EDGAR.c -w 10 -p 100 -c
+Parsing time: 0.0027
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/EDGAR.c.dicz
+Preprocess time: 0.0018
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.parse 489834
+repair(parse) time: 0.0011
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/EDGAR.c
+Postprocess time: 0.0023
+Elapsed time: 0.0113
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/EDGAR.c
+Elapsed time: 0.0014
+==== Done
+GCIS Decompression time: 1655 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 692,073,652, peak: 573,642,402, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/EDGAR.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/EDGAR.c 
+Decompression.
+malloc_count ### exiting, total: 371,406,352, peak: 209,866,170, current: 4,096
+
+========================================
+
+=== LEVEL 13 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 21,780,340 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 116 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 24 bytes
+
+--- STDOUT ---
+Max Level = 13
+Input:	104857600 bytes
+Output (.c):	22856245 bytes
+GCIS Compression Time: 5469ms
+GCIS Compression Peak Memory: 573642402 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/EDGAR.c -w 10 -p 100 -c
+Parsing time: 0.0033
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/EDGAR.c.dicz
+Preprocess time: 0.0015
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.parse 489834
+repair(parse) time: 0.0023
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/EDGAR.c
+Postprocess time: 0.0011
+Elapsed time: 0.0107
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/EDGAR.c
+Elapsed time: 0.0011
+==== Done
+GCIS Decompression time: 1566 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 692,076,796, peak: 573,642,402, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/EDGAR.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/EDGAR.c 
+Decompression.
+malloc_count ### exiting, total: 371,483,296, peak: 209,943,106, current: 4,096
+
+========================================
+
+=== LEVEL 14 ===
+--- FILE SIZES ---
+  - .r   (../datasets/repcorpus/logs/EDGAR.r): 21,780,430 bytes
+  - .c.R (../datasets/repcorpus/logs/EDGAR.c.R): 68 bytes
+  - .c.C (../datasets/repcorpus/logs/EDGAR.c.C): 4 bytes
+
+--- STDOUT ---
+Max Level = 14
+Input:	104857600 bytes
+Output (.c):	22933159 bytes
+GCIS Compression Time: 5369ms
+GCIS Compression Peak Memory: 573642402 bytes
+Compression done successfully
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Parsing.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/ctph/newscanNT.x ../datasets/repcorpus/logs/EDGAR.c -w 10 -p 100 -c
+Parsing time: 0.0026
+==== Preprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/procdic ../datasets/repcorpus/logs/EDGAR.c.dicz
+Preprocess time: 0.0007
+==== Repair dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.dicz.int 489834
+repair(dict) time: 0.0011
+==== Repair parse.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/largeb_repair/irepair ../datasets/repcorpus/logs/EDGAR.c.parse 489834
+repair(parse) time: 0.0010
+==== Postprocessing the dictionary.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/postproc ../datasets/repcorpus/logs/EDGAR.c
+Postprocess time: 0.0014
+Elapsed time: 0.0089
+==== Done
+Sending logging messages to file: ../datasets/repcorpus/logs/EDGAR.c.log
+==== Decompressing C+R files.
+Command: /mnt/data/jvtoppa/navarro-repair-racso-gcis/bigrepair/repair/despair ../datasets/repcorpus/logs/EDGAR.c
+Elapsed time: 0.0011
+==== Done
+GCIS Decompression time: 1716 ms
+
+--- STDERR ---
+GCIS Compression.
+malloc_count ### exiting, total: 692,079,884, peak: 573,642,402, current: 4,096
+Command line: .././bigrepair/bigrepair ../datasets/repcorpus/logs/EDGAR.c 
+Command line: .././bigrepair/bigrepair -d ../datasets/repcorpus/logs/EDGAR.c 
+Decompression.
+malloc_count ### exiting, total: 371,560,360, peak: 210,020,098, current: 4,096
+
+========================================
+
+=== LEVEL 15 (ERROR) ===
+Error message: Command '.././gcis-lite/build/gcis_lite -d ../datasets/repcorpus/logs/EDGAR ../datasets/repcorpus/logs/EDGAR -s8b 15' returned non-zero exit status 134.
+
+--- STDERR BEFORE FAILURE ---
+Decompression.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  grammar decode: expansion exceeds expected level length
+Aborted
+
+
+========================================
+
